@@ -1,0 +1,5 @@
+In the sample (under the "default_pack" section), all mapped files
+(test.wav, example.mp3, track.ogg, and file.wma) need to be in this
+folder.
+
+The audio archives do not need to be here!

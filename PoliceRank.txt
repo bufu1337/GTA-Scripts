@@ -1,0 +1,82 @@
+stock GetName(playerid)
+{
+    new Name[MAX_PLAYER_NAME];
+    if(IsPlayerConnected(playerid))
+    {
+        GetPlayerName(playerid, Name, sizeof(Name));
+    }
+    return Name;
+}
+public OnPlayerText(playerid, text[])
+{
+    if((GetPlayerScore(playerid) >= 0) && (GetPlayerScore(playerid) <= 100))
+    {
+        new string[175];
+        format(string,sizeof(string), "{F5E618}[Corporal]{FFFFFF} %s: {FFFFFF}%s",GetName(playerid),text);
+        SendClientMessageToAll(-1, string);
+        return 0;
+    }
+    if((GetPlayerScore(playerid) >= 100) && (GetPlayerScore(playerid) <= 300))
+    {
+        new string[175];
+        format(string,sizeof(string), "{F5E618}[Lieutenant]{FFFFFF} %s: {FFFFFF}%s",GetName(playerid),text);
+        SendClientMessageToAll(-1, string);
+        return 0;
+    }
+    if((GetPlayerScore(playerid) >= 300) && (GetPlayerScore(playerid) <= 500))
+    {
+        new string[175];
+        format(string,sizeof(string), "{F5E618}[Major]{FFFFFF} %s: {FFFFFF}%s",GetName(playerid),text);
+        SendClientMessageToAll(-1, string);
+        return 0;
+    }
+    if((GetPlayerScore(playerid) >= 500) && (GetPlayerScore(playerid) <= 1000))
+    {
+        new string[175];
+        format(string,sizeof(string), "{F5E618}[Captain]{FFFFFF} %s: {FFFFFF}%s",GetName(playerid),text);
+        SendClientMessageToAll(-1, string);
+        return 0;
+    }
+    if((GetPlayerScore(playerid) >= 1000) && (GetPlayerScore(playerid) <= 1500))
+    {
+        new string[175];
+        format(string,sizeof(string), "{F5E618}[Commander]{FFFFFF} %s: {FFFFFF}%s",GetName(playerid),text);
+        SendClientMessageToAll(-1, string);
+        return 0;
+    }
+    if((GetPlayerScore(playerid) >= 1500) && (GetPlayerScore(playerid) <= 2000))
+    {
+        new string[175];
+        format(string,sizeof(string), "{F5E618}[General]{FFFFFF} %s: {FFFFFF}%s",GetName(playerid),text);
+        SendClientMessageToAll(-1, string);
+        return 0;
+    }
+    if((GetPlayerScore(playerid) >= 2000) && (GetPlayerScore(playerid) <= 2500))
+    {
+        new string[175];
+        format(string,sizeof(string), "{F5E618}[Brigadier]{FFFFFF} %s: {FFFFFF}%s",GetName(playerid),text);
+        SendClientMessageToAll(-1, string);
+        return 0;
+    }
+    if((GetPlayerScore(playerid) >= 2500) && (GetPlayerScore(playerid) <= 5000))
+    {
+        new string[175];
+        format(string,sizeof(string), "{F5E618}[Field Marshall]{FFFFFF} %s: {FFFFFF}%s",GetName(playerid),text);
+        SendClientMessageToAll(-1, string);
+        return 0;
+    }
+    if((GetPlayerScore(playerid) >= 5000) && (GetPlayerScore(playerid) <= 10000))
+    {
+        new string[175];
+        format(string,sizeof(string), "{F5E618}[Master of Wars]{FFFFFF} %s: {FFFFFF}%s",GetName(playerid),text);
+        SendClientMessageToAll(-1, string);
+        return 0;
+    }
+    if((GetPlayerScore(playerid) >= 10000) && (GetPlayerScore(playerid) <= 9999999))
+    {
+        new string[175];
+        format(string,sizeof(string), "{F5E618}[General of Army]{FFFFFF} %s: {FFFFFF}%s",GetName(playerid),text);
+        SendClientMessageToAll(-1, string);
+        return 0;
+    }
+}

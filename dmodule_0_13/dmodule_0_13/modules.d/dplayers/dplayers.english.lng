@@ -1,0 +1,2 @@
+SPECIFIC_PLAYER_NOT_FOUND="Can't find player '%s'."
+AUTOCOMPLETE_NOT_WORK_FOR="Can't auto complete for '%s', multiple results."

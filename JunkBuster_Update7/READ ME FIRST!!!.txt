@@ -1,0 +1,73 @@
++---------------------------+
+¦ How to install JunkBuster ¦
++---------------------------+
+
+>>> To install JunkBuster correctly, you must follow this steps. <<<
+
+Step 1)
+	Copy the downloaded folder "JunkBuster" into your folder "scriptfiles".
+
+Step 2)
+	Copy "JunkBuster.inc", "JunkBuster_Client.inc", "zcmd.inc","dutils.inc" and "Double-O-Files.inc" into the folder "include" located in
+	the folder "pawno"
+
+Step 3)
+	Open your gamemode. Include "JunkBuster.inc" into your gamemode (#include <JunkBuster>).
+	IMPORTANT: Include JunkBuster >>BEFORE<< all other includes!!!
+	You use filterscripts? Include "JunkBuster_Client.inc" into your filterscripts (#include <JunkBuster_Client>).
+	This is pretty important for admin scripts etc. where you can teleport players or give weapons.
+
+Step 4)
+	You are using a default admin system with for example levels? Not only RCON?
+	You can link this admin system with JunkBuster.
+	JunkBuster can't recognize your adminsystem so you must add a function.
+
+	Function:
+
+		public IsPlayerAdminCall(playerid)
+		{
+			if(PlayerInfo[playerid][pAdmin] >= 1)
+				return 1;
+			else
+				return 0;
+		}
+
+	IMPORTANT:
+	This function depends on YOUR admin system. The function above is ONLY FOR GODFATHER so you
+	have to customize this function.
+	If you do not add this function admin immunity will only work for RCON-admins!!!
+	
+	PS:
+	JunkBuster is compatible with the default Godfather gamemode! (Tested)
+	
+Step 5)
+	Compile your gamemode/filterscript and check for errors. If there are any errors or warnings and you
+	don't know how to fix it, post it in the JunkBuster topic on forum.sa-mp.com.
+
+Step 6)
+	Start your gamemode, go ingame and login as RCON-admin. 
+	Now type /jbcfg. A dialog will appear.
+	Choose the listitem "Set a var". After you have done this
+	you will see all JunkBuster variables with the current values. 
+	It's the best you choose every variable. Double-click on a variable and a new
+	dialog will appear where you can set the variable. There will be a description for every variable, too. 
+	Read description for the chosen variable before you change it.
+	After you have customized the JunkBuster configuration. Go back to the main dialog (/jbcfg) and 
+	choose "Save configuration to file".
+	
+Step 7)
+	Add bad words and forbidden weapons. To do this open "BadWords.cfg" in the folder "scriptfiles/JunkBuster".
+	Add or remove bad words. Now open "ForbiddenWeapons.cfg" and add or remove weapon IDs. 
+	Minigun (38), both rocket launchers (35,36) and flamethrower (37) are forbidden by default.
+	Go ingame again, tpye /jbcfg and choose "Load configuration from file" to load the forbidden weapons and bad words.
+
+Step 8) 
+	Type ingame /jbcmds for more administration commands.
+
+Step 9)
+	JunkBuster is now ready to protect your server from spammers, hackers, cheaters and other noobs.
+	If you find a bug, REPORT it in SA-MP forums in the JunkBuster topic.
+
+Step 10)
+	Have fun and feel saver.
+	

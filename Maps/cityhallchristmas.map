@@ -1,0 +1,82 @@
+
+<map mod="race" version="1.0">
+
+  <meta/>
+
+  <options>
+    <respawn>timelimit</respawn>
+  </options>
+
+  <object name="object">
+    <position>1481.073364 -1741.035400 -0.358360</position>
+    <rotation>-0.981748 0.000000 -0.300000</rotation>
+    <model>687</model>
+  </object>
+
+  <object name="object (22)">
+    <position>1489.382080 -1751.245117 15.035124</position>
+    <rotation>-0.589049 0.000000 0.000000</rotation>
+    <model>3472</model>
+  </object>
+
+  <object name="object (23)">
+    <position>1472.950562 -1751.413330 14.890383</position>
+    <rotation>-0.589049 0.000000 0.000000</rotation>
+    <model>3472</model>
+  </object>
+
+  <object name="object (3)">
+    <position>1489.428467 -1750.695435 15.009636</position>
+    <rotation>0.000000 0.000000 0.000000</rotation>
+    <model>1215</model>
+  </object>
+
+  <object name="object (4)">
+    <position>1483.877075 -1750.710205 15.009636</position>
+    <rotation>0.000000 0.000000 0.000000</rotation>
+    <model>1215</model>
+  </object>
+
+  <object name="object (5)">
+    <position>1478.494141 -1750.716919 15.009636</position>
+    <rotation>0.000000 0.000000 0.000000</rotation>
+    <model>1215</model>
+  </object>
+
+  <object name="object (6)">
+    <position>1473.004639 -1750.721680 15.009636</position>
+    <rotation>0.000000 0.000000 0.000000</rotation>
+    <model>1215</model>
+  </object>
+
+  <object name="object (7)">
+    <position>1494.609985 -1750.800659 15.009636</position>
+    <rotation>0.000000 0.000000 0.000000</rotation>
+    <model>1215</model>
+  </object>
+
+  <object name="object (8)">
+    <position>1467.680420 -1750.783569 15.009636</position>
+    <rotation>0.000000 0.000000 0.000000</rotation>
+    <model>1215</model>
+  </object>
+
+  <object name="object (9)">
+    <position>1481.103027 -1741.198730 -0.433369</position>
+    <rotation>0.785398 0.000000 -0.300000</rotation>
+    <model>687</model>
+  </object>
+
+  <object name="object (23)">
+    <position>1504.162354 -1750.067383 12.916035</position>
+    <rotation>-1.374447 0.000000 0.000000</rotation>
+    <model>3472</model>
+  </object>
+
+  <object name="object (24)">
+    <position>1458.270142 -1749.938110 12.916035</position>
+    <rotation>2.356194 0.000000 0.000000</rotation>
+    <model>3472</model>
+  </object>
+
+</map>

@@ -1,0 +1,29 @@
+<map edf:definitions="editor_main">
+    <object id="object (int_sex01) (1)" doublesided="false" model="14672" interior="0" dimension="0" posX="1502.0009765625" posY="268.78125" posZ="1750.9580078125" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (SEX_1) (1)" doublesided="false" model="2580" interior="0" dimension="0" posX="1504.4449462891" posY="277.61508178711" posZ="1751.8514404297" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (SEX_2) (1)" doublesided="false" model="2587" interior="0" dimension="0" posX="1501.3486328125" posY="276.44195556641" posZ="1751.9404296875" rotX="0" rotY="0" rotZ="90" />
+    <object id="object (SEX_3) (1)" doublesided="false" model="2588" interior="0" dimension="0" posX="1509.6910400391" posY="256.53854370117" posZ="1750.8410644531" rotX="0" rotY="0" rotZ="180" />
+    <object id="object (CJ_SEX_SHOP_SIGN) (1)" doublesided="false" model="2599" interior="0" dimension="0" posX="1495.0197753906" posY="272.09191894531" posZ="1749.4217529297" rotX="0" rotY="0" rotZ="90" />
+    <object id="object (CJ_food_post1) (1)" doublesided="false" model="2685" interior="0" dimension="0" posX="1510.6494140625" posY="259.36456298828" posZ="1750.5812988281" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (CJ_SEX_COUNTER) (1)" doublesided="false" model="2577" interior="0" dimension="0" posX="1507.1593017578" posY="268.23327636719" posZ="1749.6710205078" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (CJ_SEX_SHELF_1) (1)" doublesided="false" model="2578" interior="0" dimension="0" posX="1509.1317138672" posY="274.55856323242" posZ="1750.7453613281" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (CJ_SEX_SHELF_2) (1)" doublesided="false" model="2579" interior="0" dimension="0" posX="1501.4243164063" posY="270.70715332031" posZ="1750.7087402344" rotX="0" rotY="0" rotZ="90" />
+    <object id="object (CJ_SEX_V_RACK) (1)" doublesided="false" model="2581" interior="0" dimension="0" posX="1501.5201416016" posY="268.42559814453" posZ="1750.1101074219" rotX="0" rotY="0" rotZ="90" />
+    <object id="object (CJ_SEX_V_RACK) (2)" doublesided="false" model="2581" interior="0" dimension="0" posX="1501.5185546875" posY="266.2568359375" posZ="1750.1101074219" rotX="0" rotY="0" rotZ="90" />
+    <object id="object (CJ_SEX_VIDEO_1) (1)" doublesided="false" model="2582" interior="0" dimension="0" posX="1510.9127197266" posY="271.71350097656" posZ="1749.8254394531" rotX="0" rotY="0" rotZ="270" />
+    <object id="object (CJ_SEX_VIDEO_2) (1)" doublesided="false" model="2583" interior="0" dimension="0" posX="1510.9172363281" posY="273.68783569336" posZ="1749.8254394531" rotX="0" rotY="0" rotZ="270" />
+    <object id="object (CJ_sex_dildo) (1)" doublesided="false" model="2584" interior="0" dimension="0" posX="1504.2706298828" posY="269.73919677734" posZ="1749.7789306641" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (CJ_SEX_COUNTER2) (1)" doublesided="false" model="2586" interior="0" dimension="0" posX="1507.158203125" posY="265.06469726563" posZ="1749.4757080078" rotX="0" rotY="0" rotZ="270" />
+    <object id="object (CJ_SEX_COUNTER2) (2)" doublesided="false" model="2586" interior="0" dimension="0" posX="1504.7471923828" posY="260.12231445313" posZ="1749.4757080078" rotX="0" rotY="0" rotZ="179.99755859375" />
+    <object id="object (CJ_SEX_SHELF_3) (1)" doublesided="false" model="2585" interior="0" dimension="0" posX="1511.0135498047" posY="268.13809204102" posZ="1750.212890625" rotX="0" rotY="0" rotZ="270" />
+    <object id="object (CJ_SEX_SHELF_3) (2)" doublesided="false" model="2585" interior="0" dimension="0" posX="1507.9427490234" posY="259.85131835938" posZ="1750.2000732422" rotX="0" rotY="0" rotZ="180" />
+    <object id="object (CJ_SEX_COUNTER) (2)" doublesided="false" model="2577" interior="0" dimension="0" posX="1504.294921875" posY="267.1376953125" posZ="1749.6710205078" rotX="0" rotY="0" rotZ="179.99450683594" />
+    <object id="object (CJ_sex_dildo) (2)" doublesided="false" model="2584" interior="0" dimension="0" posX="1504.2247314453" posY="263.06610107422" posZ="1749.7789306641" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (CJ_SEX_TV) (3)" doublesided="false" model="2596" interior="0" dimension="0" posX="1507.9639892578" posY="257.66421508789" posZ="1750.4295654297" rotX="0" rotY="0" rotZ="90" />
+    <object id="object (kb_chair03) (1)" doublesided="false" model="1704" interior="0" dimension="0" posX="1510.3461914063" posY="258.333984375" posZ="1748.9580078125" rotX="0" rotY="0" rotZ="270" />
+    <object id="object (Gen_doorEXT10) (1)" doublesided="false" model="1523" interior="0" dimension="0" posX="1508.8524169922" posY="259.57940673828" posZ="1748.9465332031" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (CJ_Till) (2)" doublesided="false" model="2369" interior="0" dimension="0" posX="1503.3006591797" posY="275.39126586914" posZ="1750.0595703125" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (1)" doublesided="false" model="1337" interior="0" dimension="0" posX="1498.1165771484" posY="275.40881347656" posZ="1748.9965820313" rotX="340.45385742188" rotY="307.94616699219" rotZ="252.77801513672" />
+    <object id="object (int_sex01) (1)" doublesided="false" model="14672" interior="0" dimension="0" posX="1502.0009765625" posY="268.78125" posZ="1750.9580078125" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (PC_1) (1)" doublesided="false" model="2190" interior="0" dimension="0" posX="1501.4927978516" posY="275.19766235352" posZ="1750.0595703125" rotX="0" rotY="0" rotZ="140" />
+</map>

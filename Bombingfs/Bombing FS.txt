@@ -1,0 +1,80 @@
+How it works -----------------------------
+For this i created a MySQL table containing the Z-coordinate of the highest ground for every x-y pair in 5x5 squares, at this point, thank you Adrenaline-DJ for your MySQL-plugin, it works perfect  
+At the moment i only have LV mapped, because it takes hours to get the coordinates and insert them into the database, but ill do the rest, too, when i have got the time to do it.
+This might be a small problem when using the filterscript, but even i got it running, and i only knew how to use SELECT and INSERT .
+
+Features ---------------------------------
+Now i will tell a bit about the features.
+As said before, you can drop bombs from planes or helis and they detonate on the ground. There are different types of bombs to use, e.g. simple exploding bombs, fire bombs and even a poison gas bomb! They all have different attributes like the explosion type, radius, bomb model id or accuracy. These values and many others are stored in a multidimensional array, so it is no problem to adjust their attributes or even to create own bombs. Also lots of other values like the bomb-falling-speed will be easily adjustable. Also the bomb arsenal of every single plane and heli can be changed, so server owners can change everything to make it fit perfectly to their servers.
+
+In short:
+drop bombs everywhere (at least in LV atm )
+6 different bombtypes
+choose the bomb you like using NUM_2 and NUM_8, and drop it using the HANDBRAKE key
+every bomb has its own attributes, to name them, explosion type and radius, accuracy, model id and rotation, explosion delay and fire rate
+own "bombprofiles" for every plane and heli
+code, keys and attributes are easy to modify, to adjust the FS perfectly
+
+Installation --------------------------------
+The installation is the tricky part of the filterscript. Because it needs a MySQL database, you need to have one running on your sever. If you run your server on your local machine you will need to download and install a MySQL server (just look for the community server on mysql.com). If you run your server on a server machine in the internet, try to find out, if it supports MySQL or ask the owner.
+You will need to create an user. If you have root access to the server it should be no problem using this guide, if you know a bit about MySQL. I dont , so i just used the root user for the access, but i do not recommend it for use on public servers. Maybe someone can explain how to create save users in an easy way.
+If you only have one user, because you do not own the server and you only got this one user from the owner, you could use it for access.
+
+Now, when you have a MySQL server running, you have to load the height-map into it.
+Therefore you could use phpMyAdmin, when it is installed on the server. If you are not sure, if it is, you can ask the server owner. You can also try other programs for accessing the database. for example SQL Maesto, which I used, but all of them need to have direct access to the MySQL database, that means, they need to be running on the same machine the MySQL server is running on, or the MySQL server needs to be open for external access, if you are not sure if it is, you can ask the server owner again 
+If you are running the server on your local computer i recommend using something like SQL Maestro, because installing phpMyAdmin on a local machine is not easy, too.
+
+In the next few steps i will explain how to go on using phpMyAdmin
+If you know how to import a compressed csv, you can skip this part.
+
+At first log into phpMyAdmin on the server.
+If you want to and if you have the rights to do you can create a new database for the map. Therefore search for create new database in the first page (maybe its called a bit different, i only have access to a german version).
+In the first Textfield you can choose a name for the new database. In the menu Collation select latin1_swedish_ci (probably others work too, but i only tested this one yet). When you are ready, click on create.
+If you are allowed to create new databases, it will be created, if you are not, it will return an error message starting like this: "#1044 - Access denied for user"...
+
+Then click on your new created or already existing database on the upper left. At the bottom of the new page you should be able to see two fields titled Create new table in database <name>.
+For the name you should choose hmap, you can also use any other name, but you would have to change it in the code of the FS then (more about this later). The second field, the fieldcount, has to be set to 3. Click on ok to get to the next page.
+
+You get to a page with lots of textfields in 3 columns, but only the first are important. For the names choose x, y and z in the same order. The types need to be smallint or int for the first 2 columns, and real or double for the last one. After this, click on save.
+When the new table was created successfully, select the tab import in the the upper menurow.
+Look at the filesize limit next to the filechooser. You may get problems when it is too small.
+Click on the search button and select the to your upload matching file (again more about that later).
+If it isnt done by default, select CSV in the format section and click ok.
+
+The file now gets uploaded. Wait a bit, even if the upload already finished, it takes a moment to import the data.
+It is possible, that there is a timelimit that stops it after a while. In the section partial import you can see the position in the file, where the process stopped. The file has 17mil at all, you have to decide, if you want to reupload the file until the process is finished, this may take a lot of time.
+
+If you dont want to do it this way, you have to wait a bit until i finished splitting the file single parts.
+You will have to unzip these parts and upload them one by one selecting CSV with LOAD DATA as file format.
+This speeds the import process up, but takes longer time in uploading the single bigger files.
+
+
+After this, the MySQL part is done. The next step is to install the full package of the SAMP-MySQL plugin by Adrenaline-DJ (Again great thanks for your work). I wont explain here how to do this, just read the forum thread about it.
+
+Your getting closer to the end now 
+The last step will be, to set up your MySQL settings in the .pwn file.
+At first, open the file and look at the MYSQL_... defines. You have to change them to fit to your settings. 
+MYSQL_ADDRESS contains the address of the MySQL server. Should be localhost, when your SA-MP server is running on the same server than MySQL.
+MYSQL_NAME and MYSQL_PW set the username and the password for the database access. Again think about security and do not blame me, if someone gets these data and does things he should not do.
+MYSQL_DBNAME saves the name of the database where the data is located. Put the name of your new database or the name of the existing one here.
+If you did choose another tablename than hmap you have to look for the function GetGroundZ in the file, and replace the hmap in the format by your table name.
+
+Finally you should be able to compile the FS and use it on your server. Try loading it and check the console. If you can read "Connection to MySQL database: Succesful!" there, you did it and the FS should work, else you maybe did something wrong. Check the defines first. If they are correct probably something with your MySQL databse is wrong.
+
+
+I hope the installation guide was understandable. I am no por at MySQL, so I just tried to explain it as good as i could. Feel free to give suggestions or to ask questions about it.
+
+
+
+Known bugs ---------------------------------
+There unfortunately are some bugs atm, thats why i called it version 0.9 
+
+Sometimes the bombs are exploding directly after the drop, sometimes on the ground, sometimes on the plane. I could not spot the bug yet, but ill try to correct it in the future, just see it as a kind of backfire for more realism 
+
+In the first time it might be possible that the bombs are invisible. This seems to result from the Object loading time and should be gone after a few minutes or drops.
+
+Another bug is - but currently deactivated - the TextDraw i used to show the current bombtype at first. But for any unknown reason the TextDraw changes for all players at once, if one player changes the bomb, it shows it for all players in a plane or heli, too. I have disabled the TextDraw with the constant USE_TEXTDRAW atm, so it sends you a client message when you choose another bomb. If you want to, you can check my code for this bug and try to correct it, i havent found it yet.
+
+
+Copyright ------------------------------------
+You may use the filterscript on every server you like. You also may modify the adjustable part of the code or small parts of the script code without my permission. If you want to change a lot of the code or use some parts for another code, please tell me the reason for the modification and include my name in your credits. The same with the database data; you can use it for other purpose, but please do not forget my name in the credits, it was a lot of work to get it.

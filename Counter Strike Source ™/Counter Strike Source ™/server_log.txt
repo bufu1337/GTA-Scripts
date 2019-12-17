@@ -1,0 +1,162 @@
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3a, (C)2005-2009 SA-MP Team
+
+[06:30:13] 
+[06:30:13] Server Plugins
+[06:30:13] --------------
+[06:30:13]  Loaded 0 plugins.
+
+[06:30:13] I couldn't load any gamemode scripts. Please verify your server.cfg
+[06:30:13] It needs a gamemode0 line at the very least.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3a, (C)2005-2009 SA-MP Team
+
+[07:05:50] 
+[07:05:50] Server Plugins
+[07:05:50] --------------
+[07:05:50]  Loaded 0 plugins.
+
+[07:05:50] 
+[07:05:50] Filter Scripts
+[07:05:50] ---------------
+[07:05:50]   Loading filter script 'MidoStream.amx'...
+[07:05:50]   Loaded 1 filter scripts.
+
+[07:05:50]  
+[07:05:50]  
+[07:05:50]       ...::Counter Strike Source::...
+[07:06:30] Incoming connection: 192.168.1.68:1279
+[07:06:30] [join] Eddie_Cool has joined the server (0:192.168.1.68)
+[07:06:44] Eddie_Cool has logged in.
+[07:07:01] [part] Eddie_Cool has left the server (0:1)
+[07:07:58] Incoming connection: 192.168.1.68:1282
+[07:07:58] [join] Eddie has joined the server (0:192.168.1.68)
+[07:08:00] Eddie has logged in.
+[07:10:19] [death] Eddie died 54
+[07:10:35] [death] Eddie died 54
+[07:11:58] [part] Eddie has left the server (0:1)
+[07:12:06] --- Server Shutting Down.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3a, (C)2005-2009 SA-MP Team
+
+[07:27:39] 
+[07:27:39] Server Plugins
+[07:27:39] --------------
+[07:27:39]  Loaded 0 plugins.
+
+[07:27:39] 
+[07:27:39] Filter Scripts
+[07:27:39] ---------------
+[07:27:39]   Loading filter script 'MidoStream.amx'...
+[07:27:39]   Loaded 1 filter scripts.
+
+[07:27:39]  
+[07:27:39]  
+[07:27:39]       ...::Counter Strike Source::...
+[07:28:09] Incoming connection: 192.168.1.68:1289
+[07:28:09] [join] Eddie has joined the server (0:192.168.1.68)
+[07:28:14] Eddie has logged in.
+[07:30:58] [part] Eddie has left the server (0:1)
+[07:31:02] --- Server Shutting Down.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3a, (C)2005-2009 SA-MP Team
+
+[07:35:09] 
+[07:35:09] Server Plugins
+[07:35:09] --------------
+[07:35:09]  Loaded 0 plugins.
+
+[07:35:09] 
+[07:35:09] Filter Scripts
+[07:35:09] ---------------
+[07:35:09]   Loading filter script 'MidoStream.amx'...
+[07:35:09]   Loaded 1 filter scripts.
+
+[07:35:10]  
+[07:35:10]  
+[07:35:10]       ...::Counter Strike Source::...
+[07:35:36] Incoming connection: 192.168.1.68:1293
+[07:35:36] [join] Eddie has joined the server (0:192.168.1.68)
+[07:35:37] Eddie has logged in.
+[07:36:31] [part] Eddie has left the server (0:1)
+[07:36:37] --- Server Shutting Down.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3a, (C)2005-2009 SA-MP Team
+
+[07:37:49] 
+[07:37:49] Server Plugins
+[07:37:49] --------------
+[07:37:49]  Loaded 0 plugins.
+
+[07:37:49] 
+[07:37:49] Filter Scripts
+[07:37:49] ---------------
+[07:37:49]   Loading filter script 'MidoStream.amx'...
+[07:37:49]   Loaded 1 filter scripts.
+
+[07:37:49]  
+[07:37:49]  
+[07:37:49]       ...::Counter Strike Source::...
+[07:38:11] Incoming connection: 192.168.1.68:1295
+[07:38:11] [join] Eddie has joined the server (0:192.168.1.68)
+[07:38:13] Eddie has logged in.
+[07:38:42] [part] Eddie has left the server (0:1)
+[07:38:50] --- Server Shutting Down.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3a, (C)2005-2009 SA-MP Team
+
+[07:40:47] 
+[07:40:47] Server Plugins
+[07:40:47] --------------
+[07:40:47]  Loaded 0 plugins.
+
+[07:40:47] 
+[07:40:47] Filter Scripts
+[07:40:47] ---------------
+[07:40:47]   Loading filter script 'MidoStream.amx'...
+[07:40:47]   Loaded 1 filter scripts.
+
+[07:40:47]  
+[07:40:47]  
+[07:40:47]       ...::Counter Strike Source::...
+[07:41:12] Incoming connection: 192.168.1.68:1298
+[07:41:12] [join] Eddie has joined the server (0:192.168.1.68)
+[07:41:16] Eddie has logged in.
+[07:42:16] [part] Eddie has left the server (0:1)
+[07:42:21] --- Server Shutting Down.

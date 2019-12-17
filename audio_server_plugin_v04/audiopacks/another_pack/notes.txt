@@ -1,0 +1,6 @@
+In the sample (under the "another_pack" section), since the first two
+files are remote (test.wav and example.mp3), they do not need to be
+in this folder. The last two files (track.ogg and file.wma), however,
+are local, and they do need to be in this folder.
+
+The audio archives do not need to be here!

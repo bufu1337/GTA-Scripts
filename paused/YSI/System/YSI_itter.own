@@ -1,0 +1,343 @@
+/*----------------------------------------------------------------------------*-
+					==================================
+					Y Server Includes - Itterator Core
+					==================================
+Description:
+	Provides functionality to loop efficiently through all connected players.
+	Removes reliance on both modification of MAX_PLAYERS for more efficient
+	processing on small servers (although still recommended) and 
+	IsPlayerConnected.
+Legal:
+	Copyright (C) 2007 Alex "Y_Less" Cole
+
+	This program is free software; you can redistribute it and/or
+	modify it under the terms of the GNU General Public License
+	as published by the Free Software Foundation; either version 2
+	of the License, or (at your option) any later version.
+
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with this program; if not, write to the Free Software
+	Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+	MA 02110-1301, USA.
+Version:
+	0.1.2
+Changelog:
+	06/01/08:
+		Added debug information.
+	09/10/07:
+		Moved to system.
+	16/09/07:
+		Added list sorting.
+		Made this part of Y SeRver Includes, not Y Sever Includes.
+		Made list sorting optional.
+		Fixed version number.
+	08/09/07:
+		First version.
+Functions:
+	Public:
+		-
+	Core:
+		Itter_OnPlayerDisconnect - Called when a player leaves to remove them.
+		Itter_OnPlayerConnect - Called when a player connects to add them.
+	Stock:
+		Itter_ShowArray - Displays the contents of the array.
+		Itter_AddInternal - Add a value to an itterator.
+		Itter_RemoveInternal - Remove a value from an itterator.
+	Static:
+		-
+	Inline:
+		Itter_Create - Create a new itterator value set.
+		Itter_Add - Wraps Itter_AddInternal.
+		Itter_Remove - Wraps Itter_RemoveInternal.
+	API:
+		-
+Callbacks:
+	-
+Definitions:
+	-
+Enums:
+	-
+Macros:
+	foreach - Command to loop through all connected players efficiently.
+	foreachex - Like foreach but without a new variable.
+Tags:
+	-
+Variables:
+	Global:
+		YSI_gPlayerS - Start index of connected players.
+		YSI_gPlayerA - List of connected players.
+	Static:
+		-
+Commands:
+	-
+Compile options:
+	YSI_ITTER_NO_SORT - Doesn't sort the list of players on connect.
+Operators:
+	-
+-*----------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------*-
+Function:
+	Itter_Create
+Params:
+	name - Itterator identifier.
+	size - Number of values.
+Return:
+	-
+Notes:
+	Creates a new itterator start/array pair.
+-*----------------------------------------------------------------------------*/
+
+#define Iter_Create Itter_Create
+#define Itter_Create(%1,%2) \
+	new \
+		YSI_g%1S = -1, \
+		YSI_g%1A[%2] = {-1, ...}
+
+/*----------------------------------------------------------------------------*-
+Function:
+	Itter_Add
+Params:
+	itter - Name of the itterator to add the data to.
+	value - Value to add to the itterator.
+Return:
+	-
+Notes:
+	Wrapper for Itter_AddInternal
+-*----------------------------------------------------------------------------*/
+
+#define Iter_Add Itter_Add
+#define Itter_Add(%1,%2) \
+	Itter_AddInternal(YSI_g%1S, YSI_g%1A, %2)
+
+/*----------------------------------------------------------------------------*-
+Function:
+	Itter_Remove
+Params:
+	itter - Name of the itterator to remove data from.
+	value - Data to remove.
+Return:
+	-
+Notes:
+	Wrapper for Itter_RemoveInternal
+-*----------------------------------------------------------------------------*/
+
+#define Iter_Remove Itter_Remove
+#define Itter_Remove(%1,%2) \
+	Itter_RemoveInternal(YSI_g%1S, YSI_g%1A, %2)
+
+Itter_Create(Player, MAX_PLAYERS);
+
+/*----------------------------------------------------------------------------*-
+Function:
+	foreach
+Params:
+	data - Data to itterate through.
+	as - Variable to set value to.
+Return:
+	-
+Notes:
+	Not exactly the same as PHP foreach, just itterates through a list and
+	returns the value of the current slot but uses that slot as the next index
+	too.  Variables must be in the form YSI_g<name>S for the start index and
+	YSI_g<name>A for the data array where <name> is what's entered in data.
+-*----------------------------------------------------------------------------*/
+
+#define foreach(%1,%2) \
+	for (new %2 = YSI_g%1S; %2 != -1; %2 = YSI_g%1A[%2])
+
+/*----------------------------------------------------------------------------*-
+Function:
+	foreachex
+Params:
+	data - Data to itterate through.
+	as - Variable to set value to.
+Return:
+	-
+Notes:
+	Similar to foreach but doesn't declare a new variable for the itterator.
+-*----------------------------------------------------------------------------*/
+
+#define foreachex(%1,%2) \
+	for (%2 = YSI_g%1S; %2 != -1; %2 = YSI_g%1A[%2])
+
+/*----------------------------------------------------------------------------*-
+Function:
+	Itter_OnPlayerConnect
+Params:
+	playerid - Player who joined.
+Return:
+	-
+Notes:
+	Adds a player to the loop data.  Now sorts the list too.
+-*----------------------------------------------------------------------------*/
+
+Itter_OnPlayerConnect(playerid)
+{
+	DBGP2("Itter_OnPlayerConnect() start");
+	DBGC5(Itter_ShowArray(YSI_gPlayerS, YSI_gPlayerA, MAX_PLAYERS););
+	Itter_Add(Player, playerid);
+	DBGC5(Itter_ShowArray(YSI_gPlayerS, YSI_gPlayerA, MAX_PLAYERS););
+	DBGP2("Itter_OnPlayerConnect() end");
+	return 1;
+}
+
+/*----------------------------------------------------------------------------*-
+Function:
+	Itter_OnPlayerDisconnect
+Params:
+	playerid - Player who left.
+Return:
+	-
+Notes:
+	Removes a player from the loop data.
+-*----------------------------------------------------------------------------*/
+
+Itter_OnPlayerDisconnect(playerid, reason)
+{
+	DBGP2("Itter_OnPlayerDisconnect() start");
+	DBGC5(Itter_ShowArray(YSI_gPlayerS, YSI_gPlayerA, MAX_PLAYERS););
+	Itter_Remove(Player, playerid);
+	DBGC5(Itter_ShowArray(YSI_gPlayerS, YSI_gPlayerA, MAX_PLAYERS););
+	DBGP2("Itter_OnPlayerDisconnect() end");
+	#pragma unused reason
+	return 1;
+}
+
+/*----------------------------------------------------------------------------*-
+Function:
+	Itter_ShowArray
+Params:
+	start - Itterator start point.
+	members[] - Itterator contents.
+	size - Number of itterator values
+Return:
+	-
+Notes:
+	Pure debug function.  Has regular prints not debug prints
+	as it's only called when debug is on.
+-*----------------------------------------------------------------------------*/
+
+stock Itter_ShowArray(start, members[], size)
+{
+	static
+		sString[61];
+	new
+		i,
+		j = 10;
+	DBGP2("Itter_ShowArray() start");
+	printf("Start: %d", start);
+	while (i < size)
+	{
+		sString[0] = '\0';
+		while (i < j && i < size)
+		{
+			format(sString, sizeof (sString), "%s, %d", sString, members[i]);
+			i++;
+		}
+		printf("Array (%d): %s", j, sString);
+		j += 10;
+	}
+}
+
+/*----------------------------------------------------------------------------*-
+Function:
+	Itter_AddInternal
+Params:
+	&start - Array start index.
+	array[] - Itterator data.
+	value - Item to add.
+Return:
+	-
+Notes:
+	Adds a value to a given itterator set.
+-*----------------------------------------------------------------------------*/
+
+stock Itter_AddInternal(&start, array[], value)
+{
+	if (array[value] != -1)
+	{
+		DBGP1("Itter_Add() Value error.");
+		return 0;
+	}
+	#if defined YSI_ITTER_NO_SORT
+		array[value] = start;
+		start = value;
+	#else
+		if (start == -1)
+		{
+			start = value;
+		}
+		else if (start > value)
+		{
+			array[value] = start;
+			start = value;
+		}
+		else
+		{
+			new
+				cur = start,
+				last;
+			do
+			{
+				last = cur;
+				cur = array[cur];
+				if (cur > value)
+				{
+					array[value] = cur;
+					array[last] = value;
+					return 1;
+				}
+			}
+			while (cur != -1);
+			array[last] = value;
+		}
+	#endif
+	return 1;
+}
+
+/*----------------------------------------------------------------------------*-
+Function:
+	Itter_AddInternal
+Params:
+	&start - Array start index.
+	array[] - Itterator data.
+	value - Item to remove.
+Return:
+	-
+Notes:
+	Removes a value from an itterator.
+-*----------------------------------------------------------------------------*/
+
+stock Itter_RemoveInternal(&start, array[], value)
+{
+	if (start == -1)
+	{
+		return 0;
+	}
+	if (start == value)
+	{
+		start = array[value];
+	}
+	else
+	{
+		new
+			cur = start;
+		while (array[cur] != value)
+		{
+			cur = array[cur];
+			if (cur == -1)
+			{
+				return 0;
+			}
+		}
+		array[cur] = array[value];
+	}
+	array[value] = -1;
+	return 1;
+}

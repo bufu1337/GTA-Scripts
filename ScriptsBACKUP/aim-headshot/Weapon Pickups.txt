@@ -1,0 +1,36 @@
+AddStaticPickup(355, 2, -2440.1672,1802.9646,5.9995); //T-Ak47 Pickup
+AddStaticPickup(355, 2, -2447.5203,1802.4812,6.0552); //T-Ak47 Pickup
+AddStaticPickup(355, 2, -2452.7498,1802.0381,6.0870); //T-Ak47 Pickup
+AddStaticPickup(355, 2, -2458.1147,1801.3619,6.1130); //T-Ak47 Pickup
+AddStaticPickup(355, 2, -2464.5156,1800.9949,6.1130); //T-Ak47 Pickup
+AddStaticPickup(355, 2, -2470.3254,1800.4594,6.1130);//T-Ak47 Pickup
+
+AddStaticPickup(356, 2, -2439.8625,1798.9325,5.9870); //T-M4 Pickup
+AddStaticPickup(356, 2, -2448.3054,1798.7620,6.0501); //T-M4 Pickup
+AddStaticPickup(356, 2, -2453.1826,1798.6315,6.0864); //T-M4 Pickup
+AddStaticPickup(356, 2, -2458.6306,1798.5906,6.1052); //T-M4 Pickup
+AddStaticPickup(356, 2, -2464.6870,1798.0452,6.1052); //T-M4 Pickup
+AddStaticPickup(356, 2, -2470.2932,1797.6932,6.1052); //T-M4 Pickup
+
+AddStaticPickup(358, 2,-2471.2651,1833.2651,14.1229); //T-Sniper Pickup
+AddStaticPickup(358, 2,-2440.5867,1833.1917,14.2118); //T-Sniper Pickup
+
+AddStaticPickup(355,2,-2470.5720,1705.8760,6.1161); //Ct-Ak47 Pickup
+AddStaticPickup(355,2,-2465.7405,1706.0615,6.1526); //Ct-Ak47 Pickup
+AddStaticPickup(355,2,-2460.2375,1706.1631,6.1943); //Ct-Ak47 Pickup
+AddStaticPickup(355,2,-2455.7708,1706.2455,6.2203); //Ct-Ak47 Pickup
+AddStaticPickup(355,2,-2449.7180,1706.1642,6.2404); //Ct-Ak47 Pickup
+AddStaticPickup(355,2,-2441.2520,1706.5486,6.2404); //Ct-Ak47 Pickup
+
+AddStaticPickup(356, 2, -2470.0386,1710.7728,6.1044); //Ct-M4 Pickup
+AddStaticPickup(356, 2, -2465.5537,1710.3527,6.1368); //Ct-M4 Pickup
+AddStaticPickup(356, 2, -2459.4597,1710.2881,6.1833); //Ct-M4 Pickup
+AddStaticPickup(356, 2, -2455.1987,1710.8636,6.2127); //Ct-M4 Pickup
+AddStaticPickup(356, 2, -2448.7766,1710.7161,6.2326); //Ct-M4 Pickup
+AddStaticPickup(356, 2, -2441.1870,1710.9955,6.2326); //Ct-M4 Pickup
+
+AddStaticPickup(358, 2, -2471.5569,1673.6647,14.2648); //Ct-Sniper Pickup
+AddStaticPickup(358, 2,-2441.1199,1674.2842,14.1086); //Ct-Sniper Pickup
+
+AddStaticPickup(353, 2, -2450.0178,1755.3342,6.3338); //Mp5-Pickup
+AddStaticPickup(353, 2, -2459.4768,1755.2990,6.3334); //Mp5-Pickup

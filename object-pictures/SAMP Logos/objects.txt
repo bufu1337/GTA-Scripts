@@ -1,0 +1,2 @@
+18749, SAMPLogoSmall
+18750, SAMPLogoBig

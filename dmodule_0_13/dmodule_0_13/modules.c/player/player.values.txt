@@ -1,0 +1,1 @@
+PlayerHealth,MAX_PLAYERS

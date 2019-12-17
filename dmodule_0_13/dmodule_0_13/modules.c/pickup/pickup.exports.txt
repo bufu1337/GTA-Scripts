@@ -1,0 +1,1 @@
+PickUpPickup(playerid, pickupid)

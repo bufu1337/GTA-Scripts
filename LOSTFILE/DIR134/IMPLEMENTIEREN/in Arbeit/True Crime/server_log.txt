@@ -1,0 +1,284 @@
+[20:18] --- Server Shutting Down.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA:MP Dedicated Server
+----------------------
+v0.2.2, (C)2005-2007 SA:MP Team
+
+[20:18] 
+[20:18] Server Plugins
+[20:18] --------------
+[20:18]  Loaded 0 plugins.
+
+[20:18] 
+[20:18] Ban list
+[20:18] --------
+[20:18]  Loaded: samp.ban
+[20:18] 
+[20:18] 
+[20:18] Filter Scripts
+[20:18] ---------------
+[20:18]   Loading filter script 'adminspec.amx'...
+[20:18]   Loading filter script 'vactions.amx'...
+[20:18]   Loading filter script 'actions.amx'...
+[20:18]   Loading filter script 'shamal.amx'...
+[20:18] ------------------------------------------
+[20:18] Loaded 'Entering shamal as passenger [FS]'
+[20:18] ------- v2.0 by BeckzyBoi (c) 2007 -------
+[20:18] ------------------------------------------
+[20:18]   Loaded 4 filter scripts.
+
+[20:18] HouseInfo:0 Owner:The State hTakings 2045 hVec 418
+[20:18] HouseInfo:1 Owner:The State hTakings 0 hVec 418
+[20:18] HouseInfo:2 Owner:The State hTakings 21600 hVec 418
+[20:18] HouseInfo:3 Owner:The State hTakings 0 hVec 418
+[20:18] HouseInfo:4 Owner:The State hTakings 3400 hVec 418
+[20:18] HouseInfo:5 Owner:The State hTakings 77256 hVec 418
+[20:18] HouseInfo:6 Owner:The State hTakings 0 hVec 418
+[20:18] HouseInfo:7 Owner:The State hTakings 19077 hVec 418
+[20:18] HouseInfo:8 Owner:The State hTakings 93406 hVec 418
+[20:18] HouseInfo:9 Owner:The State hTakings 100 hVec 418
+[20:18] HouseInfo:10 Owner:The State hTakings 839 hVec 418
+[20:18] HouseInfo:11 Owner:The State hTakings 0 hVec 418
+[20:18] HouseInfo:12 Owner:The State hTakings 0 hVec 418
+[20:18] HouseInfo:13 Owner:The State hTakings 40600 hVec 418
+[20:18] HouseInfo:14 Owner:The State hTakings 0 hVec 418
+[20:18] HouseInfo:15 Owner:The State hTakings 0 hVec 418
+[20:18] HouseInfo:16 Owner:Carlos_Hernandez hTakings 2600 hVec 418
+[20:18] HouseInfo:17 Owner:The State hTakings 64000 hVec 418
+[20:18] HouseInfo:18 Owner:The State hTakings 65000 hVec 418
+[20:18] HouseInfo:19 Owner:The State hTakings 20000 hVec 418
+[20:18] HouseInfo:20 Owner:The State hTakings 0 hVec 418
+[20:18] HouseInfo:21 Owner:The State hTakings 60000 hVec 418
+[20:18] HouseInfo:22 Owner:The State hTakings 41351 hVec 418
+[20:18] HouseInfo:23 Owner:Tony_Vercetti hTakings 20000 hVec 487
+[20:18] HouseInfo:24 Owner:The State hTakings 0 hVec 418
+[20:18] HouseInfo:25 Owner:The State hTakings 70 hVec 418
+[20:18] HouseInfo:26 Owner:The State hTakings 20000 hVec 418
+[20:18] HouseInfo:27 Owner:The State hTakings 0 hVec 418
+[20:18] HouseInfo:28 Owner:The State hTakings 124 hVec 418
+[20:18] HouseInfo:29 Owner:The State hTakings 0 hVec 418
+[20:18] HouseInfo:30 Owner:The State hTakings 0 hVec 418
+[20:18] HouseInfo:31 Owner:The State hTakings 0 hVec 418
+[20:18] HouseInfo:32 Owner:The State hTakings 0 hVec 418
+[20:18] HouseInfo:33 Owner:The State hTakings 0 hVec 418
+[20:18] BizzInfo:0 Owner:The State Message:Earl's Warehouse Entfee:0 Till:0 Products:100/500 Interior:1.
+
+[20:18] BizzInfo:1 Owner:Mike_Toreno Message:Toreno's toys Entfee:100 Till:200 Products:98/500 Interior:4.
+
+[20:18] BizzInfo:2 Owner:The State Message:~w~Restaurant Entfee:0 Till:0 Products:100/500 Interior:1.
+
+[20:18] BizzInfo:3 Owner:Hecky_Javier Message:LSPD Entfee:0 Till:0 Products:500/500 Interior:10.
+
+[20:18] BizzInfo:4 Owner:The State Message:~w~City Bank Entfee:0 Till:0 Products:99999/100000 Interior:0.
+
+[20:18] SBizzInfo:0 Owner:Tony_Vercetti Message:~w~Car Renting 1 Entfee:100 Till:100 Products:96/100 Interior:0.
+
+[20:18] SBizzInfo:1 Owner:Tony_Morelli Message: Entfee:0 Till:0 Products:99/100 Interior:0.
+
+[20:18] SBizzInfo:2 Owner:The State Message:~w~Phone Company Entfee:0 Till:348 Products:100/100 Interior:0.
+
+[20:18] SBizzInfo:3 Owner:Micheal_Hernand Message:Earl's Gas Entfee:1 Till:0 Products:100/100 Interior:0.
+
+[20:18] SBizzInfo:4 Owner:The State Message:~w~Electricity Company Entfee:0 Till:122090 Products:100/100 Interior:0.
+
+[20:18] SBizzInfo:5 Owner:The State Message:~w~Car Delivery Entfee:0 Till:710000 Products:93/100 Interior:0.
+
+[20:18] SBizzInfo:6 Owner:The State Message:Mama Morellis Entfee:100 Till:201500 Products:93/100 Interior:0.
+
+[20:18] SBizzInfo:7 Owner:The State Message:~w~CNN Studio Entfee:0 Till:0 Products:100/100 Interior:0.
+
+[20:18] SBizzInfo:8 Owner:The State Message:~w~Tow Car Service Entfee:0 Till:2000 Products:98/100 Interior:0.
+
+[20:18] SBizzInfo:9 Owner:The State Message:~w~General Store Entfee:0 Till:0 Products:100/100 Interior:0.
+
+[20:18] SBizzInfo:10 Owner:The State Message:~w~Paintball Arena Entfee:0 Till:0 Products:99/100 Interior:0.
+
+[20:18] SBizzInfo:11 Owner:The State Message:~w~Kart Track Entfee:0 Till:0 Products:100/100 Interior:0.
+
+[20:18] Family:0 Taken: 0 Name:None MOTD:None Leader:None Members:0 SpawnX:0.000000 SpawnY:0.000000 SpawnZ:0.000000 Int:0
+[20:18] Family:1 Taken: 0 Name:None MOTD:None Leader:None Members:0 SpawnX:0.000000 SpawnY:0.000000 SpawnZ:0.000000 Int:0
+[20:18] Family:2 Taken: 0 Name:None MOTD:None Leader:None Members:0 SpawnX:0.000000 SpawnY:0.000000 SpawnZ:0.000000 Int:0
+[20:18] Family:3 Taken: 0 Name:None MOTD:None Leader:None Members:0 SpawnX:0.000000 SpawnY:0.000000 SpawnZ:0.000000 Int:0
+[20:18] Family:4 Taken: 0 Name:None MOTD:None Leader:None Members:0 SpawnX:0.000000 SpawnY:0.000000 SpawnZ:0.000000 Int:0
+[20:18] Family:5 Taken: 0 Name:None MOTD:None Leader:None Members:0 SpawnX:0.000000 SpawnY:0.000000 SpawnZ:0.000000 Int:0
+[20:18] Family:6 Taken: 0 Name:None MOTD:None Leader:None Members:0 SpawnX:0.000000 SpawnY:0.000000 SpawnZ:0.000000 Int:0
+[20:18] Family:7 Taken: 0 Name:None MOTD:None Leader:None Members:0 SpawnX:0.000000 SpawnY:0.000000 SpawnZ:0.000000 Int:0
+[20:18] Family:8 Taken: 0 Name:None MOTD:None Leader:None Members:0 SpawnX:0.000000 SpawnY:0.000000 SpawnZ:0.000000 Int:0
+[20:18] Family:9 Taken: 0 Name:None MOTD:None Leader:None Members:0 SpawnX:0.000000 SpawnY:0.000000 SpawnZ:0.000000 Int:0
+[20:18] CK:0 Taken: 0 Sendername:No-one Giveplayer: No-one
+[20:18] CK:1 Taken: 0 Sendername:No-one Giveplayer: No-one
+[20:18] CK:2 Taken: 0 Sendername:No-one Giveplayer: No-one
+[20:18] CK:3 Taken: 0 Sendername:No-one Giveplayer: No-one
+[20:18] CK:4 Taken: 0 Sendername:No-one Giveplayer: No-one
+[20:18] CK:5 Taken: 0 Sendername:No-one Giveplayer: No-one
+[20:18] CK:6 Taken: 0 Sendername:No-one Giveplayer: No-one
+[20:18] CK:7 Taken: 0 Sendername:No-one Giveplayer: No-one
+[20:18] CK:8 Taken: 0 Sendername:No-one Giveplayer: No-one
+[20:18] CK:9 Taken: 0 Sendername:No-one Giveplayer: No-one
+[20:18] Paper:0 Used: 0 Maker:No-one. Title: No Title. Text1: I have no text inserted here yet. Text2: I have no text inserted here yet. Text3: I have no text inserted here yet. Text4: I have no text inserted here yet. Text5: I have no text inserted here yet. Text6: I have no text inserted here yet. Text7: I have no text inserted here ye
+[20:18] Paper:1 Used: 0 Maker:0
+ Title: No Title. Text1: I have no text inserted here yet. Text2: I have no text inserted here yet. Text3: I have no text inserted here yet. Text4: I have no text inserted here yet. Text5: I have no text inserted here yet. Text6: I have no text inserted here yet. Text7: I have no text inserted here ye
+[20:18] Paper:2 Used: 0 Maker:No-one. Title: No Title. Text1: I have no text inserted here yet. Text2: I have no text inserted here yet. Text3: I have no text inserted here yet. Text4: I have no text inserted here yet. Text5: I have no text inserted here yet. Text6: I have no text inserted here yet. Text7: I have no text inserted here ye
+[20:18] Paper:3 Used: 0 Maker:0
+ Title: No Title. Text1: I have no text inserted here yet. Text2: I have no text inserted here yet. Text3: I have no text inserted here yet. Text4: I have no text inserted here yet. Text5: I have no text inserted here yet. Text6: I have no text inserted here yet. Text7: I have no text inserted here ye
+[20:18] Paper:4 Used: 0 Maker:No-one. Title: No Title. Text1: I have no text inserted here yet. Text2: I have no text inserted here yet. Text3: I have no text inserted here yet. Text4: I have no text inserted here yet. Text5: I have no text inserted here yet. Text6: I have no text inserted here yet. Text7: I have no text inserted here ye
+[20:18] Paper:5 Used: 0 Maker:0
+ Title: No Title. Text1: I have no text inserted here yet. Text2: I have no text inserted here yet. Text3: I have no text inserted here yet. Text4: I have no text inserted here yet. Text5: I have no text inserted here yet. Text6: I have no text inserted here yet. Text7: I have no text inserted here ye
+[20:18] Paper:6 Used: 0 Maker:No-one. Title: No Title. Text1: I have no text inserted here yet. Text2: I have no text inserted here yet. Text3: I have no text inserted here yet. Text4: I have no text inserted here yet. Text5: I have no text inserted here yet. Text6: I have no text inserted here yet. Text7: I have no text inserted here ye
+[20:18] Paper:7 Used: 0 Maker:0
+ Title: No Title. Text1: I have no text inserted here yet. Text2: I have no text inserted here yet. Text3: I have no text inserted here yet. Text4: I have no text inserted here yet. Text5: I have no text inserted here yet. Text6: I have no text inserted here yet. Text7: I have no text inserted here ye
+[20:18] Paper:8 Used: 0 Maker:No-one. Title: No Title. Text1: I have no text inserted here yet. Text2: I have no text inserted here yet. Text3: I have no text inserted here yet. Text4: I have no text inserted here yet. Text5: I have no text inserted here yet. Text6: I have no text inserted here yet. Text7: I have no text inserted here ye
+[20:18] Paper:9 Used: 0 Maker:0
+ Title: No Title. Text1: I have no text inserted here yet. Text2: I have no text inserted here yet. Text3: I have no text inserted here yet. Text4: I have no text inserted here yet. Text5: I have no text inserted here yet. Text6: I have no text inserted here yet. Text7: I have no text inserted here ye
+[20:18] Pickups Max = 100, Current Pickups = 80
+[20:18]  
+[20:18]  
+[20:18]  True Crime: Streets of Los Santos
+[20:18]  
+Console input: /rcon login stfuyoun00byournotgettingthepass
+[21:34] --- Server Shutting Down.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA:MP Dedicated Server
+----------------------
+v0.2.2, (C)2005-2007 SA:MP Team
+
+[07:55] 
+[07:55] Server Plugins
+[07:55] --------------
+[07:55]  Loaded 0 plugins.
+
+[07:55] 
+[07:55] Ban list
+[07:55] --------
+[07:55]  Loaded: samp.ban
+[07:55] 
+[07:55] 
+[07:55] Filter Scripts
+[07:55] ---------------
+[07:55]   Loading filter script 'adminspec.amx'...
+[07:55]   Loading filter script 'vactions.amx'...
+[07:55]   Loading filter script 'actions.amx'...
+[07:55]   Loading filter script 'shamal.amx'...
+[07:55] ------------------------------------------
+[07:55] Loaded 'Entering shamal as passenger [FS]'
+[07:55] ------- v2.0 by BeckzyBoi (c) 2007 -------
+[07:55] ------------------------------------------
+[07:55]   Loaded 4 filter scripts.
+
+[07:55] HouseInfo:0 Owner:The State hTakings 2045 hVec 418
+[07:55] HouseInfo:1 Owner:The State hTakings 0 hVec 418
+[07:55] HouseInfo:2 Owner:The State hTakings 21600 hVec 418
+[07:55] HouseInfo:3 Owner:The State hTakings 0 hVec 418
+[07:55] HouseInfo:4 Owner:The State hTakings 3400 hVec 418
+[07:55] HouseInfo:5 Owner:The State hTakings 77256 hVec 418
+[07:55] HouseInfo:6 Owner:The State hTakings 0 hVec 418
+[07:55] HouseInfo:7 Owner:The State hTakings 19077 hVec 418
+[07:55] HouseInfo:8 Owner:The State hTakings 93406 hVec 418
+[07:55] HouseInfo:9 Owner:The State hTakings 100 hVec 418
+[07:55] HouseInfo:10 Owner:The State hTakings 839 hVec 418
+[07:55] HouseInfo:11 Owner:The State hTakings 0 hVec 418
+[07:55] HouseInfo:12 Owner:The State hTakings 0 hVec 418
+[07:55] HouseInfo:13 Owner:The State hTakings 40600 hVec 418
+[07:55] HouseInfo:14 Owner:The State hTakings 0 hVec 418
+[07:55] HouseInfo:15 Owner:The State hTakings 0 hVec 418
+[07:55] HouseInfo:16 Owner:Carlos_Hernandez hTakings 2600 hVec 418
+[07:55] HouseInfo:17 Owner:The State hTakings 64000 hVec 418
+[07:55] HouseInfo:18 Owner:The State hTakings 65000 hVec 418
+[07:55] HouseInfo:19 Owner:The State hTakings 20000 hVec 418
+[07:55] HouseInfo:20 Owner:The State hTakings 0 hVec 418
+[07:55] HouseInfo:21 Owner:The State hTakings 60000 hVec 418
+[07:55] HouseInfo:22 Owner:The State hTakings 41351 hVec 418
+[07:55] HouseInfo:23 Owner:Tony_Vercetti hTakings 20000 hVec 487
+[07:55] HouseInfo:24 Owner:The State hTakings 0 hVec 418
+[07:55] HouseInfo:25 Owner:The State hTakings 70 hVec 418
+[07:55] HouseInfo:26 Owner:The State hTakings 20000 hVec 418
+[07:55] HouseInfo:27 Owner:The State hTakings 0 hVec 418
+[07:55] HouseInfo:28 Owner:The State hTakings 124 hVec 418
+[07:55] HouseInfo:29 Owner:The State hTakings 0 hVec 418
+[07:55] HouseInfo:30 Owner:The State hTakings 0 hVec 418
+[07:55] HouseInfo:31 Owner:The State hTakings 0 hVec 418
+[07:55] HouseInfo:32 Owner:The State hTakings 0 hVec 418
+[07:55] HouseInfo:33 Owner:The State hTakings 0 hVec 418
+[07:55] BizzInfo:0 Owner:The State Message:Earl's Warehouse Entfee:0 Till:0 Products:100/500 Interior:1.
+
+[07:55] BizzInfo:1 Owner:Mike_Toreno Message:Toreno's toys Entfee:100 Till:200 Products:98/500 Interior:4.
+
+[07:55] BizzInfo:2 Owner:The State Message:~w~Restaurant Entfee:0 Till:0 Products:100/500 Interior:1.
+
+[07:55] BizzInfo:3 Owner:Hecky_Javier Message:LSPD Entfee:0 Till:0 Products:500/500 Interior:10.
+
+[07:55] BizzInfo:4 Owner:The State Message:~w~City Bank Entfee:0 Till:0 Products:99999/100000 Interior:0.
+
+[07:55] SBizzInfo:0 Owner:Tony_Vercetti Message:~w~Car Renting 1 Entfee:100 Till:100 Products:96/100 Interior:0.
+
+[07:55] SBizzInfo:1 Owner:Tony_Morelli Message: Entfee:0 Till:0 Products:99/100 Interior:0.
+
+[07:55] SBizzInfo:2 Owner:The State Message:~w~Phone Company Entfee:0 Till:348 Products:100/100 Interior:0.
+
+[07:55] SBizzInfo:3 Owner:Micheal_Hernand Message:Earl's Gas Entfee:1 Till:0 Products:100/100 Interior:0.
+
+[07:55] SBizzInfo:4 Owner:The State Message:~w~Electricity Company Entfee:0 Till:122090 Products:100/100 Interior:0.
+
+[07:55] SBizzInfo:5 Owner:The State Message:~w~Car Delivery Entfee:0 Till:710000 Products:93/100 Interior:0.
+
+[07:55] SBizzInfo:6 Owner:The State Message:Mama Morellis Entfee:100 Till:201500 Products:93/100 Interior:0.
+
+[07:55] SBizzInfo:7 Owner:The State Message:~w~CNN Studio Entfee:0 Till:0 Products:100/100 Interior:0.
+
+[07:55] SBizzInfo:8 Owner:The State Message:~w~Tow Car Service Entfee:0 Till:2000 Products:98/100 Interior:0.
+
+[07:55] SBizzInfo:9 Owner:The State Message:~w~General Store Entfee:0 Till:0 Products:100/100 Interior:0.
+
+[07:55] SBizzInfo:10 Owner:The State Message:~w~Paintball Arena Entfee:0 Till:0 Products:99/100 Interior:0.
+
+[07:55] SBizzInfo:11 Owner:The State Message:~w~Kart Track Entfee:0 Till:0 Products:100/100 Interior:0.
+
+[07:55] Family:0 Taken: 0 Name:None MOTD:None Leader:None Members:0 SpawnX:0.000000 SpawnY:0.000000 SpawnZ:0.000000 Int:0
+[07:55] Family:1 Taken: 0 Name:None MOTD:None Leader:None Members:0 SpawnX:0.000000 SpawnY:0.000000 SpawnZ:0.000000 Int:0
+[07:55] Family:2 Taken: 0 Name:None MOTD:None Leader:None Members:0 SpawnX:0.000000 SpawnY:0.000000 SpawnZ:0.000000 Int:0
+[07:55] Family:3 Taken: 0 Name:None MOTD:None Leader:None Members:0 SpawnX:0.000000 SpawnY:0.000000 SpawnZ:0.000000 Int:0
+[07:55] Family:4 Taken: 0 Name:None MOTD:None Leader:None Members:0 SpawnX:0.000000 SpawnY:0.000000 SpawnZ:0.000000 Int:0
+[07:55] Family:5 Taken: 0 Name:None MOTD:None Leader:None Members:0 SpawnX:0.000000 SpawnY:0.000000 SpawnZ:0.000000 Int:0
+[07:55] Family:6 Taken: 0 Name:None MOTD:None Leader:None Members:0 SpawnX:0.000000 SpawnY:0.000000 SpawnZ:0.000000 Int:0
+[07:55] Family:7 Taken: 0 Name:None MOTD:None Leader:None Members:0 SpawnX:0.000000 SpawnY:0.000000 SpawnZ:0.000000 Int:0
+[07:55] Family:8 Taken: 0 Name:None MOTD:None Leader:None Members:0 SpawnX:0.000000 SpawnY:0.000000 SpawnZ:0.000000 Int:0
+[07:55] Family:9 Taken: 0 Name:None MOTD:None Leader:None Members:0 SpawnX:0.000000 SpawnY:0.000000 SpawnZ:0.000000 Int:0
+[07:55] CK:0 Taken: 0 Sendername:No-one Giveplayer: No-one
+[07:55] CK:1 Taken: 0 Sendername:No-one Giveplayer: No-one
+[07:55] CK:2 Taken: 0 Sendername:No-one Giveplayer: No-one
+[07:55] CK:3 Taken: 0 Sendername:No-one Giveplayer: No-one
+[07:55] CK:4 Taken: 0 Sendername:No-one Giveplayer: No-one
+[07:55] CK:5 Taken: 0 Sendername:No-one Giveplayer: No-one
+[07:55] CK:6 Taken: 0 Sendername:No-one Giveplayer: No-one
+[07:55] CK:7 Taken: 0 Sendername:No-one Giveplayer: No-one
+[07:55] CK:8 Taken: 0 Sendername:No-one Giveplayer: No-one
+[07:55] CK:9 Taken: 0 Sendername:No-one Giveplayer: No-one
+[07:55] Paper:0 Used: 0 Maker:No-one. Title: No Title. Text1: I have no text inserted here yet. Text2: I have no text inserted here yet. Text3: I have no text inserted here yet. Text4: I have no text inserted here yet. Text5: I have no text inserted here yet. Text6: I have no text inserted here yet. Text7: I have no text inserted here ye
+[07:55] Paper:1 Used: 0 Maker:0
+ Title: No Title. Text1: I have no text inserted here yet. Text2: I have no text inserted here yet. Text3: I have no text inserted here yet. Text4: I have no text inserted here yet. Text5: I have no text inserted here yet. Text6: I have no text inserted here yet. Text7: I have no text inserted here ye
+[07:55] Paper:2 Used: 0 Maker:No-one. Title: No Title. Text1: I have no text inserted here yet. Text2: I have no text inserted here yet. Text3: I have no text inserted here yet. Text4: I have no text inserted here yet. Text5: I have no text inserted here yet. Text6: I have no text inserted here yet. Text7: I have no text inserted here ye
+[07:55] Paper:3 Used: 0 Maker:0
+ Title: No Title. Text1: I have no text inserted here yet. Text2: I have no text inserted here yet. Text3: I have no text inserted here yet. Text4: I have no text inserted here yet. Text5: I have no text inserted here yet. Text6: I have no text inserted here yet. Text7: I have no text inserted here ye
+[07:55] Paper:4 Used: 0 Maker:No-one. Title: No Title. Text1: I have no text inserted here yet. Text2: I have no text inserted here yet. Text3: I have no text inserted here yet. Text4: I have no text inserted here yet. Text5: I have no text inserted here yet. Text6: I have no text inserted here yet. Text7: I have no text inserted here ye
+[07:55] Paper:5 Used: 0 Maker:0
+ Title: No Title. Text1: I have no text inserted here yet. Text2: I have no text inserted here yet. Text3: I have no text inserted here yet. Text4: I have no text inserted here yet. Text5: I have no text inserted here yet. Text6: I have no text inserted here yet. Text7: I have no text inserted here ye
+[07:55] Paper:6 Used: 0 Maker:No-one. Title: No Title. Text1: I have no text inserted here yet. Text2: I have no text inserted here yet. Text3: I have no text inserted here yet. Text4: I have no text inserted here yet. Text5: I have no text inserted here yet. Text6: I have no text inserted here yet. Text7: I have no text inserted here ye
+[07:55] Paper:7 Used: 0 Maker:0
+ Title: No Title. Text1: I have no text inserted here yet. Text2: I have no text inserted here yet. Text3: I have no text inserted here yet. Text4: I have no text inserted here yet. Text5: I have no text inserted here yet. Text6: I have no text inserted here yet. Text7: I have no text inserted here ye
+[07:55] Paper:8 Used: 0 Maker:No-one. Title: No Title. Text1: I have no text inserted here yet. Text2: I have no text inserted here yet. Text3: I have no text inserted here yet. Text4: I have no text inserted here yet. Text5: I have no text inserted here yet. Text6: I have no text inserted here yet. Text7: I have no text inserted here ye
+[07:55] Paper:9 Used: 0 Maker:0
+ Title: No Title. Text1: I have no text inserted here yet. Text2: I have no text inserted here yet. Text3: I have no text inserted here yet. Text4: I have no text inserted here yet. Text5: I have no text inserted here yet. Text6: I have no text inserted here yet. Text7: I have no text inserted here ye
+[07:55] Pickups Max = 100, Current Pickups = 80
+[07:55]  
+[07:55]  
+[07:55]  True Crime: Streets of Los Santos
+[07:55]  
+[08:36] --- Server Shutting Down.

@@ -1,0 +1,44 @@
+<YML>
+  <color name="green">
+    <hex>0x00FF00AA</hex>
+    <bin>0b00000000111111110000000010101010</bin>
+    <dec>16711850</dec>
+    <oct>77600252</oct>
+  </color>
+  <textdraw name="eg1">
+    <x></x>
+    <y></y>
+    <letterx></letterx>
+    <lettery></lettery>
+    <textx></textx>
+    <texty></texty>
+    <alignment></alignment>
+    <color></color>
+    <box>
+      <use></use>
+      <color></color>
+    </box>
+    <shadow></shadow>
+    <outline></outline>
+    <background>
+      <color></color>
+    </background>
+    <font></font>
+    <proportional></proportional>
+  </textdraw>
+  <style name="YSI_PROP_NAME" gamemode="2">
+    <time>5000</time>
+  </style>
+  <style name="YSI_PROP_BUY" sendclient="1">
+    <color>
+      <hex>0xFF0000AA</hex>
+    </color>
+  </style>
+  <style name="YSI_PROP_OWN">
+    <sendclient>1</sendclient>
+    <color>green</color>
+  </style>
+  <style name="YSI_PROP_YOURS" textdraw="eg1">
+    <time>5000</time>
+  </style>
+</YML>

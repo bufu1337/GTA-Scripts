@@ -1,0 +1,16 @@
+
+// Cover [ mic_cover ]
+
+#define checkpointid,
+#define OnGameModeInit ongamemodeinit
+#define OnPlayerConnect onplayerconnect
+#define OnPlayerDisconnect onplayerdisconnect
+#define OnPlayerText onplayertext
+#define OnPlayerCommandText onplayercommandtext
+#define OnPlayerEnterVehicle onplayerentervehicle
+#define OnPlayerPickUpPickup onplayerpickuppickup
+#define OnPlayerSelectedMenuRow onplayerselectedmenurow
+#define OnPlayerExitedMenu onplayerexitedmenu
+#define DestroyObject(%1) KillObject(%1)
+#define MakeObject CreateObject
+

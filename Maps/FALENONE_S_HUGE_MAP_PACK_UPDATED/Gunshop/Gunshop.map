@@ -1,0 +1,22 @@
+<map edf:definitions="editor_main">
+    <object id="object (ab_sfAmmuMain) (1)" doublesided="false" model="18065" interior="0" dimension="0" posX="261.2698059082" posY="-181.06652832031" posZ="2185.4567871094" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (ab_sfAmmuUnits) (1)" doublesided="false" model="18064" interior="0" dimension="0" posX="265.689453125" posY="-181.0888671875" posZ="2185.1940917969" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (ab_sfAmmuItems01) (1)" doublesided="false" model="18062" interior="0" dimension="0" posX="277.94692993164" posY="-181.03839111328" posZ="2184.9621582031" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (ab_sfAmmuItems02) (1)" doublesided="false" model="18063" interior="0" dimension="0" posX="272.21313476563" posY="-181.09533691406" posZ="2185.333984375" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (mp_ammu02) (1)" doublesided="false" model="18048" interior="0" dimension="0" posX="287.51187133789" posY="-175.17120361328" posZ="2184.6125488281" rotX="0" rotY="0" rotZ="270" />
+    <object id="object (mp_ammu02) (2)" doublesided="false" model="18048" interior="0" dimension="0" posX="287.38702392578" posY="-172.92283630371" posZ="2184.5935058594" rotX="0" rotY="0" rotZ="268.14794921875" />
+    <object id="object (Gen_doorSHOP01) (1)" doublesided="false" model="1493" interior="0" dimension="0" posX="278.54779052734" posY="-187.45599365234" posZ="2183.2106933594" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (sfx_alarms03) (1)" doublesided="false" model="3803" interior="0" dimension="0" posX="272.24291992188" posY="-187.08996582031" posZ="2185.2648925781" rotX="0" rotY="0" rotZ="90" />
+    <object id="object (bodyarmour) (1)" doublesided="false" model="1242" interior="0" dimension="0" posX="272.9176940918" posY="-183.57356262207" posZ="2184.3823242188" rotX="0" rotY="0" rotZ="16" />
+    <object id="object (bodyarmour) (3)" doublesided="false" model="1242" interior="0" dimension="0" posX="273.2099609375" posY="-183.7431640625" posZ="2184.3823242188" rotX="0" rotY="0" rotZ="255.99243164063" />
+    <object id="object (bodyarmour) (4)" doublesided="false" model="1242" interior="0" dimension="0" posX="273.54537963867" posY="-183.56503295898" posZ="2184.3823242188" rotX="0" rotY="0" rotZ="185.99244689941" />
+    <object id="object (bodyarmour) (5)" doublesided="false" model="1242" interior="0" dimension="0" posX="273.6044921875" posY="-183.9189453125" posZ="2184.3823242188" rotX="0" rotY="0" rotZ="135.98327636719" />
+    <object id="object (bodyarmour) (6)" doublesided="false" model="1242" interior="0" dimension="0" posX="273.95596313477" posY="-183.8395690918" posZ="2184.3823242188" rotX="0" rotY="0" rotZ="135.98327636719" />
+    <object id="object (bodyarmour) (7)" doublesided="false" model="1242" interior="0" dimension="0" posX="273.79483032227" posY="-183.62335205078" posZ="2184.3823242188" rotX="0" rotY="0" rotZ="85.983276367188" />
+    <object id="object (barrelexpos) (1)" doublesided="false" model="1252" interior="0" dimension="0" posX="274.4599609375" posY="-183.8828125" posZ="2184.2888183594" rotX="90" rotY="90" rotZ="0" />
+    <object id="object (barrelexpos) (2)" doublesided="false" model="1252" interior="0" dimension="0" posX="274.44323730469" posY="-184.24102783203" posZ="2184.2888183594" rotX="90" rotY="90" rotZ="0" />
+    <object id="object (barrelexpos) (3)" doublesided="false" model="1252" interior="0" dimension="0" posX="275.06802368164" posY="-184.2484588623" posZ="2184.2888183594" rotX="90" rotY="90" rotZ="0" />
+    <object id="object (barrelexpos) (4)" doublesided="false" model="1252" interior="0" dimension="0" posX="275.0862121582" posY="-183.8921661377" posZ="2184.2888183594" rotX="90" rotY="90" rotZ="0" />
+    <object id="object (barrelexpos) (5)" doublesided="false" model="1252" interior="0" dimension="0" posX="275.70275878906" posY="-183.89819335938" posZ="2184.2888183594" rotX="90" rotY="90" rotZ="0" />
+    <object id="object (barrelexpos) (6)" doublesided="false" model="1252" interior="0" dimension="0" posX="275.69305419922" posY="-184.25427246094" posZ="2184.2888183594" rotX="90" rotY="90" rotZ="0" />
+</map>

@@ -1,0 +1,10 @@
+Team-1 [FFC]
+Team-2 [MG3]
+ROUND 3
+ROUNDKILLS 3
+Weapon1 32
+Weapon2 26
+Weapon3 31
+Ammo1 9999
+Ammo2 9999
+Ammo3 9999

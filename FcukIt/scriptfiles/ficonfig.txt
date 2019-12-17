@@ -1,0 +1,40 @@
+A-Health 1
+A-Cash 0
+A-DriveBy 1
+A-Inactivity 1
+A-BWeapons 2
+A-OnKill 1
+A-InteriorKill 0
+A-SpawnKill 1
+A-Spoofing 1
+A-Cloning 1
+A-Lagg 1
+Log-Enabled 0
+Max-Cash-Increase 1000000
+DB-Kills 3
+Inactive-Period 300
+hCheck-Time 10
+cCheck-Time 10
+Spawn-Kill-Time 10
+Max-Spawn-kills 2
+Ping-Limit 450
+Ping-Intervals 5
+Ping-Warning(0/1) 1 
+Ping-Tolerance 50
+
+//Banned Weapon List: (-1 = Disabled)
+
+Weapon2 36
+Weapon3 35
+Weapon4 38
+Weapon5 39
+Weapon6 40
+Weapon7 -1
+Weapon8 -1
+Weapon9 -1
+Weapon10 -1
+Weapon11 -1
+Weapon12 -1
+
+
+

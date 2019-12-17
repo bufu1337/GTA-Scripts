@@ -1,0 +1,4 @@
+COLOR_SYSTEM=0xF5FF9FAA
+COLOR_SYSTEM.description=Color of system messages (yellow)
+COLOR_BADSYSTEM=0xC8BEBEAA
+COLOR_BADSYSTEM.description=Color of bad system messages (grey)

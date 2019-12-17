@@ -1,0 +1,13 @@
+These are screens of ALL new objects that have been added in 0.3c EXCEPT THE PARTICLE ONES!
+
+Info: There are a few pictures with no objects, in these cases I just couldn't find the objects.
+
+
+Please report any mistakes or mistakes.
+
+CREDITS:
+
+SAMP-Team for the new objects and wiki infos
+Kurence for his ingame object editor
+GTAIV for helping me spawning a few objects
+Irfanview for renaming all the pictures

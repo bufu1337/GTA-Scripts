@@ -1,0 +1,36 @@
+------------------------------------------------------------------------------------------------------------------
+The SA:MP modification for Grand Theft Auto: San Andreas (r) is a software
+research project aimed at extending the functionality of the Grand Theft
+Auto: San Andreas (r) software for Microsoft Windows (r).
+------------------------------------------------------------------------------------------------------------------
+
+The software contained herein is provided on an "as-is" basis without
+any form of warranty.
+
+This software may not be exploited for personal, financial or 
+commercial gain.
+
+The author(s) of this software accept no liability for use/misuse of the
+software.
+
+The SA:MP software package may not be distributed, sold, rented or
+leased without written permission of the software author(s).
+
+You may not create or distribute derivative works of the software or files
+contained within the package.
+
+You may not use this software for any illegal purposes.
+
+The author(s) of this software retain the right to modify this license
+at any time.
+
+------------------------------------------------------------------------------------------------------------------
+(c) 2005-2007 SA:MP software research team.
+
+SA:MP software research team is not affiliated with Rockstar Games,
+Rockstar North or Take-Two Interactive Software Inc.
+
+Grand Theft Auto and Grand Theft Auto: San Andreas are registered
+trademarks of Take-Two Interactive Software Inc.
+------------------------------------------------------------------------------------------------------------------
+

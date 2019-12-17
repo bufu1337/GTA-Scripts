@@ -1,0 +1,8 @@
+LIBRARY	MapAndreas
+EXPORTS
+	Supports
+	Load
+	Unload
+	AmxLoad
+	AmxUnload
+	

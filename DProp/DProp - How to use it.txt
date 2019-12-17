@@ -1,0 +1,33 @@
+/*
+ *            DProp functions 1.0
+ *       (c) Copyright 2006 by DracoBlue
+ *
+ * @author    : DracoBlue (http://dracoblue.com)
+ * @date      : 17th June 2006
+ * @update    : 17th June 2006
+ *
+ * This file is provided as is (no warranties).
+ *
+ */
+
+____________________________________________________________________
+
+  How to use it?
+____________________________________________________________________
+
+ o 0. Extract all files of this zip-archive into your server-folder.
+ o 1. Use the new functions, by including the #include <dprop>
+      in your source code
+      
+____________________________________________________________________
+
+  What is this for?
+____________________________________________________________________
+
+  DProp gives you an easy to use interface for communication
+  between two or more different scripts. You can exchange content
+  of variables between a filterscript and a gamemode for example.
+
+
+Regards,
+  Jan (DracoBlue)

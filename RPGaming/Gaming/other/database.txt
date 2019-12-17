@@ -1,0 +1,748 @@
+-- phpMyAdmin SQL Dump
+-- version 3.1.1
+-- http://www.phpmyadmin.net
+--
+-- Máquina: localhost
+-- Data de Criação: 16-Ago-2009 às 03:42
+-- Versão do servidor: 5.0.51
+-- versão do PHP: 5.2.6-1+lenny3
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+--
+-- Base de Dados: `server1820`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `backup`
+--
+
+CREATE TABLE IF NOT EXISTS `backup` (
+  `id` int(11) NOT NULL auto_increment,
+  `Name` varchar(50) character set utf8 NOT NULL,
+  `Email` varchar(50) character set utf8 NOT NULL,
+  `IP` varchar(50) character set utf8 NOT NULL,
+  `Password` varchar(50) character set utf8 NOT NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=189 ;
+
+--
+-- Extraindo dados da tabela `backup`
+--
+
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `bans`
+--
+
+CREATE TABLE IF NOT EXISTS `bans` (
+  `id` int(11) NOT NULL auto_increment,
+  `Banname` varchar(40) NOT NULL,
+  `Banreason` text NOT NULL,
+  `Admin` varchar(40) NOT NULL,
+  `IP` varchar(40) NOT NULL default '0',
+  `Time` int(11) NOT NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=14 ;
+
+--
+-- Extraindo dados da tabela `bans`
+--
+
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `bizz`
+--
+
+CREATE TABLE IF NOT EXISTS `bizz` (
+  `id` smallint(3) NOT NULL auto_increment,
+  `owned` tinyint(1) NOT NULL default '0',
+  `owner` varchar(32) collate latin1_general_ci NOT NULL default 'No-one',
+  `message` varchar(32) collate latin1_general_ci NOT NULL default 'None',
+  `extortion` varchar(32) collate latin1_general_ci NOT NULL default 'No-one',
+  `ent_x` float(10,5) NOT NULL default '0.00000',
+  `ent_y` float(10,5) NOT NULL default '0.00000',
+  `ent_z` float(10,5) NOT NULL default '0.00000',
+  `ext_x` float(10,5) NOT NULL default '0.00000',
+  `ext_y` float(10,5) NOT NULL default '0.00000',
+  `ext_z` float(10,5) NOT NULL default '0.00000',
+  `level` smallint(3) NOT NULL default '0',
+  `price` int(11) NOT NULL default '0',
+  `ent_cost` int(11) NOT NULL default '0',
+  `till` int(11) NOT NULL default '0',
+  `locked` tinyint(1) NOT NULL default '0',
+  `interior` smallint(3) NOT NULL default '0',
+  `virtualworld` int(11) NOT NULL default '0',
+  `useinterior` int(11) NOT NULL default '1',
+  `icon` smallint(3) NOT NULL default '0',
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 COLLATE=latin1_general_ci AUTO_INCREMENT=30 ;
+
+--
+-- Extraindo dados da tabela `bizz`
+--
+
+INSERT INTO `bizz` (`id`, `owned`, `owner`, `message`, `extortion`, `ent_x`, `ent_y`, `ent_z`, `ext_x`, `ext_y`, `ext_z`, `level`, `price`, `ent_cost`, `till`, `locked`, `interior`, `virtualworld`, `useinterior`, `icon`) VALUES
+(1, 0, 'No-One', '69 Cents Shop', 'No-one', 1833.15674, -1842.36438, 13.57810, -30.94850, -89.61090, 1003.54688, 2, 25000, 0, 62034, 0, 18, 1, 1, 2),
+(2, 0, '', 'Los Santos Licensed Armoury', 'No-one', 1367.67236, -1279.85779, 13.54689, 286.14899, -40.64440, 1001.51562, 1, 110000, 0, 3, 0, 1, 2, 1, 0),
+(3, 0, 'No-One', 'ALHAMBRA NIGHTCLUB', 'No-one', 1836.16260, -1682.50452, 13.35950, 493.39099, -22.72280, 1000.67969, 2, 100000, 100, 0, 1, 17, 3, 1, 4),
+(4, 0, '', 'PIzza Stackyz0r', 'No-one', 2104.23438, -1806.41785, 13.55470, 372.26181, -131.65100, 1001.49219, 1, 80000, 0, 8125, 0, 5, 4, 1, 0),
+(5, 0, '', 'Bar 6ONE', 'No-one', 2362.33154, -1332.52405, 24.00780, 501.98099, -69.15020, 998.75781, 1, 80000, 0, 149, 0, 11, 5, 1, 3),
+(6, 0, 'The State', 'Garage', 'No-one', 2313.09399, -1362.86023, 24.03380, 30.94850, -89.61090, 1003.54688, 1, 65000, 20, 0, 1, 18, 6, 1, 0),
+(7, 0, '', '.Idle Wood Gas.', 'No-one', 1929.26721, -1776.51880, 13.54689, -30.94850, -89.61090, 1003.54688, 1, 100000, 100, 4600, 0, 18, 7, 1, 2),
+(8, 0, 'The State', '24-7 Market', 'No-one', 1137.05896, -896.75342, 43.39060, -27.31230, -29.27760, 1003.54999, 1, 100000, 22, 105, 1, 4, 8, 1, 2),
+(9, 0, 'The State', '24-7 Market', 'No-one', 1315.63025, -898.20728, 39.57810, -27.31230, -29.27760, 1003.54999, 1, 100000, 22, 2970, 1, 4, 9, 1, 2),
+(10, 0, 'The State', '24-7 Market', 'No-one', 1000.00873, -920.16998, 42.32810, -27.31230, -29.27760, 1003.54999, 1, 100000, 22, 1840, 1, 4, 10, 1, 2),
+(11, 0, '', '24-7 Market', 'No-one', 1102.53345, -1440.51819, 15.79689, -30.94850, -89.61090, 1003.54688, 1, 100000, 20, 2525, 1, 18, 11, 1, 2),
+(12, 0, 'The State', '24-7 Market', 'No-one', 1143.83813, -1521.35486, 15.79689, -30.94850, -89.61090, 1003.54688, 2, 100000, 22, 1295, 1, 18, 12, 1, 2),
+(13, 0, 'The State', 'Cluckins Bell', 'No-one', 927.99518, -1352.84912, 13.34379, 365.71579, -9.88729, 1001.85162, 1, 100000, 0, 0, 1, 9, 13, 1, 0),
+(14, 0, '', 'Jon lee', 'No-one', 1198.95020, -919.30481, 43.11650, 363.41290, -74.57860, 1001.50781, 1, 75000, 30, 1740, 0, 10, 14, 1, 0),
+(15, 0, 'The State', 'Burger Shot', 'No-one', 810.99573, -1616.32983, 13.54689, 363.41290, -74.57860, 1001.50781, 1, 75000, 22, 864, 0, 10, 15, 1, 0),
+(16, 0, 'The State', 'Cluckin'' Bell', 'No-one', 2398.08789, -1898.44849, 13.54689, 365.71579, -9.88729, 1001.85162, 1, 75000, 22, 686, 0, 9, 16, 1, 0),
+(17, 0, 'The State', 'Cluckins Bell', 'No-one', 2419.87695, -1508.83752, 24.00000, 365.71579, -9.88729, 1001.85162, 1, 75000, 2, 146, 0, 9, 17, 1, 0),
+(19, 0, '', 'Car Painting', 'No-one', 93.66730, -164.89059, 2.46160, 0.00000, 0.00000, 0.00000, 5, 90000, 0, 0, 0, 0, 0, 0, 0),
+(20, 0, 'No-one', 'Advertisement Business', 'No-one', 1737.67957, -1270.22595, 13.54410, 0.00000, 0.00000, 0.00000, 5, 86000, 0, 0, 0, 0, 0, 0, 0),
+(21, 0, 'No-one', 'Bike Renting', 'No-one', 2278.22559, -2204.33691, 13.54689, 0.00000, 0.00000, 0.00000, 0, 70000, 0, 0, 0, 0, 0, 0, 0),
+(23, 0, '', 'Paint & Spray', 'No-one', 2073.71997, -1831.32483, 13.54689, 0.00000, 0.00000, 0.00000, 0, 65000, 0, 0, 0, 0, 0, 0, 0),
+(22, 0, 'No-one', 'Paint & Spray', 'No-one', 488.52200, -1732.83838, 11.18750, 0.00000, 0.00000, 0.00000, 0, 65000, 0, 0, 0, 0, 0, 0, 0),
+(24, 0, 'The State', 'Paint & Spray', 'No-one', 1025.24707, -1031.12964, 32.00210, 0.00000, 0.00000, 0.00000, 0, 65000, 0, 0, 1, 0, 0, 0, 0),
+(25, 0, 'No-one', 'Paint & Spray', 'No-one', 720.24280, -464.05042, 16.33590, 0.00000, 0.00000, 0.00000, 0, 65000, 0, 0, 0, 0, 0, 0, 0),
+(18, 0, '', 'Driving School', 'No-one', 941.08221, -1719.24829, 13.96910, -2027.92004, -105.18300, 1035.17188, 0, 100000, 100, 1400, 0, 3, 18, 1, 0),
+(26, 0, '', 'Henshall''s Bar', 'No-one', 1951.83228, -2041.42273, 13.54690, 501.98099, -69.15020, 998.75781, 0, 90000, 10, 30, 0, 11, 19, 1, 3),
+(27, 0, 'No-one', 'Donut''s Restaurant', 'No-one', 1038.07178, -1339.78308, 13.72660, 377.25949, -192.82651, 1000.64008, 0, 75000, 10, 99, 0, 17, 20, 1, 0);
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `cars`
+--
+
+CREATE TABLE IF NOT EXISTS `cars` (
+  `carid` int(11) NOT NULL auto_increment,
+  `modelid` int(11) NOT NULL,
+  `x` float NOT NULL,
+  `y` float NOT NULL,
+  `z` float NOT NULL,
+  `o` float NOT NULL,
+  `color1` int(11) NOT NULL,
+  `color2` int(11) NOT NULL,
+  `owner` char(32) NOT NULL default 'Dealer',
+  `value` int(11) NOT NULL,
+  `familyid` int(11) NOT NULL,
+  `typeid` int(11) NOT NULL,
+  `gangid` int(11) NOT NULL,
+  `locked` int(11) NOT NULL,
+  `alarm` int(11) NOT NULL,
+  `engine` int(11) NOT NULL,
+  `ticket` int(11) NOT NULL,
+  `warn` int(11) NOT NULL,
+  `fuel` int(11) NOT NULL,
+  `drugs` int(11) NOT NULL,
+  `money` int(11) NOT NULL,
+  `mats` int(11) NOT NULL,
+  `owned` int(11) NOT NULL,
+  `mod1` int(11) NOT NULL default '0',
+  `mod2` int(11) NOT NULL default '0',
+  `mod3` int(11) NOT NULL default '0',
+  `mod4` int(11) NOT NULL default '0',
+  `mod5` int(11) NOT NULL default '0',
+  `mod6` int(11) NOT NULL default '0',
+  `mod7` int(11) NOT NULL default '0',
+  `mod8` int(11) NOT NULL default '0',
+  `mod9` int(11) NOT NULL default '0',
+  `mod10` int(11) NOT NULL default '0',
+  `mod11` int(11) NOT NULL default '0',
+  `mod12` int(11) NOT NULL default '0',
+  `paintjob` int(11) NOT NULL default '-1',
+  `destroyed` int(11) NOT NULL default '0',
+  `gun1` int(3) NOT NULL default '0',
+  `gun2` int(3) NOT NULL default '0',
+  `gun3` int(3) NOT NULL default '0',
+  `ammo1` int(6) NOT NULL default '0',
+  `ammo2` int(6) NOT NULL default '0',
+  `ammo3` int(6) NOT NULL default '0',
+  `fueltype` int(3) NOT NULL default '1',
+  PRIMARY KEY  (`carid`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=715 ;
+
+--
+-- Extraindo dados da tabela `cars`
+--
+
+INSERT INTO `cars` (`carid`, `modelid`, `x`, `y`, `z`, `o`, `color1`, `color2`, `owner`, `value`, `familyid`, `typeid`, `gangid`, `locked`, `alarm`, `engine`, `ticket`, `warn`, `fuel`, `drugs`, `money`, `mats`, `owned`, `mod1`, `mod2`, `mod3`, `mod4`, `mod5`, `mod6`, `mod7`, `mod8`, `mod9`, `mod10`, `mod11`, `mod12`, `paintjob`, `destroyed`, `gun1`, `gun2`, `gun3`, `ammo1`, `ammo2`, `ammo3`, `fueltype`) VALUES
+(1, 405, 1421.19, -1134.32, 23.8465, 182.273, 4, 1, 'Dealer', 100000, 255, 0, 255, 0, 0, 1, 0, 0, 13, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 12, 0, 0, 0, 0, 0, 0, 2),
+(2, 596, 1602.16, -1696.24, 5.6119, 88.6533, 1, 1, 'Dealer', 100000, 255, 1, 255, 0, 0, 1, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 14, 0, 0, 0, 0, 0, 0, 1),
+(3, 531, -71.2068, 4.61686, 3.08198, 160.214, 117, 0, 'Dealer', 100000, 255, 99, 255, 1, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 7, 0, 0, 0, 0, 0, 0, 1),
+(4, 531, -80.148, 8.27643, 3.08052, 159.656, 117, 117, 'Dealer', 100000, 255, 99, 255, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 6, 0, 0, 0, 0, 0, 0, 1),
+(5, 531, -75.4614, 6.5207, 3.08319, 157.307, 117, 117, 'Dealer', 100000, 255, 99, 255, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 11, 0, 0, 0, 0, 0, 0, 1),
+(6, 596, 1601.63, -1691.98, 5.61695, 91.0113, 1, 1, 'Dealer', 100000, 255, 1, 255, 0, 0, 1, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 21, 0, 0, 0, 0, 0, 0, 1),
+(7, 596, 1601.88, -1699.98, 5.61034, 89.7972, 1, 1, 'Dealer', 100000, 255, 1, 255, 0, 0, 1, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 12, 0, 0, 0, 0, 0, 0, 1),
+(8, 596, 1601.84, -1688, 5.63487, 88.874, 1, 1, 'Dealer', 100000, 255, 1, 255, 0, 0, 1, 0, 0, 58, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 11, 0, 0, 0, 0, 0, 0, 1),
+(9, 596, 1601.65, -1704.22, 5.61191, 89.5611, 1, 1, 'Dealer', 100000, 255, 1, 255, 0, 0, 1, 0, 0, 48, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 12, 0, 0, 0, 0, 0, 0, 1),
+(10, 596, 1591.41, -1711.47, 5.66193, 0.57108, 1, 1, 'Dealer', 100000, 255, 1, 255, 0, 0, 1, 0, 0, 99, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 23, 0, 0, 0, 0, 0, 0, 1),
+(11, 596, 1587.35, -1711.63, 5.61277, 0.980903, 1, 1, 'Dealer', 100000, 255, 1, 255, 0, 0, 1, 0, 0, 98, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 18, 0, 0, 0, 0, 0, 0, 1),
+(12, 596, 1601.49, -1684.05, 5.6116, 88.9848, 1, 1, 'Dealer', 100000, 255, 1, 255, 0, 0, 1, 0, 0, 86, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 7, 0, 0, 0, 0, 0, 0, 2),
+(13, 532, -33.6188, 64.0449, 4.09406, 68.8551, 0, 0, 'Dealer', 100000, 255, 99, 255, 0, 0, 1, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 12, 0, 0, 0, 0, 0, 0, 1),
+(14, 426, 1545.35, -1672, 6.01913, 89.2677, 1, 0, '', 100000, 255, 1, 255, 0, 0, 1, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 2, 0, 0, 0, 0, 0, 0, 1),
+(15, 426, 1545.43, -1676.13, 6.0181, 90.6213, 1, 0, '', 100000, 255, 1, 255, 0, 0, 1, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 4, 0, 0, 0, 0, 0, 0, 1),
+(16, 532, -29.3783, 74.4027, 4.09666, 68.1061, 0, 0, '', 100000, 255, 99, 255, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 8, 0, 0, 0, 0, 0, 0, 1),
+(17, 596, 1546.16, -1654.93, 5.61222, 91.0845, 53, 1, '', 100000, 255, 1, 255, 0, 0, 1, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 11, 0, 0, 0, 0, 0, 0, 1),
+(18, 596, 1546.23, -1658.94, 5.61244, 89.7677, 53, 1, '', 100000, 255, 1, 255, 0, 0, 1, 0, 0, 78, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 7, 0, 0, 0, 0, 0, 0, 1),
+(19, 427, 1529.87, -1688.36, 6.02554, 268.64, 1, 1, '', 100000, 255, 1, 255, 0, 0, 1, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 2, 0, 0, 0, 0, 0, 0, 1),
+(20, 597, 1558.8, -1711.12, 5.68599, 359.806, 0, 0, '', 100000, 255, 1, 255, 0, 0, 1, 0, 0, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 7, 0, 0, 0, 0, 0, 0, 1),
+(21, 597, 1563.79, -1711.08, 5.63373, 358.114, 0, 0, '', 100000, 255, 1, 255, 0, 0, 1, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 9, 0, 0, 0, 0, 0, 0, 1),
+(22, 532, -25.0286, 85.804, 4.09336, 66.523, 0, 0, '', 100000, 255, 99, 255, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 7, 0, 0, 0, 0, 0, 0, 1),
+(23, 481, 1552.79, -2211.92, 13.1498, 179.723, 0, 0, '', 100000, 255, 9, 255, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 7, 0, 0, 0, 0, 0, 0, 1),
+(24, 482, 597.323, -1505.88, 14.9124, 270.812, 0, 69, '', 100000, 255, 51, 255, 0, 0, 1, 0, 0, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 10, 0, 0, 0, 0, 0, 0, 1),
+(25, 481, 1545.6, -2211.95, 13.0718, 178.985, 0, 0, '', 100000, 255, 9, 255, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 7, 0, 0, 0, 0, 0, 0, 1),
+(26, 481, 1539.69, -2212.18, 13.0705, 181.027, 0, 0, '', 100000, 255, 9, 255, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 2, 0, 0, 0, 0, 0, 0, 1),
+(27, 481, 1532.89, -2212.2, 13.0699, 178.113, 0, 0, '', 100000, 255, 9, 255, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 3, 0, 0, 0, 0, 0, 0, 1),
+(28, 481, 1526.66, -2212.2, 13.0707, 177.377, 0, 0, '', 100000, 255, 9, 255, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 2, 0, 0, 0, 0, 0, 0, 1),
+(75, 482, 597.378, -1499.12, 15.2743, 261.577, 0, 0, '', 100000, 255, 50, 255, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 15, 0, 0, 0, 0, 0, 0, 1),
+(84, 492, 1715.16, -2249.14, -2.98629, 85.0663, 86, 2, '', 100000, 255, 10, 255, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 7, 0, 0, 0, 0, 0, 0, 1),
+(74, 426, 2148.71, -1152.89, 23.6803, 271.834, 6, 0, '', 100000, 255, 10, 255, 0, 0, 0, 100, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 13, 0, 0, 0, 0, 0, 0, 1),
+(73, 402, 1646.98, -1702.15, 15.4428, 268.688, 64, 0, 'Dealer', 100000, 255, 1, 255, 0, 0, 1, 0, 0, 95, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 17, 0, 0, 0, 0, 0, 0, 1),
+(72, 426, 1175.02, -913.764, 43.0648, 274.925, 81, 0, '', 100000, 255, 10, 255, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 18, 0, 0, 0, 0, 0, 0, 1),
+(29, 426, 1559.95, -2260.57, 13.3146, 89.1426, 5, 0, '', 100000, 255, 10, 255, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 1019, 0, 0, 0, 0, 0, 0, 0, 1078, -1, 37, 0, 0, 0, 0, 0, 0, 1),
+(71, 426, 1175.14, -920.347, 43.0851, 274.995, 0, 0, '', 100000, 255, 10, 255, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 20, 0, 0, 0, 0, 0, 0, 1),
+(30, 426, 1560.02, -2254.02, 13.2906, 89.5487, 0, 0, '', 100000, 255, 10, 255, 0, 0, 0, 25, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 41, 0, 0, 0, 0, 0, 0, 1),
+(31, 596, 1578.67, -1710.48, 5.61175, 359.805, 1, 1, '', 100000, 255, 1, 255, 0, 0, 1, 0, 0, 79, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 10, 0, 0, 0, 0, 0, 0, 1),
+(32, 541, 1530.59, -1643.97, 5.52165, 180.117, 1, 53, '', 100000, 255, 1, 255, 0, 0, 1, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 3, 0, 0, 0, 0, 0, 0, 1),
+(33, 426, 1560.04, -2247.54, 13.2907, 89.0479, 8, 0, '', 100000, 255, 10, 255, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 1019, 0, 0, 0, 0, 0, 0, 0, 1078, -1, 44, 0, 0, 0, 0, 0, 0, 1),
+(34, 426, 1560.2, -2241.22, 13.29, 90.1451, 126, 0, '', 100000, 255, 10, 255, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 1003, 0, 0, 1019, 0, 0, 0, 0, 1086, 0, 0, 1082, -1, 51, 0, 0, 0, 0, 0, 0, 1),
+(35, 541, 1534.85, -1644.33, 5.5156, 178.501, 1, 1, '', 100000, 255, 1, 255, 0, 0, 1, 0, 0, 80, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1085, -1, 2, 0, 0, 0, 0, 0, 0, 1),
+(36, 596, 1595.69, -1711.41, 5.63516, 359.547, 1, 1, '', 100000, 255, 1, 255, 0, 0, 1, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 9, 0, 0, 0, 0, 0, 0, 1),
+(37, 426, 1560.22, -2234.43, 13.2901, 89.4335, 11, 11, '', 100000, 255, 10, 255, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 63, 0, 0, 0, 0, 0, 0, 1),
+(38, 416, 1097.27, -1328.62, 13.4288, 358.86, 3, 0, 'Dealer', 100000, 255, 99, 255, 0, 0, 1, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 2, 0, 0, 0, 0, 0, 0, 1),
+(39, 416, 1182.34, -1308.57, 13.7896, 268.913, 3, 1, 'Dealer', 100000, 255, 99, 255, 0, 0, 1, 0, 0, 99, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 5, 0, 0, 0, 0, 0, 0, 1),
+(40, 544, 1124.17, -1327.38, 13.6212, 358.586, 3, 3, 'Dealer', 100000, 255, 99, 255, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 1, 0, 0, 0, 0, 0, 0, 1),
+(41, 416, 1181.95, -1338.96, 13.8486, 269.374, 1, 3, 'Dealer', 100000, 255, 99, 255, 0, 0, 1, 0, 0, 99, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 2, 0, 0, 0, 0, 0, 0, 1),
+(42, 438, 2475.17, -2117.49, 13.3254, 0.815827, 6, 0, 'Dealer', 100000, 255, 99, 255, 0, 0, 1, 0, 0, 94, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 4, 0, 0, 0, 0, 0, 0, 1),
+(69, 438, 2467.66, -2117.59, 13.3276, 0.02917, 6, 0, 'Dealer', 100000, 255, 99, 255, 0, 0, 1, 0, 0, 41, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 3, 0, 0, 0, 0, 0, 0, 1),
+(43, 438, 2471.41, -2117.49, 13.3265, 1.62614, 6, 0, 'Dealer', 100000, 255, 99, 255, 0, 0, 1, 0, 0, 75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 1, 0, 0, 0, 0, 0, 0, 1),
+(44, 420, 2490.34, -2117.58, 13.3263, 1.4457, 6, 0, 'Dealer', 100000, 255, 99, 255, 0, 0, 1, 0, 0, 40, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 9, 0, 0, 0, 0, 0, 0, 1),
+(70, 438, 2478.67, -2117.7, 13.3264, 358.749, 6, 0, 'Dealer', 100000, 255, 99, 255, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 1),
+(45, 420, 2482.45, -2117.76, 13.3269, 0.061048, 6, 0, 'Dealer', 100000, 255, 99, 255, 0, 0, 1, 0, 0, 98, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 4, 0, 0, 0, 0, 0, 0, 1),
+(46, 420, 2460.94, -2117.58, 13.3304, 1.05683, 6, 0, 'Dealer', 100000, 255, 99, 255, 0, 0, 1, 0, 0, 95, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 9, 0, 0, 0, 0, 0, 0, 2),
+(47, 420, 2486.17, -2117.58, 13.325, 2.83287, 6, 0, 'Dealer', 100000, 255, 99, 255, 0, 0, 1, 0, 0, 93, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 8, 0, 0, 0, 0, 0, 0, 2),
+(48, 420, 2493.86, -2117.52, 13.3259, 1.00512, 6, 0, 'Dealer', 100000, 255, 99, 255, 0, 0, 1, 0, 0, 69, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 4, 0, 0, 0, 0, 0, 0, 1),
+(83, 492, 1767.16, -2292.18, -2.88869, 269.293, 86, 2, '', 100000, 255, 10, 255, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 14, 0, 0, 0, 0, 0, 0, 1),
+(49, 431, 2506.2, -2114.43, 13.644, 0.226573, 6, 8, 'Dealer', 100000, 255, 99, 255, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 1),
+(50, 437, 2534.47, -2086.82, 13.6803, 88.9374, 6, 8, 'Dealer', 100000, 255, 99, 255, 0, 0, 1, 0, 0, 94, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 6, 0, 0, 0, 0, 0, 0, 1),
+(51, 437, 2534.47, -2082.71, 13.682, 89.6205, 6, 8, 'Dealer', 100000, 255, 99, 255, 0, 0, 1, 0, 0, 80, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 2, 0, 0, 0, 0, 0, 0, 1),
+(52, 431, 2534.32, -2136.58, 13.6665, 2.07394, 3, 8, 'Dealer', 100000, 255, 99, 255, 0, 0, 1, 0, 0, 88, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 3, 0, 0, 0, 0, 0, 0, 1),
+(53, 525, 735.888, -1337.53, 13.4113, 268.423, 0, 0, '', 100000, 255, 11, 255, 0, 0, 1, 0, 0, 70, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 2, 0, 0, 0, 0, 0, 0, 2),
+(54, 525, 736.255, -1346.83, 13.3892, 270.159, 0, 0, '', 100000, 255, 11, 255, 0, 0, 1, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 3),
+(55, 426, 1429.48, -1049.33, 23.1379, 1.37649, 0, 86, 'Dealer', 100000, 255, 0, 255, 0, 0, 1, 0, 0, 83, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 9, 0, 0, 0, 0, 0, 0, 1),
+(56, 426, 1425.73, -1049.97, 23.1961, 2.25627, 10, 3, '', 100000, 255, 0, 1, 0, 0, 1, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 1, 0, 0, 0, 0, 0, 0, 1),
+(57, 566, 2445.61, -1294.79, 23.6891, 177.697, 0, 86, 'Dealer', 100000, 255, 2, 0, 0, 0, 1, 0, 0, 93, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 26, 0, 0, 0, 0, 0, 0, 3),
+(58, 482, 979.503, -1264.46, 15.6531, 181.326, 0, 0, '', 100000, 255, 51, 255, 0, 0, 1, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 16, 0, 0, 0, 0, 0, 0, 3),
+(59, 426, 1413.69, -1134.8, 23.8043, 181.206, 0, 0, '', 100000, 255, 0, 2, 0, 0, 1, 0, 0, 46, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 3, 0, 0, 0, 0, 0, 0, 1),
+(60, 482, 972.824, -1264.89, 15.4773, 178.746, 0, 0, '', 100000, 255, 50, 255, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 17, 0, 0, 0, 0, 0, 0, 1),
+(61, 405, 929.745, -1713.17, 13.4184, 89.2235, 6, 6, '', 100000, 255, 12, 255, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 1, 0, 0, 0, 0, 0, 0, 1),
+(62, 405, 929.59, -1727.36, 13.4232, 87.4512, 6, 6, '', 100000, 255, 22, 255, 0, 0, 0, 10, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 10, 0, 0, 0, 0, 0, 0, 1),
+(63, 405, 929.67, -1719.88, 13.4207, 87.0349, 6, 6, '', 100000, 255, 12, 255, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 1, 0, 0, 0, 0, 0, 0, 1),
+(64, 523, 1585.48, -1667.86, 5.45959, 266.758, 0, 0, 'Dealer', 100000, 255, 1, 255, 0, 0, 1, 0, 0, 97, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 1, 0, 0, 0, 0, 0, 0, 1),
+(65, 523, 1584.69, -1671.65, 5.46841, 270.017, 1, 1, 'Dealer', 100000, 255, 1, 255, 0, 0, 1, 0, 0, 99, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 5, 0, 0, 0, 0, 0, 0, 3),
+(66, 582, 1362.94, -1643.35, 13.4371, 270.841, 1, 7, '', 100000, 255, 3, 255, 0, 0, 1, 0, 0, 94, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 6, 0, 0, 0, 0, 0, 0, 1),
+(67, 582, 1363.09, -1658.64, 13.4432, 269.003, 1, 7, '', 100000, 255, 3, 255, 0, 0, 1, 0, 0, 85, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 10, 0, 0, 0, 0, 0, 0, 1),
+(68, 488, 1352.84, -1647.07, 17.9939, 269.63, 1, 7, '', 100000, 255, 3, 255, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 1),
+(76, 482, 597.998, -1519.22, 15.1727, 268.923, 0, 0, '', 100000, 255, 51, 255, 0, 0, 1, 0, 0, 61, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 20, 0, 0, 0, 0, 0, 0, 1),
+(82, 492, 1704.45, -1507.31, 13.1704, 90.7189, 123, 123, '', 100000, 255, 10, 255, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1086, 0, 0, 0, -1, 5, 0, 0, 0, 0, 0, 0, 1),
+(77, 519, 1923.31, -2246.71, 14.4656, 186.56, 0, 0, '', 100000, 255, 27, 255, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 1, 0, 0, 0, 0, 0, 0, 1),
+(78, 519, 1892.48, -2270.26, 14.4687, 216.133, 0, 0, '', 100000, 255, 27, 255, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 3, 0, 0, 0, 0, 0, 0, 1),
+(79, 405, 2258.28, -1261.01, 24.0883, 269.26, 1, 0, '', 100000, 255, 0, 255, 0, 0, 1, 0, 0, 99, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 5, 0, 0, 0, 0, 0, 0, 2),
+(80, 405, 1667.52, -1893.62, 13.6601, 33.6419, 1, 0, '', 100000, 255, 0, 255, 0, 0, 1, 0, 0, 84, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 17, 0, 0, 0, 0, 0, 0, 3),
+(81, 497, 1548.33, -1707.86, 28.572, 91.0391, 1, 7, '', 100000, 255, 1, 255, 0, 0, 1, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 4, 0, 0, 0, 0, 0, 0, 1),
+(85, 492, 2121.76, -1782.35, 13.1701, 359.545, 86, 7, '', 100000, 255, 10, 255, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 12, 0, 0, 0, 0, 0, 0, 1),
+(86, 492, 2110.67, -1782.65, 13.1922, 0.059087, 86, 7, '', 100000, 255, 10, 255, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 11, 0, 0, 0, 0, 0, 0, 1),
+(87, 492, 1221.52, 133.483, 20.3073, 246.203, 127, 0, '', 100000, 255, 10, 255, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 1016, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1078, -1, 14, 0, 0, 0, 0, 0, 0, 1),
+(88, 492, 1300.61, -1871.29, 13.3303, 0.562379, 15, 84, '', 100000, 255, 10, 255, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 7, 0, 0, 0, 0, 0, 0, 1),
+(89, 492, 1293.15, -1871, 13.3287, 1.2e-05, 0, 0, '', 100000, 255, 10, 255, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1078, -1, 9, 0, 0, 0, 0, 0, 0, 1),
+(90, 475, 2456.14, -1298.46, 23.6539, 180.399, 9, 0, '', 37000, 255, 2, 0, 0, 5, 1, 0, 0, 83, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 5, 0, 0, 0, 0, 0, 0, 1),
+(91, 490, 1574.37, -1711.45, 6.01951, 0.739919, 1, 0, '', 100000, 255, 1, 255, 0, 0, 1, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 1, 0, 0, 0, 0, 0, 0, 1),
+(92, 490, 1570.39, -1711.25, 6.01918, 359.381, 0, 0, '', 100000, 255, 1, 255, 0, 0, 1, 0, 0, 99, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 1, 0, 0, 0, 0, 0, 0, 1),
+(93, 407, 1111.1, -1330.55, 13.3555, 0.328886, 0, 0, '', 100000, 255, 2, 255, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 1),
+(94, 506, 1538.82, -1644.32, 5.59509, 181.231, 1, 0, '', 100000, 255, 1, 255, 0, 0, 1, 0, 0, 96, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 1),
+(95, 506, 1526.42, -1644.09, 5.59496, 179.246, 1, 0, '', 100000, 255, 2, 255, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 1);
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `config`
+--
+
+CREATE TABLE IF NOT EXISTS `config` (
+  `id` int(11) NOT NULL,
+  `ServerIP` varchar(100) NOT NULL,
+  `Header` varchar(100) NOT NULL,
+  `Footer` varchar(100) NOT NULL,
+  `CPVer` varchar(100) NOT NULL,
+  `SVer` varchar(100) NOT NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Extraindo dados da tabela `config`
+--
+
+INSERT INTO `config` (`id`, `ServerIP`, `Header`, `Footer`, `CPVer`, `SVer`) VALUES
+(1, '0', '0', '0', '0', '0');
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `gangs`
+--
+
+CREATE TABLE IF NOT EXISTS `gangs` (
+  `id` int(11) NOT NULL auto_increment,
+  `Gangname` varchar(50) NOT NULL,
+  `GangMOTD` tinytext NOT NULL,
+  `GangLeader` varchar(50) NOT NULL,
+  `GangColor` int(11) NOT NULL default '0',
+  `GangKills` int(11) NOT NULL default '0',
+  `GangDeaths` int(11) NOT NULL default '0',
+  `Gangmembers` int(11) NOT NULL default '0',
+  `GangHealth` varchar(16) NOT NULL default '100',
+  `GangArmor` varchar(16) NOT NULL default '0',
+  `GangFF` int(11) NOT NULL default '0',
+  `GangStealth` int(11) NOT NULL default '80',
+  `GangWeaponSet` int(11) NOT NULL default '0',
+  `GangAmmo` int(11) NOT NULL default '250',
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=9 ;
+
+--
+-- Extraindo dados da tabela `gangs`
+--
+
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `news`
+--
+
+CREATE TABLE IF NOT EXISTS `news` (
+  `id` int(11) NOT NULL auto_increment,
+  `Topic` varchar(50) NOT NULL,
+  `Newspost` text NOT NULL,
+  `Date` int(11) NOT NULL,
+  `TopicStarter` varchar(40) NOT NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
+
+--
+-- Extraindo dados da tabela `news`
+--
+
+INSERT INTO `news` (`id`, `Topic`, `Newspost`, `Date`, `TopicStarter`) VALUES
+(1, 'Welcome', '<center><b>Welcome to eGaming''s control panel. Thank you for registering here, and hoping that you''ll play soon.</b>\r\n<br>\r\n<br>\r\n<iframe src="http://module.game-monitor.com/193.238.85.24:6969/website.php?s=compatible.css&f=18" frameborder="0" scrolling="no" height="205" width="200"></iframe></center>', 1216826516, 'Harry Kirkby');
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `pages`
+--
+
+CREATE TABLE IF NOT EXISTS `pages` (
+  `id` int(11) NOT NULL auto_increment,
+  `pagename` varchar(40) NOT NULL,
+  `link` varchar(50) NOT NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 ROW_FORMAT=DYNAMIC AUTO_INCREMENT=3 ;
+
+--
+-- Extraindo dados da tabela `pages`
+--
+
+INSERT INTO `pages` (`id`, `pagename`, `link`) VALUES
+(1, 'home', 'pages/home.php'),
+(2, 'user', 'pages/user.php');
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `players`
+--
+
+CREATE TABLE IF NOT EXISTS `players` (
+  `id` int(11) NOT NULL auto_increment,
+  `Name` varchar(50) character set latin1 collate latin1_general_ci NOT NULL,
+  `Password` varchar(50) character set latin1 collate latin1_bin NOT NULL,
+  `Crashed` int(11) NOT NULL default '0',
+  `CrashX` float(10,5) NOT NULL default '0.00000',
+  `CrashY` float(10,5) NOT NULL default '0.00000',
+  `CrashZ` float(10,5) NOT NULL default '0.00000',
+  `PosiX` float(10,5) NOT NULL default '0.00000',
+  `PosiY` int(11) NOT NULL default '0',
+  `PosiZ` int(11) NOT NULL default '0',
+  `PlayerLevel` smallint(5) NOT NULL default '1',
+  `BankCard` smallint(5) NOT NULL default '0',
+  `BankPin` smallint(5) NOT NULL default '0',
+  `AdminLevel` smallint(5) NOT NULL default '0',
+  `Mask` smallint(5) NOT NULL default '0',
+  `DonateRank` smallint(5) NOT NULL default '0',
+  `Drugs` int(11) NOT NULL default '0',
+  `UpgradePoints` smallint(5) NOT NULL default '0',
+  `Registered` smallint(5) NOT NULL default '0',
+  `Sex` smallint(5) NOT NULL default '1',
+  `Age` smallint(5) NOT NULL default '0',
+  `Hunger` smallint(5) NOT NULL default '100',
+  `Origin` smallint(5) NOT NULL default '255',
+  `Spawn` smallint(5) NOT NULL default '0',
+  `Muted` smallint(5) NOT NULL default '0',
+  `Respect` int(11) NOT NULL default '0',
+  `Money` bigint(20) NOT NULL default '500',
+  `Bank` int(11) NOT NULL default '100',
+  `Watch` smallint(5) NOT NULL default '0',
+  `PDA` smallint(5) NOT NULL default '0',
+  `Fuel` smallint(5) NOT NULL default '0',
+  `Rod` smallint(5) NOT NULL default '0',
+  `Job` smallint(5) NOT NULL default '0',
+  `Paycheck` int(11) NOT NULL default '0',
+  `HeadValue` int(11) NOT NULL default '0',
+  `Jailed` smallint(5) NOT NULL default '0',
+  `JailTime` int(11) NOT NULL default '0',
+  `Materials` int(11) NOT NULL default '0',
+  `Leader` smallint(5) NOT NULL default '0',
+  `GMember` smallint(5) NOT NULL default '255',
+  `Member` smallint(5) NOT NULL default '0',
+  `FMember` smallint(5) NOT NULL default '255',
+  `Rank` smallint(5) NOT NULL default '0',
+  `GRank` smallint(5) NOT NULL default '0',
+  `PayDay` int(11) NOT NULL default '0',
+  `PayDayHad` int(11) NOT NULL default '0',
+  `Days` smallint(5) NOT NULL default '0',
+  `Hours` smallint(5) NOT NULL default '0',
+  `PayDayTime` smallint(5) NOT NULL default '0',
+  `MatsHolding` smallint(5) NOT NULL default '0',
+  `pSHealth` float(10,5) NOT NULL default '50.00000',
+  `pHealth` float(10,5) NOT NULL default '50.00000',
+  `Inte` int(11) NOT NULL default '0',
+  `Local` int(11) NOT NULL default '255',
+  `Team` smallint(5) NOT NULL default '0',
+  `Model` smallint(5) NOT NULL default '26',
+  `PhoneNr` int(11) NOT NULL default '0',
+  `House` smallint(5) NOT NULL default '255',
+  `Bizz` smallint(5) NOT NULL default '255',
+  `JobTime` smallint(5) NOT NULL default '0',
+  `Gun0` smallint(5) NOT NULL default '0',
+  `Gun1` smallint(5) NOT NULL default '0',
+  `Gun2` smallint(5) NOT NULL default '0',
+  `Ammo0` smallint(5) NOT NULL default '0',
+  `Ammo1` smallint(5) NOT NULL default '0',
+  `Ammo2` smallint(5) NOT NULL default '0',
+  `Banned` smallint(5) NOT NULL default '0',
+  `CarLic` smallint(5) NOT NULL default '0',
+  `FlyLic` smallint(5) NOT NULL default '0',
+  `BoatLic` smallint(5) NOT NULL default '0',
+  `FishLic` smallint(5) NOT NULL default '0',
+  `GunLic` smallint(5) NOT NULL default '0',
+  `Pen` smallint(5) NOT NULL default '0',
+  `NoteTaken1` smallint(5) NOT NULL default '0',
+  `Note1` varchar(32) character set latin1 collate latin1_general_ci NOT NULL default 'No-One',
+  `NoteTaken2` smallint(5) NOT NULL default '0',
+  `Note2` varchar(32) character set latin1 collate latin1_general_ci NOT NULL default 'No-One',
+  `NoteTaken3` smallint(5) NOT NULL default '0',
+  `Note3` varchar(32) character set latin1 collate latin1_general_ci NOT NULL default 'No-One',
+  `NoteTaken4` smallint(5) NOT NULL default '0',
+  `Note4` varchar(32) character set latin1 collate latin1_general_ci NOT NULL default 'No-One',
+  `NoteTaken5` smallint(5) NOT NULL default '0',
+  `Note5` varchar(32) character set latin1 collate latin1_general_ci NOT NULL default 'No-One',
+  `Tutorial` smallint(5) NOT NULL default '0',
+  `RadioFrequency` int(11) NOT NULL default '0',
+  `Skate` smallint(5) NOT NULL default '0',
+  `Carkey1` int(11) NOT NULL default '999',
+  `Carkey2` int(11) NOT NULL default '999',
+  `Carkey3` int(11) NOT NULL default '999',
+  `Wine` smallint(5) NOT NULL default '0',
+  `Rag` smallint(5) NOT NULL default '0',
+  `Lighter` smallint(5) NOT NULL default '0',
+  `Cigarette` smallint(5) NOT NULL default '0',
+  `CarLicS` smallint(5) NOT NULL default '0',
+  `FlyLicS` smallint(5) NOT NULL default '0',
+  `BoatLicS` smallint(5) NOT NULL default '0',
+  `FishLicS` smallint(5) NOT NULL default '0',
+  `GunLicS` smallint(5) NOT NULL default '0',
+  `Carlock` int(11) NOT NULL default '0',
+  `DrugName` int(11) NOT NULL default '0',
+  `GunI` int(11) NOT NULL default '0',
+  `AmmoI` int(11) NOT NULL default '0',
+  `MatsI` int(11) NOT NULL default '0',
+  `CigaretteI` int(11) NOT NULL default '0',
+  `PGun1` int(11) NOT NULL default '0',
+  `PGun2` int(11) NOT NULL default '0',
+  `PGun3` int(11) NOT NULL default '0',
+  `PGun4` int(11) NOT NULL default '0',
+  `PAmmo1` int(11) NOT NULL default '0',
+  `PAmmo2` int(11) NOT NULL default '0',
+  `PAmmo3` int(11) NOT NULL default '0',
+  `PAmmo4` int(11) NOT NULL default '0',
+  `Radio` smallint(3) NOT NULL default '0',
+  `Language` smallint(2) NOT NULL default '0',
+  `BankSteal` int(11) NOT NULL default '0',
+  `PhoneNumber1` int(10) NOT NULL default '0',
+  `PhoneContact1` varchar(32) character set latin1 collate latin1_general_ci NOT NULL default 'No-One',
+  `PhoneNumber2` int(10) NOT NULL default '0',
+  `PhoneContact2` varchar(32) character set latin1 collate latin1_general_ci NOT NULL default 'No-One',
+  `PhoneNumber3` int(10) NOT NULL default '0',
+  `PhoneContact3` varchar(32) character set latin1 collate latin1_general_ci NOT NULL default 'No-One',
+  `PhoneNumber4` int(10) NOT NULL default '0',
+  `PhoneContact4` varchar(32) character set latin1 collate latin1_general_ci NOT NULL default 'No-One',
+  `PhoneNumber5` int(10) NOT NULL default '0',
+  `PhoneContact5` varchar(32) character set latin1 collate latin1_general_ci NOT NULL default 'No-One',
+  `WantedLevel` int(2) NOT NULL default '0',
+  `WantedReason` char(32) character set latin1 collate latin1_general_ci NOT NULL default 'No-One',
+  `QuitOnCar` int(5) NOT NULL default '0',
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=5 ;
+
+--
+-- Extraindo dados da tabela `players`
+--
+
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `property`
+--
+
+CREATE TABLE IF NOT EXISTS `property` (
+  `id` smallint(3) NOT NULL auto_increment,
+  `ent_x` float(10,5) NOT NULL default '0.00000',
+  `ent_y` float(10,5) NOT NULL default '0.00000',
+  `ent_z` float(10,5) NOT NULL default '0.00000',
+  `ext_x` float(10,5) NOT NULL default '0.00000',
+  `ext_y` float(10,5) NOT NULL default '0.00000',
+  `ext_z` float(10,5) NOT NULL default '0.00000',
+  `owner` varchar(32) NOT NULL default 'No-one',
+  `description` varchar(32) NOT NULL default 'None',
+  `price` int(11) NOT NULL default '0',
+  `hel` smallint(3) NOT NULL default '0',
+  `arm` smallint(3) NOT NULL default '0',
+  `interior` smallint(3) NOT NULL default '0',
+  `locked` tinyint(1) NOT NULL default '0',
+  `owned` tinyint(1) NOT NULL default '0',
+  `rooms` smallint(2) NOT NULL default '0',
+  `rent` smallint(5) NOT NULL default '0',
+  `rentable` tinyint(1) NOT NULL default '0',
+  `takings` int(11) NOT NULL default '0',
+  `hdate` int(11) NOT NULL default '0',
+  `medic` smallint(3) NOT NULL default '0',
+  `armor` smallint(3) NOT NULL default '0',
+  `blockit` smallint(3) NOT NULL default '0',
+  `virtualworld` smallint(3) NOT NULL default '0',
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=151 ;
+
+--
+-- Extraindo dados da tabela `property`
+--
+
+INSERT INTO `property` (`id`, `ent_x`, `ent_y`, `ent_z`, `ext_x`, `ext_y`, `ext_z`, `owner`, `description`, `price`, `hel`, `arm`, `interior`, `locked`, `owned`, `rooms`, `rent`, `rentable`, `takings`, `hdate`, `medic`, `armor`, `blockit`, `virtualworld`) VALUES
+(5, 2522.75366, -2018.99902, 14.07442, 446.10001, 507.89999, 1001.40002, '', '2 Room House', 35000, 0, 0, 12, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 74),
+(6, 2483.35767, -1995.51123, 13.83432, 446.10001, 507.89999, 1001.40002, '', '2 Room House', 35000, 0, 0, 12, 1, 0, 0, 0, 0, 0, 27, 0, 0, 0, 95),
+(7, 1527.27539, -772.91479, 80.57812, 140.39999, 1370.30005, 1083.80005, '', '6 Room House', 90000, 0, 0, 5, 1, 0, 0, 0, 0, 0, 27, 0, 0, 0, 245),
+(8, 2470.36865, -1295.26233, 30.23322, 221.60001, 1143.59998, 1082.59998, '', '3 Room House', 40000, 1, 0, 4, 1, 0, 0, 150, 1, 0, 27, 2, 0, 0, 245),
+(11, 827.99274, -858.49316, 70.33081, 234.20000, 1064.90002, 1084.19995, '', '5 Room House', 70000, 0, 0, 6, 1, 0, 0, 1, 1, 2, 27, 0, 0, 0, 98),
+(12, 836.10529, -894.59888, 68.76890, -285.89999, 1470.80005, 1084.30005, '', '4 Room Luxury House', 120000, 0, 0, 15, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 191),
+(4, 904.44745, -1513.01501, 13.98883, 234.20000, 1064.90002, 1084.19995, '', '5 Room House', 70000, 1, 1, 6, 1, 0, 0, 15, 0, 0, 27, 0, 0, 0, 222),
+(1, 2239.40991, -1906.24292, 14.93750, 234.20000, 1064.90002, 1084.19995, 'The State', '5 Room House', 70000, 0, 0, 6, 1, 0, 0, 1, 1, 1, 27, 0, 0, 0, 5),
+(9, 1112.09705, -742.24603, 100.13293, -285.89999, 1470.80005, 1084.30005, 'The State', '4 Room Luxury House', 120000, 0, 0, 15, 1, 0, 0, 10000, 0, 0, 27, 0, 0, 0, 21),
+(10, 1034.64026, -812.72479, 101.85156, 234.20000, 1064.90002, 1084.19995, '', '5 Room House', 70000, 0, 0, 6, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 67),
+(13, 2524.25610, -1998.21838, 14.11308, 446.10001, 507.89999, 1001.40002, '', '2 Room House', 35000, 0, 1, 12, 1, 0, 0, 32767, 0, 1, 27, 0, 1, 0, 297),
+(14, 2514.03174, -1691.34106, 14.04604, 446.10001, 507.89999, 1001.40002, '', '2 Room House', 35000, 0, 0, 12, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 34),
+(15, 1804.13745, -2124.90039, 13.94237, 261.00000, 1286.00000, 1080.19995, '', '4 Room House', 50000, 0, 0, 4, 1, 0, 0, 0, 0, 1, 27, 0, 0, 0, 174),
+(16, 2513.41040, -1650.55835, 14.35567, 446.10001, 507.89999, 1001.40002, '', '2 Room House', 35000, 0, 0, 12, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 102),
+(17, 2486.47998, -1645.09851, 14.07718, 261.00000, 1286.00000, 1080.19995, '', '4 Room House', 50000, 0, 0, 4, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 23),
+(18, 2498.28760, -1642.74304, 13.78261, 221.60001, 1143.59998, 1082.59998, '', '3 Room House', 40000, 0, 0, 4, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 35),
+(19, 1326.66284, -1067.75696, 31.55469, 221.60001, 1143.59998, 1082.59998, '', '3 Room House', 40000, 0, 0, 4, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 285),
+(20, 1284.93872, -1066.95398, 31.67892, 446.10001, 507.89999, 1001.40002, '', '2 Room House', 35000, 0, 0, 12, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 266),
+(21, 1242.29907, -1076.48511, 31.55469, 234.20000, 1064.90002, 1084.19995, '', '5 Room House', 70000, 0, 0, 6, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 147),
+(22, 1540.46985, -851.43732, 64.33606, 234.20000, 1064.90002, 1084.19995, '', '5 Room House', 70000, 0, 0, 6, 1, 0, 0, 1, 1, 9, 27, 0, 4, 0, 126),
+(23, 1242.29419, -1099.23218, 27.97656, 261.00000, 1286.00000, 1080.19995, '', '4 Room House', 50000, 0, 0, 4, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 240),
+(24, 1142.08154, -1070.03931, 31.76562, 261.00000, 1286.00000, 1080.19995, '', '4 Room House', 50000, 0, 0, 4, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 106),
+(25, 1183.32239, -1075.92236, 31.67892, 234.20000, 1064.90002, 1084.19995, '', '5 Room House', 70000, 0, 0, 6, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 191),
+(26, 1182.76074, -1099.05359, 28.25781, 261.00000, 1286.00000, 1080.19995, '', '4 Room House', 50000, 0, 0, 4, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 287),
+(27, 1142.42944, -1092.93762, 28.18750, 234.20000, 1064.90002, 1084.19995, '', '5 Room House', 70000, 0, 0, 6, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 280),
+(28, 937.82568, -848.42743, 93.61700, 261.00000, 1286.00000, 1080.19995, '', '4 Room House', 50000, 0, 0, 4, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 55),
+(29, 989.57660, -828.75946, 95.46857, 234.20000, 1064.90002, 1084.19995, '', '5 Luxury Room House', 150000, 0, 0, 6, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 187),
+(30, 1332.59888, -633.25952, 109.13490, 261.00000, 1286.00000, 1080.19995, 'The State', '4 Room House', 50000, 0, 0, 4, 1, 0, 0, 0, 0, 0, 27, 0, 0, 0, 826),
+(31, 1094.93323, -647.46527, 113.64844, -285.89999, 1470.80005, 1084.30005, '', '4 Room Luxury House', 120000, 0, 0, 15, 1, 0, 0, 0, 0, 0, 27, 0, 0, 0, 241),
+(32, 653.59241, -1714.01917, 14.76479, 261.00000, 1286.00000, 1080.19995, '', '4 Room House', 50000, 0, 0, 4, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 34),
+(33, 2065.40161, -1703.54224, 14.14844, 1.20000, -3.40000, 999.40002, '', 'Trailer', 20000, 0, 0, 2, 1, 0, 0, 10, 1, 0, 27, 0, 0, 0, 269),
+(34, 1801.86438, -2099.26123, 14.02101, 221.60001, 1143.59998, 1082.59998, '', '3 Room House', 40000, 0, 0, 4, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 33),
+(35, 1762.45276, -2102.60303, 13.85695, 446.10001, 507.89999, 1001.40002, '', '2 Room House', 35000, 0, 0, 12, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 49),
+(36, 1782.08862, -2126.27979, 14.06789, 261.00000, 1286.00000, 1080.19995, '', '4 Room House', 50000, 0, 0, 4, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 68),
+(37, 1761.03491, -2124.76196, 14.05665, 223.04399, 1289.25989, 1082.19995, '', 'Bungalow', 25000, 0, 0, 1, 1, 0, 0, 0, 0, 0, 27, 0, 0, 0, 20),
+(38, 1673.79761, -2122.35059, 14.14601, 221.60001, 1143.59998, 1082.59998, '', '3 Room House', 40000, 0, 0, 4, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 98),
+(39, 2486.43237, -2021.29126, 13.99885, 446.10001, 507.89999, 1001.40002, '', '2 Room House', 35000, 0, 0, 12, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 64),
+(40, 1969.47363, -1655.30518, 15.96875, 223.04399, 1289.25989, 1082.19995, '', 'Bungalow', 25000, 0, 0, 1, 1, 0, 0, 10, 1, 30, 27, 0, 0, 0, 292),
+(41, 2316.55518, -62.21089, 26.48438, 223.04399, 1289.25989, 1082.19995, 'The State', 'Bungalow', 25000, 0, 0, 1, 1, 0, 0, 1, 1, 3, 27, 0, 0, 0, 445),
+(42, -1063.15259, 1598.60059, 35.98866, 261.00000, 1286.00000, 1080.19995, 'The State', '4 Room House', 50000, 0, 0, 4, 1, 0, 0, 1, 1, 4, 27, 0, 0, 0, 131),
+(43, 1266.27991, 234.12398, 25.04868, 223.04399, 1289.25989, 1082.19995, '', 'Bungalow', 25000, 0, 0, 1, 1, 0, 0, 1, 1, 8, 27, 0, 0, 0, 714),
+(44, 2316.55518, -62.21089, 26.48438, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(45, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(46, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(47, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(48, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(49, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(50, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(51, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(52, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(53, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(54, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(55, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(56, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(57, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(58, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(59, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(60, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(61, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(62, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(63, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(64, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(65, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(66, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(67, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(68, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(69, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(70, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(71, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(72, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(73, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(74, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(75, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(76, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(77, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(78, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(79, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(80, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(81, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(82, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(83, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(84, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(85, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(86, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(87, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(88, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(89, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(90, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(91, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(92, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(93, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(94, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(95, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(96, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(97, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(98, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(99, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(100, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(101, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(102, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(103, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(104, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(105, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(106, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(107, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(108, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(109, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(110, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(111, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(112, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(113, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(114, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(115, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(116, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(117, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(118, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(119, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(120, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(121, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(122, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(123, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(124, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(125, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(126, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(127, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(128, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(129, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(130, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(131, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(132, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(133, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(134, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(135, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(136, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(137, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(138, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(139, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(140, 893.53857, -1636.73755, 14.92969, 221.60001, 1143.59998, 1082.59998, '', '3 Room House', 40000, 0, 0, 4, 0, 0, 0, 10, 1, 40, 27, 0, 0, 0, 73),
+(141, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(142, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(143, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(144, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(145, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(146, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(147, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(148, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(149, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(150, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, 0.00000, '', '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 0, 0),
+(2, 189.63811, -1308.22302, 70.24933, 234.20000, 1064.90002, 1084.19995, '', '5 Luxury Room House', 150000, 0, 0, 6, 1, 0, 0, 10000, 0, 0, 0, 0, 0, 0, 136),
+(3, 2508.21802, -1998.37292, 13.90254, 221.60001, 1143.59998, 1082.59998, '', '3 Room House', 40000, 0, 0, 4, 1, 0, 0, 1, 0, 6, 0, 0, 0, 0, 194);
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `ucp`
+--
+
+CREATE TABLE IF NOT EXISTS `ucp` (
+  `id` int(11) NOT NULL auto_increment,
+  `ServerIP` text NOT NULL,
+  `ServerStatus` int(11) NOT NULL,
+  `ServerInfo` text NOT NULL,
+  `IRCServer` text NOT NULL,
+  `IRCChannel` text NOT NULL,
+  `VentIP` text NOT NULL,
+  `VentPort` text NOT NULL,
+  `UserGuide` text NOT NULL,
+  `Maintenance` int(11) NOT NULL default '0',
+  `GMStatus` int(11) NOT NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
+
+--
+-- Extraindo dados da tabela `ucp`
+--
+
+INSERT INTO `ucp` (`id`, `ServerIP`, `ServerStatus`, `ServerInfo`, `IRCServer`, `IRCChannel`, `VentIP`, `VentPort`, `UserGuide`, `Maintenance`, `GMStatus`) VALUES
+(1, '0', 0, '0', '0', '0', '0', '0', '0', 0, 0);
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `useravatars`
+--
+
+CREATE TABLE IF NOT EXISTS `useravatars` (
+  `id` int(11) NOT NULL auto_increment,
+  `Username` varchar(30) NOT NULL,
+  `picurl` tinytext NOT NULL,
+  `Description` tinytext NOT NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+--
+-- Extraindo dados da tabela `useravatars`
+--
+

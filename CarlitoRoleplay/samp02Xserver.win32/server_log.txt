@@ -1,0 +1,146 @@
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA:MP Dedicated Server
+----------------------
+v0.2X, (C)2005-2008 SA:MP Team
+
+[08:54:12] filterscripts = ""  (string)
+[08:54:12] 
+[08:54:12] Server Plugins
+[08:54:12] --------------
+[08:54:12]  Loaded 0 plugins.
+
+[08:54:12] 
+[08:54:12] Filter Scripts
+[08:54:12] ---------------
+[08:54:12]   Loaded 0 filter scripts.
+
+[08:54:12] file "JoinCounter.txt" located, variable JoinCounter loaded (22 visitors)
+[08:54:12] [DYNAMIC FACTIONS:] Faction Name: LSPD, Type: 1, ID: 0
+[08:54:12] [DYNAMIC FACTIONS:] Faction Name: Faction1, Type: 0, ID: 1
+[08:54:12] [DYNAMIC FACTIONS:] Faction Name: Faction2, Type: 0, ID: 2
+[08:54:12] [DYNAMIC FACTIONS:] Faction Name: Faction3, Type: 0, ID: 3
+[08:54:12] [DYNAMIC FACTIONS:] Faction Name: Faction4, Type: 0, ID: 4
+[08:54:12] [DYNAMIC FACTIONS:] Faction Name: Faction5, Type: 0, ID: 5
+[08:54:12] [DYNAMIC FACTIONS:] Faction Name: Faction6, Type: 0, ID: 6
+[08:54:12] [DYNAMIC FACTIONS:] Faction Name: Faction7, Type: 0, ID: 7
+[08:54:12] [DYNAMIC FACTIONS:] Faction Name: Faction8, Type: 0, ID: 8
+[08:54:12] [DYNAMIC FACTIONS:] Faction Name: Faction9, Type: 0, ID: 9
+[08:54:12] [Building System:] Building Name: ~w~Los Santos~n~~g~Driving School - Loaded. (0)
+[08:54:12] [Building System:] Building Name: ~w~Los Santos~n~~g~City Hall - Loaded. (1)
+[08:54:12] [Building System:] Building Name: ~w~Los Santos~n~~b~Police Department - Loaded. (2)
+[08:54:12] [Building System:] Building Name: ~w~Los Santos~n~~g~Bank - Loaded. (3)
+[08:54:12] [Building System:] Building Name: None - Loaded. (4)
+[08:54:12] [Building System:] Building Name: None - Loaded. (5)
+[08:54:12] [Building System:] Building Name: None - Loaded. (6)
+[08:54:12] [Building System:] Building Name: None - Loaded. (7)
+[08:54:12] [Building System:] Building Name: None - Loaded. (8)
+[08:54:12] [Building System:] Building Name: None - Loaded. (9)
+[08:54:12] [Building System:] Building Name: None - Loaded. (10)
+[08:54:12] [Building System:] Building Name: None - Loaded. (11)
+[08:54:12] [Building System:] Building Name: None - Loaded. (12)
+[08:54:12] [Building System:] Building Name: None - Loaded. (13)
+[08:54:12] [Building System:] Building Name: None - Loaded. (14)
+[08:54:12] [INFO:] Faction materials storage location loaded.
+[08:54:12] [INFO:] Faction drugs storage location loaded.
+[08:54:12] [INFO:] Driving test location loaded.
+[08:54:12] [INFO:] Flying test location loaded.
+[08:54:12] [INFO:] Bank location loaded.
+[08:54:12] [INFO:] Weapon License location loaded.
+[08:54:12] [INFO:] Police Arrest location loaded.
+[08:54:12] [INFO:] Police Duty location loaded.
+[08:54:12] [INFO:] Gun job loaded.
+[08:54:12] [INFO:] Drug job loaded.
+[08:54:12] [INFO:] Detective job loaded.
+[08:54:12] [INFO:] Lawyer job loaded.
+[08:54:12] [INFO:] Products seller job loaded.
+[08:54:12] _________________________________________________________________________
+[08:54:12] > Carlito's Roleplay - x-serverz.com by Scott Davey loaded.
+[08:54:12] > Server Name: Edit Line 78 (GM Name)
+[08:54:12] > Gamemode: Carlito's Roleplay - V0.3
+[08:54:12] > Version: V0.3
+[08:54:12] > Map: x-serverz.com
+[08:54:12] > Website: sa-mp.com
+[08:54:12] > Developer: Scott Davey
+[08:54:12] > Last Update: 23rd February 2009
+[08:54:12] > Current Script Lines: 16505
+[08:54:12] > Password: None
+[08:54:12] _________________________________________________________________________
+[08:56:01] Incomming connection: 127.0.0.1:49447
+[08:56:01] [join] Butter_Rolls has joined the server (0:127.0.0.1)
+[08:56:06] [chat] [Butter_Rolls]: f
+[08:56:09] [part] Butter_Rolls has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA:MP Dedicated Server
+----------------------
+v0.2X, (C)2005-2008 SA:MP Team
+
+[09:00:59] filterscripts = ""  (string)
+[09:00:59] 
+[09:00:59] Server Plugins
+[09:00:59] --------------
+[09:00:59]  Loaded 0 plugins.
+
+[09:00:59] 
+[09:00:59] Filter Scripts
+[09:00:59] ---------------
+[09:00:59]   Loaded 0 filter scripts.
+
+[09:00:59] file "JoinCounter.txt" located, variable JoinCounter loaded (23 visitors)
+[09:00:59] [DYNAMIC FACTIONS:] Faction Name: LSPD, Type: 1, ID: 0
+[09:00:59] [DYNAMIC FACTIONS:] Faction Name: Faction1, Type: 0, ID: 1
+[09:00:59] [DYNAMIC FACTIONS:] Faction Name: Faction2, Type: 0, ID: 2
+[09:00:59] [DYNAMIC FACTIONS:] Faction Name: Faction3, Type: 0, ID: 3
+[09:00:59] [DYNAMIC FACTIONS:] Faction Name: Faction4, Type: 0, ID: 4
+[09:00:59] [DYNAMIC FACTIONS:] Faction Name: Faction5, Type: 0, ID: 5
+[09:00:59] [DYNAMIC FACTIONS:] Faction Name: Faction6, Type: 0, ID: 6
+[09:00:59] [DYNAMIC FACTIONS:] Faction Name: Faction7, Type: 0, ID: 7
+[09:00:59] [DYNAMIC FACTIONS:] Faction Name: Faction8, Type: 0, ID: 8
+[09:00:59] [DYNAMIC FACTIONS:] Faction Name: Faction9, Type: 0, ID: 9
+[09:00:59] [Building System:] Building Name: ~w~Los Santos~n~~g~Driving School - Loaded. (0)
+[09:00:59] [Building System:] Building Name: ~w~Los Santos~n~~g~City Hall - Loaded. (1)
+[09:00:59] [Building System:] Building Name: ~w~Los Santos~n~~b~Police Department - Loaded. (2)
+[09:00:59] [Building System:] Building Name: ~w~Los Santos~n~~g~Bank - Loaded. (3)
+[09:00:59] [Building System:] Building Name: None - Loaded. (4)
+[09:00:59] [Building System:] Building Name: None - Loaded. (5)
+[09:00:59] [Building System:] Building Name: None - Loaded. (6)
+[09:00:59] [Building System:] Building Name: None - Loaded. (7)
+[09:00:59] [Building System:] Building Name: None - Loaded. (8)
+[09:00:59] [Building System:] Building Name: None - Loaded. (9)
+[09:00:59] [Building System:] Building Name: None - Loaded. (10)
+[09:00:59] [Building System:] Building Name: None - Loaded. (11)
+[09:00:59] [Building System:] Building Name: None - Loaded. (12)
+[09:00:59] [Building System:] Building Name: None - Loaded. (13)
+[09:00:59] [Building System:] Building Name: None - Loaded. (14)
+[09:00:59] [INFO:] Faction materials storage location loaded.
+[09:00:59] [INFO:] Faction drugs storage location loaded.
+[09:00:59] [INFO:] Driving test location loaded.
+[09:00:59] [INFO:] Flying test location loaded.
+[09:00:59] [INFO:] Bank location loaded.
+[09:00:59] [INFO:] Weapon License location loaded.
+[09:00:59] [INFO:] Police Arrest location loaded.
+[09:00:59] [INFO:] Police Duty location loaded.
+[09:00:59] [INFO:] Gun job loaded.
+[09:00:59] [INFO:] Drug job loaded.
+[09:00:59] [INFO:] Detective job loaded.
+[09:00:59] [INFO:] Lawyer job loaded.
+[09:00:59] [INFO:] Products seller job loaded.
+[09:00:59] _________________________________________________________________________
+[09:00:59] > Carlito's Roleplay - x-serverz.com by Scott Davey loaded.
+[09:00:59] > Server Name: Edit Line 78 (GM Name)
+[09:00:59] > Gamemode: Carlito's Roleplay - V0.3
+[09:00:59] > Version: V0.3
+[09:00:59] > Map: x-serverz.com
+[09:00:59] > Website: sa-mp.com
+[09:00:59] > Developer: Scott Davey
+[09:00:59] > Last Update: 23rd February 2009
+[09:00:59] > Current Script Lines: 16505
+[09:00:59] > Password: None
+[09:00:59] _________________________________________________________________________

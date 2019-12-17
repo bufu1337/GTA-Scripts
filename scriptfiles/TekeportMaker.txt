@@ -1,0 +1,132 @@
+      Fishmarkt_AngelPine
+       SetPlayerPos(playerid,-2057.5737,-2464.7482,31.1796);
+      SetPlayerFacingAngle(playerid,140.0758);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Ammu_AngelPine
+       SetPlayerPos(playerid,-2093.4970,-2464.6738,30.6250);
+      SetPlayerFacingAngle(playerid,319.3418);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Cimema_AngelPine
+       SetPlayerPos(playerid,-2130.6535,-2435.0817,30.6250);
+      SetPlayerFacingAngle(playerid,320.9753);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Liquor_AngelPine_1
+       SetPlayerPos(playerid,-2103.7438,-2432.1931,30.6250);
+      SetPlayerFacingAngle(playerid,143.7507);
+      SetPlayerInterior(playerid,0);
+
+ 
+      HomeFurnishings_AngelPine
+       SetPlayerPos(playerid,-2079.5717,-2448.1525,30.6250);
+      SetPlayerFacingAngle(playerid,138.4801);
+      SetPlayerInterior(playerid,0);
+
+ 
+      CluckingBell_AngelPine
+       SetPlayerPos(playerid,-2155.0559,-2460.3322,30.8515);
+      SetPlayerFacingAngle(playerid,230.0200);
+      SetPlayerInterior(playerid,0);
+
+ 
+      PaydayLoan_AngelPine
+       SetPlayerPos(playerid,-2165.4868,-2416.8654,30.8203);
+      SetPlayerFacingAngle(playerid,224.7544);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Police_AngelPine
+       SetPlayerPos(playerid,-2161.4965,-2385.0461,30.8117);
+      SetPlayerFacingAngle(playerid,142.8750);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Tools_AngelPine
+       SetPlayerPos(playerid,-2178.0705,-2400.0993,30.6250);
+      SetPlayerFacingAngle(playerid,358.3843);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Garage_AngelPine_1
+       SetPlayerPos(playerid,-2103.5527,-2405.3220,31.3964);
+      SetPlayerFacingAngle(playerid,232.3313);
+      SetPlayerInterior(playerid,0);
+
+ 
+      BillyRecords_AngelPine
+       SetPlayerPos(playerid,-2124.6484,-2369.1030,30.6250);
+      SetPlayerFacingAngle(playerid,230.5726);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Barbar_AngelPine
+       SetPlayerPos(playerid,-2120.1291,-2354.4931,30.6250);
+      SetPlayerFacingAngle(playerid,319.7625);
+      SetPlayerInterior(playerid,0);
+
+ 
+      TonyFurniture_AngelPine
+       SetPlayerPos(playerid,-2131.7231,-2344.9892,30.6250);
+      SetPlayerFacingAngle(playerid,322.0980);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Botanica_AngelPine
+       SetPlayerPos(playerid,-2138.6625,-2340.3237,30.6250);
+      SetPlayerFacingAngle(playerid,326.7707);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Cafe_AngelPine_1
+       SetPlayerPos(playerid,-2123.6582,-2351.4042,30.6250);
+      SetPlayerFacingAngle(playerid,319.1631);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Barber_AngelPine_2
+       SetPlayerPos(playerid,-2154.7695,-2333.1262,30.6250);
+      SetPlayerFacingAngle(playerid,53.6195);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Cafe_AngelPine_2
+       SetPlayerPos(playerid,-2157.8659,-2336.7883,30.6250);
+      SetPlayerFacingAngle(playerid,54.2004);
+      SetPlayerInterior(playerid,0);
+
+ 
+      TonyFurniture_AngelPine_2
+       SetPlayerPos(playerid,-2164.4135,-2344.7373,30.6250);
+      SetPlayerFacingAngle(playerid,46.0078);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Botanica_AngelPine_2
+       SetPlayerPos(playerid,-2169.0759,-2351.6799,30.6250);
+      SetPlayerFacingAngle(playerid,58.2842);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Hospital_AngelPine
+       SetPlayerPos(playerid,-2203.7993,-2309.7097,31.3750);
+      SetPlayerFacingAngle(playerid,230.8192);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Church_AngelPine
+       SetPlayerPos(playerid,-2209.7922,-2288.6301,30.6250);
+      SetPlayerFacingAngle(playerid,320.8872);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Restaurant_AngelPine
+       SetPlayerPos(playerid,-2103.8801,-2342.1508,30.6172);
+      SetPlayerFacingAngle(playerid,106.8022);
+      SetPlayerInterior(playerid,0);
+
+

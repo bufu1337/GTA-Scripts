@@ -1,0 +1,11 @@
+C:\Users\DENFER\documents\visual studio 2010\Projects\SAMP HOLOGRAM MAKER\SAMP HOLOGRAM MAKER\bin\Release\SAMP HOLOGRAM MAKER.exe
+C:\Users\DENFER\documents\visual studio 2010\Projects\SAMP HOLOGRAM MAKER\SAMP HOLOGRAM MAKER\bin\Release\SAMP HOLOGRAM MAKER.pdb
+C:\Users\DENFER\documents\visual studio 2010\Projects\SAMP HOLOGRAM MAKER\SAMP HOLOGRAM MAKER\bin\Release\SAMP HOLOGRAM MAKER.xml
+C:\Users\DENFER\documents\visual studio 2010\Projects\SAMP HOLOGRAM MAKER\SAMP HOLOGRAM MAKER\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\DENFER\documents\visual studio 2010\Projects\SAMP HOLOGRAM MAKER\SAMP HOLOGRAM MAKER\obj\x86\Release\SAMP_HOLOGRAM_MAKER.MainForm.resources
+C:\Users\DENFER\documents\visual studio 2010\Projects\SAMP HOLOGRAM MAKER\SAMP HOLOGRAM MAKER\obj\x86\Release\SAMP_HOLOGRAM_MAKER.Resources.resources
+C:\Users\DENFER\documents\visual studio 2010\Projects\SAMP HOLOGRAM MAKER\SAMP HOLOGRAM MAKER\obj\x86\Release\GenerateResource-ResGen.read.1.tlog
+C:\Users\DENFER\documents\visual studio 2010\Projects\SAMP HOLOGRAM MAKER\SAMP HOLOGRAM MAKER\obj\x86\Release\GenerateResource-ResGen.write.1.tlog
+C:\Users\DENFER\documents\visual studio 2010\Projects\SAMP HOLOGRAM MAKER\SAMP HOLOGRAM MAKER\obj\x86\Release\SAMP HOLOGRAM MAKER.exe
+C:\Users\DENFER\documents\visual studio 2010\Projects\SAMP HOLOGRAM MAKER\SAMP HOLOGRAM MAKER\obj\x86\Release\SAMP HOLOGRAM MAKER.xml
+C:\Users\DENFER\documents\visual studio 2010\Projects\SAMP HOLOGRAM MAKER\SAMP HOLOGRAM MAKER\obj\x86\Release\SAMP HOLOGRAM MAKER.pdb

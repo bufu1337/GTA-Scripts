@@ -1,0 +1,479 @@
+/*
+-------------------------------------------------------------
+|-----------GTA-IV--Cell--Phone--Script--By--Wazza----------|
+|-----------Do--Not--Claim--This--As--Your--Own-------------|
+-------------------------------------------------------------*/
+#include <a_samp>
+
+/*
+native PlayerButtonMode(playerid, mode);
+native SetPhoneScreenText(playerid, option, string[], null);
+native ShowPhoneForPlayer(playerid);
+native HidePhoneForPlayer(playerid);
+native PhoneRestoreDefaults(playerid);
+native AddPhoneMenu(menuid, title[]);*/
+
+
+//CALLBACKS
+forward OnPlayerSelectedPhoneMenuRow(playerid, rowid);
+forward OnPlayerSelectedPhoneKey(playerid, key);
+forward OnPhoneShown(playerid);
+forward OnPhoneHidden(playerid);
+
+new Text:PhoneBack,
+	Text:PhoneMenuOption[MAX_PLAYERS],
+	Text:PhoneButtons[MAX_PLAYERS],
+	PhoneInOut[MAX_PLAYERS],
+	CurrentKey[MAX_PLAYERS],
+	GetCurrentKeysTimer[MAX_PLAYERS],
+	PhoneButtonMode[MAX_PLAYERS],//0 = Not in Phone, 1 = Menu Scrolling, 2 = Numbers
+	PhoneMenuCallItemPosition[MAX_PLAYERS],//Where the player is in menu
+	PhoneMenuAmount,
+	PhoneMenu1[100],
+	PhoneMenu2[100],
+	PhoneMenu3[100],
+	PhoneMenu4[100],
+	PhoneMenu5[100],
+	PhoneMenu6[100],
+	PhoneMenu7[100],
+	PhoneMenu8[100],
+	PhoneMenu9[100],
+	PhoneMenu10[100],
+	PhoneMenuString[500];
+
+public OnGameModeInit()
+{
+
+	PhoneBack = TextDrawCreate(510.000000, 341.000000, "-");
+	TextDrawBackgroundColor(PhoneBack, 255);
+	TextDrawFont(PhoneBack, 2);
+	TextDrawLetterSize(PhoneBack, 0.040000, 11.900008);
+	TextDrawColor(PhoneBack, -1);
+	TextDrawSetOutline(PhoneBack, 0);
+	TextDrawSetProportional(PhoneBack, 1);
+	TextDrawSetShadow(PhoneBack, 1);
+	TextDrawUseBox(PhoneBack, 1);
+	TextDrawBoxColor(PhoneBack, 255);
+	TextDrawTextSize(PhoneBack, 571.000000, 50.000000);
+    for(new playerid=0;playerid<MAX_PLAYERS;playerid++)
+    {
+
+
+		PhoneMenuOption[playerid] = TextDrawCreate(514.000000, 348.000000, "Option 1~n~Option 2~n~Option 3");
+		TextDrawBackgroundColor(PhoneMenuOption[playerid], 255);
+		TextDrawFont(PhoneMenuOption[playerid], 2);
+		TextDrawLetterSize(PhoneMenuOption[playerid], 0.270000, 1.000000);
+		TextDrawColor(PhoneMenuOption[playerid], 65535);
+		TextDrawSetOutline(PhoneMenuOption[playerid], 0);
+		TextDrawSetProportional(PhoneMenuOption[playerid], 1);
+		TextDrawSetShadow(PhoneMenuOption[playerid], 0);
+		TextDrawUseBox(PhoneMenuOption[playerid], 1);
+		TextDrawBoxColor(PhoneMenuOption[playerid], -1);
+		TextDrawTextSize(PhoneMenuOption[playerid], 565.000000, 0.000000);
+
+
+		PhoneButtons[playerid] = TextDrawCreate(514.000000, 379.000000, "~r~C       ~g~A~n~~n~~b~1   2   3~n~4  5   6~n~7  8   9~n~    0");
+		TextDrawBackgroundColor(PhoneButtons[playerid], 255);
+		TextDrawFont(PhoneButtons[playerid], 2);
+		TextDrawLetterSize(PhoneButtons[playerid], 0.400000, 1.100000);
+		TextDrawColor(PhoneButtons[playerid], -1);
+		TextDrawSetOutline(PhoneButtons[playerid], 0);
+		TextDrawSetProportional(PhoneButtons[playerid], 1);
+		TextDrawSetShadow(PhoneButtons[playerid], 1);
+
+	}
+	return 1;
+}
+
+
+public OnPlayerKeyStateChange(playerid, newkeys, oldkeys)
+{
+	if(PhoneInOut[playerid] == 1) //If Phone is out
+    {
+        if(newkeys == KEY_WALK)//To hide phone, ALT
+        {
+        	HidePhoneForPlayer(playerid);
+		}
+		if(newkeys == KEY_SECONDARY_ATTACK)//ENTER
+		{
+		    if(PhoneButtonMode[playerid] == 1)// If player is navigating menu
+		    {
+          		OnPlayerSelectedPhoneMenuRow(playerid, PhoneMenuCallItemPosition[playerid]);
+				return 1;
+			}
+			else
+			if(PhoneButtonMode[playerid] == 2)//If is navigating keys
+		    {
+				new key;
+				if(CurrentKey[playerid] == 10){key = 0;}else key = CurrentKey[playerid];
+				OnPlayerSelectedPhoneKey(playerid, key);
+			}
+		}
+        return 1;
+	}
+	return 1;
+}
+
+stock PlayerButtonMode(playerid, mode)
+{
+	if(mode == 1)
+	{
+	    PhoneButtonMode[playerid] = 1;
+	    PhoneMenuCallItemPosition[playerid] = 1;
+	    CurrentKey[playerid] = 0;
+	}
+	if(mode == 2)
+	{
+	    PhoneButtonMode[playerid] = 2;
+		CurrentKey[playerid] = 2;
+	}
+}
+
+stock SetPhoneScreenText(playerid, option1[], option2[], option3[])
+{
+	format(PhoneMenuString,sizeof(PhoneMenuString),"~b~%s~n~%s~n~%s",option1, option2,option3);
+   	TextDrawSetString(PhoneMenuOption[playerid],PhoneMenuString);
+}
+
+
+forward GetCurrentKeys(playerid);
+public GetCurrentKeys(playerid)//Gets the keys
+{
+	new keys, updown, leftright;
+	GetPlayerKeys(playerid, keys, updown, leftright);
+	if(PhoneButtonMode[playerid] == 1)//for menu navigating
+	{
+	    if(updown < 0)//UP
+	    {
+			PhoneMenuScroll(playerid, 1);//0 for down 1 for up, this is when scrolling the menu
+		}
+	    if(updown > 0)//DOWN
+	    {
+			PhoneMenuScroll(playerid, 0);//0 for down 1 for up
+		}
+	}
+	else if(PhoneButtonMode[playerid] == 2)//For key navigating
+	{
+	    //SendClientMessage(playerid, 0x00A3F6AA, "Picking up key movement and variable.");
+		if(updown < 0)//UP
+		{
+		    if(CurrentKey[playerid] == 4)
+		    {
+		        CurrentKeyPass(playerid, 1);//This function sends the ey to be highlighted on phone
+			}
+			else
+			if(CurrentKey[playerid] == 5)
+		    {
+		        CurrentKeyPass(playerid, 2);
+			}
+			else
+			if(CurrentKey[playerid] == 6)
+		    {
+		        CurrentKeyPass(playerid, 3);
+			}
+			else
+			if(CurrentKey[playerid] == 7)
+		    {
+		        CurrentKeyPass(playerid, 4);
+			}
+			else
+			if(CurrentKey[playerid] == 8)
+		    {
+		        CurrentKeyPass(playerid, 5);
+			}
+			else
+			if(CurrentKey[playerid] == 9)
+		    {
+		        CurrentKeyPass(playerid, 6);
+			}
+			else
+			if(CurrentKey[playerid] == 10)
+		    {
+		        CurrentKeyPass(playerid, 8);
+			}
+		}
+		if(updown > 0)
+		{
+		    if(CurrentKey[playerid] == 1)
+		    {
+		        CurrentKeyPass(playerid, 4);
+			}
+			else
+			if(CurrentKey[playerid] == 2)
+		    {
+		        CurrentKeyPass(playerid, 5);
+			}
+			else
+			if(CurrentKey[playerid] == 3)
+		    {
+		        CurrentKeyPass(playerid, 6);
+			}
+			else
+			if(CurrentKey[playerid] == 4)
+		    {
+		        CurrentKeyPass(playerid, 7);
+			}
+			else
+			if(CurrentKey[playerid] == 5)
+		    {
+		        CurrentKeyPass(playerid, 8);
+			}
+			else
+			if(CurrentKey[playerid] == 6)
+		    {
+		        CurrentKeyPass(playerid, 9);
+			}
+			else
+			if(CurrentKey[playerid] == 8)
+		    {
+		        CurrentKeyPass(playerid, 10);
+			}
+
+		}
+		if(leftright < 0)
+		{
+		    if(CurrentKey[playerid] == 1)
+		    {
+		        CurrentKeyPass(playerid, 10);
+			}
+			else
+			CurrentKeyPass(playerid, CurrentKey[playerid] - 1);
+
+		}
+		if(leftright > 0)
+		{
+		    if(CurrentKey[playerid] == 10)
+		    {
+		        CurrentKeyPass(playerid, 1);
+			}
+			else
+			CurrentKeyPass(playerid, CurrentKey[playerid] + 1);
+		}
+	}
+	return 1;
+}
+
+stock CurrentKeyPass(playerid, key)
+{
+	if(key == 1)
+	{
+		TextDrawSetString(PhoneButtons[playerid],"~r~C       ~g~A~n~~n~~b~1~w~   2   3~n~4  5   6~n~7  8   9~n~    0");
+	}
+	else if(key == 2)
+	{
+	    TextDrawSetString(PhoneButtons[playerid],"~r~C       ~g~A~n~~n~~w~1   ~b~2~w~   3~n~4  5   6~n~7  8   9~n~    0");
+	}
+	else if(key == 3)
+	{
+	    TextDrawSetString(PhoneButtons[playerid],"~r~C       ~g~A~n~~n~~w~1   2   ~b~3~w~~n~4  5   6~n~7  8   9~n~    0");
+	}
+	else if(key == 4)
+	{
+	    TextDrawSetString(PhoneButtons[playerid],"~r~C       ~g~A~n~~n~~w~1   2   3~n~~b~4~w~  5   6~n~7  8   9~n~    0");
+	}
+	else if(key == 5)
+	{
+	    TextDrawSetString(PhoneButtons[playerid],"~r~C       ~g~A~n~~n~~w~1   2   3~n~4  ~b~5~w~   6~n~7  8   9~n~    0");
+	}
+	else if(key == 6)
+	{
+	    TextDrawSetString(PhoneButtons[playerid],"~r~C       ~g~A~n~~n~~w~1   2   3~n~4  5   ~b~6~w~~n~7  8   9~n~    0");
+	}
+	else if(key == 7)
+	{
+	    TextDrawSetString(PhoneButtons[playerid],"~r~C       ~g~A~n~~n~~w~1   2   3~n~4  5   6~n~~b~7~w~  8   9~n~    0");
+	}
+	else if(key == 8)
+	{
+	    TextDrawSetString(PhoneButtons[playerid],"~r~C       ~g~A~n~~n~~w~1   2   3~n~4  5   6~n~7  ~b~8~w~   9~n~    0");
+	}
+	else if(key == 9)
+	{
+	    TextDrawSetString(PhoneButtons[playerid],"~r~C       ~g~A~n~~n~~w~1   2   3~n~4  5   6~n~7  8   ~b~9~w~~n~    0");
+	}
+	else if(key == 10)
+	{
+	    TextDrawSetString(PhoneButtons[playerid],"~r~C       ~g~A~n~~n~~w~1   2   3~n~4  5   6~n~7  8   9~n~    ~b~0");
+	}
+	CurrentKey[playerid] = key;//the new key
+}
+
+
+
+stock ShowPhoneForPlayer(playerid)//Shows phone
+{
+	CurrentKeyPass(playerid, 2);
+	TextDrawShowForPlayer(playerid, PhoneBack);
+	TextDrawShowForPlayer(playerid, PhoneMenuOption[playerid]);
+	TextDrawShowForPlayer(playerid, PhoneButtons[playerid]);
+	TogglePlayerControllable(playerid, 1);
+	format(PhoneMenuString,sizeof(PhoneMenuString),"~b~%s~g~~n~%s~n~%s",PhoneMenu1, PhoneMenu2,PhoneMenu3);
+	TextDrawSetString(PhoneMenuOption[playerid],PhoneMenuString);
+	PhoneInOut[playerid] = 1;
+	GetCurrentKeysTimer[playerid] = SetTimerEx("GetCurrentKeys",200,1,"d",playerid);
+	PhoneButtonMode[playerid] = 1;
+	SetPlayerSpecialAction(playerid,11);//Phone Out
+	TogglePlayerControllable(playerid, 0);
+	OnPhoneShown(playerid);
+	
+	return 1;
+}
+stock HidePhoneForPlayer(playerid)//Hides phone
+{
+	TextDrawHideForPlayer(playerid, PhoneBack);
+	TextDrawHideForPlayer(playerid, PhoneMenuOption[playerid]);
+	TextDrawHideForPlayer(playerid, PhoneButtons[playerid]);
+	TogglePlayerControllable(playerid, 0);
+	PhoneRestoreDefaults(playerid);
+	PhoneButtonMode[playerid] = 2;
+	PhoneInOut[playerid] = 0;
+	KillTimer(GetCurrentKeysTimer[playerid]);
+	CurrentKeyPass(playerid, 0);
+	SetPlayerSpecialAction(playerid,SPECIAL_ACTION_STOPUSECELLPHONE);
+	TogglePlayerControllable(playerid, 1);
+	OnPhoneHidden(playerid);
+
+	
+	return 1;
+}
+
+stock UpdatePhoneForPlayer(playerid)//Updates textdraws
+{
+	if(PhoneInOut[playerid] == 1)
+	{
+	    HidePhoneForPlayer(playerid);
+
+		ShowPhoneForPlayer(playerid);
+		return 1;
+	}
+	else
+	{
+		HidePhoneForPlayer(playerid);
+		return 1;
+	}
+}
+
+stock PhoneMenuScroll(playerid, updown) // 0 for down, 1 for up
+{//Function is for scrolling menu
+	if(updown == 0)
+	{
+	    PhoneMenuCallItemPosition[playerid] += 1;
+	    if(PhoneMenuCallItemPosition[playerid] > PhoneMenuAmount)
+	    {
+	        PhoneMenuCallItemPosition[playerid] = 1;
+		}
+	}
+	else if(updown == 1)
+	{
+	    PhoneMenuCallItemPosition[playerid] -= 1;
+	    if(PhoneMenuCallItemPosition[playerid] < 1)
+	    {
+	        PhoneMenuCallItemPosition[playerid] = PhoneMenuAmount;
+	    }
+	}
+	if(PhoneMenuCallItemPosition[playerid] == 1)
+	{
+	    format(PhoneMenuString,sizeof(PhoneMenuString),"~b~%s~g~~n~%s~n~%s",PhoneMenu1, PhoneMenu2,PhoneMenu3);
+	}
+	else if(PhoneMenuCallItemPosition[playerid] == 2)
+	{
+		format(PhoneMenuString,sizeof(PhoneMenuString),"~b~%s~g~~n~%s~n~%s",PhoneMenu2, PhoneMenu3,PhoneMenu4);
+	}
+	else if(PhoneMenuCallItemPosition[playerid] == 3)
+	{
+		format(PhoneMenuString,sizeof(PhoneMenuString),"~b~%s~g~~n~%s~n~%s",PhoneMenu3, PhoneMenu4,PhoneMenu5);
+	}
+ 	else if(PhoneMenuCallItemPosition[playerid] == 4)
+	{
+	    format(PhoneMenuString,sizeof(PhoneMenuString),"~b~%s~g~~n~%s~n~%s",PhoneMenu4, PhoneMenu5,PhoneMenu6);
+	}
+	else if(PhoneMenuCallItemPosition[playerid] == 5)
+	{
+		format(PhoneMenuString,sizeof(PhoneMenuString),"~b~%s~g~~n~%s~n~%s",PhoneMenu5, PhoneMenu6,PhoneMenu7);
+	}
+	else if(PhoneMenuCallItemPosition[playerid] == 6)
+	{
+	    format(PhoneMenuString,sizeof(PhoneMenuString),"~b~%s~g~~n~%s~n~%s",PhoneMenu6, PhoneMenu7,PhoneMenu8);
+	}
+	else if(PhoneMenuCallItemPosition[playerid] == 7)
+	{
+		format(PhoneMenuString,sizeof(PhoneMenuString),"~b~%s~g~~n~%s~n~%s",PhoneMenu7, PhoneMenu8,PhoneMenu9);
+	}
+	else if(PhoneMenuCallItemPosition[playerid] == 8)
+	{
+		format(PhoneMenuString,sizeof(PhoneMenuString),"~b~%s~g~~n~%s~n~%s",PhoneMenu8, PhoneMenu9,PhoneMenu10);
+	}
+	else if(PhoneMenuCallItemPosition[playerid] == 9)
+	{
+		format(PhoneMenuString,sizeof(PhoneMenuString),"~b~%s~g~~n~%s~n~%s",PhoneMenu9, PhoneMenu10,PhoneMenu1);
+	}
+	else if(PhoneMenuCallItemPosition[playerid] == 10)
+	{
+		format(PhoneMenuString,sizeof(PhoneMenuString),"~b~%s~g~~n~%s~n~%s",PhoneMenu10, PhoneMenu1,PhoneMenu2);
+	}
+	TextDrawSetString(PhoneMenuOption[playerid],PhoneMenuString);
+}
+
+stock PhoneRestoreDefaults(playerid)//Turn textdraws to normal
+{
+
+	CurrentKey[playerid] = 0;
+	PlayerButtonMode(playerid, 1);//1 = Menu Scrolling, 2 = Numbers
+	PhoneMenuCallItemPosition[playerid] = 1;
+}
+
+stock IsPhoneOut(playerid)
+{
+	if(PhoneInOut[playerid] == 1)
+	{
+	    return 1;
+	}
+ 	else return 0;
+}
+
+stock AddPhoneMenu(title[])
+{
+	PhoneMenuAmount ++;
+	if(PhoneMenuAmount == 1)
+	{
+		format(PhoneMenu1,sizeof(PhoneMenu1), "%s", title);
+	}
+	if(PhoneMenuAmount == 2)
+	{
+		format(PhoneMenu2,sizeof(PhoneMenu2), "%s", title);
+	}
+	if(PhoneMenuAmount == 3)
+	{
+		format(PhoneMenu3,sizeof(PhoneMenu3), "%s", title);
+	}
+	if(PhoneMenuAmount == 4)
+	{
+		format(PhoneMenu4,sizeof(PhoneMenu4), "%s", title);
+	}
+	if(PhoneMenuAmount == 5)
+	{
+		format(PhoneMenu5,sizeof(PhoneMenu5), "%s", title);
+	}
+	if(PhoneMenuAmount == 6)
+	{
+		format(PhoneMenu6,sizeof(PhoneMenu6), "%s", title);
+	}
+	if(PhoneMenuAmount == 7)
+	{
+		format(PhoneMenu7,sizeof(PhoneMenu7), "%s", title);
+	}
+	if(PhoneMenuAmount == 8)
+	{
+		format(PhoneMenu8,sizeof(PhoneMenu8), "%s", title);
+	}
+	if(PhoneMenuAmount == 9)
+	{
+		format(PhoneMenu9,sizeof(PhoneMenu9), "%s", title);
+	}
+	if(PhoneMenuAmount == 10)
+	{
+		format(PhoneMenu10,sizeof(PhoneMenu10), "%s", title);
+	}
+	
+	return PhoneMenuAmount;
+}

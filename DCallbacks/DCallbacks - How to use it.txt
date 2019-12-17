@@ -1,0 +1,32 @@
+/*
+ *            DCallbacks 1.0
+ *       (c) Copyright 2006 by DracoBlue
+ *
+ * @author    : DracoBlue (http://dracoblue.com)
+ * @date      : 26th July 2006
+ *
+ * This file is provided as is (no warranties).
+ *
+ * Feel free to use it, a little message in
+ * about box is honouring thing, isn't it?
+ *
+ */
+
+____________________________________________________________________
+
+  How to use it?
+____________________________________________________________________
+
+ o 0. Extract all files of this zip-archive into your samp-server
+      -folder.
+ o 1. Include #include <dcallbacks>
+ o 2. Add a SetTimer("TIMER_DCallbacks",1000,1); after OnGameModeInit.
+ o 3. Use the new Callbacks!
+      (If you have questions, ask me :) )
+
+
+
+Regards,
+  Jan (DracoBlue)
+
+

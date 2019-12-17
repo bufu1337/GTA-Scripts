@@ -1,0 +1,4 @@
+LOG_HOWTO="Correct usage: /login pwd"
+LOG_ALREADY="Already logged in!"
+LOG_SUCCESS="You have logged in successfully"
+LOG_NOTYET="You must login first :)"

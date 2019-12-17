@@ -1,0 +1,45 @@
+//RandomMessages FS by Loic[HUN]
+#include <a_samp>
+
+#define FILTERSCRIPT
+
+#if defined FILTERSCRIPT
+
+new RandomMSG[][] =
+{
+    "Random Message 1",
+    "Random Message 2",
+    "Random Message 3"
+};
+
+forward SendMSG();
+
+
+public OnFilterScriptInit()
+{
+	print("\n--------------------------------------");
+	print(" RandomMSG by Loic[HUN]");
+	print("--------------------------------------\n");
+	return 1;
+}
+
+public OnFilterScriptExit()
+{
+	return 1;
+}
+
+public OnGameModeInit()
+{
+
+	SetTimer("SendMSG",300000,1); // Auto message timer (default is 5 mins).
+	
+	return 1;
+}
+
+public SendMSG()
+{
+	SendClientMessageToAll(0x33CCFFAA, RandomMSG[random(sizeof(RandomMSG))]); // Replace the "color" with your defined color.(default: Light Blue)
+	return 1;
+}
+#endif
+

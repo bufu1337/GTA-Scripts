@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="MapAndreas">
+</Property><Property Name="Projektmappendatei" Value="C:\Downloads\Scripts\MapAndreas_v1_0_beta_src\MapAndreas.sln">
+</Property><Property Name="Date" Value="Mittwoch, 23. Juni 2010">
+</Property><Property Name="Time" Value="22:41">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="MapAndreas.sln" Description="Die Projektmappe wurde erfolgreich konvertiert.">
+</Event><Event ErrorLevel="3" Project="" Source="MapAndreas.sln" Description="Converted">
+</Event></UpgradeLog>

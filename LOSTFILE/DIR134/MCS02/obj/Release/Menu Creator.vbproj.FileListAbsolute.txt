@@ -1,0 +1,23 @@
+C:\Documents and Settings\Patrick\My Documents\Visual Studio 2008\Projects\Menu Creator\Menu Creator\bin\Release\Menu Creator.exe
+C:\Documents and Settings\Patrick\My Documents\Visual Studio 2008\Projects\Menu Creator\Menu Creator\bin\Release\Menu Creator.pdb
+C:\Documents and Settings\Patrick\My Documents\Visual Studio 2008\Projects\Menu Creator\Menu Creator\bin\Release\Menu Creator.xml
+C:\Documents and Settings\Patrick\My Documents\Visual Studio 2008\Projects\Menu Creator\Menu Creator\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Patrick\My Documents\Visual Studio 2008\Projects\Menu Creator\Menu Creator\obj\Release\Menu_Creator.about.resources
+C:\Documents and Settings\Patrick\My Documents\Visual Studio 2008\Projects\Menu Creator\Menu Creator\obj\Release\Menu_Creator.Form1.resources
+C:\Documents and Settings\Patrick\My Documents\Visual Studio 2008\Projects\Menu Creator\Menu Creator\obj\Release\Menu_Creator.Resources.resources
+C:\Documents and Settings\Patrick\My Documents\Visual Studio 2008\Projects\Menu Creator\Menu Creator\obj\Release\Menu Creator.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Patrick\My Documents\Visual Studio 2008\Projects\Menu Creator\Menu Creator\obj\Release\Menu Creator.exe
+C:\Documents and Settings\Patrick\My Documents\Visual Studio 2008\Projects\Menu Creator\Menu Creator\obj\Release\Menu Creator.xml
+C:\Documents and Settings\Patrick\My Documents\Visual Studio 2008\Projects\Menu Creator\Menu Creator\obj\Release\Menu Creator.pdb
+C:\Documents and Settings\Patrick\Desktop\VB\Menu Creator\Menu Creator\bin\Release\Menu Creator.exe
+C:\Documents and Settings\Patrick\Desktop\VB\Menu Creator\Menu Creator\bin\Release\Menu Creator.pdb
+C:\Documents and Settings\Patrick\Desktop\VB\Menu Creator\Menu Creator\bin\Release\Menu Creator.xml
+C:\Documents and Settings\Patrick\Desktop\VB\Menu Creator\Menu Creator\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Patrick\Desktop\VB\Menu Creator\Menu Creator\obj\Release\Menu_Creator.about.resources
+C:\Documents and Settings\Patrick\Desktop\VB\Menu Creator\Menu Creator\obj\Release\Menu_Creator.editbox.resources
+C:\Documents and Settings\Patrick\Desktop\VB\Menu Creator\Menu Creator\obj\Release\Menu_Creator.Resources.resources
+C:\Documents and Settings\Patrick\Desktop\VB\Menu Creator\Menu Creator\obj\Release\Menu Creator.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Patrick\Desktop\VB\Menu Creator\Menu Creator\obj\Release\Menu Creator.exe
+C:\Documents and Settings\Patrick\Desktop\VB\Menu Creator\Menu Creator\obj\Release\Menu Creator.xml
+C:\Documents and Settings\Patrick\Desktop\VB\Menu Creator\Menu Creator\obj\Release\Menu Creator.pdb
+C:\Documents and Settings\Patrick\Desktop\VB\Menu Creator\Menu Creator\obj\Release\Menu_Creator.main.resources

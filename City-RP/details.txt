@@ -1,0 +1,22 @@
+City RP features
+
+I'm going to write up some feature  I can remember,
+
+bank system ( must open bank account at bank)
+ATM machines ( must enter your bank code to enter )
+Control Panel ( can do anything pretty much change pass/bank code check vehicles, details, help, house, business, rent, etc.. /cpanel)
+Advanced Vehicle system ( insurance, can own 6 vehicles, saves damage/broken doors etc.., junk vehicles (auto broke but not damaged), can buy lock, mod, etc.. /cpanel or go to car garage at spawn.
+Advanced house system ( can add house's with ingame commands (stores in mysql table), setting rooms/price/name/tax, you can buy a house by hiting ALT or if bought rent it /cpanel for house's list.)
+Advanced business system( can add business with ingame commands (stores in mysql table), setting share slots/price/name/tax /cpanel for business list.)
+NPC for entering the city , buying drugs.
+
+has cop system, hospital system, has growning drugs system ( drugs grow from the floor 30 minutes real time to grow)
+has fireman job with actual fire, has bin man jobs with actual bins and a few other iv'e forgoten.
+
+It has many feature's but I don't got the time to write them up, please enjoy this script it's not 100% finished.
+
+if someone could write up a features list I will add it to the main post.
+
+Enjoy Shady91
+
+(P.S please no bitching about my coding or how I code thanks ;D )

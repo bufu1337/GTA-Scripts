@@ -1,0 +1,7 @@
+VehicleSpawn(vehicleid)
+VehicleDeath(vehicleid, killerid)
+VehicleMod(vehicleid, componentid)
+VehiclePaintjob(vehicleid, paintjobid)
+VehicleRespray(vehicleid, color1, color2)
+EnterVehicle(playerid, vehicleid, ispassenger)
+ExitVehicle(playerid, vehicleid)

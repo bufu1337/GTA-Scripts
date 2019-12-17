@@ -1,0 +1,65 @@
+//------------------------------------------------------------------------------
+//   DONT EDIT THESE CREDITS
+//   Warehouse Interior On Fire FS
+//   Designed for SA-MP v0.2.2
+//
+//   Created by Ellis Tripp
+//   Thanks To Seif for Converter
+//   And The MTA Crew For The Map Editor
+//------------------------------------------------------------------------------
+#include <a_samp>
+#include <core>
+#include <float>
+
+#pragma tabsize 0
+
+#define COLOR_GREY 0xAFAFAFAA
+#define COLOR_GREEN 0x33AA33AA
+#define COLOR_RED 0xAA3333AA
+#define COLOR_YELLOW 0xFFFF00AA
+#define COLOR_WHITE 0xFFFFFFAA
+#define PocketMoney 500000 // Amount player recieves on spawn.
+#define INACTIVE_PLAYER_ID 255
+#define GIVECASH_DELAY 5000 // Time in ms between /givecash commands.
+
+#define NUMVALUES 4
+
+forward MoneyGrubScoreUpdate();
+forward Givecashdelaytimer(playerid);
+forward SetPlayerRandomSpawn(playerid);
+forward SetupPlayerForClassSelection(playerid);
+forward GameModeExitFunc();
+forward SendPlayerFormattedText(playerid, const str[], define);
+forward public SendAllFormattedText(playerid, const str[], define);
+
+//------------------------------------------------------------------------------------------------------
+
+main()
+{
+		print("\n-------------------------------------------");
+		print("   Ellis_Tripp's Warehouse On Fire Interior");
+		print("\n-------------------------------------------");
+}
+
+//------------------------------------------------------------------------------------------------------
+
+public OnPlayerDeath(playerid, killerid, reason)
+{
+    new playercash;
+	if(killerid == INVALID_PLAYER_ID) {
+        SendDeathMessage(INVALID_PLAYER_ID,playerid,reason);
+        ResetPlayerMoney(playerid);
+	} else {
+	    	SendDeathMessage(killerid,playerid,reason);
+			SetPlayerScore(killerid,GetPlayerScore(killerid)+1);
+			playercash = GetPlayerMoney(playerid);
+			if (playercash > 0)  {
+				GivePlayerMoney(killerid, playercash);
+				ResetPlayerMoney(playerid);
+			}
+			else
+			{
+			}
+     	}
+ 	return 1;
+}

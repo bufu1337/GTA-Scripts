@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<!--
+pastebin.com Copyright 2006 Paul Dixon - email suggestions to lordelph at gmail.com
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>pastebin - collaborative debugging tool</title>
+<meta name="ROBOTS" content="NOARCHIVE"/>
+<link rel="stylesheet" type="text/css" media="screen" href="/pastebin.css?ver=6" />
+
+<style type="text/css">/* GeSHi (C) 2004 - 2007 Nigel McNie (http://qbnz.com/highlighter) */
+.text .de1, .text .de2 {font-family: 'Courier New', Courier, monospace; font-weight: normal;}
+.text  {font-family: monospace;}
+.text .imp {font-weight: bold; color: red;}
+.text li {background: #ffffff;}
+.text li.li2 {background: #f8f8f8;}
+</style><script type="text/javascript" src="/pastebin.js?ver=5"></script>
+</head>
+
+
+<body onload="initPastebin()">
+<div style="display:none;">
+<h1 style="display: none;">pastebin - collaborative debugging</h1>
+<p style="display: none;">pastebin is a collaborative debugging tool allowing you to share
+and modify code snippets while chatting on IRC, IM or a message board.</p>
+<p style="display: none;">This site is developed to XHTML and CSS2 W3C standards.  
+If you see this paragraph, your browser does not support those standards and you 
+need to upgrade.  Visit <a href="http://www.webstandards.org/upgrade/" target="_blank">WaSP</a>
+for a variety of options.</p>
+</div>
+
+<div id="titlebar">pastebin - collaborative debugging tool <a href="/pastebin.php?help=1">View Help</a></div>
+
+
+
+<div id="menu">
+
+<h1>Recent Posts</h1>
+<ul>
+<li><a href="http://pastebin.com/d5f35e13f">Anonymous</a><br/>1 min ago</li>
+<li><a href="http://pastebin.com/m2a02d6b">Anonymous</a><br/>4 mins ago</li>
+<li><a href="http://pastebin.com/d2dbf6754">Anonymous</a><br/>4 mins ago</li>
+<li><a href="http://pastebin.com/d1be5062e">Anonymous</a><br/>4 mins ago</li>
+<li><a href="http://pastebin.com/m13009e1b">shigsy</a><br/>5 mins ago</li>
+<li><a href="http://pastebin.com/m1066a158">Anonymous</a><br/>6 mins ago</li>
+<li><a href="http://pastebin.com/m70a5a019">Anonymous</a><br/>6 mins ago</li>
+<li><a href="http://pastebin.com/m360176cf">Anonymous</a><br/>6 mins ago</li>
+<li><a href="http://pastebin.com/d2e028b53">Towliee</a><br/>6 mins ago</li>
+<li><a href="http://pastebin.com/m724738ab">Anonymous</a><br/>6 mins ago</li>
+<li><a rel="nofollow" href="/pastebin.php">Make new post</a></li></ul>
+<h1>News</h1>
+
+<p>For news and feedback see my <a title="View pastebin related posts on my blog" href="http://blog.dixo.net/category/pastebin/">blog</a>.</p>
+<!--
+<h1>Translations?</h1>
+
+<p>Anyone interested in
+a <a href="http://blog.dixo.net/2006/05/10/translate-pastebin/">translated
+version of pastebin?</a>. If you'd like to volunteer as a translator or
+just want to give some feedback on the idea, please 
+<a href="http://blog.dixo.net/2006/05/10/translate-pastebin/">leave a comment</a>
+</p>
+-->
+
+<h1>Free subdomains</h1><p>Want your own xyz.pastebin.com sub-domain for your community? Just type the address into your browser address bar. <a href="/pastebin.php?help=1">See help for details</a></p><h1>About</h1><p>Pastebin is a tool for collaborative debugging or editing, <a href="/pastebin.php?help=1">See help for details</a>. 
+<!--
+
+<form method="get" action="http://www.php.net/search.php">
+<h1>PHP Manual</h1>
+<input type="text" size="9" name="pattern"/>
+<input type="hidden" name="show" value="quickref"/>
+<input type="submit" value="go"/>
+</form>
+
+<form method="get" action="http://www.mysql.com/search/?">
+<h1>MySQL Manual</h1>
+<input type="hidden" name="base" value="http://dev.mysql.com"/>
+<input type="hidden" name="lang" value="en"/>
+<input type="hidden" name="doc" value="1"/>
+<input type="hidden" name="m" value="o"/>
+<input type="text" size="9" name="q"/>
+<input type="submit" value="go"/>
+</form>
+-->
+
+<h1>Credits</h1><p>Software developed by <script type="text/javascript">eval(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%65%66%3d%22%6d%61%69%6c%74%6f%3a%70%61%75%6c%40%65%6c%70%68%69%6e%2e%63%6f%6d%22%20%3e%50%61%75%6c%20%44%69%78%6f%6e%3c%2f%61%3e%27%29%3b'))</script>
+<!--  
+<p>
+    <a href="http://validator.w3.org/check/referer"><img
+        src="http://www.w3.org/Icons/valid-xhtml10"
+        alt="Valid XHTML 1.0!" height="31" width="88" border="0"/></a>
+</p>
+-->
+
+</div>
+
+
+<div id="content">
+
+<script type="text/javascript"><!--
+google_ad_client = "pub-3281640380846080";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text_image";
+google_ad_channel ="";
+google_color_border = "D9D0C3";
+google_color_bg = "D9D0C3";
+google_color_link = "474C7F";
+google_color_url = "888888";
+google_color_text = "000000";
+//--></script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+<br/>
+<br/>
+<h1>Posted by Homer on Wed 16 Jul 19:18<br/><a href="#" onclick="gotoURL('/pastebin.php?reportspam=f49801a0a')" title="report spam">report spam</a> | <a href="/pastebin.php?dl=f49801a0a" title="download file">download</a> | <span id="copytoclipboard"></span><a href="/" title="make new post">new post</a></h1><div class="syntax"><div class="text" style="font-family: monospace;"><ol><li class="li1"><div class="de1">/*</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;.:: Homer's Useful Functions ::.</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; - Created in 2008, Last Changes 12th July</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; - Coded by Homer</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; - Total 13 Functions</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; * All Rights Reserved *</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; * 2008 *</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; If you are going to use it, don't forgot Credits please and Thanks for Download!</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Best Regards - Homer</div></li>
+<li class="li2"><div class="de2">*/</div></li>
+<li class="li1"><div class="de1">#if defined _HFunction_included</div></li>
+<li class="li2"><div class="de2">&nbsp; #endinput</div></li>
+<li class="li1"><div class="de1">#endif</div></li>
+<li class="li2"><div class="de2">&nbsp;</div></li>
+<li class="li1"><div class="de1">#define _HFunction_included</div></li>
+<li class="li2"><div class="de2">#pragma library HFunction</div></li>
+<li class="li1"><div class="de1">&nbsp;</div></li>
+<li class="li2"><div class="de2">forward CheckSpectating();</div></li>
+<li class="li1"><div class="de1">forward CheckPos();</div></li>
+<li class="li2"><div class="de2">forward GetHomerDistanceBetweenPlayers(p1,p2);</div></li>
+<li class="li1"><div class="de1">forward StartCountDown(amount);</div></li>
+<li class="li2"><div class="de2">forward IsValidWeapon(wepid);</div></li>
+<li class="li1"><div class="de1">forward IsValidWeather(wetid);</div></li>
+<li class="li2"><div class="de2">forward IsValidVehicle(vehid);</div></li>
+<li class="li1"><div class="de1">forward IsValidSkin(skinid);</div></li>
+<li class="li2"><div class="de2">forward SetRealTime();</div></li>
+<li class="li1"><div class="de1">forward SetPlayerMoney(playerid,amount);</div></li>
+<li class="li2"><div class="de2">forward CrashPlayer(playerid);</div></li>
+<li class="li1"><div class="de1">forward StartPlayerSpectatePlayer(playerid,specid);</div></li>
+<li class="li2"><div class="de2">forward StopPlayerSpectatePlayer(playerid);</div></li>
+<li class="li1"><div class="de1">forward StartCountDown(amount);</div></li>
+<li class="li2"><div class="de2">forward EnableTagDrawDistance(distance);</div></li>
+<li class="li1"><div class="de1">forward DisableTagDrawDistance();</div></li>
+<li class="li2"><div class="de2">&nbsp;</div></li>
+<li class="li1"><div class="de1">/*</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; native EnableTagDrawDistance(distance);</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; native DisableTagDrawDistance();</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; native IsValidWeapon(wepid);</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; native IsValidWeather(wetid);</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; native IsValidVehicle(vehid);</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; native IsValidSkin(skinid);</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; native SetRealTime();</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; native SetPlayerMoney(playerid,amount);</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; native CrashPlayer(playerid);</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; native StartPlayerSpectatePlayer(playerid,specid);</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; native StopPlayerSpectatePlayer(playerid);</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; native StartCountDown(amount);</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; native SaveToConfig(const string[])</div></li>
+<li class="li1"><div class="de1">*/</div></li>
+<li class="li2"><div class="de2">&nbsp;</div></li>
+<li class="li1"><div class="de1">new SpecTimer;</div></li>
+<li class="li2"><div class="de2">new DisTimer;</div></li>
+<li class="li1"><div class="de1">new PlayerSpectating[MAX_PLAYERS];</div></li>
+<li class="li2"><div class="de2">new NameDist = 10; //Name Tag Distance is 10 meters, so change it</div></li>
+<li class="li1"><div class="de1">new CountAmount = 999;</div></li>
+<li class="li2"><div class="de2">&nbsp;</div></li>
+<li class="li1"><div class="de1">/* &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Publics Here &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; */</div></li>
+<li class="li2"><div class="de2">&nbsp;</div></li>
+<li class="li1"><div class="de1">public CheckPos()</div></li>
+<li class="li2"><div class="de2">{</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; for(new p1=0;p1&lt;MAX_PLAYERS;p1++)</div></li>
+<li class="li2"><div class="de2">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;{</div></li>
+<li class="li1"><div class="de1">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if(IsPlayerConnected(p1))</div></li>
+<li class="li2"><div class="de2">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;{</div></li>
+<li class="li1"><div class="de1">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;for(new p2=0;p2&lt;MAX_PLAYERS;p2++)</div></li>
+<li class="li2"><div class="de2">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</div></li>
+<li class="li1"><div class="de1">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if(IsPlayerConnected(p2))</div></li>
+<li class="li2"><div class="de2">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</div></li>
+<li class="li1"><div class="de1">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; new Float:pX1,Float:pY1,Float:pZ1;</div></li>
+<li class="li2"><div class="de2">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; new Float:pX2,Float:pY2,Float:pZ2;</div></li>
+<li class="li1"><div class="de1">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; GetPlayerPos(p1,pX1,pY1,pZ1); GetPlayerPos(p2,pX2,pY2,pZ2);</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if(GetHomerDistanceBetweenPlayers(p1,p2) &lt; NameDist)</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ShowPlayerNameTagForPlayer(p1,p2,1);</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; return 1;</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }else{</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ShowPlayerNameTagForPlayer(p1,p2,0);</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; return 1;</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }</div></li>
+<li class="li2"><div class="de2">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }</div></li>
+<li class="li1"><div class="de1">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }</div></li>
+<li class="li2"><div class="de2">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;} //Count Down</div></li>
+<li class="li1"><div class="de1">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;for(new i=0;i&lt;MAX_PLAYERS;i++)</div></li>
+<li class="li2"><div class="de2">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;{</div></li>
+<li class="li1"><div class="de1">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;if(IsPlayerConnected(i))</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</div></li>
+<li class="li1"><div class="de1">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; if(CountAmount &gt; 0 &amp;&amp; CountAmount &lt; 999)</div></li>
+<li class="li2"><div class="de2">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; {</div></li>
+<li class="li1"><div class="de1">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; new cstring[10];</div></li>
+<li class="li2"><div class="de2">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; format(cstring,sizeof(cstring),&quot;~w~%d&quot;,CountAmount);</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; GameTextForAll(cstring,1100,3);</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; CountAmount =- 1;</div></li>
+<li class="li1"><div class="de1">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; }</div></li>
+<li class="li2"><div class="de2">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; if(CountAmount == 0)</div></li>
+<li class="li1"><div class="de1">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; {</div></li>
+<li class="li2"><div class="de2">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; GameTextForAll(&quot;~r~START&quot;,3000,4);</div></li>
+<li class="li1"><div class="de1">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; CountAmount = 999;</div></li>
+<li class="li2"><div class="de2">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; }</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }</div></li>
+<li class="li2"><div class="de2">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;}</div></li>
+<li class="li1"><div class="de1">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;}</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; return 1;</div></li>
+<li class="li1"><div class="de1">}</div></li>
+<li class="li2"><div class="de2">&nbsp;</div></li>
+<li class="li1"><div class="de1">public CheckSpectating()</div></li>
+<li class="li2"><div class="de2">{</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; for(new i=0;i&lt;MAX_PLAYERS;i++)</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; {</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if(IsPlayerConnected(i))</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; new SpecID = PlayerSpectating[i];</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if(PlayerSpectating[i] &gt; 0)</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if(IsPlayerInAnyVehicle(SpecID))</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; new VID = GetPlayerVehicleID(SpecID);</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; PlayerSpectateVehicle(i,VID);</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }else{</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; PlayerSpectatePlayer(i,SpecID);</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if(GetPlayerInterior(SpecID) &gt; 0)</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; new INT = GetPlayerInterior(SpecID);</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; SetPlayerInterior(i,INT);</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }</div></li>
+<li class="li2"><div class="de2">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;}</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; return 1;</div></li>
+<li class="li2"><div class="de2">}</div></li>
+<li class="li1"><div class="de1">&nbsp;</div></li>
+<li class="li2"><div class="de2">//I've been modified GetDistanceBetweenPlayers to this</div></li>
+<li class="li1"><div class="de1">public GetHomerDistanceBetweenPlayers(p1,p2)</div></li>
+<li class="li2"><div class="de2">{</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; new Float:pX1,Float:pY1,Float:pZ1,Float:pX2,Float:pY2,Float:pZ2;</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; new Float:tmpdis;</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; GetPlayerPos(p1,pX1,pY1,pZ1);</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; GetPlayerPos(p2,pX2,pY2,pZ2);</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; tmpdis = floatsqroot(floatpower(floatabs(floatsub(pX2,pX1)),2)+floatpower(floatabs(floatsub(pY2,pY1)),2)+floatpower(floatabs(floatsub(pZ2,pZ1)),2));</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; return floatround(tmpdis);</div></li>
+<li class="li1"><div class="de1">}</div></li>
+<li class="li2"><div class="de2">&nbsp;</div></li>
+<li class="li1"><div class="de1">//So Tags will be visible to other players with distance XXX</div></li>
+<li class="li2"><div class="de2">public EnableTagDrawDistance(distance)</div></li>
+<li class="li1"><div class="de1">{</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; NameDist = distance;</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; DisTimer = SetTimer(&quot;CheckPos&quot;,1000,1);</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; return 1;</div></li>
+<li class="li1"><div class="de1">}</div></li>
+<li class="li2"><div class="de2">//Tags won't be visible with that distance</div></li>
+<li class="li1"><div class="de1">public DisableTagDrawDistance()</div></li>
+<li class="li2"><div class="de2">{</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; NameDist = 0;</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; KillTimer(DisTimer);</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; return 1;</div></li>
+<li class="li2"><div class="de2">}</div></li>
+<li class="li1"><div class="de1">//Usage - Command to get weapon etc. if(IsValidWeapon(***)) ...</div></li>
+<li class="li2"><div class="de2">public IsValidWeapon(wepid)</div></li>
+<li class="li1"><div class="de1">{</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp;if(wepid &gt;= 1 &amp;&amp; wepid &lt;= 18 || wepid &gt;= 22 &amp;&amp; wepid &lt;= 46)</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp;{</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp;return 1;</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp;}</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; return 0;</div></li>
+<li class="li1"><div class="de1">}</div></li>
+<li class="li2"><div class="de2">//The same but this is weather. (Dont forgot! Weather 45 - *** is Matrix!)</div></li>
+<li class="li1"><div class="de1">public IsValidWeather(wetid)</div></li>
+<li class="li2"><div class="de2">{</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp;if(wetid &gt;= 1 &amp;&amp; wetid &lt;= 50)</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp;{</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp;return 1;</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp;}</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; return 0;</div></li>
+<li class="li2"><div class="de2">}</div></li>
+<li class="li1"><div class="de1">//Same, but vehicles :P</div></li>
+<li class="li2"><div class="de2">public IsValidVehicle(vehid)</div></li>
+<li class="li1"><div class="de1">{</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp;if(vehid &gt;= 400 &amp;&amp; vehid &lt;= 611)</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp;{</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp;return 1;</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp;}</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; return 0;</div></li>
+<li class="li1"><div class="de1">}</div></li>
+<li class="li2"><div class="de2">//Good function, because if skin isn't valid, you can crash all server players</div></li>
+<li class="li1"><div class="de1">public IsValidSkin(skinid)</div></li>
+<li class="li2"><div class="de2">{</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp;if((skinid == 0) || (skinid == 7) || (skinid &gt;= 9 &amp;&amp; skinid &lt;= 41))</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp;{</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp;return 1;</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp;}</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp;if((skinid &gt;= 66 &amp;&amp; skinid &lt;= 73) || (skinid &gt;= 75 &amp;&amp; skinid &lt;= 85) || (skinid &gt;= 87 &amp;&amp; skinid &lt;= 118))</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp;{</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;return 1;</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp;}</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp;if((skinid &gt;= 120 &amp;&amp; skinid &lt;= 148) || (skinid &gt;= 150 &amp;&amp; skinid &lt;= 207) || (skinid &gt;= 209 &amp;&amp; skinid &lt;= 264))</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp;{</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;return 1;</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp;}</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp;if((skinid &gt;= 43 &amp;&amp; skinid &lt;= 64) || (skinid &gt;= 274 &amp;&amp; skinid &lt;= 288) || (skinid &gt;= 290 &amp;&amp; skinid &lt;= 299))</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp;{</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;return 1;</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp;}</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp;return 0;</div></li>
+<li class="li2"><div class="de2">}</div></li>
+<li class="li1"><div class="de1">//It will set real time. Will be good to create a timer for this :P</div></li>
+<li class="li2"><div class="de2">public SetRealTime()</div></li>
+<li class="li1"><div class="de1">{</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; new Hour,Min,Sec;</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; new Year,Month,Day;</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; gettime(Hour,Min,Sec);</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; getdate(Year,Month,Day);</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; SetWorldTime(Hour);</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if(Min &lt;= 9)</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; printf(&quot;Time has been changed to %d:0%d and %d seconds (%d/%d/%d)&quot;,Hour,Min,Sec,Day,Month,Year);</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }else{</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; printf(&quot;Time has been changed to %d:%d and %d seconds (%d/%d/%d)&quot;,Hour,Min,Sec,Day,Month,Year);</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; return 1;</div></li>
+<li class="li2"><div class="de2">}</div></li>
+<li class="li1"><div class="de1">//Player will have only your amount</div></li>
+<li class="li2"><div class="de2">public SetPlayerMoney(playerid,amount)</div></li>
+<li class="li1"><div class="de1">{</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; ResetPlayerMoney(playerid);</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; GivePlayerMoney(playerid,amount);</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; return 1;</div></li>
+<li class="li1"><div class="de1">}</div></li>
+<li class="li2"><div class="de2">//Player will be crashed, but it won't be an accident :P</div></li>
+<li class="li1"><div class="de1">public CrashPlayer(playerid)</div></li>
+<li class="li2"><div class="de2">{</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; new Obj,Float:pX,Float:pY,Float:pZ;</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; GetPlayerPos(playerid,pX,pY,pZ);</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; Obj = CreatePlayerObject(playerid,9999999,pX,pY,pZ,0,0,0);</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; DestroyObject(Obj);</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; return 1;</div></li>
+<li class="li2"><div class="de2">}</div></li>
+<li class="li1"><div class="de1">//Spectate Function. You don't need to change interiors, or select spectate type</div></li>
+<li class="li2"><div class="de2">public StartPlayerSpectatePlayer(playerid,specid)</div></li>
+<li class="li1"><div class="de1">{</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; if(IsPlayerConnected(playerid))</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; {</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if(IsPlayerConnected(specid))</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; TogglePlayerControllable(playerid,0);</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; TogglePlayerSpectating(playerid,1);</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if(IsPlayerInAnyVehicle(specid))</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; new VID = GetPlayerVehicleID(specid);</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; PlayerSpectateVehicle(playerid,VID);</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; SpecTimer = SetTimer(&quot;CheckSpectating&quot;,3000,1);</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; PlayerSpectating[playerid] = specid;</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }else{</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; PlayerSpectatePlayer(playerid,specid);</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; SpecTimer = SetTimer(&quot;CheckSpectating&quot;,3000,1);</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; PlayerSpectating[playerid] = specid;</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; }</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; return 1;</div></li>
+<li class="li2"><div class="de2">}</div></li>
+<li class="li1"><div class="de1">//Stop Spectating</div></li>
+<li class="li2"><div class="de2">public StopPlayerSpectatePlayer(playerid)</div></li>
+<li class="li1"><div class="de1">{</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; if(IsPlayerConnected(playerid))</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; {</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; SetCameraBehindPlayer(playerid);</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; TogglePlayerControllable(playerid,1);</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; TogglePlayerSpectating(playerid,0);</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; KillTimer(SpecTimer);</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; PlayerSpectating[playerid] = 0;</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; }</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; return 1;</div></li>
+<li class="li1"><div class="de1">}</div></li>
+<li class="li2"><div class="de2">//Count Down, only set amount, and let's start</div></li>
+<li class="li1"><div class="de1">public StartCountDown(amount)</div></li>
+<li class="li2"><div class="de2">{</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; CountAmount = amount;</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; return 1;</div></li>
+<li class="li1"><div class="de1">}</div></li>
+<li class="li2"><div class="de2">&nbsp;</div></li>
+<li class="li1"><div class="de1">/* &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Stocks Here &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; */</div></li>
+<li class="li2"><div class="de2">//You can Save Anything into Config, but you need an file Config.txt</div></li>
+<li class="li1"><div class="de1">stock SaveToConfig(const string[])</div></li>
+<li class="li2"><div class="de2">{</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; new File:CFile;</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; if(fexist(&quot;config.txt&quot;))</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; {</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; CFile = fopen(&quot;config.txt&quot;,io_append);</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; fwrite(CFile,string);</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; fclose(CFile);</div></li>
+<li class="li1"><div class="de1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; printf(&quot;'%s' has been saved into Config.&quot;,string);</div></li>
+<li class="li2"><div class="de2">&nbsp; &nbsp; &nbsp; &nbsp; }</div></li>
+<li class="li1"><div class="de1">}</div></li></ol></div></div><br /><b>Submit a correction or amendment below (<a href="/pastebin.php">click here to make a fresh posting</a>)</b><br/>After submitting an amendment, you'll be able to view the differences between the old and new posts easily.<form name="editor" method="post" action="/pastebin.php">
+<input type="hidden" name="parent_pid" value="f49801a0a"/>
+
+<br/> 
+Syntax highlighting:<select name="format"><option selected="selected" value="text">None</option><option  value="bash">Bash</option><option  value="c">C</option><option  value="cpp">C++</option><option  value="html4strict">HTML</option><option  value="java">Java</option><option  value="javascript">Javascript</option><option  value="lua">Lua</option><option  value="perl">Perl</option><option  value="php">PHP</option><option  value="python">Python</option><option  value="ruby">Ruby</option><option value="text">----------------------------</option><option  value="text">None</option><option  value="abap">ABAP</option><option  value="actionscript">ActionScript</option><option  value="ada">Ada</option><option  value="apache">Apache Log File</option><option  value="applescript">AppleScript</option><option  value="asm">ASM (NASM based)</option><option  value="asp">ASP</option><option  value="autoit">AutoIt</option><option  value="bash">Bash</option><option  value="blitzbasic">Blitz Basic</option><option  value="bnf">BNF</option><option  value="c">C</option><option  value="c_mac">C for Macs</option><option  value="caddcl">CAD DCL</option><option  value="cadlisp">CAD Lisp</option><option  value="cpp">C++</option><option  value="csharp">C#</option><option  value="cfm">ColdFusion</option><option  value="css">CSS</option><option  value="d">D</option><option  value="delphi">Delphi</option><option  value="diff">Diff</option><option  value="dos">DOS</option><option  value="eiffel">Eiffel</option><option  value="fortran">Fortran</option><option  value="freebasic">FreeBasic</option><option  value="genero">Genero</option><option  value="gml">Game Maker</option><option  value="groovy">Groovy</option><option  value="haskell">Haskell</option><option  value="html4strict">HTML</option><option  value="idl">IDL</option><option  value="ini">INI</option><option  value="inno">Inno Script</option><option  value="java">Java</option><option  value="javascript">Javascript</option><option  value="latex">Latex</option><option  value="lisp">Lisp</option><option  value="lua">Lua</option><option  value="matlab">MatLab</option><option  value="m68k">M68000 Assembler</option><option  value="mpasm">MPASM</option><option  value="mirc">mIRC</option><option  value="mysql">MySQL</option><option  value="nsis">NullSoft Installer</option><option  value="objc">Objective C</option><option  value="ocaml">OCaml</option><option  value="oobas">Openoffice.org BASIC</option><option  value="oracle8">Oracle 8</option><option  value="pascal">Pascal</option><option  value="perl">Perl</option><option  value="php">PHP</option><option  value="plswl">PL/SQL</option><option  value="python">Python</option><option  value="qbasic">QBasic/QuickBASIC</option><option  value="rails">Rails</option><option  value="robots">Robots</option><option  value="ruby">Ruby</option><option  value="scheme">Scheme</option><option  value="smalltalk">Smalltalk</option><option  value="smarty">Smarty</option><option  value="sql">SQL</option><option  value="tcl">TCL</option><option  value="vb">VisualBasic</option><option  value="vbnet">VB.NET</option><option  value="visualfoxpro">VisualFoxPro</option><option  value="xml">XML</option><option  value="z80">Z80 Assembler</option></select><br/>
+<br/>
+
+To highlight particular lines, prefix each line with @@<br/>
+<textarea id="code" class="codeedit" name="code2" cols="80" rows="40" onkeydown="return onTextareaKey(this,event)">/*
+             .:: Homer's Useful Functions ::.
+    - Created in 2008, Last Changes 12th July
+    - Coded by Homer
+    - Total 13 Functions
+	* All Rights Reserved *
+	        * 2008 *
+	If you are going to use it, don't forgot Credits please and Thanks for Download!
+										 Best Regards - Homer
+*/
+#if defined _HFunction_included
+  #endinput
+#endif
+
+#define _HFunction_included
+#pragma library HFunction
+
+forward CheckSpectating();
+forward CheckPos();
+forward GetHomerDistanceBetweenPlayers(p1,p2);
+forward StartCountDown(amount);
+forward IsValidWeapon(wepid);
+forward IsValidWeather(wetid);
+forward IsValidVehicle(vehid);
+forward IsValidSkin(skinid);
+forward SetRealTime();
+forward SetPlayerMoney(playerid,amount);
+forward CrashPlayer(playerid);
+forward StartPlayerSpectatePlayer(playerid,specid);
+forward StopPlayerSpectatePlayer(playerid);
+forward StartCountDown(amount);
+forward EnableTagDrawDistance(distance);
+forward DisableTagDrawDistance();
+
+/*
+	native EnableTagDrawDistance(distance);
+	native DisableTagDrawDistance();
+	native IsValidWeapon(wepid);
+	native IsValidWeather(wetid);
+	native IsValidVehicle(vehid);
+	native IsValidSkin(skinid);
+	native SetRealTime();
+	native SetPlayerMoney(playerid,amount);
+	native CrashPlayer(playerid);
+	native StartPlayerSpectatePlayer(playerid,specid);
+	native StopPlayerSpectatePlayer(playerid);
+	native StartCountDown(amount);
+	native SaveToConfig(const string[])
+*/
+
+new SpecTimer;
+new DisTimer;
+new PlayerSpectating[MAX_PLAYERS];
+new NameDist = 10; //Name Tag Distance is 10 meters, so change it
+new CountAmount = 999;
+
+/* 								Publics Here 								*/
+
+public CheckPos()
+{
+    for(new p1=0;p1&lt;MAX_PLAYERS;p1++)
+ 	{
+ 	    if(IsPlayerConnected(p1))
+ 	    {
+ 	        for(new p2=0;p2&lt;MAX_PLAYERS;p2++)
+ 			{
+ 			    if(IsPlayerConnected(p2))
+ 			    {
+ 			    	new Float:pX1,Float:pY1,Float:pZ1;
+ 			    	new Float:pX2,Float:pY2,Float:pZ2;
+ 			    	GetPlayerPos(p1,pX1,pY1,pZ1); GetPlayerPos(p2,pX2,pY2,pZ2);
+					if(GetHomerDistanceBetweenPlayers(p1,p2) &lt; NameDist)
+					{
+						ShowPlayerNameTagForPlayer(p1,p2,1);
+						return 1;
+						}else{
+						ShowPlayerNameTagForPlayer(p1,p2,0);
+						return 1;
+					}
+ 			    }
+ 			}
+ 	    } //Count Down
+ 	    for(new i=0;i&lt;MAX_PLAYERS;i++)
+ 	    {
+ 	        if(IsPlayerConnected(i))
+			{
+ 	        	if(CountAmount &gt; 0 &amp;&amp; CountAmount &lt; 999)
+ 	        	{
+ 	            	new cstring[10];
+ 	            	format(cstring,sizeof(cstring),&quot;~w~%d&quot;,CountAmount);
+     				GameTextForAll(cstring,1100,3);
+     				CountAmount =- 1;
+ 	        	}
+ 	        	if(CountAmount == 0)
+ 	        	{
+ 	        	    GameTextForAll(&quot;~r~START&quot;,3000,4);
+ 	        	    CountAmount = 999;
+ 	        	}
+			}
+ 	    }
+ 	}
+    return 1;
+}
+
+public CheckSpectating()
+{
+    for(new i=0;i&lt;MAX_PLAYERS;i++)
+	{
+	    if(IsPlayerConnected(i))
+	    {
+	        new SpecID = PlayerSpectating[i];
+	        if(PlayerSpectating[i] &gt; 0)
+	        {
+	            if(IsPlayerInAnyVehicle(SpecID))
+	            {
+	                new VID = GetPlayerVehicleID(SpecID);
+					PlayerSpectateVehicle(i,VID);
+	            	}else{
+	            	PlayerSpectatePlayer(i,SpecID);
+	            }
+	        }
+	        if(GetPlayerInterior(SpecID) &gt; 0)
+	        {
+	            new INT = GetPlayerInterior(SpecID);
+	            SetPlayerInterior(i,INT);
+	        }
+	    }
+ 	}
+	return 1;
+}
+
+//I've been modified GetDistanceBetweenPlayers to this
+public GetHomerDistanceBetweenPlayers(p1,p2)
+{
+    new Float:pX1,Float:pY1,Float:pZ1,Float:pX2,Float:pY2,Float:pZ2;
+    new Float:tmpdis;
+    GetPlayerPos(p1,pX1,pY1,pZ1);
+    GetPlayerPos(p2,pX2,pY2,pZ2);
+    tmpdis = floatsqroot(floatpower(floatabs(floatsub(pX2,pX1)),2)+floatpower(floatabs(floatsub(pY2,pY1)),2)+floatpower(floatabs(floatsub(pZ2,pZ1)),2));
+    return floatround(tmpdis);
+}
+
+//So Tags will be visible to other players with distance XXX
+public EnableTagDrawDistance(distance)
+{
+    NameDist = distance;
+    DisTimer = SetTimer(&quot;CheckPos&quot;,1000,1);
+	return 1;
+}
+//Tags won't be visible with that distance
+public DisableTagDrawDistance()
+{
+    NameDist = 0;
+    KillTimer(DisTimer);
+    return 1;
+}
+//Usage - Command to get weapon etc. if(IsValidWeapon(***)) ...
+public IsValidWeapon(wepid)
+{
+   if(wepid &gt;= 1 &amp;&amp; wepid &lt;= 18 || wepid &gt;= 22 &amp;&amp; wepid &lt;= 46)
+   {
+       return 1;
+   }
+    return 0;
+}
+//The same but this is weather. (Dont forgot! Weather 45 - *** is Matrix!)
+public IsValidWeather(wetid)
+{
+   if(wetid &gt;= 1 &amp;&amp; wetid &lt;= 50)
+   {
+       return 1;
+   }
+    return 0;
+}
+//Same, but vehicles :P
+public IsValidVehicle(vehid)
+{
+   if(vehid &gt;= 400 &amp;&amp; vehid &lt;= 611)
+   {
+       return 1;
+   }
+    return 0;
+}
+//Good function, because if skin isn't valid, you can crash all server players
+public IsValidSkin(skinid)
+{
+   if((skinid == 0) || (skinid == 7) || (skinid &gt;= 9 &amp;&amp; skinid &lt;= 41))
+   {
+       return 1;
+   }
+   if((skinid &gt;= 66 &amp;&amp; skinid &lt;= 73) || (skinid &gt;= 75 &amp;&amp; skinid &lt;= 85) || (skinid &gt;= 87 &amp;&amp; skinid &lt;= 118))
+   {
+	   return 1;
+   }
+   if((skinid &gt;= 120 &amp;&amp; skinid &lt;= 148) || (skinid &gt;= 150 &amp;&amp; skinid &lt;= 207) || (skinid &gt;= 209 &amp;&amp; skinid &lt;= 264))
+   {
+	   return 1;
+   }
+   if((skinid &gt;= 43 &amp;&amp; skinid &lt;= 64) || (skinid &gt;= 274 &amp;&amp; skinid &lt;= 288) || (skinid &gt;= 290 &amp;&amp; skinid &lt;= 299))
+   {
+	   return 1;
+   }
+   return 0;
+}
+//It will set real time. Will be good to create a timer for this :P
+public SetRealTime()
+{
+	new Hour,Min,Sec;
+	new Year,Month,Day;
+	gettime(Hour,Min,Sec);
+	getdate(Year,Month,Day);
+	SetWorldTime(Hour);
+	    if(Min &lt;= 9)
+	    {
+			printf(&quot;Time has been changed to %d:0%d and %d seconds (%d/%d/%d)&quot;,Hour,Min,Sec,Day,Month,Year);
+		}else{
+			printf(&quot;Time has been changed to %d:%d and %d seconds (%d/%d/%d)&quot;,Hour,Min,Sec,Day,Month,Year);
+		}
+	return 1;
+}
+//Player will have only your amount
+public SetPlayerMoney(playerid,amount)
+{
+	ResetPlayerMoney(playerid);
+	GivePlayerMoney(playerid,amount);
+	return 1;
+}
+//Player will be crashed, but it won't be an accident :P
+public CrashPlayer(playerid)
+{
+	new Obj,Float:pX,Float:pY,Float:pZ;
+	GetPlayerPos(playerid,pX,pY,pZ);
+	Obj = CreatePlayerObject(playerid,9999999,pX,pY,pZ,0,0,0);
+	DestroyObject(Obj);
+	return 1;
+}
+//Spectate Function. You don't need to change interiors, or select spectate type
+public StartPlayerSpectatePlayer(playerid,specid)
+{
+	if(IsPlayerConnected(playerid))
+	{
+		if(IsPlayerConnected(specid))
+		{
+			TogglePlayerControllable(playerid,0);
+			TogglePlayerSpectating(playerid,1);
+			if(IsPlayerInAnyVehicle(specid))
+			{
+			    new VID = GetPlayerVehicleID(specid);
+				PlayerSpectateVehicle(playerid,VID);
+				SpecTimer = SetTimer(&quot;CheckSpectating&quot;,3000,1);
+				PlayerSpectating[playerid] = specid;
+                }else{
+                PlayerSpectatePlayer(playerid,specid);
+                SpecTimer = SetTimer(&quot;CheckSpectating&quot;,3000,1);
+                PlayerSpectating[playerid] = specid;
+            }
+		}
+	}
+	return 1;
+}
+//Stop Spectating
+public StopPlayerSpectatePlayer(playerid)
+{
+	if(IsPlayerConnected(playerid))
+	{
+		SetCameraBehindPlayer(playerid);
+		TogglePlayerControllable(playerid,1);
+		TogglePlayerSpectating(playerid,0);
+		KillTimer(SpecTimer);
+		PlayerSpectating[playerid] = 0;
+	}
+	return 1;
+}
+//Count Down, only set amount, and let's start
+public StartCountDown(amount)
+{
+	CountAmount = amount;
+	return 1;
+}
+
+/* 								Stocks Here 								*/
+//You can Save Anything into Config, but you need an file Config.txt
+stock SaveToConfig(const string[])
+{
+	new File:CFile;
+	if(fexist(&quot;config.txt&quot;))
+	{
+		CFile = fopen(&quot;config.txt&quot;,io_append);
+		fwrite(CFile,string);
+		fclose(CFile);
+		printf(&quot;'%s' has been saved into Config.&quot;,string);
+	}
+}</textarea>
+
+<div id="namebox">
+	
+<label for="poster">Your Name</label><br/>
+<input type="text" maxlength="24" size="24" id="poster" name="poster" value="" />
+<input type="submit" name="paste" value="Send"/>
+<br />
+<input type="checkbox" name="remember" value="1"  />Remember me
+</div>
+
+
+<div id="expirybox">
+
+
+<div id="expiryradios">
+<label>How long should your post be retained?</label><br/>
+
+<input type="radio" id="expiry_day" name="expiry" value="d"  />
+<label id="expiry_day_label" for="expiry_day">a day</label>
+
+<input type="radio" id="expiry_month" name="expiry" value="m" checked="checked" />
+<label id="expiry_month_label" for="expiry_month">a month</label>
+
+<input type="radio" id="expiry_forever" name="expiry" value="f"  />
+<label id="expiry_forever_label" for="expiry_forever">forever</label>
+</div>
+
+<div id="expiryinfo"></div>
+	
+</div>
+
+<div id="email">
+<input type="text" size="8" name="email" value="" />
+</div>
+
+<div id="end"></div>
+
+</form>
+
+</div>
+</body>
+</html>

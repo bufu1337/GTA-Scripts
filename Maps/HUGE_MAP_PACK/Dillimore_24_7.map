@@ -1,0 +1,63 @@
+<map edf:definitions="editor_main">
+    <object id="object (kmb_ot) (1)" doublesided="false" model="2954" interior="0" dimension="0" posX="663.24395751953" posY="-565.14428710938" posZ="15.351337432861" rotX="0" rotY="0" rotZ="90" />
+    <object id="object (kmb_ot) (2)" doublesided="false" model="2954" interior="0" dimension="0" posX="664.21887207031" posY="-565.14556884766" posZ="15.351337432861" rotX="0" rotY="0" rotZ="90" />
+    <object id="object (kmb_ot) (3)" doublesided="false" model="2954" interior="0" dimension="0" posX="662.27429199219" posY="-565.17669677734" posZ="15.3359375" rotX="0" rotY="0" rotZ="90" />
+    <object id="object (garagDoor1_LAwN) (1)" doublesided="false" model="5779" interior="0" dimension="0" posX="667.42266845703" posY="-565.18041992188" posZ="16.912944793701" rotX="0" rotY="0" rotZ="90" />
+    <object id="object (garagDoor1_LAwN) (2)" doublesided="false" model="5779" interior="0" dimension="0" posX="666.88946533203" posY="-565.17486572266" posZ="16.912944793701" rotX="0" rotY="0" rotZ="90" />
+    <object id="object (garagDoor1_LAwN) (3)" doublesided="false" model="5779" interior="0" dimension="0" posX="670.03057861328" posY="-565.87872314453" posZ="16.905618667603" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (kmb_ot) (5)" doublesided="false" model="2954" interior="0" dimension="0" posX="669.99749755859" posY="-568.45013427734" posZ="15.3359375" rotX="0" rotY="0" rotZ="90" />
+    <object id="object (kmb_ot) (6)" doublesided="false" model="2954" interior="0" dimension="0" posX="669.9970703125" posY="-568.44921875" posZ="17.257568359375" rotX="0" rotY="0" rotZ="90" />
+    <object id="object (garagDoor1_LAwN) (4)" doublesided="false" model="5779" interior="0" dimension="0" posX="670.0302734375" posY="-565.8779296875" posZ="17.86643409729" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (garagDoor1_LAwN) (5)" doublesided="false" model="5779" interior="0" dimension="0" posX="667.421875" posY="-565.1796875" posZ="17.9938621521" rotX="0" rotY="0" rotZ="90" />
+    <object id="object (kmb_ot) (7)" doublesided="false" model="2954" interior="0" dimension="0" posX="662.2734375" posY="-565.17578125" posZ="17.017364501953" rotX="0" rotY="0" rotZ="90" />
+    <object id="object (kmb_ot) (8)" doublesided="false" model="2954" interior="0" dimension="0" posX="663.2431640625" posY="-565.1435546875" posZ="17.447372436523" rotX="0" rotY="0" rotZ="90" />
+    <object id="object (kmb_ot) (9)" doublesided="false" model="2954" interior="0" dimension="0" posX="664.21875" posY="-565.1455078125" posZ="17.450469970703" rotX="0" rotY="0" rotZ="90" />
+    <object id="object (garagDoor1_LAwN) (6)" doublesided="false" model="5779" interior="0" dimension="0" posX="667.72509765625" posY="-574.73193359375" posZ="15.224220275879" rotX="0" rotY="0" rotZ="90" />
+    <object id="object (garagDoor1_LAwN) (7)" doublesided="false" model="5779" interior="0" dimension="0" posX="667.72540283203" posY="-574.83190917969" posZ="15.196517944336" rotX="0" rotY="0" rotZ="90" />
+    <object id="object (garagDoor1_LAwN) (8)" doublesided="false" model="5779" interior="0" dimension="0" posX="667.72039794922" posY="-570.40679931641" posZ="15.213317871094" rotX="0" rotY="0" rotZ="90" />
+    <object id="object (garagDoor1_LAwN) (9)" doublesided="false" model="5779" interior="0" dimension="0" posX="667.72003173828" posY="-570.50982666016" posZ="15.181118011475" rotX="0" rotY="0" rotZ="90" />
+    <object id="object (kmb_ot) (10)" doublesided="false" model="2954" interior="0" dimension="0" posX="662.28436279297" posY="-567.83288574219" posZ="16.20325088501" rotX="90" rotY="0" rotZ="90" />
+    <object id="object (kmb_ot) (11)" doublesided="false" model="2954" interior="0" dimension="0" posX="663.45367431641" posY="-567.83673095703" posZ="16.201850891113" rotX="90" rotY="0" rotZ="90" />
+    <object id="object (DYN_WINE_1) (1)" doublesided="false" model="1487" interior="0" dimension="0" posX="663.57580566406" posY="-567.79516601563" posZ="16.410860061646" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (DYN_WINE_1) (2)" doublesided="false" model="1487" interior="0" dimension="0" posX="663.25372314453" posY="-567.80706787109" posZ="16.410860061646" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (kmb_ot) (15)" doublesided="false" model="2954" interior="0" dimension="0" posX="666.20080566406" posY="-567.23913574219" posZ="14.113918304443" rotX="0" rotY="0" rotZ="180" />
+    <object id="object (CJ_CHRIS_CRATE_RD) (1)" doublesided="false" model="2679" interior="0" dimension="0" posX="663.37170410156" posY="-567.15667724609" posZ="16.174684524536" rotX="90" rotY="0" rotZ="90" />
+    <object id="object (CJ_CHRIS_CRATE_RD) (2)" doublesided="false" model="2679" interior="0" dimension="0" posX="664.28680419922" posY="-567.14599609375" posZ="16.174684524536" rotX="90" rotY="0" rotZ="90" />
+    <object id="object (DYN_WINE_1) (3)" doublesided="false" model="1487" interior="0" dimension="0" posX="666.00531005859" posY="-566.55047607422" posZ="16.410860061646" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (DYN_WINE_1) (4)" doublesided="false" model="1487" interior="0" dimension="0" posX="666.17163085938" posY="-566.76031494141" posZ="16.410860061646" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (DYN_WINE_1) (5)" doublesided="false" model="1487" interior="0" dimension="0" posX="665.93579101563" posY="-566.80895996094" posZ="16.410860061646" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (DYN_WINE_1) (6)" doublesided="false" model="1487" interior="0" dimension="0" posX="666.00933837891" posY="-567.16125488281" posZ="16.410860061646" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (DYN_WINE_1) (7)" doublesided="false" model="1487" interior="0" dimension="0" posX="665.86663818359" posY="-567.06817626953" posZ="16.410860061646" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (DYN_WINE_1) (8)" doublesided="false" model="1487" interior="0" dimension="0" posX="665.94000244141" posY="-567.42004394531" posZ="16.410860061646" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (DYN_WINE_1) (9)" doublesided="false" model="1487" interior="0" dimension="0" posX="665.79730224609" posY="-567.32696533203" posZ="16.410860061646" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (garagDoor1_LAwN) (10)" doublesided="false" model="5779" interior="0" dimension="0" posX="669.91802978516" posY="-565.85565185547" posZ="15.217517852783" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (garagDoor1_LAwN) (11)" doublesided="false" model="5779" interior="0" dimension="0" posX="667.69189453125" posY="-565.44885253906" posZ="14.460506439209" rotX="90" rotY="180" rotZ="89.999938964844" />
+    <object id="object (a51_panel) (2)" doublesided="false" model="3280" interior="0" dimension="0" posX="670.17657470703" posY="-567.70056152344" posZ="16.741958618164" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (a51_panel) (3)" doublesided="false" model="3280" interior="0" dimension="0" posX="670.17810058594" posY="-566.10729980469" posZ="16.740558624268" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (a51_panel) (4)" doublesided="false" model="3280" interior="0" dimension="0" posX="668.44805908203" posY="-565.25860595703" posZ="16.741958618164" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (a51_panel) (5)" doublesided="false" model="3280" interior="0" dimension="0" posX="666.82928466797" posY="-565.25860595703" posZ="16.740558624268" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (a51_panel) (6)" doublesided="false" model="3280" interior="0" dimension="0" posX="670.17578125" posY="-567.7001953125" posZ="16.03674697876" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (a51_panel) (7)" doublesided="false" model="3280" interior="0" dimension="0" posX="670.17523193359" posY="-566.02661132813" posZ="16.038146972656" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (a51_panel) (8)" doublesided="false" model="3280" interior="0" dimension="0" posX="668.48333740234" posY="-565.27258300781" posZ="16.039546966553" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (a51_panel) (9)" doublesided="false" model="3280" interior="0" dimension="0" posX="666.82885742188" posY="-565.26965332031" posZ="16.039546966553" rotX="0" rotY="0" rotZ="0" />
+    <vehicle id="vehicle (Bus) (1)" paintjob="3" model="431" plate="VF06 CP3" interior="0" dimension="0" posX="69.346160888672" posY="-274.70623779297" posZ="1.828125" rotX="0" rotY="0" rotZ="0" />
+    <vehicle id="vehicle (Bus) (3)" paintjob="3" model="431" plate="HD58 649" interior="0" dimension="0" posX="65.127723693848" posY="-274.6145324707" posZ="1.828125" rotX="0" rotY="0" rotZ="0" />
+    <vehicle id="vehicle (Bus) (4)" paintjob="3" model="431" plate="VV8F WOT" interior="0" dimension="0" posX="61.14868927002" posY="-274.50741577148" posZ="1.828125" rotX="0" rotY="0" rotZ="0" />
+    <vehicle id="vehicle (Bus) (5)" paintjob="3" model="431" plate="QOV9 8OU" interior="0" dimension="0" posX="57.064971923828" posY="-274.50268554688" posZ="1.828125" rotX="0" rotY="0" rotZ="0" />
+    <vehicle id="vehicle (Bus) (6)" paintjob="3" model="431" plate="WUKL FYD" interior="0" dimension="0" posX="53.10147857666" posY="-274.48455810547" posZ="1.828125" rotX="0" rotY="0" rotZ="0" />
+    <vehicle id="vehicle (Bus) (7)" paintjob="3" model="431" plate="AWEL NTK" interior="0" dimension="0" posX="49.13842010498" posY="-274.45367431641" posZ="1.828125" rotX="0" rotY="0" rotZ="0" />
+    <vehicle id="vehicle (Bus) (8)" paintjob="3" model="431" plate="BE1F 9C2" interior="0" dimension="0" posX="44.093444824219" posY="-274.59521484375" posZ="1.828125" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (DYN_H_BALE2) (1)" doublesided="false" model="1454" interior="0" dimension="0" posX="-75.801467895508" posY="8.9473571777344" posZ="2.9153904914856" rotX="0" rotY="0" rotZ="70" />
+    <object id="object (DYN_H_BALE2) (2)" doublesided="false" model="1454" interior="0" dimension="0" posX="-73.784683227539" posY="8.1831855773926" posZ="2.9153904914856" rotX="0" rotY="0" rotZ="69.999389648438" />
+    <object id="object (DYN_H_BALE2) (3)" doublesided="false" model="1454" interior="0" dimension="0" posX="-74.437454223633" posY="6.5867576599121" posZ="2.9153904914856" rotX="0" rotY="0" rotZ="69.999389648438" />
+    <object id="object (DYN_H_BALE2) (4)" doublesided="false" model="1454" interior="0" dimension="0" posX="-74.384056091309" posY="7.4937782287598" posZ="4.236213684082" rotX="0" rotY="0" rotZ="69.999389648438" />
+    <object id="object (DYN_H_BALE2) (5)" doublesided="false" model="1454" interior="0" dimension="0" posX="-76.356140136719" posY="7.2701263427734" posZ="2.9153904914856" rotX="0" rotY="0" rotZ="69.999389648438" />
+    <object id="object (DYN_H_BALE2) (6)" doublesided="false" model="1454" interior="0" dimension="0" posX="-76.05525970459" posY="8.0942306518555" posZ="4.2107162475586" rotX="0" rotY="0" rotZ="69.999389648438" />
+    <object id="object (DYN_H_BALE2) (7)" doublesided="false" model="1454" interior="0" dimension="0" posX="-68.733703613281" posY="6.7294235229492" posZ="2.9153904914856" rotX="0" rotY="0" rotZ="359.99938964844" />
+    <object id="object (DYN_H_BALE2) (8)" doublesided="false" model="1454" interior="0" dimension="0" posX="-70.808731079102" posY="6.8988723754883" posZ="2.9153904914856" rotX="0" rotY="0" rotZ="339.99450683594" />
+    <object id="object (DYN_H_BALE2) (9)" doublesided="false" model="1454" interior="0" dimension="0" posX="-71.415008544922" posY="5.4643402099609" posZ="2.9153904914856" rotX="0" rotY="0" rotZ="339.99389648438" />
+    <object id="object (DYN_H_BALE2) (10)" doublesided="false" model="1454" interior="0" dimension="0" posX="-69.570358276367" posY="4.919116973877" posZ="2.9153904914856" rotX="0" rotY="0" rotZ="339.99389648438" />
+    <object id="object (DYN_H_BALE2) (11)" doublesided="false" model="1454" interior="0" dimension="0" posX="-70.482048034668" posY="5.2720441818237" posZ="4.1788139343262" rotX="0" rotY="0" rotZ="339.99389648438" />
+    <object id="object (DYN_H_BALE2) (12)" doublesided="false" model="1454" interior="0" dimension="0" posX="-83.740219116211" posY="-24.52391242981" posZ="2.9153904914856" rotX="0" rotY="0" rotZ="289.99389648438" />
+    <object id="object (DYN_H_BALE2) (13)" doublesided="false" model="1454" interior="0" dimension="0" posX="-81.465675354004" posY="-25.164066314697" posZ="2.9153904914856" rotX="0" rotY="0" rotZ="259.98962402344" />
+</map>

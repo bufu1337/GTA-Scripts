@@ -1,0 +1,234 @@
+/*//--------------------------------------------------------------------------//
+ 
+                        "Test Your Server" Filterscript
+                        Creators: LuxurY, Evgeniy
+                        Version: 1.4
+                        
+                        
+                                      (c) 2007 LDT
+                                                        http://luxury.mybb.ru
+ 
+//----------------------------------------------------------------------------*/
+#pragma tabsize 0
+#include <a_samp>
+ 
+//system varialbles
+new version[] = "1.4 beta";
+new lof;
+ 
+//names of vehicles
+new VehNames[212][] = {
+"Landstalker","Bravura","Buffalo","Linerunner","Pereniel","Sentinel","Dumper","Firetruck","Trashmaster",
+"Stretch","Manana","Infernus","Voodoo","Pony","Mule","Cheetah","Ambulance","Leviathan","Moonbeam","Esperanto",
+"Taxi","Washington","Bobcat","Mr Whoopee","BF Injection","Hunter","Premier","Enforcer","Securicar","Banshee",
+"Predator","Bus","Rhino","Barracks","Hotknife","Trailer","Previon","Coach","Cabbie","Stallion","Rumpo",
+"RC Bandit","Romero","Packer","Monster","Admiral","Squalo","Seasparrow","Pizzaboy","Tram","Trailer",
+"Turismo","Speeder","Reefer","Tropic","Flatbed","Yankee","Caddy","Solair","Berkley's RC Van","Skimmer",
+"PCJ-600","Faggio","Freeway","RC Baron","RC Raider","Glendale","Oceanic","Sanchez","Sparrow","Patriot",
+"Quad","Coastguard","Dinghy","Hermes","Sabre","Rustler","ZR3 50","Walton","Regina","Comet","BMX",
+"Burrito","Camper","Marquis","Baggage","Dozer","Maverick","News Chopper","Rancher","FBI Rancher","Virgo",
+"Greenwood","Jetmax","Hotring","Sandking","Blista Compact","Police Maverick","Boxville","Benson","Mesa",
+"RC Goblin","Hotring Racer A","Hotring Racer B","Bloodring Banger","Rancher","Super GT","Elegant",
+"Journey","Bike","Mountain Bike","Beagle","Cropdust","Stunt","Tanker","RoadTrain","Nebula","Majestic",
+"Buccaneer","Shamal","Hydra","FCR-900","NRG-500","HPV1000","Cement Truck","Tow Truck","Fortune","Cadrona",
+"FBI Truck","Willard","Forklift","Tractor","Combine","Feltzer","Remington","Slamvan","Blade","Freight",
+"Streak","Vortex","Vincent","Bullet","Clover","Sadler","Firetruck","Hustler","Intruder","Primo","Cargobob",
+"Tampa","Sunrise","Merit","Utility","Nevada","Yosemite","Windsor","Monster A","Monster B","Uranus",
+"Jester","Sultan","Stratum","Elegy","Raindance","RC Tiger","Flash","Tahoma","Savanna","Bandito","Freight",
+"Trailer","Kart","Mower","Duneride","Sweeper","Broadway","Tornado","AT-400","DFT-30","Huntley","Stafford",
+"BF-400","Newsvan","Tug","Trailer A","Emperor","Wayfarer","Euros","Hotdog","Club","Trailer B","Trailer C",
+"Andromada","Dodo","RC Cam","Launch","Police Car (LSPD)","Police Car (SFPD)","Police Car (LVPD)","Police Ranger",
+"Picador","S.W.A.T. Van","Alpha","Phoenix","Glendale","Sadler","Luggage Trailer A","Luggage Trailer B",
+"Stair Trailer","Boxville","Farm Plow","Utility Trailer" };
+ 
+//max values
+new MVC=700, MVM=70, MOC=250, MPC=400, MOP=200, MP=200, MTDC=1024, MGZC=1024, MMC=128;
+//recommended values
+new RVC=700, RVM=60, ROC=150, RPC=250, ROP=200, RP=200, RTDC=100, RGZC=100, RMC=50;
+ 
+public OnFilterScriptInit() {
+new warnings, errors;
+new VehCount = VehicleCount();
+new VehModel = VehicleModel();
+new ObjCount = ObjectCount();
+new PickCount = PickupCount();
+new OnlPl = OnlinePlayers();
+new MaxPl = GetMaxPlayers();
+new TextDrCount = TextDrawCount();
+new GZCount = GangZoneCount();
+new MenCount = MenuCount();
+print(" Test Your Server Filterscript loaded!");
+printf(" Version: %s",version);
+print(" Testing started...");
+print(" ________________________________________________________________");
+print("| Title                  Count      Max   Recomended       *TYS* |");
+print("|________________________________________________________________|");
+printf(" Modename:              %40s |",ReturnServerStringVar("gamemodetext"));
+printf(" Vehicles:              [%4d]    [%4d]    [%3d]       *        |",VehCount,MVC,RVC);
+printf(" Types of vehicles:     [%4d]    [%4d]    [%3d]      TTT       |",VehModel,MVM,RVM);
+printf(" Objects:               [%4d]    [%4d]    [%3d]     **T**      |",ObjCount,MOC,ROC);
+printf(" Pickups:               [%4d]    [%4d]    [%3d]    **Y*Y**     |",PickCount,MPC,RPC);
+printf(" Online players:        [%4d]    [%4d]    [%3d]   ****Y****    |",OnlPl,MOP,ROP);
+printf(" Max players:           [%4d]    [%4d]    [%3d]    ***SS**     |",MaxPl,MP,RP);
+printf(" TextDraw:              [%4d]    [%4d]    [%3d]     **S**      |",TextDrCount,MTDC,RTDC);
+printf(" GangZone:              [%4d]    [%4d]    [%3d]      SS*       |",GZCount,MGZC,RGZC);
+printf(" Menu:                  [%4d]    [%4d]    [%3d]       *        |",MenCount,MMC,RMC);
+print(" ________________________________________________________________|\n");
+print("              Errors and Warnings:");
+print(" ________________________________________________________________");
+if (VehCount > MVC) {
+errors++;
+printf(" Error: Count of vehicles must be not more than %d",MVC); }
+if (VehicleModel() > MVM) {
+errors++;
+printf(" Error: Count of types of vehicles must be not more than %d",MVM); }
+else if (VehicleModel() > RVM) {
+warnings++;
+printf(" Warning: Recomended count of types of vehicles is %d",RVM); }
+if (ObjectCount() > MOC) {
+errors++;
+printf(" Error: Count of objects must be not more than %d",MOC); }
+else if (ObjectCount() > ROC) {
+warnings++;
+printf(" Warning: Recomended count of objects is %d",ROC); }
+if (PickupCount() > MPC) {
+errors++;
+printf(" Error: Count of pickups must be not more than %d",MPC); }
+else if (PickupCount() > RPC) {
+warnings++;
+printf(" Warning: Recomended count of pickups is %d",RPC); }
+if (TextDrawCount() > MTDC) {
+errors++;
+printf(" Error: Count of TextDraw must be not more than %d",MTDC); }
+else if (TextDrawCount() > RTDC) {
+warnings++;
+printf(" Warning: Recomended count of TextDraw is %d",RTDC); }
+if (GangZoneCount() > MGZC) {
+errors++;
+printf(" Error: Count of GangZone must be not more than %d",MGZC); }
+else if (GangZoneCount() > RGZC) {
+warnings++;
+printf(" Warning: Recomended count of GangZone is %d",RGZC); }
+if (MenuCount() > MMC) {
+errors++;
+printf(" Error: Count of Menu must be not more than %d",MMC); }
+else if (MenuCount() > RMC) {
+warnings++;
+printf(" Warning: Recomended count of Menu is %d",RMC); }
+print(" ________________________________________________________________");
+printf("                          Errors: %d Warnings: %d \n",errors,warnings);
+print(" The end of testing");
+print(" ________________________________________________________________\n \n");
+print(" ////////////////////////////////////////////////////////////");
+print(" // Do you want to watch list of vehicles? Type 'y' or 'n' //");
+print(" //////////////////////////////////////////////////////////// \n \n");
+lof=1;
+return 1;
+}
+ 
+stock VehicleModel() {
+new model[250], nummodel;
+for (new i=1;i<VehicleCount()+1;i++) {
+model[GetVehicleModel(i)-400]++;
+}
+for (new i=0;i<250;i++) {
+if (model[i]!=0) {
+nummodel++;
+}}
+return nummodel;
+}
+stock VehicleModel1() {
+new model[250], nummodel;
+for (new i=1;i<VehicleCount()+1;i++) {
+model[GetVehicleModel(i)-400]++;
+}
+for (new i=0;i<250;i++) {
+if (model[i]!=0) {
+nummodel++;
+printf("%s=%d",vehicleNames[GetVehicleModel(i)-400],model[i]);
+}}
+return 1;
+}
+stock VehicleCount() {
+new numcar=CreateVehicle(490,0,0,0,0,0,0,3000);
+DestroyVehicle(numcar);
+return numcar-1;
+}
+ 
+stock ObjectCount() {
+new numo = CreateObject(1245,0,0,1000,0,0,0);
+DestroyObject(numo);
+return numo-1;
+}
+ 
+stock PickupCount() {
+new nump = CreatePickup(371,2,0,0,1000);
+DestroyPickup(nump);
+return nump;
+}
+ 
+stock TextDrawCount() {
+new Text:TT = TextDrawCreate(1,1,"Test");
+TextDrawDestroy(TT);
+return TT;
+}
+ 
+stock GangZoneCount() {
+new cz = GangZoneCreate(3,3,5,5);
+GangZoneDestroy(cz);
+return cz;
+}
+ 
+stock MenuCount() {
+new cm;
+for (new menx=1;menx<128;menx++) {
+if (IsValidMenu(menx)) {
+cm++;
+}}
+return cm;
+}
+ 
+stock OnlinePlayers() {
+new ol;
+for(new i=0; i < MAX_PLAYERS; i++) {
+if (IsPlayerConnected(i)) {
+ol++;
+}}
+return ol;
+}
+ 
+public OnRconCommand(cmd[]) {
+if (lof == 1) {
+if(strcmp(cmd, "y", true)==0) {
+new model[250],VehCount;
+print(" |----------------------------|");
+print(" |   CAR              COUNT   |");
+print(" |----------------------------|");
+VehCount = VehicleCount();
+for (new i=1;i<VehCount+1;i++) {
+model[GetVehicleModel(i)-400]++;
+}
+for (new v=0;v<250;v++) {
+if (model[v]!=0) {
+printf(" | %20s %-5d |",VehNames[v],model[v]);
+}}
+if (VehCount == 0) {
+print(" |            none            |");
+}
+print(" |----------------------------| \n");
+print(" Done!");
+lof=0;
+}
+if(strcmp(cmd, "n", true)==0) {
+print("\n Function disabled. It'll be available at the next loading.\n");
+lof=0;
+}}
+return 1;
+}
+ 
+stock ReturnServerStringVar(const varname[])
+{
+    new str[64];
+    GetServerVarAsString(varname, str, sizeof(str));
+    return str;
+}

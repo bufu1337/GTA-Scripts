@@ -1,0 +1,41 @@
+/*
+ *            Nick 0.1 functions
+ *       (c) Copyright 2006 by DracoBlue
+ *
+ * @version   : 0.1
+ * @author    : DracoBlue (http://dracoblue.com)
+ * @date      : 31st July 2006
+ * @update    : 31st July 2006
+ *
+ * This is provided as is (no warranties).
+ *
+ */
+
+____________________________________________________________________
+
+  How to use it?
+____________________________________________________________________
+
+ o 0. Extract all files of this zip-archive into your server-folder.
+ o Append "dnick" to your filterscripts line in server.cfg
+
+____________________________________________________________________
+
+  What does this do?
+____________________________________________________________________
+
+ o Its an example implementation of the DUDB-libary for pawn, which
+   shows saves the money of all registered users.
+   
+    /register password
+    /login password
+
+ o Source can be found here:
+   http://dracoblue.net
+   http://gtat.dracoblue.net/index.php?board=58.0
+   http://forum.sa-mp.com/index.php?topic=4798.0
+
+Regards,
+  Jan (DracoBlue)
+
+

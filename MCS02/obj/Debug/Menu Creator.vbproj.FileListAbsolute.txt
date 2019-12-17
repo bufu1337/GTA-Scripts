@@ -1,0 +1,33 @@
+C:\Documents and Settings\Patrick\Local Settings\Application Data\Temporary Projects\Menu Creator\bin\Debug\Menu Creator.exe
+C:\Documents and Settings\Patrick\Local Settings\Application Data\Temporary Projects\Menu Creator\bin\Debug\Menu Creator.pdb
+C:\Documents and Settings\Patrick\Local Settings\Application Data\Temporary Projects\Menu Creator\bin\Debug\Menu Creator.xml
+C:\Documents and Settings\Patrick\Local Settings\Application Data\Temporary Projects\Menu Creator\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Patrick\Local Settings\Application Data\Temporary Projects\Menu Creator\obj\Debug\Menu_Creator.Form1.resources
+C:\Documents and Settings\Patrick\Local Settings\Application Data\Temporary Projects\Menu Creator\obj\Debug\Menu_Creator.Resources.resources
+C:\Documents and Settings\Patrick\Local Settings\Application Data\Temporary Projects\Menu Creator\obj\Debug\Menu Creator.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Patrick\Local Settings\Application Data\Temporary Projects\Menu Creator\obj\Debug\Menu Creator.exe
+C:\Documents and Settings\Patrick\Local Settings\Application Data\Temporary Projects\Menu Creator\obj\Debug\Menu Creator.xml
+C:\Documents and Settings\Patrick\Local Settings\Application Data\Temporary Projects\Menu Creator\obj\Debug\Menu Creator.pdb
+C:\Documents and Settings\Patrick\My Documents\Visual Studio 2008\Projects\Menu Creator\Menu Creator\obj\Debug\Menu Creator.exe
+C:\Documents and Settings\Patrick\My Documents\Visual Studio 2008\Projects\Menu Creator\Menu Creator\obj\Debug\Menu Creator.xml
+C:\Documents and Settings\Patrick\My Documents\Visual Studio 2008\Projects\Menu Creator\Menu Creator\obj\Debug\Menu Creator.pdb
+C:\Documents and Settings\Patrick\My Documents\Visual Studio 2008\Projects\Menu Creator\Menu Creator\bin\Debug\Menu Creator.exe
+C:\Documents and Settings\Patrick\My Documents\Visual Studio 2008\Projects\Menu Creator\Menu Creator\bin\Debug\Menu Creator.pdb
+C:\Documents and Settings\Patrick\My Documents\Visual Studio 2008\Projects\Menu Creator\Menu Creator\bin\Debug\Menu Creator.xml
+C:\Documents and Settings\Patrick\My Documents\Visual Studio 2008\Projects\Menu Creator\Menu Creator\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Patrick\My Documents\Visual Studio 2008\Projects\Menu Creator\Menu Creator\obj\Debug\Menu_Creator.Form1.resources
+C:\Documents and Settings\Patrick\My Documents\Visual Studio 2008\Projects\Menu Creator\Menu Creator\obj\Debug\Menu_Creator.Resources.resources
+C:\Documents and Settings\Patrick\My Documents\Visual Studio 2008\Projects\Menu Creator\Menu Creator\obj\Debug\Menu Creator.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Patrick\My Documents\Visual Studio 2008\Projects\Menu Creator\Menu Creator\obj\Debug\Menu_Creator.about.resources
+C:\Documents and Settings\Patrick\Desktop\VB\Menu Creator\Menu Creator\obj\Debug\Menu Creator.exe
+C:\Documents and Settings\Patrick\Desktop\VB\Menu Creator\Menu Creator\obj\Debug\Menu Creator.xml
+C:\Documents and Settings\Patrick\Desktop\VB\Menu Creator\Menu Creator\obj\Debug\Menu Creator.pdb
+C:\Documents and Settings\Patrick\Desktop\VB\Menu Creator\Menu Creator\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Patrick\Desktop\VB\Menu Creator\Menu Creator\obj\Debug\Menu_Creator.about.resources
+C:\Documents and Settings\Patrick\Desktop\VB\Menu Creator\Menu Creator\obj\Debug\Menu_Creator.Resources.resources
+C:\Documents and Settings\Patrick\Desktop\VB\Menu Creator\Menu Creator\obj\Debug\Menu Creator.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Patrick\Desktop\VB\Menu Creator\Menu Creator\bin\Debug\Menu Creator.exe
+C:\Documents and Settings\Patrick\Desktop\VB\Menu Creator\Menu Creator\bin\Debug\Menu Creator.pdb
+C:\Documents and Settings\Patrick\Desktop\VB\Menu Creator\Menu Creator\bin\Debug\Menu Creator.xml
+C:\Documents and Settings\Patrick\Desktop\VB\Menu Creator\Menu Creator\obj\Debug\Menu_Creator.editbox.resources
+C:\Documents and Settings\Patrick\Desktop\VB\Menu Creator\Menu Creator\obj\Debug\Menu_Creator.main.resources

@@ -1,0 +1,14 @@
+18632, FishingRod
+18633, GTASAWrench1
+18634, GTASACrowbar1
+18635, GTASAHammer1
+18636, PoliceCap1
+18637, PoliceShield1
+18638, HardHat1
+18639, BlackHat1
+18640, Hair1
+18641, Flashlight1
+18642, Taser1
+18643, LaserPointer1
+18644, Screwdriver1
+18645, MotorcycleHelmet1

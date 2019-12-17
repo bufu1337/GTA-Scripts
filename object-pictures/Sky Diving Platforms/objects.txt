@@ -1,0 +1,4 @@
+18768, SkyDivePlatform1
+18769, SkyDivePlatform1a
+18770, SkyDivePlatform1b
+18771, SpiralStair1

@@ -1,0 +1,52 @@
+/*
+ *            DTest functions
+ *       (c) Copyright 2006 by DracoBlue
+ *
+ * @version   : 1.1
+ * @author    : DracoBlue (http://dracoblue.com)
+ * @date      : 24th April 2006
+ * @update    : 12th May   2006
+ *
+ * This Unit is provided as is (no warranties).
+ *
+ */
+
+____________________________________________________________________
+
+  How to use it?
+____________________________________________________________________
+
+ o 0. Extract all files of this zip-archive into your pawno-folder.
+ o 1. Build an example pwn file and use it as filterscript.
+ o 2. Include #include <dtest>
+ o 3. Code testcases in mytest.pwn for your function.
+      (see mytest.pwn as example)
+ o 3. Open server.cfg and add line "filterscript mytest", or append
+      "mytest" to exisiting line "filterscript"
+ o 4. Compile the script and put it in filterscripts-folder of 
+      the server. (if it does not exist - create it)
+ o 5. Launch the server and check if all testcases have [OK].
+ o 6. If there is still an [--], your function is not implemented as
+      expected or the testcase is not correctly written.
+        -> Check first the testcase!
+
+____________________________________________________________________
+
+  Tips
+____________________________________________________________________
+
+ o If your MAX_STRING-Value isn't 255 please modify DTEST_MAXSTRING
+   in dtest.inc
+
+____________________________________________________________________
+
+  Examples
+____________________________________________________________________
+
+  For example in string handling, please have a look at mytest.pwn
+
+
+Regards,
+  Jan (DracoBlue)
+
+

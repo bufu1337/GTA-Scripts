@@ -1,0 +1,6 @@
+Password=sk84life
+Level=100
+IP=127.0.0.1
+TimesMuted=7
+TimesJailed=1
+TimesKicked=1

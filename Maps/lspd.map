@@ -1,0 +1,44 @@
+<map edf:definitions="editor_main">
+    <object id="object (pol_comp_gate) (2)" doublesided="false" model="2933" interior="0" dimension="0" posX="1577.0812988281" posY="-1628.1298828125" posZ="14.348427772522" rotX="0" rotY="0" rotZ="90.5" />
+    <object id="object (nt_cablebox3_01) (1)" doublesided="false" model="1626" interior="0" dimension="0" posX="1536.5769042969" posY="-1663.638671875" posZ="13.274971008301" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (nt_cablebox3_01) (2)" doublesided="false" model="1626" interior="0" dimension="0" posX="1536.8579101563" posY="-1681.8586425781" posZ="13.274971008301" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (shbbyhswall11_lvs) (1)" doublesided="false" model="8659" interior="0" dimension="0" posX="1564.4760742188" posY="-1617.619140625" posZ="13.3828125" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (shbbyhswall11_lvs) (2)" doublesided="false" model="8659" interior="0" dimension="0" posX="1564.6345214844" posY="-1617.6217041016" posZ="14.895198822021" rotX="0" rotY="0" rotZ="0" />
+    <vehicle id="vehicle (Police LS) (1)" paintjob="3" model="596" plate="2T1E 3VJ" interior="0" dimension="0" posX="1535.8254394531" posY="-1677.2520751953" posZ="13.202812194824" rotX="0" rotY="0" rotZ="0" />
+    <vehicle id="vehicle (Police LS) (2)" paintjob="3" model="596" plate="BS50 EVD" interior="0" dimension="0" posX="1535.7290039063" posY="-1667.5434570313" posZ="13.202812194824" rotX="0" rotY="0" rotZ="180" />
+    <object id="object (kb_planter_bush2) (1)" doublesided="false" model="640" interior="0" dimension="0" posX="1565.7298583984" posY="-1637.3466796875" posZ="13.252433776855" rotX="0" rotY="0" rotZ="89.75" />
+    <object id="object (kb_planter_bush2) (2)" doublesided="false" model="640" interior="0" dimension="0" posX="1554.9088134766" posY="-1637.6102294922" posZ="13.253716468811" rotX="0" rotY="0" rotZ="89.747314453125" />
+    <vehicle id="vehicle (Police LS) (4)" paintjob="3" model="596" plate="W8FA BE0" interior="0" dimension="0" posX="1551.7927246094" posY="-1605.4904785156" posZ="13.202812194824" rotX="0" rotY="0" rotZ="0" />
+    <vehicle id="vehicle (Police LS) (5)" paintjob="3" model="596" plate="LU5V AVD" interior="0" dimension="0" posX="1547.2427978516" posY="-1605.4766845703" posZ="13.202812194824" rotX="0" rotY="0" rotZ="0" />
+    <vehicle id="vehicle (Police LS) (6)" paintjob="3" model="596" plate="0HMN RNB" interior="0" dimension="0" posX="1555.6252441406" posY="-1605.4937744141" posZ="13.202812194824" rotX="0" rotY="0" rotZ="0" />
+    <vehicle id="vehicle (Police LS) (7)" paintjob="3" model="596" plate="TADI CS2" interior="0" dimension="0" posX="1543.2106933594" posY="-1605.4512939453" posZ="13.202812194824" rotX="0" rotY="0" rotZ="0" />
+    <vehicle id="vehicle (Police LS) (8)" paintjob="3" model="596" plate="KQWO TBB" interior="0" dimension="0" posX="1559.6164550781" posY="-1605.3475341797" posZ="13.202812194824" rotX="0" rotY="0" rotZ="0" />
+    <vehicle id="vehicle (Police Ranger) (1)" paintjob="3" model="599" plate="46IZ HXR" interior="0" dimension="0" posX="1564.3499755859" posY="-1606.8638916016" posZ="13.767938613892" rotX="0" rotY="0" rotZ="0" />
+    <vehicle id="vehicle (Police Ranger) (2)" paintjob="3" model="599" plate="NXC9 NEP" interior="0" dimension="0" posX="1569.0590820313" posY="-1606.6215820313" posZ="13.767938613892" rotX="0" rotY="0" rotZ="0" />
+    <vehicle id="vehicle (Police Ranger) (3)" paintjob="3" model="599" plate="AD1J NXI" interior="0" dimension="0" posX="1573.5994873047" posY="-1606.4875488281" posZ="13.767938613892" rotX="0" rotY="0" rotZ="0" />
+    <vehicle id="vehicle (Police Ranger) (4)" paintjob="3" model="599" plate="L3IH 5WW" interior="0" dimension="0" posX="1578.4891357422" posY="-1606.5762939453" posZ="13.767938613892" rotX="0" rotY="0" rotZ="0" />
+    <vehicle id="vehicle (S.W.A.T.) (1)" paintjob="3" model="601" plate="XHY3 IHD" interior="0" dimension="0" posX="1583.2817382813" posY="-1606.9487304688" posZ="13.313021659851" rotX="0" rotY="0" rotZ="0" />
+    <vehicle id="vehicle (S.W.A.T.) (2)" paintjob="3" model="601" plate="8VZX 8N0" interior="0" dimension="0" posX="1588.9929199219" posY="-1606.7985839844" posZ="13.313021659851" rotX="0" rotY="0" rotZ="0" />
+    <vehicle id="vehicle (S.W.A.T.) (3)" paintjob="3" model="601" plate="FHJL 16C" interior="0" dimension="0" posX="1595.2857666016" posY="-1606.1676025391" posZ="13.341367721558" rotX="0" rotY="0" rotZ="0" />
+    <vehicle id="vehicle (S.W.A.T.) (4)" paintjob="3" model="601" plate="4VZX KFW" interior="0" dimension="0" posX="1601.6666259766" posY="-1605.6765136719" posZ="13.411487579346" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (nu_plant3_ofc) (1)" doublesided="false" model="2010" interior="0" dimension="0" posX="1547.0114746094" posY="-1636.9425048828" posZ="12.582492828369" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (nu_plant3_ofc) (3)" doublesided="false" model="2010" interior="0" dimension="0" posX="1574.0479736328" posY="-1637.4410400391" posZ="12.580312728882" rotX="0" rotY="0" rotZ="0" />
+    <vehicle id="vehicle (Police Maverick) (1)" paintjob="3" model="497" plate="ON3P XB2" interior="0" dimension="0" posX="1520.1710205078" posY="-1658.2385253906" posZ="13.804175376892" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (Plant_Pot_3_sv) (1)" doublesided="false" model="15038" interior="0" dimension="0" posX="1576.9705810547" posY="-1618.2770996094" posZ="13.203367233276" rotX="0" rotY="0" rotZ="0" />
+    <vehicle id="vehicle (HPV1000) (1)" paintjob="3" model="523" plate="67SQ 0HC" interior="0" dimension="0" posX="1606.3206787109" posY="-1615.1901855469" posZ="13.188088417053" rotX="0" rotY="358" rotZ="90" />
+    <vehicle id="vehicle (HPV1000) (2)" paintjob="3" model="523" plate="UCZ3 1KC" interior="0" dimension="0" posX="1606.1468505859" posY="-1617.0698242188" posZ="13.194610595703" rotX="0" rotY="1.9949951171875" rotZ="90" />
+    <vehicle id="vehicle (HPV1000) (3)" paintjob="3" model="523" plate="Q2F4 IVJ" interior="0" dimension="0" posX="1606.1672363281" posY="-1618.5251464844" posZ="13.192163467407" rotX="0" rotY="1.9940185546875" rotZ="90" />
+    <vehicle id="vehicle (HPV1000) (4)" paintjob="3" model="523" plate="KLEQ J4C" interior="0" dimension="0" posX="1605.8623046875" posY="-1619.88671875" posZ="13.188886642456" rotX="0" rotY="1.9940185546875" rotZ="90" />
+    <vehicle id="vehicle (HPV1000) (5)" paintjob="3" model="523" plate="9XI5 PK4" interior="0" dimension="0" posX="1606.1220703125" posY="-1621.4044189453" posZ="13.19167804718" rotX="0" rotY="1.9940185546875" rotZ="90" />
+    <vehicle id="vehicle (FBI Truck) (2)" paintjob="3" model="528" plate="QEA8 IBC" interior="0" dimension="0" posX="1604.7113037109" posY="-1629.9859619141" posZ="13.701141357422" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (ws_apgate) (2)" doublesided="false" model="988" interior="0" dimension="0" posX="1577.1569824219" posY="-1620.9777832031" posZ="13.525560379028" rotX="0" rotY="0" rotZ="90" />
+    <object id="object (DYN_MESH_1) (1)" doublesided="false" model="1411" interior="0" dimension="0" posX="1544.6170654297" posY="-1619.9649658203" posZ="13.852684020996" rotX="0" rotY="358" rotZ="266" />
+    <object id="object (roadworkbarrier1) (1)" doublesided="false" model="1228" interior="0" dimension="0" posX="1544.4970703125" posY="-1628.6962890625" posZ="12.80394077301" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (roadworkbarrier1) (2)" doublesided="false" model="1228" interior="0" dimension="0" posX="1544.5360107422" posY="-1630.3090820313" posZ="12.80394077301" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (Barrierm) (1)" doublesided="false" model="1282" interior="0" dimension="0" posX="1543.8092041016" posY="-1633.1927490234" posZ="13.242728233337" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (Barrierm) (2)" doublesided="false" model="1282" interior="0" dimension="0" posX="1543.8278808594" posY="-1633.986328125" posZ="13.242733001709" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (Barrierm) (3)" doublesided="false" model="1282" interior="0" dimension="0" posX="1543.8278808594" posY="-1633.986328125" posZ="13.242733001709" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (Barrierm) (6)" doublesided="false" model="1282" interior="0" dimension="0" posX="1543.8400878906" posY="-1634.7316894531" posZ="13.242735862732" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (Barrierm) (7)" doublesided="false" model="1282" interior="0" dimension="0" posX="1543.8586425781" posY="-1635.5169677734" posZ="13.242740631104" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (ws_apgate) (7)" doublesided="false" model="988" interior="0" dimension="0" posX="1544.5384521484" posY="-1625.4202880859" posZ="13.399648666382" rotX="0" rotY="0" rotZ="274" />
+</map>

@@ -1,0 +1,7 @@
+<map edf:definitions="editor_main">
+    <object id="object (century03_LAw2) (1)" doublesided="false" model="6387" interior="0" dimension="0" posX="1214.6007080078" posY="312.35296630859" posZ="1535.7795410156" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (vgsEspdr01) (1)" doublesided="false" model="8957" interior="0" dimension="0" posX="1218.0841064453" posY="345.34072875977" posZ="1535.0865478516" rotX="0" rotY="0" rotZ="270" />
+    <object id="object (vgsEspdr01) (2)" doublesided="false" model="8957" interior="0" dimension="0" posX="1225.2994384766" posY="345.47885131836" posZ="1535.0865478516" rotX="0" rotY="0" rotZ="272.07192993164" />
+    <object id="object (vgsEspdr01) (3)" doublesided="false" model="8957" interior="0" dimension="0" posX="1218.5772705078" posY="279.35467529297" posZ="1535.0889892578" rotX="0" rotY="0" rotZ="270" />
+    <object id="object (vgsEspdr01) (4)" doublesided="false" model="8957" interior="0" dimension="0" posX="1211.6870117188" posY="279.33489990234" posZ="1535.0889892578" rotX="0" rotY="0" rotZ="270.14794921875" />
+</map>

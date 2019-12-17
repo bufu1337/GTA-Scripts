@@ -1,0 +1,53 @@
+//TextDraw developed using Zamaroht's in-game TextDraw system
+ 
+//On top of script:
+new Text:Textdraw0;
+new Text:Textdraw1;
+new Text:Textdraw2;
+new Text:Textdraw3;
+ 
+//In OnGameModeInit or any other place, we procced to create our textdraw:
+Textdraw0 = TextDrawCreate(1.000000,1.000000," ");
+Textdraw1 = TextDrawCreate(1.000000,1.000000," ");
+Textdraw2 = TextDrawCreate(76.000000,132.000000," ");
+Textdraw3 = TextDrawCreate(93.000000,3.000000," ");
+TextDrawUseBox(Textdraw2,1);
+TextDrawBoxColor(Textdraw2,0x00ff00ff);
+TextDrawTextSize(Textdraw2,0.000000,0.000000);
+TextDrawAlignment(Textdraw0,0);
+TextDrawAlignment(Textdraw1,0);
+TextDrawAlignment(Textdraw2,0);
+TextDrawAlignment(Textdraw3,0);
+TextDrawBackgroundColor(Textdraw0,0x000000ff);
+TextDrawBackgroundColor(Textdraw1,0x000000ff);
+TextDrawBackgroundColor(Textdraw2,0x000000ff);
+TextDrawBackgroundColor(Textdraw3,0x000000ff);
+TextDrawFont(Textdraw0,3);
+TextDrawLetterSize(Textdraw0,1.000000,1.000000);
+TextDrawFont(Textdraw1,3);
+TextDrawLetterSize(Textdraw1,1.000000,1.000000);
+TextDrawFont(Textdraw2,3);
+TextDrawLetterSize(Textdraw2,1.000000,1.000000);
+TextDrawFont(Textdraw3,3);
+TextDrawLetterSize(Textdraw3,1.000000,1.000000);
+TextDrawColor(Textdraw0,0xffffffff);
+TextDrawColor(Textdraw1,0xffffffff);
+TextDrawColor(Textdraw2,0xffffffff);
+TextDrawColor(Textdraw3,0xffffffff);
+TextDrawSetOutline(Textdraw0,1);
+TextDrawSetOutline(Textdraw1,1);
+TextDrawSetOutline(Textdraw2,1);
+TextDrawSetOutline(Textdraw3,1);
+TextDrawSetProportional(Textdraw0,1);
+TextDrawSetProportional(Textdraw1,1);
+TextDrawSetProportional(Textdraw2,1);
+TextDrawSetProportional(Textdraw3,1);
+TextDrawSetShadow(Textdraw0,1);
+TextDrawSetShadow(Textdraw1,1);
+TextDrawSetShadow(Textdraw2,1);
+TextDrawSetShadow(Textdraw3,1);
+ 
+//You can now use TextDrawShowForPlayer(-ForAll), TextDrawHideForPlayer(-ForAll) and
+//TextDrawDestroy functions to show, hide, and destroy the textdraw.
+ 
+ 

@@ -1,0 +1,540 @@
+// Call Backs [ mic_call ]
+
+/////////////////////////////////////////////////////////////////////////////
+public OnPlayerText(playerid, text[])
+{
+if (muted[playerid] == 1){
+new str[256];
+format(str,256,"SERVER: You have been silenced.");
+SendClientMessage(playerid,0xAFAFAFAA,str);
+return 0;
+}
+if (ChatSys==1){
+new pl;
+while (strfind(text,"~",true) != -1){
+pl = strfind(text,"~",true);
+strdel(text,pl,pl+1);
+}
+
+new name[100];
+GetPlayerName(playerid,name,100);
+
+format(chattext1,100,chattext2);
+format(chattext2,100,chattext3);
+format(chattext3,100,chattext4);
+format(chattext4,100,chattext5);
+format(chattext5,100,"%s: %s",name,text);
+
+TextDrawSetString(chat1,chattext1);
+TextDrawSetString(chat2,chattext2);
+TextDrawSetString(chat3,chattext3);
+TextDrawSetString(chat4,chattext4);
+TextDrawSetString(chat5,chattext5);
+return 0;
+}
+CallLocalFunction("onplayertext","is",playerid,text);
+return 1;
+}
+
+public OnPlayerPickUpPickup(playerid,pickupid){
+CallLocalFunction("onplayerpickuppickup","ii",playerid,pickupid);
+
+if (pickupid == gym1){
+TogglePlayerControllable(playerid,0);
+SetPlayerPos(playerid,773.5598,-2.2508,1000.7257);
+SetPlayerFacingAngle(playerid,178.9851);
+SetCameraBehindPlayer(playerid);
+GameTextForPlayer(playerid,"~n~~n~~n~~n~Press ~g~ENTER~w~ to start~n~Press ~r~SPACE~w~ to stop",3000,5);
+gymt1 = SetTimer("IsInGym1",500,1);
+}
+
+
+if(BP[pickupid] != 0){OnPlayerEnterBizz(playerid,BP[pickupid]);}
+else if(HP[pickupid] != 0){
+//print("OnPlayerEnterHousee");
+
+OnPlayerEnterHousee(playerid,HP[pickupid]);}
+}
+/////////////////////////////////////////////////////////////
+public OnPlayerConnect(playerid)
+{
+new name[256];
+GetPlayerName(playerid,name,255);
+new IP[256],key[256],str[256];
+new in;
+GetPlayerIp(playerid,IP,256);
+LoadProperty("BanList",IP,key);
+in = strval(key);
+if(in >= 1){
+format(str,256,"SERVER: You have been banned from the server for next %d hr(s).",in);
+SendClientMessage(playerid,0xAFAFAFAA,str);
+Kick(playerid);
+return 0;
+}
+if (ChatSys==1){
+SendClientMessage(playerid,0xFFFFFFAA,"  ");
+SendClientMessage(playerid,0xFFFFFFAA,"  ");
+SendClientMessage(playerid,0xFFFFFFAA,"  ");
+SendClientMessage(playerid,0xFFFFFFAA,"  ");
+SendClientMessage(playerid,0xFFFFFFAA,"  ");
+SendClientMessage(playerid,0xFFFFFFAA,"  ");
+SendClientMessage(playerid,0xFFFFFFAA,"  ");
+SendClientMessage(playerid,0xFFFFFFAA,"  ");
+SendClientMessage(playerid,0xFFFFFFAA,"  ");
+SendClientMessage(playerid,0xFFFFFFAA,"  ");
+SendClientMessage(playerid,0xFFFFFFAA,"  ");
+SendClientMessage(playerid,0xFFFFFFAA,"  ");
+SendClientMessage(playerid,0xFFFFFFAA,"  ");
+SendClientMessage(playerid,0xFFFFFFAA,"  ");
+SendClientMessage(playerid,0xFFFFFFAA,"  ");
+SendClientMessage(playerid,0xFFFFFFAA,"  ");
+SendClientMessage(playerid,0xFFFFFFAA,"  ");
+TextDrawShowForPlayer(playerid,cc);
+TextDrawShowForPlayer(playerid,chat1);
+TextDrawShowForPlayer(playerid,chat2);
+TextDrawShowForPlayer(playerid,chat3);
+TextDrawShowForPlayer(playerid,chat4);
+TextDrawShowForPlayer(playerid,chat5);
+new stnam[256];
+GetPlayerName(playerid,stnam,255);
+format(stnam,255,"SERVER: %s has joined.",stnam);
+SendMessage(stnam);
+}
+CallLocalFunction("onplayerconnect","i",playerid);
+return 1;
+}
+/////////////////////////////////////////////////////////////////
+
+public OnPlayerDisconnect(playerid,reason){
+new name[256];
+GetPlayerName(playerid,name,255);
+new stnam[256];
+GetPlayerName(playerid,stnam,255);
+format(stnam,255,"SERVER: %s has left.",stnam);
+SendMessage(stnam);
+return 1;
+}
+////////////////////////////////////////////////////////////////
+
+public OnGameModeInit(){
+
+CallLocalFunction("ongamemodeinit"," ");
+if (GantonGym==1){
+gym1 = CreatePickup(1239,2,773.5598,-1.2508,1000.7257);
+}
+Clock = TextDrawCreate(549,24,"00:00");
+TextDrawLetterSize(Clock,0.55,2);
+TextDrawFont(Clock,3);
+TextDrawBackgroundColor(Clock,0x000000AA);
+TextDrawSetOutline(Clock,2);
+AN1 = CreateMenu("Ammu-Nation",1,25,150,150,150);
+AN2 = CreateMenu("Ammu-Nation",1,25,150,150,150);
+AN3 = CreateMenu("Ammu-Nation",1,25,150,150,150);
+AN4 = CreateMenu("Ammu-Nation",1,25,150,150,150);
+AN5 = CreateMenu("Ammu-Nation",1,25,150,150,150);
+AN6 = CreateMenu("Ammu-Nation",1,25,150,150,150);
+AN7 = CreateMenu("Ammu-Nation",1,25,150,150,150);
+AddMenuItem(AN1,0,"9mm");
+AddMenuItem(AN1,0,"Silenced 9mm");
+AddMenuItem(AN1,0,"Desert Eagle");
+AddMenuItem(AN2,0,"Tec9");
+AddMenuItem(AN2,0,"Micro SMG");
+AddMenuItem(AN3,0,"Shotgun");
+AddMenuItem(AN3,0,"Sawnoff Shotgun");
+AddMenuItem(AN4,0,"Body Armor");
+AddMenuItem(AN5,0,"SMG");
+AddMenuItem(AN6,0,"Rifle");
+AddMenuItem(AN6,0,"Sniper rifle");
+AddMenuItem(AN7,0,"AK47");
+AddMenuItem(AN7,0,"M4");
+cc = TextDrawCreate(375,350,"                                 ");
+TextDrawUseBox(cc,3);
+TextDrawBoxColor(cc,0x000000AA);
+TextDrawLetterSize(cc,1000,1000);
+chat1 =TextDrawCreate(375,350," ");
+TextDrawColor(chat1,0xFFFFFFAA);
+TextDrawFont(chat1,1);
+chat2 =TextDrawCreate(375,370," ");
+TextDrawColor(chat2,0xFFFFFFAA);
+TextDrawFont(chat2,1);
+chat3 =TextDrawCreate(375,390," ");
+TextDrawColor(chat3,0xFFFFFFAA);
+TextDrawFont(chat3,1);
+chat4 =TextDrawCreate(375,410," ");
+TextDrawColor(chat4,0xFFFFFFAA);
+TextDrawFont(chat4,1);
+chat5 =TextDrawCreate(375,430," ");
+TextDrawColor(chat5,0xFFFFFFAA);
+TextDrawFont(chat5,1);
+
+TextDrawFont(chat5,3);
+Bmenu = CreateMenu("Biz",1,50,150,50,150);
+AddMenuItem(Bmenu,0,"Info");
+AddMenuItem(Bmenu,0,"Enter");
+AddMenuItem(Bmenu,0,"Buy");
+Bexit = CreateMenu(" ",1,500,380,50,30);
+AddMenuItem(Bexit,0,"EXIT");
+Hmenu = CreateMenu("House",1,50,150,50,150);
+AddMenuItem(Hmenu,0,"Info");
+AddMenuItem(Hmenu,0,"Enter");
+AddMenuItem(Hmenu,0,"Rent");
+AddMenuItem(Hmenu,0,"Buy");
+Hexit = CreateMenu(" ",1,500,380,50,30);
+AddMenuItem(Hexit,0,"EXIT");
+SetTimer("OneHour",86400000,1);
+SetTimer("OnPlayerKeyPress",500,1);
+SetTimer("CheckpointHandler",500,1);
+SetTimer("ZoneHandler",500,1);
+SetTimer("ObjectsHandler",500,1);
+SetTimer("PiksHandler",500,1);
+
+}
+////////////////////////////////////////////////////////////
+
+public OnPlayerSelectedMenuRow(playerid,row){
+new log[256];
+GetPlayerName(playerid,log,255);
+new Menu:Cur = GetPlayerMenu(playerid);
+if (Cur == Bmenu){
+switch(row){
+case 0:{
+new str1[256],str2[256],str3[256],string[256];
+GetBizInfo(BID[playerid],"Owner",str1);
+GetBizInfo(BID[playerid],"Fee",str2);
+GetBizInfo(BID[playerid],"Cost",str3);
+format(string,255,"Owner: %s~n~Fee: %s~n~Cost: %s",str1,str2,str3);
+GameTextForPlayer(playerid,string,5000,5);
+}
+case 1:{
+new str1[256];
+GetBizInfo(BID[playerid],"Lock",str1);
+if (strcmp(str1,"no")==0){
+SetPlayerInBiz(playerid,BID[playerid]);
+}
+else if (IsPlayerAllowedInBiz(playerid,BID[playerid])==1){
+SetPlayerInBiz(playerid,BID[playerid]);
+}
+else {
+GameTextForPlayer(playerid,"~r~Biz is LOCKED",5000,1);
+}
+
+}
+
+case 2:{
+new str1[256];
+new str2[256];
+new name[256];
+GetBizInfo(BID[playerid],"Cost",str1);
+new cost = strval(str2);
+GetPlayerName(playerid,name,255);
+GetBizInfo(BID[playerid],"Owner",str1);
+if (strcmp(str1,"none")==0){
+if (GetPlayerMoney(playerid) >= cost){
+SetBizInfo(BID[playerid],"Owner",name);
+GameTextForPlayer(playerid,"~g~Congrats for your new BIZ.",5000,5);
+CallLocalFunction("OnPlayerBuyBiz","ii",playerid,BID[playerid]);
+GivePlayerMoney(playerid,-cost);
+}
+else{
+GameTextForPlayer(playerid,"~r~You dont have enough MONEY",5000,1);
+}
+}
+else{
+GameTextForPlayer(playerid,"~r~Biz is not for SALE",5000,1);
+}
+}
+}
+}
+else if (Cur == Bexit){
+SetPlayerOutBiz(playerid,PIB[playerid]);
+}
+
+else if (Cur == Hmenu){
+//print("Hmenu Select");
+switch(row){
+case 0:{
+//print("House Menu Case 0");
+new str1[150],str2[150],str3[150],string[150];
+GetHouseInfo(HID[playerid],"Owner",str1);
+GetHouseInfo(HID[playerid],"Rent",str2);
+GetHouseInfo(HID[playerid],"Cost",str3);
+format(string,255,"Owner: %s~n~Rent: %s~n~Cost: %s",str1,str2,str3);
+GameTextForPlayer(playerid,string,5000,5);
+}
+case 1:{
+new str1[256];
+//print("House Menu Case 1");
+GetHouseInfo(HID[playerid],"Lock",str1);
+if (strcmp(str1,"no")==0){
+SetPlayerInHouse(playerid,HID[playerid]);
+}
+else if (IsPlayerAllowedInHouse(playerid,HID[playerid])==1){
+SetPlayerInHouse(playerid,HID[playerid]);
+}
+else {
+GameTextForPlayer(playerid,"~r~House is LOCKED",5000,1);
+}
+}
+case 2:{
+new str2[256];
+GetHouseInfo(HID[playerid],"Rent",str2);
+new cost = strval(str2);
+new str1[256];
+GetHouseInfo(HID[playerid],"Owner",str1);
+if (strcmp(str1,"none")==0){
+GameTextForPlayer(playerid,"~r~House has no OWNER",5000,1);
+}
+else {
+if (GetPlayerMoney(playerid) >= cost){
+CallLocalFunction("OnPlayerRentHouse","ii",playerid,HID[playerid]);
+MakeTenent(playerid,HID[playerid]);
+}
+else{
+GameTextForPlayer(playerid,"~r~You dont have enough MONEY",5000,1);
+}
+}
+}
+case 3:{
+new str1[256];
+new str2[256];
+new str3[100];
+format(str3,100,"house%d",HID[playerid]);
+new name[256];
+LoadProperty(str3,"Cost",str2);
+new cost = strval(str2);
+GetPlayerName(playerid,name,255);
+LoadProperty(str3,"Owner",str1);
+if (strcmp(str1,"none")==0){
+if (GetPlayerMoney(playerid) >= cost){
+GivePlayerMoney(playerid,-cost);
+SaveProperty(str3,"Owner",name);
+CallLocalFunction("OnPlayerBuyHouse","ii",playerid,HID[playerid]);
+GameTextForPlayer(playerid,"~g~Congrats for your new HOUSE",5000,5);
+}
+else{
+GameTextForPlayer(playerid,"~r~You dont have enough MONEY",5000,5);
+}
+}
+else{
+GameTextForPlayer(playerid,"~r~THis house is not FOR SALE",5000,5);
+}
+}
+}}
+if (Cur == Hexit){
+SetPlayerOutHouse(playerid,PIH[playerid]);
+}
+CallLocalFunction("onplayerselectedmenurow","ii",playerid,row);
+SelectedMenuAmmu(playerid,row);
+}
+///////////////////////////////////////////////////////////////////////
+public OnPlayerExitedMenu(playerid){
+new log[256];
+GetPlayerName(playerid,log,255);
+CallLocalFunction("onplayerexitedmenu","i",playerid);
+new Menu:current = GetPlayerMenu(playerid);
+if (current == Hexit){
+ShowMenuForPlayer(Hexit,playerid);
+}
+if (current == Bexit){
+ShowMenuForPlayer(Bexit,playerid);
+}
+TogglePlayerControllable(playerid,1);
+}
+
+
+////////////////////////////////////////////////////////////////////////
+
+public OnPlayerCommandText(playerid,cmdtext[]){
+new log[256];
+GetPlayerName(playerid,log,255);
+if (strcmp(cmdtext,"/fill")==0 || strcmp(cmdtext,"/f")==0){
+		new vehicleid = GetPlayerVehicleID(playerid);
+		if(InGasStation(6.0,playerid,1004.0070,-939.3102,42.1797) || InGasStation(6.0,playerid,1944.3260,-1772.9254,13.3906))
+		{
+	    	GiveFuel(playerid,vehicleid);
+		}
+		else if(InGasStation(6.0,playerid,-90.5515,-1169.4578,2.4079) || InGasStation(6.0,playerid,-1609.7958,-2718.2048,48.5391))
+		{
+	   	GiveFuel(playerid,vehicleid);
+		}
+		else if(InGasStation(6.0,playerid,-2029.4968,156.4366,28.9498) || InGasStation(8.0,playerid,-2408.7590,976.0934,45.4175))
+		{
+		 GiveFuel(playerid,vehicleid);
+		}
+		else if(InGasStation(5.0,playerid,-2243.9629,-2560.6477,31.8841) || InGasStation(8.0,playerid,-1676.6323,414.0262,6.9484))
+		{
+		 GiveFuel(playerid,vehicleid);
+		}
+		else if(InGasStation(6.0,playerid,2202.2349,2474.3494,10.5258) || InGasStation(10.0,playerid,614.9333,1689.7418,6.6968))
+		{
+		 GiveFuel(playerid,vehicleid);
+		}
+		else if(InGasStation(8.0,playerid,-1328.8250,2677.2173,49.7665) || InGasStation(6.0,playerid,70.3882,1218.6783,18.5165))
+		{
+		 GiveFuel(playerid,vehicleid);
+		}
+		else if(InGasStation(8.0,playerid,2113.7390,920.1079,10.5255) || InGasStation(6.0,playerid,-1327.7218,2678.8723,50.0625))
+		{
+		 GiveFuel(playerid,vehicleid);
+		}
+		else{
+		GameTextForPlayer(playerid,"~r~You are not in a gas station.",5000,5);
+		}	
+		return 1;
+
+}
+
+if (strcmp(cmdtext,"/bsell")==0){
+if (IsPlayerAllowedInBiz(playerid,PIB[playerid])==1){
+new str[256],name[256];
+GetPlayerName(playerid,name,256);
+GetBizInfo(PIB[playerid],"Owner",str);
+if (strcmp(str,name)==0){
+new str3[100],str2[256];
+format(str3,100,"biz%d",PIB[playerid]);
+LoadProperty(str3,"Fee",str2);
+new cost = strval(str2);
+GivePlayerMoney(playerid,cost);
+CallLocalFunction("OnPlayerSellBiz","ii",playerid,PIB[playerid]);
+GameTextForPlayer(playerid,"~r~You have sold your Biz",5000,1);
+SetBizInfo(PIB[playerid],"Owner","none");
+}
+}
+else{
+GameTextForPlayer(playerid,"~r~You are not AUTHORIZED",5000,1);
+}
+return 1;
+}
+
+if (strcmp(cmdtext,"/block")==0){
+if (IsPlayerAllowedInBiz(playerid,PIB[playerid])==1){
+SetBizInfo(PIB[playerid],"Lock","yes");
+}
+else{
+GameTextForPlayer(playerid,"~r~You dont have the valueS",5000,1);
+}
+return 1;
+}
+if (strcmp(cmdtext,"/bunlock")==0){
+if (IsPlayerAllowedInBiz(playerid,PIB[playerid])==1){
+SetBizInfo(PIB[playerid],"Lock","no");
+}
+else{
+GameTextForPlayer(playerid,"~r~You dont have the valueS",5000,1);
+}
+return 1;
+}
+if (strcmp(cmdtext,"/bFee ",true,6)==0){
+if (IsPlayerAllowedInBiz(playerid,PIB[playerid])==1){
+new str[256],name[256];
+GetPlayerName(playerid,name,256);
+GetBizInfo(PIB[playerid],"Owner",str);
+if (strcmp(str,name)==0){
+GameTextForPlayer(playerid,"~r~You have changed the Fee",5000,1);
+SetBizInfo(PIB[playerid],"Fee",cmdtext[6]);
+}
+}
+else{
+GameTextForPlayer(playerid,"~r~You are not AUTHORIZED",5000,1);
+}
+return 1;
+}
+
+if (strcmp(cmdtext,"/hsell")==0){
+if (IsPlayerAllowedInHouse(playerid,PIH[playerid])==1){
+new str[256],name[256];
+GetPlayerName(playerid,name,256);
+GetHouseInfo(PIH[playerid],"Owner",str);
+if (strcmp(str,name)==0){
+GameTextForPlayer(playerid,"~r~You have sold your HOUSE",5000,1);
+CallLocalFunction("OnPlayerSellHouse","ii",playerid,PIH[playerid]);
+new str3[100],str2[256];
+format(str3,100,"house%d",PIH[playerid]);
+LoadProperty(str3,"Cost",str2);
+new cost = strval(str2);
+GivePlayerMoney(playerid,cost);
+SetHouseInfo(PIH[playerid],"Owner","none");
+SetHouseInfo(PIH[playerid],"Tenent1","none");
+SetHouseInfo(PIH[playerid],"Tenent2","none");
+SetHouseInfo(PIH[playerid],"Tenent3","none");
+SetHouseInfo(PIH[playerid],"Tenent4","none");
+SetHouseInfo(PIH[playerid],"Tenent5","none");
+}
+}
+else{
+GameTextForPlayer(playerid,"~r~You are not AUTHORIZED",5000,1);
+}
+return 1;
+}
+
+if (strcmp(cmdtext,"/hlock")==0){
+if (IsPlayerAllowedInHouse(playerid,PIH[playerid])==1){
+SetHouseInfo(PIH[playerid],"Lock","yes");
+GameTextForPlayer(playerid,"~g~Your house is now LOCKED",5000,5);
+}
+else{
+GameTextForPlayer(playerid,"~r~You dont have the valueS",5000,1);
+}
+}
+if (strcmp(cmdtext,"/hunlock")==0){
+if (IsPlayerAllowedInHouse(playerid,PIH[playerid])==1){
+SetHouseInfo(PIH[playerid],"Lock","NO");
+GameTextForPlayer(playerid,"~g~Your house is now UNLOCKED",5000,5);
+}
+else{
+GameTextForPlayer(playerid,"~r~You dont have the valueS",5000,1);
+}
+}
+if (strcmp(cmdtext,"/hrent ",true,7)==0){
+if (IsPlayerAllowedInHouse(playerid,PIH[playerid])==1){
+new str[256],name[256];
+GetPlayerName(playerid,name,256);
+GetHouseInfo(PIH[playerid],"Owner",str);
+if (strcmp(str,name)==0){
+GameTextForPlayer(playerid,"~r~You have changed the RENT",5000,1);
+SetHouseInfo(PIH[playerid],"Rent",cmdtext[7]);
+SetHouseInfo(PIH[playerid],"Tenent1","none");
+SetHouseInfo(PIH[playerid],"Tenent2","none");
+SetHouseInfo(PIH[playerid],"Tenent3","none");
+SetHouseInfo(PIH[playerid],"Tenent4","none");
+SetHouseInfo(PIH[playerid],"Tenent5","none");
+}
+}
+else{
+GameTextForPlayer(playerid,"~r~You are not AUTHORIZED",5000,1);
+}
+return 1;
+}
+CallLocalFunction("onplayercommandtext","is",playerid,cmdtext);
+return 1;
+}
+
+
+public OnPlayerEnterVehicle(playerid, vehicleid, ispassenger)
+{
+	new name[256];
+	GetPlayerName(playerid,name,255);
+	if(IsVehicleLocked(vehicleid)==1)
+	{
+	if(IsPlayerHavingKeys(playerid,vehicleid)==0){
+	SetVehicleParamsForPlayer(vehicleid,playerid,0,0);
+	}
+	else{
+	SetVehicleParamsForPlayer(vehicleid,playerid,0,1);
+	}
+	}
+	if(VehicleStop[vehicleid] ==1){
+	NoFuel(playerid,vehicleid);
+	}
+	if (FuelSys == 1){
+	if(!ispassenger){
+
+	//printf("EnterVehicle -> UseFuel | vid %d",vehicleid);
+	//UseFuel(playerid,GetPlayerVehicleID(playerid));
+	SetTimerEx("UseFuel",5000,0,"ii",playerid,vehicleid);
+	}
+	}
+	print("OnPlayerEnterVehicle");
+	CallLocalFunction("onplayerentervehicle","iii",playerid,vehicleid,ispassenger);
+	return 1;
+}

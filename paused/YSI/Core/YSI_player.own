@@ -1,0 +1,170 @@
+/*----------------------------------------------------------------------------*-
+					==============================
+					Y Sever Includes - Player Core
+					==============================
+Description:
+	Handles script player data.
+Legal:
+	Copyright (C) 2007 Alex "Y_Less" Cole
+
+	This program is free software; you can redistribute it and/or
+	modify it under the terms of the GNU General Public License
+	as published by the Free Software Foundation; either version 2
+	of the License, or (at your option) any later version.
+
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with this program; if not, write to the Free Software
+	Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+	MA 02110-1301, USA.
+Version:
+	0.1.1
+Changelog:
+	14/04/07:
+		Added header documentation.
+	13/04/07:
+		First version.
+Functions:
+	Public:
+		Player_GetPlayerLanguage - Returns the player's language.
+	Core:
+		Player_OnPlayerConnect - Called on connection to reset data.
+		Player_OnPlayerLogin - Handles player logins.
+		Player_OnPlayerLogout - Handles player logouts.
+	Stock:
+		Player_FindShortCut - Gets a function from an entered character.
+	Static:
+		-
+	Inline:
+		-
+	API:
+		-
+Callbacks:
+	OnPlayerLogin
+	OnPlayerLogout
+Definitions:
+	MAX_PLAYER_SHORTCUTS - Number of chars which can be assigned a command.
+Enums:
+	E_PLAYER_GD - Data required by the script on a player.
+Macros:
+	-
+Tags:
+	-
+Variables:
+	Global:
+		-
+	Static:
+		g_sPlayerData - Data stored on a player.
+		g_sPlayerShortcuts - Command shortcuts for each player.
+Commands:
+	-
+Compile options:
+	-
+Operators:
+	-
+-*----------------------------------------------------------------------------*/
+
+#define MAX_PLAYER_SHORTCUTS 26
+
+enum E_PLAYER_GD
+{
+	Language:E_PLAYER_GD_LANGUAGE
+}
+
+static
+	g_sPlayerData[MAX_PLAYERS][E_PLAYER_GD],
+	g_sPlayerShortcuts[MAX_PLAYERS][MAX_PLAYER_SHORTCUTS][MAX_COMMAND_LENGTH];
+
+forward Language:Player_GetPlayerLanguage(playerid);
+
+/*----------------------------------------------------------------------------*-
+Function:
+	Language:Player_GetPlayerLanguage
+Params:
+	playerid - Player to get language for
+Return:
+	playerid's language.
+Notes:
+	-
+-*----------------------------------------------------------------------------*/
+
+public Language:Player_GetPlayerLanguage(playerid)
+{
+	return g_sPlayerData[playerid][E_PLAYER_GD_LANGUAGE];
+}
+
+/*----------------------------------------------------------------------------*-
+Function:
+	Player_OnPlayerConnect
+Params:
+	playerid - Player who connected.
+Return:
+	-
+Notes:
+	Resets variables when a new player connects.
+-*----------------------------------------------------------------------------*/
+
+Player_OnPlayerConnect(playerid)
+{
+	g_sPlayerData[playerid][E_PLAYER_GD_LANGUAGE] = Language:0;
+	for (new i = 0; i < MAX_PLAYER_SHORTCUTS; i++)
+	{
+		g_sPlayerShortcuts[playerid][i][0] = '\0';
+	}
+}
+
+/*----------------------------------------------------------------------------*-
+Function:
+	Player_OnPlayerLogin
+Params:
+	playerid - Player who logged in
+Return:
+	-
+Notes:
+	-
+-*----------------------------------------------------------------------------*/
+
+Player_OnPlayerLogin(playerid)
+{
+	printf("%d", playerid);
+}
+
+/*----------------------------------------------------------------------------*-
+Function:
+	Player_OnPlayerLogout
+Params:
+	playerid - Player who logged out.
+Return:
+	-
+Notes:
+	-
+-*----------------------------------------------------------------------------*/
+
+Player_OnPlayerLogout(playerid)
+{
+	printf("%d", playerid);
+}
+
+/*----------------------------------------------------------------------------*-
+Function:
+	Player_FindShortCut
+Params:
+	playerid - Player to check for.
+	shortcut - Single character shortcut.
+Return:
+	Real function name.
+Notes:
+	-
+-*----------------------------------------------------------------------------*/
+
+stock Player_FindShortCut(playerid, shortcut, cmdname[])
+{
+	shortcut = chrtolower(shortcut);
+	shortcut -= 0x61;
+	if (shortcut >= MAX_PLAYER_SHORTCUTS) cmdname[0] = '\0';
+	else strcpy(cmdname, g_sPlayerShortcuts[playerid][shortcut]);
+}

@@ -1,0 +1,45 @@
+/*
+ *            DUDB functions
+ *       (c) Copyright 2006 by DracoBlue
+ *
+ * @version   : 2.2
+ * @author    : DracoBlue (http://dracoblue.net)
+ * @date      : 8th May 2006
+ * @update    : 15nd Feb 2007
+ * @require   : DUtils 1.6
+ * @require   : DINI 1.4
+ *
+ * This Unit is provided as is (no warranties).
+ *
+ */
+
+____________________________________________________________________
+
+  How to use it?
+____________________________________________________________________
+
+ o 0. Extract all files of this zip-archive into your server-folder.
+ o 1. Include #include <dudb>
+ o 2. Use the new functions!
+      (If you have questions, ask me :) )
+
+____________________________________________________________________
+
+  Tips
+____________________________________________________________________
+
+ o You have to "create" a user with udb_Create before you can save
+   the data.
+ 
+ o Use dUser("nick").("key") to get the value of "key"!
+
+ o Use dUserSet("nick").("key","newval") to set the value of "key" to "newval"!
+
+ o A DTest file is included as Filterscript if you want to test the
+   functionality.
+  
+
+Regards,
+  Jan (DracoBlue)
+
+

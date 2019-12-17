@@ -1,0 +1,264 @@
+yerid][129],1);
+TextDrawTextSize(colordraw[playerid][128],172.500000,180.000000);
+TextDrawUseBox(colordraw[playerid][128],1);
+TextDrawUseBox(colordraw[playerid][129],0);
+TextDrawBoxColor(colordraw[playerid][128], 0x00000066);
+TextDrawShowForPlayer(playerid,colordraw[playerid][128]);
+TextDrawShowForPlayer(playerid,colordraw[playerid][129]);
+for(new g=0; g < 64; g++){
+TextDrawAlignment(colordraw[playerid][g],2);
+TextDrawBackgroundColor(colordraw[playerid][g], 0x000000ff);
+TextDrawBoxColor(colordraw[playerid][g], CarColors[g][0]);
+TextDrawColor(colordraw[playerid][g], 0xffffffff);
+TextDrawFont(colordraw[playerid][g], 1);
+TextDrawLetterSize(colordraw[playerid][g], 1.000000, 1.000000);
+TextDrawSetOutline(colordraw[playerid][g],1);
+TextDrawSetProportional(colordraw[playerid][g],1);
+TextDrawSetShadow(colordraw[playerid][g],1);
+TextDrawTextSize(colordraw[playerid][g],10.000000,10.000000);
+TextDrawUseBox(colordraw[playerid][g],1);
+TextDrawShowForPlayer(playerid,colordraw[playerid][g]);
+}}
+UpdateColorMenu2(playerid){
+colordraw[playerid][64] = TextDrawCreate(40.000000,140.000000,"  ");
+colordraw[playerid][65] = TextDrawCreate(57.500000,140.000000,"  ");
+colordraw[playerid][66] = TextDrawCreate(75.000000,140.000000,"  ");
+colordraw[playerid][67] = TextDrawCreate(92.500000,140.000000,"  ");
+colordraw[playerid][68] = TextDrawCreate(110.000000,140.000000,"  ");
+colordraw[playerid][69] = TextDrawCreate(127.500000,140.000000,"  ");
+colordraw[playerid][70] = TextDrawCreate(145.000000,140.000000,"  ");
+colordraw[playerid][71] = TextDrawCreate(162.500000,140.000000,"  ");
+colordraw[playerid][72] = TextDrawCreate(40.000000, 157.500000,"  ");
+colordraw[playerid][73] = TextDrawCreate(57.500000, 157.500000,"  ");
+colordraw[playerid][74] = TextDrawCreate(75.000000, 157.500000,"  ");
+colordraw[playerid][75] = TextDrawCreate(92.500000, 157.500000,"  ");
+colordraw[playerid][76] = TextDrawCreate(110.000000, 157.500000,"  ");
+colordraw[playerid][77] = TextDrawCreate(127.500000, 157.500000,"  ");
+colordraw[playerid][78] = TextDrawCreate(145.000000, 157.500000,"  ");
+colordraw[playerid][79] = TextDrawCreate(162.500000, 157.500000,"  ");
+colordraw[playerid][80] = TextDrawCreate(40.000000, 175.000000,"  ");
+colordraw[playerid][81] = TextDrawCreate(57.500000, 175.000000,"  ");
+colordraw[playerid][82] = TextDrawCreate(75.000000, 175.000000,"  ");
+colordraw[playerid][83] = TextDrawCreate(92.500000, 175.000000,"  ");
+colordraw[playerid][84] = TextDrawCreate(110.000000, 175.000000,"  ");
+colordraw[playerid][85] = TextDrawCreate(127.500000, 175.000000,"  ");
+colordraw[playerid][86] = TextDrawCreate(145.000000, 175.000000,"  ");
+colordraw[playerid][87] = TextDrawCreate(162.500000, 175.000000,"  ");
+colordraw[playerid][88] = TextDrawCreate(40.000000, 192.500000,"  ");
+colordraw[playerid][89] = TextDrawCreate(57.500000, 192.500000,"  ");
+colordraw[playerid][90] = TextDrawCreate(75.000000, 192.500000,"  ");
+colordraw[playerid][91] = TextDrawCreate(92.500000, 192.500000,"  ");
+colordraw[playerid][92] = TextDrawCreate(110.000000, 192.500000,"  ");
+colordraw[playerid][93] = TextDrawCreate(127.500000, 192.500000,"  ");
+colordraw[playerid][94] = TextDrawCreate(145.000000, 192.500000,"  ");
+colordraw[playerid][95] = TextDrawCreate(162.500000, 192.500000,"  ");
+colordraw[playerid][96] = TextDrawCreate(40.000000, 210.000000,"  ");
+colordraw[playerid][97] = TextDrawCreate(57.500000, 210.000000,"  ");
+colordraw[playerid][98] = TextDrawCreate(75.000000, 210.000000,"  ");
+colordraw[playerid][99] = TextDrawCreate(92.500000, 210.000000,"  ");
+colordraw[playerid][100] = TextDrawCreate(110.000000, 210.000000,"  ");
+colordraw[playerid][101] = TextDrawCreate(127.500000, 210.000000,"  ");
+colordraw[playerid][102] = TextDrawCreate(145.000000, 210.000000,"  ");
+colordraw[playerid][103] = TextDrawCreate(162.500000, 210.000000,"  ");
+colordraw[playerid][104] = TextDrawCreate(40.000000, 227.500000,"  ");
+colordraw[playerid][105] = TextDrawCreate(57.500000, 227.500000,"  ");
+colordraw[playerid][106] = TextDrawCreate(75.000000, 227.500000,"  ");
+colordraw[playerid][107] = TextDrawCreate(92.500000, 227.500000,"  ");
+colordraw[playerid][108] = TextDrawCreate(110.000000, 227.500000,"  ");
+colordraw[playerid][109] = TextDrawCreate(127.500000, 227.500000,"  ");
+colordraw[playerid][110] = TextDrawCreate(145.000000, 227.500000,"  ");
+colordraw[playerid][111] = TextDrawCreate(162.500000, 227.500000,"  ");
+colordraw[playerid][112] = TextDrawCreate(40.000000, 245.000000,"  ");
+colordraw[playerid][113] = TextDrawCreate(57.500000, 245.000000,"  ");
+colordraw[playerid][114] = TextDrawCreate(75.000000, 245.000000,"  ");
+colordraw[playerid][115] = TextDrawCreate(92.500000, 245.000000,"  ");
+colordraw[playerid][116] = TextDrawCreate(110.000000, 245.000000,"  ");
+colordraw[playerid][117] = TextDrawCreate(127.500000, 245.000000,"  ");
+colordraw[playerid][118] = TextDrawCreate(145.000000, 245.000000,"  ");
+colordraw[playerid][119] = TextDrawCreate(162.500000, 245.000000,"  ");
+colordraw[playerid][120] = TextDrawCreate(40.000000, 262.500000,"  ");
+colordraw[playerid][121] = TextDrawCreate(57.500000, 262.500000,"  ");
+colordraw[playerid][122] = TextDrawCreate(75.000000, 262.500000,"  ");
+colordraw[playerid][123] = TextDrawCreate(92.500000, 262.500000,"  ");
+colordraw[playerid][124] = TextDrawCreate(110.000000, 262.500000,"  ");
+colordraw[playerid][125] = TextDrawCreate(127.500000, 262.500000,"  ");
+colordraw[playerid][126] = TextDrawCreate(145.000000, 262.500000,"  ");
+colordraw[playerid][127] = TextDrawCreate(162.500000, 262.500000,"  ");
+colordraw[playerid][128] = TextDrawCreate(32.500000,125.000000,"                                                                                                                                                                                                                        ");
+colordraw[playerid][129] = TextDrawCreate(55.000000,120.000000,"Colors Page 2");
+TextDrawBackgroundColor(colordraw[playerid][128], 0x000000ff);
+TextDrawBackgroundColor(colordraw[playerid][129], 0x000000ff);
+TextDrawColor(colordraw[playerid][128], 0x0000ffcc);
+TextDrawColor(colordraw[playerid][129], 0xffffffff);
+TextDrawAlignment(colordraw[playerid][128],0);
+TextDrawAlignment(colordraw[playerid][129],0);
+TextDrawFont(colordraw[playerid][128], 0);
+TextDrawFont(colordraw[playerid][129], 0);
+TextDrawSetOutline(colordraw[playerid][129],1);
+TextDrawSetProportional(colordraw[playerid][128],1);
+TextDrawSetProportional(colordraw[playerid][129],1);
+TextDrawLetterSize(colordraw[playerid][128], 1.000000, 1.000000);
+TextDrawLetterSize(colordraw[playerid][129], 1.100000, 1.300000);
+TextDrawSetShadow(colordraw[playerid][128],1);
+TextDrawSetShadow(colordraw[playerid][129],1);
+TextDrawTextSize(colordraw[playerid][128],172.500000,180.000000);
+TextDrawUseBox(colordraw[playerid][128],1);
+TextDrawUseBox(colordraw[playerid][129],0);
+TextDrawBoxColor(colordraw[playerid][128], 0x00000066);
+TextDrawShowForPlayer(playerid,colordraw[playerid][128]);
+TextDrawShowForPlayer(playerid,colordraw[playerid][129]);
+for(new i=64; i < TOTAL_COLORS-2; i++){
+TextDrawAlignment(colordraw[playerid][i],2);
+TextDrawBackgroundColor(colordraw[playerid][i], 0x000000ff);
+TextDrawBoxColor(colordraw[playerid][i], CarColors[i][0]);
+TextDrawColor(colordraw[playerid][i], 0xffffffff);
+TextDrawFont(colordraw[playerid][i], 1);
+TextDrawLetterSize(colordraw[playerid][i], 1.000000, 1.000000);
+TextDrawSetOutline(colordraw[playerid][i],1);
+TextDrawSetProportional(colordraw[playerid][i],1);
+TextDrawSetShadow(colordraw[playerid][i],1);
+TextDrawTextSize(colordraw[playerid][i],10.000000,10.000000);
+TextDrawUseBox(colordraw[playerid][i],1);
+TextDrawShowForPlayer(playerid,colordraw[playerid][i]);
+}}
+UpdateColSel(playerid){
+}
+UpdateCarmMenu(playerid){
+  		menuDraws3s[playerid] = TextDrawCreate(55.000000,107.000000,menuNames[playerid][0]);
+		menuDraws3[playerid][180] = TextDrawCreate(40.00000,130.000000,"                                                                                         ");
+        TextDrawAlignment(menuDraws3[playerid][180],0);
+		TextDrawBackgroundColor(menuDraws3[playerid][180], 0x000000ff);
+		TextDrawBoxColor(menuDraws3[playerid][180], 0x00000066);
+		TextDrawColor(menuDraws3[playerid][180], 0x0000ffcc);
+		TextDrawFont(menuDraws3[playerid][180], 0);
+		TextDrawUseBox(menuDraws3[playerid][180],1);
+		TextDrawTextSize(menuDraws3[playerid][180],205.000000,110.000000);
+		TextDrawSetShadow(menuDraws3[playerid][180],1);
+		TextDrawSetProportional(menuDraws3[playerid][180],1);
+		TextDrawLetterSize(menuDraws3[playerid][180], 1.000000, 1.000000);
+		TextDrawShowForPlayer(playerid,menuDraws3[playerid][180]);
+		TextDrawAlignment(menuDraws3s[playerid],0);
+		TextDrawBackgroundColor(menuDraws3s[playerid], 0x000000ff);
+		TextDrawColor(menuDraws3s[playerid], 0xffffffff);
+		TextDrawFont(menuDraws3s[playerid], 0);
+		TextDrawUseBox(menuDraws3s[playerid],0);
+		TextDrawTextSize(menuDraws3s[playerid],205.000000,110.000000);
+		TextDrawSetShadow(menuDraws3s[playerid],1);
+		TextDrawSetProportional(menuDraws3s[playerid],1);
+		TextDrawLetterSize(menuDraws3s[playerid], 1.100000, 1.300000);
+		TextDrawShowForPlayer(playerid,menuDraws3s[playerid]);
+		SendClientMessage(playerid, COLOR_YELLOW,"PLZ CONFIRM4");
+		for(new i = itemStart[playerid][menuPlace[playerid]]; i < totalItems[playerid][menuPlace[playerid]]; i++){
+		format(menuCarNames[playerid][i], 40, "%s", carDefines[i][namec]);
+		SendClientMessage(playerid, COLOR_YELLOW,menuCarNames[playerid][i]);
+		if (i-itemStart[playerid][menuPlace[playerid]]<=16){
+     	menuDraws3[playerid][i] = TextDrawCreate( 50, (120 +((i-itemStart[playerid][menuPlace[playerid]]+1) * 12)), menuCarNames[playerid][i]);}
+     	else {menuDraws3[playerid][i] = TextDrawCreate( 200, (120 +((i-itemStart[playerid][menuPlace[playerid]]-16) * 12)), menuCarNames[playerid][i]);}
+      	TextDrawUseBox( menuDraws3[playerid][i] , 0);
+		TextDrawAlignment(menuDraws3[playerid][i],0);
+		TextDrawBackgroundColor(menuDraws3[playerid][i], 0x000000ff);
+		TextDrawFont(menuDraws3[playerid][i], 3);
+		TextDrawSetShadow(menuDraws3[playerid][i],1);
+		TextDrawSetProportional(menuDraws3[playerid][i],1);
+		TextDrawLetterSize(menuDraws3[playerid][i], 0.8, 0.7);
+	    if(itemPlace[playerid][menuPlace[playerid]] == i){
+			TextDrawColor( menuDraws3[playerid][i] , COLOR_WHITE);}
+
+		else {
+			TextDrawColor(menuDraws3[playerid][i], COLOR_LIGHTBLUE);}
+		TextDrawTextSize( menuDraws3[playerid][i] , MENU_WIDTH, MENU_HEIGHT);
+		TextDrawShowForPlayer(playerid , menuDraws3[playerid][i]);
+		}
+}
+UpdatecartypeMenu(playerid){
+		menuDraws4[playerid][1] = TextDrawCreate(55.000000,120.000000,"Car Types");
+		menuDraws4[playerid][0] = TextDrawCreate(43.00000,125.000000,"                                                                                         ");
+        TextDrawAlignment(menuDraws4[playerid][0],0);
+		TextDrawBackgroundColor(menuDraws4[playerid][0], 0x000000ff);
+		TextDrawBoxColor(menuDraws4[playerid][0], 0x00000066);
+		TextDrawColor(menuDraws4[playerid][0], 0x0000ffcc);
+		TextDrawFont(menuDraws4[playerid][0], 0);
+		TextDrawUseBox(menuDraws4[playerid][0],1);
+		TextDrawTextSize(menuDraws4[playerid][0],205.000000,110.000000);
+		TextDrawSetShadow(menuDraws4[playerid][0],1);
+		TextDrawSetProportional(menuDraws4[playerid][0],1);
+		TextDrawLetterSize(menuDraws4[playerid][0], 1.000000, 1.000000);
+		TextDrawShowForPlayer(playerid,menuDraws4[playerid][0]);
+		TextDrawShowForPlayer(playerid,menuDraws4[playerid][1]);
+  		TextDrawAlignment(menuDraws4[playerid][1],0);
+		TextDrawBackgroundColor(menuDraws4[playerid][1], 0x000000ff);
+		TextDrawColor(menuDraws4[playerid][1], 0xffffffff);
+		TextDrawFont(menuDraws4[playerid][1], 1);
+		TextDrawUseBox(menuDraws4[playerid][1],0);
+		TextDrawTextSize(menuDraws4[playerid][1],205.000000,110.000000);
+		TextDrawSetShadow(menuDraws4[playerid][1],1);
+		TextDrawSetProportional(menuDraws4[playerid][1],1);
+		TextDrawLetterSize(menuDraws4[playerid][1], 1.100000, 1.300000);
+		for(new i = 2; i < MAX_TYPE_ITEMS+2; i++){
+		strmid(menutypeNames[playerid][i-2], carType[i-2][typeName], 0, 40);
+     	menuDraws4[playerid][i] = TextDrawCreate( 50, (130 +((i-2) * 12)), menutypeNames[playerid][i-2]);
+      	TextDrawUseBox( menuDraws4[playerid][i] , 0);
+		TextDrawAlignment(menuDraws4[playerid][i],0);
+		TextDrawBackgroundColor(menuDraws4[playerid][i], 0x000000ff);
+		TextDrawFont(menuDraws4[playerid][i], 3);
+		TextDrawSetShadow(menuDraws4[playerid][i],1);
+		TextDrawSetProportional(menuDraws4[playerid][i],1);
+		TextDrawLetterSize(menuDraws4[playerid][i], 0.8, 0.7);
+	    if(itemPlace[playerid][menuPlace[playerid]] == i-2){
+			TextDrawColor( menuDraws4[playerid][i] , COLOR_WHITE);}
+		else {
+			TextDrawColor(menuDraws4[playerid][i], COLOR_LIGHTBLUE);}
+		TextDrawTextSize( menuDraws4[playerid][i] , MENU_WIDTH, MENU_HEIGHT);
+		TextDrawShowForPlayer(playerid , menuDraws4[playerid][i]);
+		}
+}
+UpdategasMenu(playerid){
+		format(menuliter[playerid][0], 40, "Full Tank");
+		format(menuliter[playerid][1], 40, "Refuel: %d L", liters[playerid]);
+		format(menuliter[playerid][2], 40, "Exit");
+        menuDraws2[playerid][3] = TextDrawCreate(45.00000,195.000000,"                                                                                         ");
+        TextDrawAlignment(menuDraws2[playerid][3],0);
+		TextDrawBackgroundColor(menuDraws2[playerid][3], 0x000000ff);
+		TextDrawBoxColor(menuDraws2[playerid][3], 0x00000066);
+		TextDrawColor(menuDraws2[playerid][3], 0x0000ffcc);
+		TextDrawFont(menuDraws2[playerid][3], 0);
+		TextDrawUseBox(menuDraws2[playerid][3],1);
+		TextDrawTextSize(menuDraws2[playerid][3],205.000000,110.000000);
+		TextDrawSetShadow(menuDraws2[playerid][3],1);
+		TextDrawSetProportional(menuDraws2[playerid][3],1);
+		TextDrawLetterSize(menuDraws2[playerid][3], 1.000000, 1.000000);
+		TextDrawShowForPlayer(playerid,menuDraws2[playerid][3]);
+		for(new i = 0; i < MAX_MENUG_ITEMS; i++){
+     	menuDraws2[playerid][i] = TextDrawCreate( 50, (200 +(i * 15)), menuliter[playerid][i]);
+      	TextDrawUseBox(menuDraws2[playerid][i],0);
+		TextDrawAlignment(menuDraws2[playerid][i],1);
+		TextDrawBackgroundColor(menuDraws2[playerid][i],0x000000ff);
+		TextDrawFont(menuDraws2[playerid][i],1);
+		TextDrawLetterSize(menuDraws2[playerid][i],0.9,0.9);
+		TextDrawSetProportional(menuDraws2[playerid][i],1);
+		TextDrawSetShadow(menuDraws2[playerid][i],1);
+	    if(menuPlace2[playerid] == i){
+	        TextDrawColor(menuDraws2[playerid][i] , COLOR_WHITE);}
+		else {
+			TextDrawColor(menuDraws2[playerid][i], COLOR_LIGHTBLUE);}
+		TextDrawShowForPlayer(playerid , menuDraws2[playerid][i]);
+		}
+}
+UpdatespideyMenu(playerid){
+	menuDraws[playerid][6] = TextDrawCreate(45.000000,155.000000,"                                                                                                                                                                                          ");
+	TextDrawAlignment(menuDraws[playerid][6],0);
+	TextDrawBoxColor(menuDraws[playerid][6], COLOR_BLACK);
+	TextDrawFont(menuDraws[playerid][6], 0);
+	TextDrawUseBox(menuDraws[playerid][6],1);
+	TextDrawTextSize(menuDraws[playerid][6],210.000000,120.000000);
+	TextDrawSetShadow(menuDraws[playerid][6],1);
+	TextDrawSetProportional(menuDraws[playerid][6],1);
+	TextDrawLetterSize(menuDraws[playerid][6], 1.000000, 1.000000);
+	TextDrawShowForPlayer(playerid,menuDraws[playerid][6]);
+	//Vehicle Type Text Update
+	strmid(menuNames[playerid][0], carType[itemPlace[playerid][0]][typeName], 0, 40, 40);
+	//Model Text Update
+	format(menuNames[playerid][1], 40, "%s", carDefines[itemPlace[playerid][1]][namec]);
+	//COLORS Text Update
+	format(menuNames[playerid][2], 40, "COLOR1 - %d", itemPlace[playerid][2]);
+	format(menuNames[playerid][3], 40, "COLOR2 - %d", itemPlace

@@ -1,0 +1,12 @@
+Description:
+'crash.inc' is sort of extension with which
+you can easily find when, what, and why did
+your server crashes.
+
+Principle:
+It converts a script into a format such that
+it can detect every function which is running
+and logs it into a text file.
+
+NOTE: This is not compatible with most of the
+gamemodes.

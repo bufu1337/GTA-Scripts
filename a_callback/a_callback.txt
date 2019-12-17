@@ -1,0 +1,29 @@
+Description:
+'a_callback.inc' are a set of usefull callbacks which
+might be usefull for certain types of gamemodes.
+
+Principle:
+It assumes all the money given by the player as
+one variable and the money player has currently
+as another variable.
+                     If the amount of money
+player has is less than the money server 
+has given to the player, then that means that the
+player has spent the money on certain places.
+      if the amount of money player has is
+greater than the money server has given to
+the player then that means that the player has
+recived money ingame somehow.
+
+CallBacks:
+OnPlayerUseTransfender(playerid,amountspent)
+OnPlayerUsePaynSpray(playerid,amountspent)
+OnPlayerEatFood(playerid,amountspent)
+OnPlayerDrinkSprunk(playerid,amountspent)
+OnPlayerUseAmmuNation(playerid,amountspent)
+OnPlayerUseCasino(playerid,amountspent)
+OnPlayerHackMoney(playerid,money)
+
+Note: If your server uses any filterscript,
+then a_callback should also be installed
+into the filterscript.

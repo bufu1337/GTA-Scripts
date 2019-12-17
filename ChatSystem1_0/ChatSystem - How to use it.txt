@@ -1,0 +1,105 @@
+/*
+ *            Chatsystem 1.0
+ *       (c) Copyright 2006 by DracoBlue
+ *
+ * @version   : 1.0
+ * @author    : DracoBlue (http://dracoblue.com)
+ * @date      : 26th April 2005
+ *
+ * This Filterscript is provided as is (no warranties).
+ *
+ */
+
+____________________________________________________________________
+
+  How to use it?
+____________________________________________________________________
+
+ o 1. Extract all files of this zip-archive into your Server-folder.
+ o 2. Open server.cfg and add line "filterscripts Chatsystem", or
+      append "Chatsystem" to exisiting line "filterscripts"
+ o 3. Launch the server.
+
+ Have fun!
+
+____________________________________________________________________
+
+  Ingame commands
+____________________________________________________________________
+
+  * IMPORTANT                                                    *
+  * To set the first user as moderator, please open - after the  *
+  * user registered - userdb_space1.txt and set the 2nd value to *
+  * 2 (it should have been 1)                                    *
+  *                                                              *
+
+  Show help:
+  /cs help
+
+  Show authhelp:
+  /cs authhelp
+
+  Emote:
+  /me is doing something.
+
+  Post into a channel: (0..9)
+  /0 Text
+
+  Post into a team-channel:
+  /t Text
+
+  Join a channel:
+  /join Channelname
+
+  Leave a channel: (/part also works)
+  /part ChannelID
+
+  Whisper to somebody: (If nickname isn't the complete one, the
+                                  script trys to autocomplete it)
+  /w Nickname Text
+
+  Register nickname:
+  /cs register password
+
+  Auth:
+  /cs auth password
+
+  Kick stolen Nickname user:
+  /cs ghost nickname password
+
+____________________________________________________________________
+
+  Registered user only commands
+____________________________________________________________________
+
+  Post into a clan-channel:
+  /c Text
+
+  Change password:
+  /cs pwd oldpassword newpassword
+
+  Join a clan:
+  /cs join Clan
+
+  Allow a join-clan-request:
+  /cs allow Nickname
+
+____________________________________________________________________
+
+  Moderators only commands
+____________________________________________________________________
+
+  Set user as moderator:
+  /cs mod Nickname
+
+  Set user as normal user:
+  /cs unmod Nickname
+
+  Kick a user:
+  /cs kick Nickname
+
+
+Regards,
+  Jan (DracoBlue)
+
+

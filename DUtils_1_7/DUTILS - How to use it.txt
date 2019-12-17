@@ -1,0 +1,36 @@
+/*
+ *            DUtils functions 1.7
+ *       (c) Copyright 2006-2007 by DracoBlue
+ *
+ * @author    : DracoBlue (http://dracoblue.com)
+ * @date      : 8th April 2006
+ * @update    : 15th Feb. 2006
+ *
+ * This file is provided as is (no warranties).
+ *
+ */
+
+____________________________________________________________________
+
+  How to use it?
+____________________________________________________________________
+
+ o 0. Extract all files of this zip-archive into your server-folder.
+ o 1. Include #include <dutils>
+ o 2. Use the new functions!
+
+____________________________________________________________________
+
+  Tips
+____________________________________________________________________
+
+ o If your MAX_STRING-Value isn't 255 please modify MAX_STRING
+   in dutils.inc
+ o A DTest file is in the filterscripts-directory if you want to
+   test the functionality
+
+
+Regards,
+  Jan (DracoBlue)
+
+

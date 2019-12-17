@@ -1,0 +1,74 @@
+// Additional Functions
+
+/*
+public OnPlayerKeyPress(playerid,key)
+{
+	return 1;
+}
+
+public OnPlayerEnterHouse(playerid,houseid)
+{
+	SetPlayerVirtualWorld(playerid,worldid);
+	return 1;
+}
+
+public OnPlayerEnterBiz(playerid,bizid)
+{
+	SetPlayerVirtualWorld(playerid,worldid);
+	return 1;
+}
+
+public OnPlayerLeaveHouse(playerid,houseid)
+{
+	SetPlayerVirtualWorld(playerid,0);
+	return 1;
+}
+
+public OnPlayerLeaveBiz(playerid,bizid)
+{
+	SetPlayerVirtualWorld(playerid,0);
+	return 1;
+}
+
+public OnPlayerRentHouse(playerid,houseid)
+{
+	return 1;
+}
+
+public OnPlayerBuyHouse(playerid,houseid)
+{
+	return 1;
+}
+
+public OnPlayerBuyBiz(playerid,bizid)
+{
+	return 1;
+}
+
+public OnPlayerSellHouse(playerid,houseid)
+{
+	return 1;
+}
+
+public OnPlayerSellBiz(playerid,bizid)
+{
+	return 1;
+}
+
+public OnPlayerEnterZone(playerid,zoneid)
+{
+
+	return 1;
+}
+public OnPlayerLeaveZone(playerid,zoneid)
+{
+
+	return 1;
+}
+public OnPlayerPickPik(playerid,pikid)
+{
+
+	return 1;
+}
+*/
+

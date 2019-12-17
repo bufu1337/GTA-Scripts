@@ -1,0 +1,37 @@
+<color name="tdgreen">
+	<hex>0x00FF00AA</hex>
+</color>
+
+<textdraw name="message1">
+	<x>220.0</x>
+	<y>141.0</y>
+	<letterx>1.0</letterx>
+	<lettery>1.0</lettery>
+	<textx>200.0</textx>
+	<texty>50.0</texty>
+	<alignment>center</alignment>
+	<background>0x000000FF</background>
+	<font>1</font>
+	<color>tdgreen</color>
+	<outline>1</outline>
+	<proportional>1</proportional>
+	<shadow>1</shadow>
+	<time>10000</time>
+</textdraw>
+
+<textdraw name="message2">
+	<x>220.0</x>
+	<y>161.0</y>
+	<letterx>1.0</letterx>
+	<lettery>1.0</lettery>
+	<textx>200.0</textx>
+	<texty>50.0</texty>
+	<alignment>center</alignment>
+	<background>0x000000FF</background>
+	<font>1</font>
+	<color>tdgreen</color>
+	<outline>1</outline>
+	<proportional>1</proportional>
+	<shadow>1</shadow>
+	<time>10000</time>
+</textdraw>

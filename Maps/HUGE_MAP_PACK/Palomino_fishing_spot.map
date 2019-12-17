@@ -1,0 +1,33 @@
+<map edf:definitions="editor_main">
+    <object id="object (genVEG_bush13) (1)" doublesided="false" model="809" interior="0" dimension="0" posX="2120.875" posY="-59.712715148926" posZ="-0.47487843036652" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (genVEG_bush13) (2)" doublesided="false" model="809" interior="0" dimension="0" posX="2121.8447265625" posY="-69.759048461914" posZ="-0.47487843036652" rotX="0" rotY="0" rotZ="280" />
+    <object id="object (genVEG_bush16) (1)" doublesided="false" model="812" interior="0" dimension="0" posX="2123.0598144531" posY="-84.585052490234" posZ="1.6379742622375" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (genVEG_tallgrass02) (2)" doublesided="false" model="818" interior="0" dimension="0" posX="2119.9470214844" posY="-73.074867248535" posZ="2.7564406394958" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (genVEG_tallgrass02) (3)" doublesided="false" model="818" interior="0" dimension="0" posX="2121.015625" posY="-77.66121673584" posZ="2.7564406394958" rotX="0" rotY="0" rotZ="300" />
+    <object id="object (genVEG_tallgrass02) (4)" doublesided="false" model="818" interior="0" dimension="0" posX="2120.412109375" posY="-75.070999145508" posZ="2.7564406394958" rotX="0" rotY="0" rotZ="359.99816894531" />
+    <object id="object (genVEG_tallgrass02) (5)" doublesided="false" model="818" interior="0" dimension="0" posX="2168.8586425781" posY="-131.30937194824" posZ="2.7564406394958" rotX="0" rotY="0" rotZ="359.99450683594" />
+    <object id="object (genVEG_tallgrass02) (6)" doublesided="false" model="818" interior="0" dimension="0" posX="2167.1420898438" posY="-130.65454101563" posZ="2.7564406394958" rotX="0" rotY="0" rotZ="289.99450683594" />
+    <object id="object (genVEG_tallgrass02) (7)" doublesided="false" model="818" interior="0" dimension="0" posX="2165.8793945313" posY="-127.77112579346" posZ="2.7564406394958" rotX="0" rotY="0" rotZ="29.989562988281" />
+    <object id="object (genVEG_tallgrass02) (8)" doublesided="false" model="818" interior="0" dimension="0" posX="2179.5895996094" posY="-134.67558288574" posZ="2.7564406394958" rotX="0" rotY="0" rotZ="81.987182617188" />
+    <object id="object (genVEG_tallgrass02) (9)" doublesided="false" model="818" interior="0" dimension="0" posX="2182.01953125" posY="-134.35845947266" posZ="2.7564406394958" rotX="0" rotY="0" rotZ="21.985473632813" />
+    <object id="object (genVEG_tallgrass03) (1)" doublesided="false" model="819" interior="0" dimension="0" posX="2150.3266601563" posY="-109.36074066162" posZ="0.87367463111877" rotX="0" rotY="358" rotZ="250" />
+    <object id="object (genVEG_tallgrass08) (1)" doublesided="false" model="824" interior="0" dimension="0" posX="2118.6962890625" posY="-68.480323791504" posZ="0.79443967342377" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (genVEG_tallgrass08) (2)" doublesided="false" model="824" interior="0" dimension="0" posX="2121.0798339844" posY="-82.904022216797" posZ="0.43413352966309" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (genVEG_tallgrass08) (3)" doublesided="false" model="824" interior="0" dimension="0" posX="2155.8010253906" posY="-120.15759277344" posZ="0.91454172134399" rotX="9.9938354492188" rotY="2.0308227539063" rotZ="359.64743041992" />
+    <object id="object (genVEG_tallgrass12) (1)" doublesided="false" model="856" interior="0" dimension="0" posX="2127.4892578125" posY="-119.12281799316" posZ="-2.5288596153259" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (genVEG_tallgrass12) (2)" doublesided="false" model="856" interior="0" dimension="0" posX="2095.9147949219" posY="-88.798477172852" posZ="-2.7472860813141" rotX="0" rotY="0" rotZ="300" />
+    <object id="object (genVEG_tallgrass12) (3)" doublesided="false" model="856" interior="0" dimension="0" posX="2129.7822265625" posY="-113.79525756836" posZ="-2.5288596153259" rotX="0" rotY="0" rotZ="70" />
+    <object id="object (genVEG_tallgrass12) (4)" doublesided="false" model="856" interior="0" dimension="0" posX="2132.3889160156" posY="-119.65264892578" posZ="-2.5288596153259" rotX="0" rotY="0" rotZ="99.999389648438" />
+    <object id="object (sand_combush02) (1)" doublesided="false" model="865" interior="0" dimension="0" posX="2158.1821289063" posY="-104.92808532715" posZ="1.4745213985443" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (gen_tallgrsnew) (1)" doublesided="false" model="872" interior="0" dimension="0" posX="2157.3774414063" posY="-131.95643615723" posZ="-0.99228990077972" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (searock03) (1)" doublesided="false" model="899" interior="0" dimension="0" posX="2077.48046875" posY="-116.576171875" posZ="-27.020473480225" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (searock03) (2)" doublesided="false" model="899" interior="0" dimension="0" posX="2066.619140625" posY="-145.99478149414" posZ="-36.174243927002" rotX="17.988647460938" rotY="357.89715576172" rotZ="280.6496887207" />
+    <object id="object (searock03) (3)" doublesided="false" model="899" interior="0" dimension="0" posX="2063.8308105469" posY="-187.11041259766" posZ="-28.324245452881" rotX="2.1983642578125" rotY="351.99301147461" rotZ="280.30505371094" />
+    <object id="object (des_baitshop) (1)" doublesided="false" model="11497" interior="0" dimension="0" posX="2151.7202148438" posY="-102.28987121582" posZ="1.6334781646729" rotX="0" rotY="0" rotZ="120" />
+    <object id="object (bouy) (1)" doublesided="false" model="1243" interior="0" dimension="0" posX="2070.0480957031" posY="-236.30282592773" posZ="-3.3802042007446" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (bouy) (2)" doublesided="false" model="1243" interior="0" dimension="0" posX="1906.6960449219" posY="-228.23695373535" posZ="-3.3802042007446" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (bouy) (3)" doublesided="false" model="1243" interior="0" dimension="0" posX="1895.9259033203" posY="-102.38543701172" posZ="-3.3802042007446" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (bouy) (4)" doublesided="false" model="1243" interior="0" dimension="0" posX="1925.2707519531" posY="-38.363525390625" posZ="-3.3802042007446" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (bouy) (5)" doublesided="false" model="1243" interior="0" dimension="0" posX="2260.9738769531" posY="-247.00012207031" posZ="-3.3802042007446" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (bouy) (7)" doublesided="false" model="1243" interior="0" dimension="0" posX="2256.8134765625" posY="-171.75463867188" posZ="-3.3802042007446" rotX="0" rotY="0" rotZ="0" />
+</map>

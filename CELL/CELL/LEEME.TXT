@@ -1,0 +1,50 @@
+//------------------------------------------------------------------------------
+//
+//   Celular call Filter Script v1.0
+//   Designed for SA-MP v0.2.1
+//
+//   http://forum.sa-mp.com/index.php?topic=42009.0
+//
+//   Created by zeruel_angel
+//
+//------------------------------------------------------------------------------
+
+In order to make this Filter Script to work, you need to:
+
+Para que funcione tenes que:
+
+1) Copiar el contenido de la carpeta de tu idioma y pegarlo adentro de la carpeta
+   "filterscript" en tu server.
+2) Agregar el filterScript en tu server, para esto abri el archivo "server.cfg" 
+   y agrega la palabra "CELL" al final de la linea que dice "filterscripts" 
+   quedaria algo asi:
+"filterscripts adminspec actions CELL"
+3) Dame credito en tu server por este filterscript
+
+//------------------------------------------------------------------------------
+
+PARA CAMBIAR EL PRECIO DE LA LLAMADA
+
+en la linea 22
+#define PRECIO_FICHA
+Cambia el "2" por el precio que quieras POR SEGUNDO
+
+//------------------------------------------------------------------------------
+Podes:
+
+1) Usar filterscript en tu server
+2) Copiar, modificar, usar ingenieria reversiva, inspirarte, jugar, etc con el codigo
+3) Redistribuirlo y pasarselo a tus amigos
+4) Traducirlo a otros idiomas y darme un link para publicarlos todos juntos
+
+//------------------------------------------------------------------------------
+NO PODES
+
+1) Decir que lo hiciste vos
+2) Cobrar por el codigo
+3) Pagar por el codigo
+4) Borrarme como autor
+
+//------------------------------------------------------------------------------
+
+Si tenes alguna duda anda a "FORUM.SA-MP.COM" y mandame un PM, yo soy "zeruel_angel"

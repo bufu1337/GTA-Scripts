@@ -1,0 +1,65 @@
+Four Dragons Casino,2024.56,1007.65,10.81,172323,2000,Nobody,0,0 
+Come A Lot,2182.12,1115.15,12.35,76855,800,Nobody,0,0 
+Camels Toe,2208.27,1286.29,10.81,163895,900,Nobody,0,0 
+The High Roller,1956.68,1342.80,15.35,128696,650,Nobody,0,0 
+Royal Casino,2088.62,1449.17,10.52,119914,670,Nobody,0,0 
+Caligula's Casino,2184.11,1676.77,10.81,411842,2500,Nobody,0,0 
+Clowns Pocket,2220.12,1837.81,10.52,101653,550,Nobody,0,0 
+The Visage,2027.27,1914.67,11.93,114736,1500,Nobody,0,0 
+Las Venturas Casino,2165.10,2162.12,10.43,59321,650,Nobody,0,0 
+Well Stacked Pizza,370.98,-122.94,1001.46,30459,350,Nobody,0,0 
+ZIP,161.41,-85.79,1001.78,39783,475,Nobody,0,0 
+Cluckin Bell,372.17,-7.71,1001.84,48223,560,Nobody,0,0 
+Binco,207.75,-103.05,1005.25,24538,400,Nobody,0,0 
+Las Venturas Motel,2084.00,2176.86,10.81,9759,200,Nobody,0,0 
+Tatoo Shop,-203.13,-42.06,1002.27,14889,200,Nobody,0,0 
+Barbershop,418.95,-78.80,1001.78,8974,100,Nobody,0,0 
+Las Venturas Sexshop,-103.87,-21.12,1000.71,23831,300,Nobody,0,0 
+Burger Shot,370.25,-73.25,1001.50,56183,750,Nobody,0,0 
+Las Venturas Steak House,1694.01,2206.62,11.06,20377,230,Nobody,0,0 
+Redsands Gasstation,1600.56,2220.37,11.06,15125,175,Nobody,0,0 
+Las Venturas Airport,1675.06,1448.06,10.77,98008,1500,Nobody,0,0 
+Los Santos Disco,1833.43,-1685.06,13.47,20450,250,Nobody,0,0 
+SkatePark,1881.16,-1399.26,13.27,39218,500,Nobody,0,0 
+San Andreas Bank,1573.68,-1337.43,16.45,118508,1450,Nobody,0,0 
+San Andreas Insurance Company,1502.68,-1278.76,14.56,100468,1175,Nobody,0,0 
+Los Santos Hospital,1177.78,-1323.01,14.06,59344,700,Nobody,0,0 
+Donutshop,1037.93,-1338.06,13.72,39592,450,Nobody,0,0 
+The Movie Studio's,898.90,-1219.81,16.70,77251,850,Nobody,0,0 
+The Gravejard,935.82,-1103.17,24.04,24471,350,Nobody,0,0 
+Comedy Club Los Santos,1058.81,-943.88,42.65,7845,100,Nobody,0,0 
+TennisClub (LS),665.21,-1276.93,13.18,30079,400,Nobody,0,0 
+Vinyl Countdown (LS),816.03,-1387.68,13.31,10184,200,Nobody,0,0 
+Prolaps,210.52,-129.94,1003.51,25786,375,Nobody,0,0 
+Mainstreet,477.07,-1509.31,20.54,136143,1500,Nobody,0,0 
+The Pier (LS),390.35,-2045.67,7.82,44610,500,Nobody,0,0 
+The Grand Hotel (LS),330.39,-1512.43,35.74,29592,390,Nobody,0,0 
+Victim,218.25,-7.98,1001.21,26924,310,Nobody,0,0 
+Didier Sachs,204.36,-160.11,1000.52,32110,425,Nobody,0,0 
+Shopping Mall (LS),1129.03,-1457.43,15.77,50998,675,Nobody,0,0 
+Porn Cinema (LS),1123.03,-1130.56,23.79,10386,150,Nobody,0,0 
+Los Santos Theatre,1022.59,-1125.06,23.87,25400,300,Nobody,0,0 
+Maddogs Mansion,1254.06,-814.33,84.12,88991,1000,Nobody,0,0 
+Sandra's Mansion,298.79,-1156.15,80.90,483393,5750,Nobody,0,0 
+The Lighthouse (LS),154.13,-1945.42,4.63,12655,140,Nobody,0,0 
+RS Haul,-78.05,-1135.93,1.07,14983,200,Nobody,0,0 
+TruckStop,-24.95,-2509.12,36.63,9782,125,Nobody,0,0 
+Whetstone GasStation,-1552.88,-2740.37,48.74,20253,250,Nobody,0,0 
+Liquorshop Anglepine,-2105.31,-2432.12,30.62,12057,140,Nobody,0,0 
+Trailerpark AnglePine,-2087.30,-2526.87,30.42,10851,125,Nobody,0,0 
+Police Station Anglepine,-2162.76,-2387.10,30.62,11824,150,Nobody,0,0 
+Chill Dogs,-2198.87,-2387.08,30.62,5043,75,Nobody,0,0 
+The Junkjard,-1918.56,-1732.56,21.75,22160,250,Nobody,0,0 
+San Andreas Watercompany,-2062.29,-859.84,32.15,126499,1440,Nobody,0,0 
+San Fiero Stadium,-2124.36,-445.04,35.52,52257,600,Nobody,0,0 
+Drivingschool (SF),-2022.31,-99.66,35.15,61280,675,Nobody,0,0 
+San Fiero Airport,-1418.64,-292.79,14.14,84718,1000,Nobody,0,0 
+Fightclub 'Cobra' (SF),-2268.62,-152.52,35.31,12218,165,Nobody,0,0 
+Zero's RC,-2244.12,133.11,35.31,25280,295,Nobody,0,0 
+Garage Doherty,-2027.38,148.36,28.79,62616,725,Nobody,0,0 
+San Fiero Trainstation,-1983.31,137.99,27.68,24920,300,Nobody,0,0 
+Wang Cars,-1961.56,296.35,35.45,203978,2500,Nobody,0,0 
+Buildingsite (SF),-2121.84,208.63,34.86,16745,200,Nobody,0,0 
+Royal Hotel (SF),-2418.62,333.60,35.15,45321,500,Nobody,0,0 
+The Biffin Bridge Hotel,-2460.12,135.77,34.83,38931,460,Nobody,0,0 
+Area 69,214.00,1864.00,13.00,362352,2000,Nobody,0,0 

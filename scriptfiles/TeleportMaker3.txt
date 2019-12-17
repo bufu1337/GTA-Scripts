@@ -1,0 +1,5267 @@
+      Fishmarkt_AngelPine
+       SetPlayerPos(playerid,-2057.5737,-2464.7482,31.1796);
+      SetPlayerFacingAngle(playerid,140.0758);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Ammu_AngelPine
+       SetPlayerPos(playerid,-2093.4970,-2464.6738,30.6250);
+      SetPlayerFacingAngle(playerid,319.3418);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Cimema_AngelPine
+       SetPlayerPos(playerid,-2130.6535,-2435.0817,30.6250);
+      SetPlayerFacingAngle(playerid,320.9753);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Liquor_AngelPine_1
+       SetPlayerPos(playerid,-2103.7438,-2432.1931,30.6250);
+      SetPlayerFacingAngle(playerid,143.7507);
+      SetPlayerInterior(playerid,0);
+
+ 
+      HomeFurnishings_AngelPine
+       SetPlayerPos(playerid,-2079.5717,-2448.1525,30.6250);
+      SetPlayerFacingAngle(playerid,138.4801);
+      SetPlayerInterior(playerid,0);
+
+ 
+      CluckingBell_AngelPine
+       SetPlayerPos(playerid,-2155.0559,-2460.3322,30.8515);
+      SetPlayerFacingAngle(playerid,230.0200);
+      SetPlayerInterior(playerid,0);
+
+ 
+      PaydayLoan_AngelPine
+       SetPlayerPos(playerid,-2165.4868,-2416.8654,30.8203);
+      SetPlayerFacingAngle(playerid,224.7544);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Police_AngelPine
+       SetPlayerPos(playerid,-2161.4965,-2385.0461,30.8117);
+      SetPlayerFacingAngle(playerid,142.8750);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Tools_AngelPine
+       SetPlayerPos(playerid,-2178.0705,-2400.0993,30.6250);
+      SetPlayerFacingAngle(playerid,358.3843);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Garage_AngelPine_1
+       SetPlayerPos(playerid,-2103.5527,-2405.3220,31.3964);
+      SetPlayerFacingAngle(playerid,232.3313);
+      SetPlayerInterior(playerid,0);
+
+ 
+      BillyRecords_AngelPine
+       SetPlayerPos(playerid,-2124.6484,-2369.1030,30.6250);
+      SetPlayerFacingAngle(playerid,230.5726);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Barbar_AngelPine
+       SetPlayerPos(playerid,-2120.1291,-2354.4931,30.6250);
+      SetPlayerFacingAngle(playerid,319.7625);
+      SetPlayerInterior(playerid,0);
+
+ 
+      TonyFurniture_AngelPine
+       SetPlayerPos(playerid,-2131.7231,-2344.9892,30.6250);
+      SetPlayerFacingAngle(playerid,322.0980);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Botanica_AngelPine
+       SetPlayerPos(playerid,-2138.6625,-2340.3237,30.6250);
+      SetPlayerFacingAngle(playerid,326.7707);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Cafe_AngelPine_1
+       SetPlayerPos(playerid,-2123.6582,-2351.4042,30.6250);
+      SetPlayerFacingAngle(playerid,319.1631);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Barber_AngelPine_2
+       SetPlayerPos(playerid,-2154.7695,-2333.1262,30.6250);
+      SetPlayerFacingAngle(playerid,53.6195);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Cafe_AngelPine_2
+       SetPlayerPos(playerid,-2157.8659,-2336.7883,30.6250);
+      SetPlayerFacingAngle(playerid,54.2004);
+      SetPlayerInterior(playerid,0);
+
+ 
+      TonyFurniture_AngelPine_2
+       SetPlayerPos(playerid,-2164.4135,-2344.7373,30.6250);
+      SetPlayerFacingAngle(playerid,46.0078);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Botanica_AngelPine_2
+       SetPlayerPos(playerid,-2169.0759,-2351.6799,30.6250);
+      SetPlayerFacingAngle(playerid,58.2842);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Hospital_AngelPine
+       SetPlayerPos(playerid,-2203.7993,-2309.7097,31.3750);
+      SetPlayerFacingAngle(playerid,230.8192);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Church_AngelPine
+       SetPlayerPos(playerid,-2209.7922,-2288.6301,30.6250);
+      SetPlayerFacingAngle(playerid,320.8872);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Restaurant_AngelPine
+       SetPlayerPos(playerid,-2103.8801,-2342.1508,30.6172);
+      SetPlayerFacingAngle(playerid,106.8022);
+      SetPlayerInterior(playerid,0);
+
+
+      Crackhole_AngelPine
+       SetPlayerPos(playerid,-2115.1059,-2324.2878,30.6250);
+      SetPlayerFacingAngle(playerid,225.2345);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Warehouse_AngelPine_1
+       SetPlayerPos(playerid,-2108.6557,-2281.3149,30.6319);
+      SetPlayerFacingAngle(playerid,50.0482);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Warehouse_AngelPine_2
+       SetPlayerPos(playerid,-2120.8195,-2296.9008,30.6319);
+      SetPlayerFacingAngle(playerid,46.2399);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Warehouse_AngelPine_3
+       SetPlayerPos(playerid,-2092.1323,-2260.2456,30.6250);
+      SetPlayerFacingAngle(playerid,142.4485);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Warehouse_AngelPine_4
+       SetPlayerPos(playerid,-2076.0820,-2272.1049,30.7959);
+      SetPlayerFacingAngle(playerid,137.4706);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Garage_AngelPine_2
+       SetPlayerPos(playerid,-2185.6826,-2437.2761,31.4133);
+      SetPlayerFacingAngle(playerid,140.5735);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Garage_AngelPine_3
+       SetPlayerPos(playerid,-2191.8896,-2432.4096,31.4164);
+      SetPlayerFacingAngle(playerid,146.4135);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Garage_AngelPine_4
+       SetPlayerPos(playerid,-2198.0949,-2427.5791,31.4101);
+      SetPlayerFacingAngle(playerid,141.1430);
+      SetPlayerInterior(playerid,0);
+
+ 
+      GasStation_AngelPine_1_biz
+       SetPlayerPos(playerid,-2231.7465,-2558.1264,31.9218);
+      SetPlayerFacingAngle(playerid,57.4504);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_AngelPine_1
+       SetPlayerPos(playerid,-2042.7489,-2558.9873,30.6300);
+      SetPlayerFacingAngle(playerid,131.6877);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_AngelPine_2
+       SetPlayerPos(playerid,-2031.0603,-2539.0991,31.0668);
+      SetPlayerFacingAngle(playerid,229.0637);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_AngelPine_3
+       SetPlayerPos(playerid,-2045.3148,-2522.6000,31.0668);
+      SetPlayerFacingAngle(playerid,138.3986);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_AngelPine_4
+       SetPlayerPos(playerid,-2053.2033,-2544.4672,31.0668);
+      SetPlayerFacingAngle(playerid,47.7271);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_AngelPine_5
+       SetPlayerPos(playerid,-2069.0310,-2561.4726,31.0668);
+      SetPlayerFacingAngle(playerid,48.6003);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_AngelPine_6
+       SetPlayerPos(playerid,-2081.8081,-2548.0444,30.6250);
+      SetPlayerFacingAngle(playerid,319.9823);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_AngelPine_6
+       SetPlayerPos(playerid,-2067.9519,-2537.0576,30.6250);
+      SetPlayerFacingAngle(playerid,140.9982);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_AngelPine_8
+       SetPlayerPos(playerid,-2075.1015,-2526.3278,31.0668);
+      SetPlayerFacingAngle(playerid,222.8745);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_AngelPine_9
+       SetPlayerPos(playerid,-2101.3300,-2532.4731,31.0668);
+      SetPlayerFacingAngle(playerid,48.5695);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_AngelPine_10
+       SetPlayerPos(playerid,-2087.2968,-2510.4460,31.0668);
+      SetPlayerFacingAngle(playerid,50.6077);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_AngelPine_11
+       SetPlayerPos(playerid,-2069.5932,-2494.9624,31.0668);
+      SetPlayerFacingAngle(playerid,58.4948);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_AngelPine_12
+       SetPlayerPos(playerid,-2058.2961,-2503.3916,31.0668);
+      SetPlayerFacingAngle(playerid,47.9602);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_AngelPine_13
+       SetPlayerPos(playerid,-2134.5056,-2504.4262,31.8162);
+      SetPlayerFacingAngle(playerid,230.0725);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_AngelPine_14
+       SetPlayerPos(playerid,-2161.2126,-2544.7521,31.8162);
+      SetPlayerFacingAngle(playerid,229.4771);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_AngelPine_15
+       SetPlayerPos(playerid,-2180.8088,-2529.1469,31.8162);
+      SetPlayerFacingAngle(playerid,229.1783);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_AngelPine_16
+       SetPlayerPos(playerid,-2199.5632,-2512.2456,31.8162);
+      SetPlayerFacingAngle(playerid,319.8304);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_AngelPine_17
+       SetPlayerPos(playerid,-2227.7038,-2489.3339,31.8162);
+      SetPlayerFacingAngle(playerid,229.7502);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_AngelPine_18
+       SetPlayerPos(playerid,-2164.8374,-2479.6655,31.8162);
+      SetPlayerFacingAngle(playerid,225.6494);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_AngelPine_19
+       SetPlayerPos(playerid,-2204.8085,-2451.6357,31.8162);
+      SetPlayerFacingAngle(playerid,321.2731);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_AngelPine_20
+       SetPlayerPos(playerid,-2239.0434,-2423.9235,32.7072);
+      SetPlayerFacingAngle(playerid,230.0232);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_AngelPine_21
+       SetPlayerPos(playerid,-2220.1093,-2400.0476,32.5822);
+      SetPlayerFacingAngle(playerid,228.2621);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_AngelPine_22
+       SetPlayerPos(playerid,-2075.9355,-2312.5173,31.1312);
+      SetPlayerFacingAngle(playerid,52.4949);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Motel_AngelPine
+       SetPlayerPos(playerid,-2202.8881,-2261.2355,30.6250);
+      SetPlayerFacingAngle(playerid,230.5799);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Motel_AngelPine_room1
+       SetPlayerPos(playerid,-2192.1569,-2255.3552,30.6936);
+      SetPlayerFacingAngle(playerid,138.4526);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Motel_AngelPine_room2
+       SetPlayerPos(playerid,-2193.5175,-2254.2722,30.7018);
+      SetPlayerFacingAngle(playerid,141.0782);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Motel_AngelPine_room3
+       SetPlayerPos(playerid,-2199.1228,-2243.4238,30.7843);
+      SetPlayerFacingAngle(playerid,58.0191);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Motel_AngelPine_room4
+       SetPlayerPos(playerid,-2180.2275,-2258.3127,30.6371);
+      SetPlayerFacingAngle(playerid,234.6508);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Motel_AngelPine_room5
+       SetPlayerPos(playerid,-2180.2800,-2258.3898,33.3203);
+      SetPlayerFacingAngle(playerid,227.9204);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Motel_AngelPine_room6
+       SetPlayerPos(playerid,-2192.1728,-2255.3632,33.3203);
+      SetPlayerFacingAngle(playerid,137.8426);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Motel_AngelPine_room7
+       SetPlayerPos(playerid,-2193.5371,-2254.2541,33.3203);
+      SetPlayerFacingAngle(playerid,140.7606);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Motel_AngelPine_room8
+       SetPlayerPos(playerid,-2199.1157,-2243.4228,33.3203);
+      SetPlayerFacingAngle(playerid,49.2158);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Sawmill_AngelPine
+       SetPlayerPos(playerid,-2002.1879,-2408.9436,30.6250);
+      SetPlayerFacingAngle(playerid,128.4030);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Warehouse_AngelPine_5
+       SetPlayerPos(playerid,-2223.2524,-2293.6181,31.6718);
+      SetPlayerFacingAngle(playerid,228.0757);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_MountChillard
+       SetPlayerPos(playerid,-2810.3149,-1524.1180,140.8437);
+      SetPlayerFacingAngle(playerid,268.0944);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_AngelPine_Junkyard
+       SetPlayerPos(playerid,-1855.2607,-1560.0043,22.4531);
+      SetPlayerFacingAngle(playerid,173.4250);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Schrottplatz_AngelPine
+       SetPlayerPos(playerid,-1934.1700,-1785.4979,31.5282);
+      SetPlayerFacingAngle(playerid,190.3006);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Forum_SF
+       SetPlayerPos(playerid,-2110.0205,-444.1515,38.7343);
+      SetPlayerFacingAngle(playerid,88.3264);
+      SetPlayerInterior(playerid,0);
+
+ 
+      BurgerShot_Garcia
+       SetPlayerPos(playerid,-2336.5603,-166.7828,35.5546);
+      SetPlayerFacingAngle(playerid,269.1101);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Gym_Garcia
+       SetPlayerPos(playerid,-2270.3518,-155.9026,35.3203);
+      SetPlayerFacingAngle(playerid,274.1919);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Rubbershop_Garcia
+       SetPlayerPos(playerid,-2177.8510,-122.6741,35.2912);
+      SetPlayerFacingAngle(playerid,264.7081);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Mistys_Garcia
+       SetPlayerPos(playerid,-2242.4274,-88.1551,35.3203);
+      SetPlayerFacingAngle(playerid,84.2463);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Restaurant_Garcia_1
+       SetPlayerPos(playerid,-2357.1140,-26.8795,35.3203);
+      SetPlayerFacingAngle(playerid,358.3380);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Restaurant_Garcia_2
+       SetPlayerPos(playerid,-2337.2849,-27.6365,35.3203);
+      SetPlayerFacingAngle(playerid,0.0863);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Gustavs_Garcia
+       SetPlayerPos(playerid,-2339.3798,-27.0626,35.3203);
+      SetPlayerFacingAngle(playerid,0.3723);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Restaurant_Garcia_3
+       SetPlayerPos(playerid,-2313.3896,-6.5926,35.3203);
+      SetPlayerFacingAngle(playerid,87.2162);
+      SetPlayerInterior(playerid,0);
+
+ 
+      DailyGlobes_Garcia
+       SetPlayerPos(playerid,-2313.3798,-11.9504,35.3203);
+      SetPlayerFacingAngle(playerid,84.2828);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Restaurant_Garcia_4
+       SetPlayerPos(playerid,-2314.1752,33.4796,35.3203);
+      SetPlayerFacingAngle(playerid,88.9555);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Gustavs_Garcia_2
+       SetPlayerPos(playerid,-2314.1467,19.6544,35.3203);
+      SetPlayerFacingAngle(playerid,86.3194);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Restaurant_Garcia_5
+       SetPlayerPos(playerid,-2227.4409,20.6238,35.3203);
+      SetPlayerFacingAngle(playerid,179.5649);
+      SetPlayerInterior(playerid,0);
+
+ 
+      MusicInst_Garcia
+       SetPlayerPos(playerid,-2240.5383,20.6757,35.3203);
+      SetPlayerFacingAngle(playerid,179.5656);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Rubbershop_Garcia_2
+       SetPlayerPos(playerid,-2269.2429,-47.8925,35.3203);
+      SetPlayerFacingAngle(playerid,266.4358);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Garcia_1
+       SetPlayerPos(playerid,-2235.0014,-180.9367,35.3197);
+      SetPlayerFacingAngle(playerid,177.2278);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Garcia_2
+       SetPlayerPos(playerid,-2242.5703,-170.8410,35.3125);
+      SetPlayerFacingAngle(playerid,88.3174);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Garcia_3
+       SetPlayerPos(playerid,-2242.5886,-154.4467,35.3203);
+      SetPlayerFacingAngle(playerid,86.8487);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Garcia_4
+       SetPlayerPos(playerid,-2242.5874,-145.7972,35.3203);
+      SetPlayerFacingAngle(playerid,88.3043);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Garcia_5
+       SetPlayerPos(playerid,-2242.6384,-130.9639,35.3125);
+      SetPlayerFacingAngle(playerid,87.9990);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Garcia_6
+       SetPlayerPos(playerid,-2242.5222,-118.5302,35.3203);
+      SetPlayerFacingAngle(playerid,89.4547);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Garcia_7
+       SetPlayerPos(playerid,-2242.6005,-105.3091,35.3125);
+      SetPlayerFacingAngle(playerid,87.9835);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Garcia_8
+       SetPlayerPos(playerid,-2242.6025,-97.5691,35.3203);
+      SetPlayerFacingAngle(playerid,80.6619);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Garcia_9
+       SetPlayerPos(playerid,-2230.6918,-79.6438,35.3203);
+      SetPlayerFacingAngle(playerid,356.1407);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Garcia_10
+       SetPlayerPos(playerid,-2200.4760,-79.6152,35.3203);
+      SetPlayerFacingAngle(playerid,358.4714);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Garcia_11
+       SetPlayerPos(playerid,-2184.1538,-79.6193,35.3203);
+      SetPlayerFacingAngle(playerid,359.3398);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Garcia_12
+       SetPlayerPos(playerid,-2176.5900,-89.7476,35.3203);
+      SetPlayerFacingAngle(playerid,263.9981);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Garcia_13
+       SetPlayerPos(playerid,-2176.5317,-106.1086,35.3203);
+      SetPlayerFacingAngle(playerid,268.3759);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Flat_Garcia_1
+       SetPlayerPos(playerid,-2180.9416,-172.6919,35.3203);
+      SetPlayerFacingAngle(playerid,216.2881);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Flat_Garcia_2
+       SetPlayerPos(playerid,-2242.4116,-33.7375,35.3203);
+      SetPlayerFacingAngle(playerid,89.7531);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Garcia_14
+       SetPlayerPos(playerid,-2269.1552,-20.5747,35.3203);
+      SetPlayerFacingAngle(playerid,269.1794);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Garcia_16
+       SetPlayerPos(playerid,-2269.1425,-5.7816,35.3203);
+      SetPlayerFacingAngle(playerid,263.9089);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Garcia_15
+       SetPlayerPos(playerid,-2267.4858,13.8743,35.3203);
+      SetPlayerFacingAngle(playerid,266.2444);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Garcia_17
+       SetPlayerPos(playerid,-2266.1520,30.1947,35.3203);
+      SetPlayerFacingAngle(playerid,268.2787);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Garcia_18
+       SetPlayerPos(playerid,-2273.0375,40.3884,35.3125);
+      SetPlayerFacingAngle(playerid,354.8365);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Flat_Garcia_3
+       SetPlayerPos(playerid,-2288.0764,-79.6525,35.3203);
+      SetPlayerFacingAngle(playerid,357.7902);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Garcia_19
+       SetPlayerPos(playerid,-2319.6687,-60.8405,35.3203);
+      SetPlayerFacingAngle(playerid,178.7695);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Garcia_20
+       SetPlayerPos(playerid,-2334.6252,-60.8234,35.3203);
+      SetPlayerFacingAngle(playerid,178.7655);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Garcia_21
+       SetPlayerPos(playerid,-2346.9602,-60.8232,35.3203);
+      SetPlayerFacingAngle(playerid,177.5893);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Garcia_22
+       SetPlayerPos(playerid,-2360.1403,-60.8301,35.3203);
+      SetPlayerFacingAngle(playerid,178.4626);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Books_Garcia_1
+       SetPlayerPos(playerid,-2241.2280,79.6779,35.3203);
+      SetPlayerFacingAngle(playerid,138.7116);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Books_Garcia_2
+       SetPlayerPos(playerid,-2241.3383,99.0434,35.3203);
+      SetPlayerFacingAngle(playerid,49.7949);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Waxing_Garcia
+       SetPlayerPos(playerid,-2241.9584,122.9749,35.3203);
+      SetPlayerFacingAngle(playerid,88.9607);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Zero_Garcia
+       SetPlayerPos(playerid,-2242.0683,128.5265,35.3203);
+      SetPlayerFacingAngle(playerid,86.3222);
+      SetPlayerInterior(playerid,0);
+
+ 
+      DailyGlobes_Garcia_2
+       SetPlayerPos(playerid,-2242.6750,145.6659,35.3203);
+      SetPlayerFacingAngle(playerid,90.7001);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Garcia_23
+       SetPlayerPos(playerid,-2242.5849,175.1005,35.3203);
+      SetPlayerFacingAngle(playerid,88.3517);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Garcia_24
+       SetPlayerPos(playerid,-2242.6081,191.3895,35.3203);
+      SetPlayerFacingAngle(playerid,88.6377);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Garcia_25
+       SetPlayerPos(playerid,-2232.4619,198.9793,35.3203);
+      SetPlayerFacingAngle(playerid,355.6331);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Restaurant_Doherty_1
+       SetPlayerPos(playerid,-2214.7121,198.4082,35.3203);
+      SetPlayerFacingAngle(playerid,357.3813);
+      SetPlayerInterior(playerid,0);
+
+ 
+      MusicInst_Doherty
+       SetPlayerPos(playerid,-2201.6208,198.7082,35.3203);
+      SetPlayerFacingAngle(playerid,359.4219);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Doherty_1
+       SetPlayerPos(playerid,-2179.9553,199.0032,35.3203);
+      SetPlayerFacingAngle(playerid,359.7080);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Doherty_2
+       SetPlayerPos(playerid,-2163.5559,199.0010,35.3203);
+      SetPlayerFacingAngle(playerid,357.9380);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Doherty_3
+       SetPlayerPos(playerid,-2155.9738,188.8524,35.3203);
+      SetPlayerFacingAngle(playerid,270.4899);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Doherty_4
+       SetPlayerPos(playerid,-2155.9599,172.4483,35.3203);
+      SetPlayerFacingAngle(playerid,273.7004);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Rubbershop_Doherty_1
+       SetPlayerPos(playerid,-2156.6076,159.5765,35.3203);
+      SetPlayerFacingAngle(playerid,266.3503);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Flat_Doherty_1
+       SetPlayerPos(playerid,-2163.1545,129.3669,35.3203);
+      SetPlayerFacingAngle(playerid,253.7687);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Flat_Doherty_2
+       SetPlayerPos(playerid,-2149.3557,95.8085,35.3203);
+      SetPlayerFacingAngle(playerid,48.7503);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Flat_Doherty_3
+       SetPlayerPos(playerid,-2174.4663,76.6643,35.3203);
+      SetPlayerFacingAngle(playerid,265.7348);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Flat_Doherty_4
+       SetPlayerPos(playerid,-2176.9423,10.6668,35.3203);
+      SetPlayerFacingAngle(playerid,266.3156);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Flat_Doherty_5
+       SetPlayerPos(playerid,-2157.4653,-5.3218,35.3203);
+      SetPlayerFacingAngle(playerid,85.5767);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Flat_Doherty_6
+       SetPlayerPos(playerid,-2178.3161,-42.2871,35.3259);
+      SetPlayerFacingAngle(playerid,265.7177);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Doherty_5
+       SetPlayerPos(playerid,-2157.9165,-42.9984,35.3203);
+      SetPlayerFacingAngle(playerid,89.6607);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Doherty_6
+       SetPlayerPos(playerid,-2157.8635,-52.4825,35.3125);
+      SetPlayerFacingAngle(playerid,91.9913);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Doherty_7
+       SetPlayerPos(playerid,-2145.9750,-60.9536,35.3203);
+      SetPlayerFacingAngle(playerid,178.8416);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Doherty_8
+       SetPlayerPos(playerid,-2135.4025,-60.9157,35.3203);
+      SetPlayerFacingAngle(playerid,179.4201);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Doherty_9
+       SetPlayerPos(playerid,-2122.2385,-60.9210,35.3203);
+      SetPlayerFacingAngle(playerid,182.9231);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Doherty_10
+       SetPlayerPos(playerid,-2109.7434,-60.8925,35.3203);
+      SetPlayerFacingAngle(playerid,180.8631);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Doherty_11
+       SetPlayerPos(playerid,-2075.6411,-60.9534,35.3203);
+      SetPlayerFacingAngle(playerid,178.5195);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Doherty_12
+       SetPlayerPos(playerid,-2062.4467,-60.9628,35.3203);
+      SetPlayerFacingAngle(playerid,179.0979);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Doherty_13
+       SetPlayerPos(playerid,-2049.9411,-60.9601,35.3138);
+      SetPlayerFacingAngle(playerid,179.0915);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Doherty_14
+       SetPlayerPos(playerid,-2035.1049,-60.9454,35.3203);
+      SetPlayerFacingAngle(playerid,177.0380);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Doherty_15
+       SetPlayerPos(playerid,-2027.8040,-40.9065,38.8046);
+      SetPlayerFacingAngle(playerid,177.6164);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Fahrschule_Doherty_vorne
+       SetPlayerPos(playerid,-2026.6231,-101.7552,35.1640);
+      SetPlayerFacingAngle(playerid,358.6324);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Fahrschule_Doherty_hinten
+       SetPlayerPos(playerid,-2029.8201,-120.8208,35.1727);
+      SetPlayerFacingAngle(playerid,179.9253);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Leichenhalle_Doherty
+       SetPlayerPos(playerid,-2016.5808,-39.2684,35.3081);
+      SetPlayerFacingAngle(playerid,265.2981);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Doherty_16
+       SetPlayerPos(playerid,-2016.5137,-12.0706,34.7520);
+      SetPlayerFacingAngle(playerid,269.3883);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Doherty_17
+       SetPlayerPos(playerid,-2016.5627,-2.5365,34.3396);
+      SetPlayerFacingAngle(playerid,268.2055);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Doherty_18
+       SetPlayerPos(playerid,-2016.5079,6.9664,33.7118);
+      SetPlayerFacingAngle(playerid,261.7564);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Doherty_19
+       SetPlayerPos(playerid,-2016.4992,16.6781,33.0443);
+      SetPlayerFacingAngle(playerid,272.8629);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Warehouse_Doherty_1
+       SetPlayerPos(playerid,-2077.2185,-33.0977,35.3203);
+      SetPlayerFacingAngle(playerid,83.9380);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Warehouse_Doherty_2
+       SetPlayerPos(playerid,-2077.2658,-17.6532,35.3203);
+      SetPlayerFacingAngle(playerid,92.4061);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Warehouse_Doherty_3
+       SetPlayerPos(playerid,-2077.2353,-2.2290,35.3203);
+      SetPlayerFacingAngle(playerid,88.8904);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Warehouse_Doherty_4
+       SetPlayerPos(playerid,-2102.2524,-15.8261,35.3203);
+      SetPlayerFacingAngle(playerid,269.3084);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Warehouse_Doherty_5
+       SetPlayerPos(playerid,-2096.8310,17.3820,35.3203);
+      SetPlayerFacingAngle(playerid,268.1233);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Warehouse_Doherty_DrugComplex
+       SetPlayerPos(playerid,-2133.1848,-79.6733,35.3203);
+      SetPlayerFacingAngle(playerid,1.2330);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Warehouse_Doherty_DC_Door
+       SetPlayerPos(playerid,-2162.9348,-224.8962,36.5156);
+      SetPlayerFacingAngle(playerid,358.8292);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Warehouse_Doherty_DC_Garageout
+       SetPlayerPos(playerid,-2180.1418,-209.5565,36.5156);
+      SetPlayerFacingAngle(playerid,266.1088);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Warehouse_Doherty_DC_Garagein
+       SetPlayerPos(playerid,-2181.6894,-209.4581,36.5156);
+      SetPlayerFacingAngle(playerid,82.4455);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Warehouse_Doherty_DC_room1
+       SetPlayerPos(playerid,-2162.7692,-226.3071,36.5156);
+      SetPlayerFacingAngle(playerid,177.7744);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Warehouse_Doherty_DC_2throom1
+       SetPlayerPos(playerid,-2187.7592,-226.6019,36.5156);
+      SetPlayerFacingAngle(playerid,181.8622);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Warehouse_Doherty_DC_room2
+       SetPlayerPos(playerid,-2151.6242,-241.0750,36.5156);
+      SetPlayerFacingAngle(playerid,178.9297);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Warehouse_Doherty_DC_room3
+       SetPlayerPos(playerid,-2158.1835,-255.8026,36.5156);
+      SetPlayerFacingAngle(playerid,178.0420);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Warehouse_Doherty_DC_door2
+       SetPlayerPos(playerid,-2129.4455,-188.3021,35.3203);
+      SetPlayerFacingAngle(playerid,88.2567);
+      SetPlayerInterior(playerid,0);
+
+ 
+      FireDept_Doherty
+       SetPlayerPos(playerid,-2026.6660,67.1533,28.6915);
+      SetPlayerFacingAngle(playerid,271.1572);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Fahrkartenschalter_Doherty_1
+       SetPlayerPos(playerid,-1974.0104,117.0919,27.6875);
+      SetPlayerFacingAngle(playerid,358.6679);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Fahrkartenschalter_Doherty_2
+       SetPlayerPos(playerid,-1970.9488,117.0900,27.6875);
+      SetPlayerFacingAngle(playerid,357.7840);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Mall_Doherty_hinten
+       SetPlayerPos(playerid,-2172.1425,252.0696,35.3386);
+      SetPlayerFacingAngle(playerid,268.0152);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Mall_Doherty_vorne
+       SetPlayerPos(playerid,-2226.4985,251.9858,35.3203);
+      SetPlayerFacingAngle(playerid,86.5378);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Hotel_Queens_VankHoff
+       SetPlayerPos(playerid,-2425.9645,337.8861,36.9988);
+      SetPlayerFacingAngle(playerid,242.9730);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Hotel_Queens_BiffinBridge
+       SetPlayerPos(playerid,-2463.2648,131.9779,35.1718);
+      SetPlayerFacingAngle(playerid,315.4348);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Hashbury_1
+       SetPlayerPos(playerid,-2430.8439,65.6072,35.1718);
+      SetPlayerFacingAngle(playerid,271.2998);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Hashbury_2
+       SetPlayerPos(playerid,-2435.9733,49.1884,34.8483);
+      SetPlayerFacingAngle(playerid,180.0435);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Rubbershop_Hashbury_1
+       SetPlayerPos(playerid,-2468.6401,49.4954,31.1236);
+      SetPlayerFacingAngle(playerid,184.1313);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Flat_Hashbury_1
+       SetPlayerPos(playerid,-2507.7719,50.8263,25.6239);
+      SetPlayerFacingAngle(playerid,177.9834);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Books_Hashbury_1
+       SetPlayerPos(playerid,-2490.8347,29.3678,25.6171);
+      SetPlayerFacingAngle(playerid,43.4537);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Bedshop_Hashbury_1
+       SetPlayerPos(playerid,-2511.2524,25.4587,25.6101);
+      SetPlayerFacingAngle(playerid,265.9971);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Zip_Hashbury_1
+       SetPlayerPos(playerid,-2511.0258,10.7306,25.7559);
+      SetPlayerFacingAngle(playerid,266.5755);
+      SetPlayerInterior(playerid,0);
+
+ 
+      SubUrban_Hashbury_1
+       SetPlayerPos(playerid,-2490.1665,-29.0650,25.6171);
+      SetPlayerFacingAngle(playerid,88.4687);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Tattoo_Hashbury_1
+       SetPlayerPos(playerid,-2491.2766,-38.8639,25.7656);
+      SetPlayerFacingAngle(playerid,88.1698);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Hashbury_3
+       SetPlayerPos(playerid,-2462.1879,30.3587,32.1381);
+      SetPlayerFacingAngle(playerid,354.0025);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Hashbury_4
+       SetPlayerPos(playerid,-2456.1916,30.4238,33.0747);
+      SetPlayerFacingAngle(playerid,357.8002);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Hashbury_5
+       SetPlayerPos(playerid,-2450.1745,30.3692,33.9165);
+      SetPlayerFacingAngle(playerid,356.0368);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Hashbury_6
+       SetPlayerPos(playerid,-2444.1247,30.3875,34.3133);
+      SetPlayerFacingAngle(playerid,357.2001);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Puff_Hashbury
+       SetPlayerPos(playerid,-2433.8562,30.3711,34.9866);
+      SetPlayerFacingAngle(playerid,357.4861);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Hashbury_7
+       SetPlayerPos(playerid,-2430.5668,20.8399,35.2374);
+      SetPlayerFacingAngle(playerid,266.2361);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Hashbury_8
+       SetPlayerPos(playerid,-2430.5778,10.1314,35.3158);
+      SetPlayerFacingAngle(playerid,270.6163);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Hashbury_9
+       SetPlayerPos(playerid,-2430.9086,-4.7846,35.3203);
+      SetPlayerFacingAngle(playerid,270.3174);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Hashbury_10
+       SetPlayerPos(playerid,-2430.8947,-27.5076,35.3203);
+      SetPlayerFacingAngle(playerid,267.0941);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Hashbury_11
+       SetPlayerPos(playerid,-2430.9838,-41.1239,35.3203);
+      SetPlayerFacingAngle(playerid,267.3801);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Hashbury_12
+       SetPlayerPos(playerid,-2431.0012,-51.8511,35.3203);
+      SetPlayerFacingAngle(playerid,268.2510);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Hashbury_13
+       SetPlayerPos(playerid,-2433.8532,-60.5576,35.1223);
+      SetPlayerFacingAngle(playerid,179.3406);
+      SetPlayerInterior(playerid,0);
+
+ 
+      BongShop_Hashbury
+       SetPlayerPos(playerid,-2440.0981,-79.7947,34.6651);
+      SetPlayerFacingAngle(playerid,359.7352);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Hashbury_14
+       SetPlayerPos(playerid,-2430.9716,-82.9857,35.3203);
+      SetPlayerFacingAngle(playerid,267.0164);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Hashbury_15
+       SetPlayerPos(playerid,-2430.9797,-93.6879,35.3203);
+      SetPlayerFacingAngle(playerid,269.6420);
+      SetPlayerInterior(playerid,0);
+
+ 
+      DailyGlobes_Hashbury
+       SetPlayerPos(playerid,-2431.5263,-109.5001,35.3203);
+      SetPlayerFacingAngle(playerid,271.3902);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Restaurant_Hashbury_1
+       SetPlayerPos(playerid,-2431.1062,-114.9436,35.3203);
+      SetPlayerFacingAngle(playerid,269.0376);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Gustavs_Hashbury_1
+       SetPlayerPos(playerid,-2430.3259,-140.8033,35.3125);
+      SetPlayerFacingAngle(playerid,269.6137);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Restaurant_Hashbury_2
+       SetPlayerPos(playerid,-2430.3229,-154.5793,35.3203);
+      SetPlayerFacingAngle(playerid,269.6096);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Clown_Hashbury
+       SetPlayerPos(playerid,-2439.4729,-195.8985,35.3125);
+      SetPlayerFacingAngle(playerid,220.4398);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Binco_Hashbury
+       SetPlayerPos(playerid,-2490.1840,-142.8216,25.6171);
+      SetPlayerFacingAngle(playerid,89.1102);
+      SetPlayerInterior(playerid,0);
+
+ 
+      BongShop_Hashbury_2
+       SetPlayerPos(playerid,-2491.4372,-119.9368,25.6171);
+      SetPlayerFacingAngle(playerid,89.3963);
+      SetPlayerInterior(playerid,0);
+
+ 
+      BrownEmbassy_Hashbury_Kloshop?
+       SetPlayerPos(playerid,-2510.5666,-101.7939,25.6171);
+      SetPlayerFacingAngle(playerid,269.5324);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Tools_Hashbury
+       SetPlayerPos(playerid,-2491.4462,-90.7161,25.6171);
+      SetPlayerFacingAngle(playerid,87.6238);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Hashbury_16
+       SetPlayerPos(playerid,-2460.5354,-60.4762,32.3901);
+      SetPlayerFacingAngle(playerid,182.0779);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Hashbury_17
+       SetPlayerPos(playerid,-2469.1965,-60.4430,31.0372);
+      SetPlayerFacingAngle(playerid,185.8732);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Hashbury_18
+       SetPlayerPos(playerid,-2477.8977,-60.4745,29.0211);
+      SetPlayerFacingAngle(playerid,176.5085);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Hashbury_19
+       SetPlayerPos(playerid,-2486.5937,-60.5398,26.8011);
+      SetPlayerFacingAngle(playerid,180.8912);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Hashbury_20
+       SetPlayerPos(playerid,-2491.3063,-56.2385,25.6434);
+      SetPlayerFacingAngle(playerid,90.8159);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Hashbury_21
+       SetPlayerPos(playerid,-2491.2929,-47.5194,25.7094);
+      SetPlayerFacingAngle(playerid,85.8378);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Hippy_Hashbury_1
+       SetPlayerPos(playerid,-2510.9960,-49.9342,25.6833);
+      SetPlayerFacingAngle(playerid,263.6239);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Smokeydokey_Hashbury
+       SetPlayerPos(playerid,-2541.3437,-79.7036,16.0964);
+      SetPlayerFacingAngle(playerid,359.5426);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Hashbury_22
+       SetPlayerPos(playerid,-2532.7365,-79.6891,18.8096);
+      SetPlayerFacingAngle(playerid,354.2745);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Hashbury_23
+       SetPlayerPos(playerid,-2524.0014,-79.6797,21.5706);
+      SetPlayerFacingAngle(playerid,358.3623);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Hashbury_24
+       SetPlayerPos(playerid,-2515.3354,-79.6574,24.3113);
+      SetPlayerFacingAngle(playerid,353.9691);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Hashbury_25
+       SetPlayerPos(playerid,-2510.5549,-84.3574,25.6171);
+      SetPlayerFacingAngle(playerid,267.3982);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Hashbury_26
+       SetPlayerPos(playerid,-2510.5729,-93.1267,25.6171);
+      SetPlayerFacingAngle(playerid,265.0522);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Hashbury_27
+       SetPlayerPos(playerid,-2510.5725,-109.4545,25.6171);
+      SetPlayerFacingAngle(playerid,262.9986);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Hashbury_28
+       SetPlayerPos(playerid,-2454.9074,-135.8698,26.1744);
+      SetPlayerFacingAngle(playerid,88.4037);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Hashbury_29
+       SetPlayerPos(playerid,-2515.0522,-154.0085,25.0860);
+      SetPlayerFacingAngle(playerid,265.9127);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Hashbury_30
+       SetPlayerPos(playerid,-2515.0737,-170.9348,25.0836);
+      SetPlayerFacingAngle(playerid,267.0760);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Hashbury_31
+       SetPlayerPos(playerid,-2515.0788,-189.2732,25.0830);
+      SetPlayerFacingAngle(playerid,269.7015);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Hashbury_32
+       SetPlayerPos(playerid,-2524.3254,-199.1053,21.6953);
+      SetPlayerFacingAngle(playerid,182.2558);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Hashbury_33
+       SetPlayerPos(playerid,-2541.4689,-199.1005,16.2076);
+      SetPlayerFacingAngle(playerid,177.8626);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Hashbury_34
+       SetPlayerPos(playerid,-2558.5927,-199.1404,10.9688);
+      SetPlayerFacingAngle(playerid,181.0707);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Hashbury_35
+       SetPlayerPos(playerid,-2576.4011,-199.1251,6.6164);
+      SetPlayerFacingAngle(playerid,179.6020);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Hashbury_36
+       SetPlayerPos(playerid,-2590.8200,-186.0849,4.3179);
+      SetPlayerFacingAngle(playerid,88.0620);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Hashbury_37
+       SetPlayerPos(playerid,-2590.8303,-158.6083,4.3176);
+      SetPlayerFacingAngle(playerid,90.1027);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Hashbury_38
+       SetPlayerPos(playerid,-2576.3896,-145.5662,6.6385);
+      SetPlayerFacingAngle(playerid,357.6829);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Hashbury_39
+       SetPlayerPos(playerid,-2558.7202,-145.5412,9.4979);
+      SetPlayerFacingAngle(playerid,357.6765);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Hashbury_40
+       SetPlayerPos(playerid,-2541.4775,-145.5525,15.6909);
+      SetPlayerFacingAngle(playerid,357.6701);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Hashbury_41
+       SetPlayerPos(playerid,-2524.2861,-145.5687,21.8337);
+      SetPlayerFacingAngle(playerid,357.6636);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Hashbury_42
+       SetPlayerPos(playerid,-2524.3308,-119.0106,21.7215);
+      SetPlayerFacingAngle(playerid,177.8022);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Hashbury_43
+       SetPlayerPos(playerid,-2541.4506,-119.0515,16.2101);
+      SetPlayerFacingAngle(playerid,178.0882);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Hashbury_44
+       SetPlayerPos(playerid,-2558.5864,-119.0086,10.9784);
+      SetPlayerFacingAngle(playerid,177.4969);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Hashbury_45
+       SetPlayerPos(playerid,-2576.3454,-119.0152,6.5861);
+      SetPlayerFacingAngle(playerid,177.4904);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Hashbury_46
+       SetPlayerPos(playerid,-2590.8410,-106.0931,4.3185);
+      SetPlayerFacingAngle(playerid,87.4103);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Hashbury_47
+       SetPlayerPos(playerid,-2590.8146,-95.5346,4.3141);
+      SetPlayerFacingAngle(playerid,89.1585);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Hashbury_48
+       SetPlayerPos(playerid,-2576.3771,-82.6213,6.6714);
+      SetPlayerFacingAngle(playerid,354.1068);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Hashbury_49
+       SetPlayerPos(playerid,-2558.6557,-79.6812,10.8920);
+      SetPlayerFacingAngle(playerid,356.1475);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Warehouse_Hashbury_1
+       SetPlayerPos(playerid,-2528.7172,-19.1999,16.4218);
+      SetPlayerFacingAngle(playerid,85.0473);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Hippyshop_Hashbury_2
+       SetPlayerPos(playerid,-2588.4272,59.8869,4.3359);
+      SetPlayerFacingAngle(playerid,86.5030);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Friedhof_Hashbury
+       SetPlayerPos(playerid,-2595.1455,-41.0205,4.3281);
+      SetPlayerFacingAngle(playerid,88.8362);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_1
+       SetPlayerPos(playerid,-2622.0537,-198.0756,4.3359);
+      SetPlayerFacingAngle(playerid,266.9301);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_2
+       SetPlayerPos(playerid,-2620.7043,-185.6039,7.2031);
+      SetPlayerFacingAngle(playerid,359.0469);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_3
+       SetPlayerPos(playerid,-2620.7216,-173.2694,5.0000);
+      SetPlayerFacingAngle(playerid,270.1325);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_4
+       SetPlayerPos(playerid,-2622.0769,-169.5064,4.3425);
+      SetPlayerFacingAngle(playerid,269.5436);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_5
+       SetPlayerPos(playerid,-2619.1579,-153.5492,4.3359);
+      SetPlayerFacingAngle(playerid,266.3226);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_6
+       SetPlayerPos(playerid,-2620.7448,-146.5362,7.2031);
+      SetPlayerFacingAngle(playerid,180.0443);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_7
+       SetPlayerPos(playerid,-2620.7175,-134.7052,5.0000);
+      SetPlayerFacingAngle(playerid,268.3568);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_8
+       SetPlayerPos(playerid,-2619.4257,-127.6339,4.3359);
+      SetPlayerFacingAngle(playerid,269.2301);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_9
+       SetPlayerPos(playerid,-2620.8188,-119.9028,7.2031);
+      SetPlayerFacingAngle(playerid,358.4175);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_10
+       SetPlayerPos(playerid,-2622.0498,-112.4080,4.3425);
+      SetPlayerFacingAngle(playerid,268.6299);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_11
+       SetPlayerPos(playerid,-2623.1245,-99.3332,7.2031);
+      SetPlayerFacingAngle(playerid,266.2862);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_12
+       SetPlayerPos(playerid,-2688.1916,-89.4313,4.3359);
+      SetPlayerFacingAngle(playerid,88.4742);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_13
+       SetPlayerPos(playerid,-2689.4462,-101.9290,7.2031);
+      SetPlayerFacingAngle(playerid,180.0060);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_14
+       SetPlayerPos(playerid,-2689.5598,-114.2569,5.0000);
+      SetPlayerFacingAngle(playerid,89.9218);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_15
+       SetPlayerPos(playerid,-2688.1193,-117.9928,4.3425);
+      SetPlayerFacingAngle(playerid,88.4555);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_16
+       SetPlayerPos(playerid,-2691.0886,-133.9253,4.3359);
+      SetPlayerFacingAngle(playerid,87.2793);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_17
+       SetPlayerPos(playerid,-2689.4846,-140.9964,7.2031);
+      SetPlayerFacingAngle(playerid,359.2489);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_18
+       SetPlayerPos(playerid,-2689.4978,-152.7480,5.0000);
+      SetPlayerFacingAngle(playerid,87.5613);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_19
+       SetPlayerPos(playerid,-2690.8212,-159.8529,4.3359);
+      SetPlayerFacingAngle(playerid,88.7270);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_20
+       SetPlayerPos(playerid,-2689.4677,-167.5879,7.2031);
+      SetPlayerFacingAngle(playerid,178.7943);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_21
+       SetPlayerPos(playerid,-2688.1887,-175.1138,4.3425);
+      SetPlayerFacingAngle(playerid,89.2990);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_22
+       SetPlayerPos(playerid,-2687.1125,-188.1241,7.2031);
+      SetPlayerFacingAngle(playerid,87.2454);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_23
+       SetPlayerPos(playerid,-2724.3791,-191.2573,4.3359);
+      SetPlayerFacingAngle(playerid,267.6764);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_24
+       SetPlayerPos(playerid,-2723.0556,-178.7613,7.2031);
+      SetPlayerFacingAngle(playerid,359.7907);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_25
+       SetPlayerPos(playerid,-2723.0192,-166.4288,5.0000);
+      SetPlayerFacingAngle(playerid,267.0785);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_26
+       SetPlayerPos(playerid,-2724.3903,-162.6955,4.3425);
+      SetPlayerFacingAngle(playerid,267.3669);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_27
+       SetPlayerPos(playerid,-2721.4611,-146.7881,4.3359);
+      SetPlayerFacingAngle(playerid,267.6530);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_28
+       SetPlayerPos(playerid,-2723.0205,-139.6949,7.2031);
+      SetPlayerFacingAngle(playerid,178.1576);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_29
+       SetPlayerPos(playerid,-2722.9870,-127.8962,5.0000);
+      SetPlayerFacingAngle(playerid,265.0015);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_30
+       SetPlayerPos(playerid,-2721.6872,-120.8104,4.3359);
+      SetPlayerFacingAngle(playerid,267.6270);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_31
+       SetPlayerPos(playerid,-2723.0742,-113.0855,7.2031);
+      SetPlayerFacingAngle(playerid,0.0363);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_32
+       SetPlayerPos(playerid,-2724.3649,-105.5656,4.3425);
+      SetPlayerFacingAngle(playerid,268.7864);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_33
+       SetPlayerPos(playerid,-2725.5190,-92.5480,7.2031);
+      SetPlayerFacingAngle(playerid,268.4875);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_34
+       SetPlayerPos(playerid,-2790.5749,-82.5678,7.1953);
+      SetPlayerFacingAngle(playerid,89.7984);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_35
+       SetPlayerPos(playerid,-2791.8771,-95.1086,10.0546);
+      SetPlayerFacingAngle(playerid,180.4505);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_36
+       SetPlayerPos(playerid,-2791.9099,-107.4324,7.8593);
+      SetPlayerFacingAngle(playerid,88.3232);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_37
+       SetPlayerPos(playerid,-2790.5529,-111.1568,7.2019);
+      SetPlayerFacingAngle(playerid,88.0243);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_38
+       SetPlayerPos(playerid,-2793.5075,-127.1665,7.1875);
+      SetPlayerFacingAngle(playerid,87.1341);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_39
+       SetPlayerPos(playerid,-2791.8952,-134.2201,10.0546);
+      SetPlayerFacingAngle(playerid,358.2237);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_40
+       SetPlayerPos(playerid,-2791.8979,-145.9882,7.8593);
+      SetPlayerFacingAngle(playerid,88.8759);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_41
+       SetPlayerPos(playerid,-2793.2375,-153.0240,7.1875);
+      SetPlayerFacingAngle(playerid,88.8694);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_42
+       SetPlayerPos(playerid,-2791.7978,-160.7752,10.0546);
+      SetPlayerFacingAngle(playerid,181.2763);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_43
+       SetPlayerPos(playerid,-2790.5463,-168.2975,7.2019);
+      SetPlayerFacingAngle(playerid,90.0287);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_44
+       SetPlayerPos(playerid,-2789.4262,-181.3554,10.0625);
+      SetPlayerFacingAngle(playerid,87.3903);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Golf-TennisClub_OceanFlates_Hotel
+       SetPlayerPos(playerid,-2719.5576,-318.9172,7.8437);
+      SetPlayerFacingAngle(playerid,44.1019);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_45
+       SetPlayerPos(playerid,-2789.4807,-52.6526,10.0625);
+      SetPlayerFacingAngle(playerid,88.2268);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_46
+       SetPlayerPos(playerid,-2791.8344,-42.1194,10.0546);
+      SetPlayerFacingAngle(playerid,178.8789);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_47
+       SetPlayerPos(playerid,-2791.8693,-35.9427,7.8593);
+      SetPlayerFacingAngle(playerid,88.2138);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_48
+       SetPlayerPos(playerid,-2791.8977,-24.1074,10.0546);
+      SetPlayerFacingAngle(playerid,357.5487);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_49
+       SetPlayerPos(playerid,-2791.8823,-17.7588,7.8593);
+      SetPlayerFacingAngle(playerid,87.0310);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_50
+       SetPlayerPos(playerid,-2790.4895,7.2660,7.1953);
+      SetPlayerFacingAngle(playerid,88.1943);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_51
+       SetPlayerPos(playerid,-2793.4377,11.1445,7.1875);
+      SetPlayerFacingAngle(playerid,87.3104);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_52
+       SetPlayerPos(playerid,-2793.4467,21.2882,7.1875);
+      SetPlayerFacingAngle(playerid,87.5965);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_53
+       SetPlayerPos(playerid,-2723.1245,22.2305,7.2031);
+      SetPlayerFacingAngle(playerid,359.8559);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_54
+       SetPlayerPos(playerid,-2721.8193,14.4766,4.3359);
+      SetPlayerFacingAngle(playerid,270.3606);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_55
+       SetPlayerPos(playerid,-2723.0803,4.1651,7.2031);
+      SetPlayerFacingAngle(playerid,179.1042);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_56
+       SetPlayerPos(playerid,-2723.1750,-17.0196,7.2031);
+      SetPlayerFacingAngle(playerid,358.0755);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_57
+       SetPlayerPos(playerid,-2721.5029,-23.3314,4.3359);
+      SetPlayerFacingAngle(playerid,269.4575);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_58
+       SetPlayerPos(playerid,-2725.4899,-36.4326,7.1953);
+      SetPlayerFacingAngle(playerid,268.5737);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_59
+       SetPlayerPos(playerid,-2721.8012,-44.6887,4.3359);
+      SetPlayerFacingAngle(playerid,268.5697);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_60
+       SetPlayerPos(playerid,-2724.4145,-58.0631,4.3425);
+      SetPlayerFacingAngle(playerid,267.6859);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Church_OceanFlates
+       SetPlayerPos(playerid,-2664.5805,-7.5135,6.1328);
+      SetPlayerFacingAngle(playerid,88.3988);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Bar_OceanFlates
+       SetPlayerPos(playerid,-2718.5791,50.5386,4.3359);
+      SetPlayerFacingAngle(playerid,268.5374);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Flat_OceanFlates_1
+       SetPlayerPos(playerid,-2720.3369,127.6781,7.0390);
+      SetPlayerFacingAngle(playerid,266.7786);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_61
+       SetPlayerPos(playerid,-2688.1892,137.0614,4.3425);
+      SetPlayerFacingAngle(playerid,89.8417);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_62
+       SetPlayerPos(playerid,-2690.7841,123.7179,4.3359);
+      SetPlayerFacingAngle(playerid,89.5452);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_63
+       SetPlayerPos(playerid,-2687.1120,115.4640,7.1953);
+      SetPlayerFacingAngle(playerid,87.4916);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_64
+       SetPlayerPos(playerid,-2691.0803,102.2740,4.3359);
+      SetPlayerFacingAngle(playerid,88.3648);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_65
+       SetPlayerPos(playerid,-2689.4672,96.0195,7.2031);
+      SetPlayerFacingAngle(playerid,178.1396);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_66
+       SetPlayerPos(playerid,-2689.5527,74.8317,7.2031);
+      SetPlayerFacingAngle(playerid,357.6957);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_67
+       SetPlayerPos(playerid,-2690.7785,64.4832,4.3359);
+      SetPlayerFacingAngle(playerid,86.3007);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_68
+       SetPlayerPos(playerid,-2689.4592,56.7923,7.2031);
+      SetPlayerFacingAngle(playerid,179.0024);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_69
+       SetPlayerPos(playerid,-2619.1884,57.7351,4.3359);
+      SetPlayerFacingAngle(playerid,267.8999);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_70
+       SetPlayerPos(playerid,-2619.1955,67.9160,4.3359);
+      SetPlayerFacingAngle(playerid,269.9406);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_71
+       SetPlayerPos(playerid,-2622.0439,71.7724,4.3359);
+      SetPlayerFacingAngle(playerid,268.4718);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_72
+       SetPlayerPos(playerid,-2620.7314,96.7834,5.0000);
+      SetPlayerFacingAngle(playerid,268.7578);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_73
+       SetPlayerPos(playerid,-2620.7133,103.0594,7.2031);
+      SetPlayerFacingAngle(playerid,178.3876);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_74
+       SetPlayerPos(playerid,-2620.7333,114.9025,5.0000);
+      SetPlayerFacingAngle(playerid,267.2851);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_75
+       SetPlayerPos(playerid,-2620.7604,121.1179,7.2031);
+      SetPlayerFacingAngle(playerid,358.8146);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_76
+       SetPlayerPos(playerid,-2623.1213,131.7009,7.2031);
+      SetPlayerFacingAngle(playerid,265.2275);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_77
+       SetPlayerPos(playerid,-2621.6684,168.6679,7.1953);
+      SetPlayerFacingAngle(playerid,268.7280);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_78
+       SetPlayerPos(playerid,-2627.8759,168.6025,5.0000);
+      SetPlayerFacingAngle(playerid,179.5276);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_79
+       SetPlayerPos(playerid,-2639.6708,168.6025,7.1953);
+      SetPlayerFacingAngle(playerid,90.0323);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_80
+       SetPlayerPos(playerid,-2791.8540,77.2683,10.0546);
+      SetPlayerFacingAngle(playerid,178.6373);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_81
+       SetPlayerPos(playerid,-2790.5502,69.6800,7.2019);
+      SetPlayerFacingAngle(playerid,88.5595);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_82
+       SetPlayerPos(playerid,-2793.1530,85.0210,7.1875);
+      SetPlayerFacingAngle(playerid,89.1380);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_83
+       SetPlayerPos(playerid,-2791.9072,92.0588,7.8593);
+      SetPlayerFacingAngle(playerid,89.1315);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_84
+       SetPlayerPos(playerid,-2791.9279,103.9118,10.0546);
+      SetPlayerFacingAngle(playerid,358.1740);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_85
+       SetPlayerPos(playerid,-2793.4438,110.8988,7.1875);
+      SetPlayerFacingAngle(playerid,87.9489);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_86
+       SetPlayerPos(playerid,-2790.5039,126.8401,7.2019);
+      SetPlayerFacingAngle(playerid,88.5273);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_87
+       SetPlayerPos(playerid,-2791.8789,130.5901,7.8593);
+      SetPlayerFacingAngle(playerid,89.4005);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_88
+       SetPlayerPos(playerid,-2791.8603,142.9433,10.0546);
+      SetPlayerFacingAngle(playerid,180.3451);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_89
+       SetPlayerPos(playerid,-2789.4921,183.6898,10.0625);
+      SetPlayerFacingAngle(playerid,89.9725);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_90
+       SetPlayerPos(playerid,-2791.8198,194.2673,10.0546);
+      SetPlayerFacingAngle(playerid,177.1129);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_91
+       SetPlayerPos(playerid,-2791.8906,200.4710,7.8593);
+      SetPlayerFacingAngle(playerid,89.9572);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_92
+       SetPlayerPos(playerid,-2791.9104,212.3132,10.0546);
+      SetPlayerFacingAngle(playerid,359.2922);
+      SetPlayerInterior(playerid,0);
+
+ 
+      ArchAngelstuning_OceanFlates
+       SetPlayerPos(playerid,-2717.5703,200.2265,4.3359);
+      SetPlayerFacingAngle(playerid,267.4534);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_93
+       SetPlayerPos(playerid,-2688.9995,198.1368,7.2031);
+      SetPlayerFacingAngle(playerid,356.0560);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_94
+       SetPlayerPos(playerid,-2678.4658,200.3724,7.1953);
+      SetPlayerFacingAngle(playerid,88.1704);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_95
+       SetPlayerPos(playerid,-2672.2456,200.5451,5.0000);
+      SetPlayerFacingAngle(playerid,358.3827);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_96
+       SetPlayerPos(playerid,-2660.4455,200.5475,7.1953);
+      SetPlayerFacingAngle(playerid,268.3001);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_97
+       SetPlayerPos(playerid,-2654.1511,200.5417,5.0000);
+      SetPlayerFacingAngle(playerid,358.0749);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Ammu_OceanFlates
+       SetPlayerPos(playerid,-2626.6276,208.6047,4.5960);
+      SetPlayerFacingAngle(playerid,2.1628);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Theater_Queens
+       SetPlayerPos(playerid,-2591.4523,170.1829,4.6901);
+      SetPlayerFacingAngle(playerid,175.5686);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Flat_OceanFlates_2
+       SetPlayerPos(playerid,-2586.5625,147.5609,4.3359);
+      SetPlayerFacingAngle(playerid,359.8015);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Club_Queens
+       SetPlayerPos(playerid,-2551.3784,194.4503,6.2265);
+      SetPlayerFacingAngle(playerid,103.9022);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Flat_Queens_1
+       SetPlayerPos(playerid,-2575.4680,242.5422,9.5391);
+      SetPlayerFacingAngle(playerid,213.2710);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Barbershop_Queens
+       SetPlayerPos(playerid,-2571.1347,246.5402,10.2820);
+      SetPlayerFacingAngle(playerid,214.4343);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Glasses_Queens
+       SetPlayerPos(playerid,-2566.3662,251.6136,11.6931);
+      SetPlayerFacingAngle(playerid,221.1541);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Queens
+       SetPlayerPos(playerid,-2557.4138,263.0162,14.4245);
+      SetPlayerFacingAngle(playerid,233.4329);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Queens_2
+       SetPlayerPos(playerid,-2541.1730,257.4389,14.8888);
+      SetPlayerFacingAngle(playerid,62.0547);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Queens_3
+       SetPlayerPos(playerid,-2544.9277,250.1018,13.8383);
+      SetPlayerFacingAngle(playerid,59.1237);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Cafe_Queens
+       SetPlayerPos(playerid,-2552.6716,275.5430,16.3615);
+      SetPlayerFacingAngle(playerid,249.7904);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Books_Queens
+       SetPlayerPos(playerid,-2549.5180,295.9294,18.2157);
+      SetPlayerFacingAngle(playerid,263.2366);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Botanica_Queens
+       SetPlayerPos(playerid,-2579.7358,310.0044,5.1796);
+      SetPlayerFacingAngle(playerid,85.7171);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_98
+       SetPlayerPos(playerid,-2632.2880,274.4638,4.3347);
+      SetPlayerFacingAngle(playerid,89.2136);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_99
+       SetPlayerPos(playerid,-2634.9985,261.1067,4.3281);
+      SetPlayerFacingAngle(playerid,85.9902);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_100
+       SetPlayerPos(playerid,-2631.2282,252.8094,7.1875);
+      SetPlayerFacingAngle(playerid,87.1535);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_OceanFlates_101
+       SetPlayerPos(playerid,-2635.1982,239.6714,4.3281);
+      SetPlayerFacingAngle(playerid,87.7319);
+      SetPlayerInterior(playerid,0);
+
+ 
+      CluckingBell_OceanFlates
+       SetPlayerPos(playerid,-2672.2141,258.2334,4.6328);
+      SetPlayerFacingAngle(playerid,357.6412);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Electronic_Queens
+       SetPlayerPos(playerid,-2596.7277,409.9021,13.9455);
+      SetPlayerFacingAngle(playerid,89.5075);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Bakery_Queens
+       SetPlayerPos(playerid,-2596.5986,448.3218,14.6093);
+      SetPlayerFacingAngle(playerid,90.8824);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Hospital_Queens
+       SetPlayerPos(playerid,-2655.0739,639.8660,14.4545);
+      SetPlayerFacingAngle(playerid,176.7380);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Hospital_Queens_medicjob
+       SetPlayerPos(playerid,-2695.5356,639.8847,14.4531);
+      SetPlayerFacingAngle(playerid,178.1962);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Security_Queens
+       SetPlayerPos(playerid,-2455.8520,503.9038,30.0781);
+      SetPlayerFacingAngle(playerid,271.4445);
+      SetPlayerInterior(playerid,0);
+
+ 
+      MusicInst_Queens
+       SetPlayerPos(playerid,-2549.0234,351.3072,19.9475);
+      SetPlayerFacingAngle(playerid,269.1604);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Flat_Queens_2
+       SetPlayerPos(playerid,-2546.8000,392.4385,22.0156);
+      SetPlayerFacingAngle(playerid,262.7160);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Court_Rathaus
+       SetPlayerPos(playerid,-2766.2504,375.5967,6.3346);
+      SetPlayerFacingAngle(playerid,268.5957);
+      SetPlayerInterior(playerid,0);
+
+ 
+      CityHall_Rathaus
+       SetPlayerPos(playerid,-2649.1809,376.0568,6.1592);
+      SetPlayerFacingAngle(playerid,86.7841);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Flat_Queens_3
+       SetPlayerPos(playerid,-2383.9011,493.8124,29.8454);
+      SetPlayerFacingAngle(playerid,343.0174);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Flat_Queens_4
+       SetPlayerPos(playerid,-2351.3557,492.7662,30.8178);
+      SetPlayerFacingAngle(playerid,59.3269);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_SantaFlora_1
+       SetPlayerPos(playerid,-2738.5964,801.5914,53.0625);
+      SetPlayerFacingAngle(playerid,89.1931);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_SantaFlora_2
+       SetPlayerPos(playerid,-2738.6274,797.6965,53.2422);
+      SetPlayerFacingAngle(playerid,84.8002);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_SantaFlora_3
+       SetPlayerPos(playerid,-2738.6064,789.0272,54.3828);
+      SetPlayerFacingAngle(playerid,83.6239);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_SantaFlora_4
+       SetPlayerPos(playerid,-2738.6296,771.6004,54.3828);
+      SetPlayerFacingAngle(playerid,86.5419);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_SantaFlora_5
+       SetPlayerPos(playerid,-2738.6096,758.7711,54.3828);
+      SetPlayerFacingAngle(playerid,86.2429);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_SantaFlora_6
+       SetPlayerPos(playerid,-2738.6333,755.0551,52.8361);
+      SetPlayerFacingAngle(playerid,91.5004);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_SantaFlora_7
+       SetPlayerPos(playerid,-2738.6596,746.6348,49.3546);
+      SetPlayerFacingAngle(playerid,85.9375);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_SantaFlora_8
+       SetPlayerPos(playerid,-2738.6582,734.7192,45.4108);
+      SetPlayerFacingAngle(playerid,83.0000);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_SantaFlora_9
+       SetPlayerPos(playerid,-2731.5051,723.3811,41.2734);
+      SetPlayerFacingAngle(playerid,179.7935);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_SantaFlora_10
+       SetPlayerPos(playerid,-2723.3564,722.5578,41.2659);
+      SetPlayerFacingAngle(playerid,178.6172);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_SantaFlora_11
+       SetPlayerPos(playerid,-2710.7951,722.5401,39.7187);
+      SetPlayerFacingAngle(playerid,175.9788);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_SantaFlora_12
+       SetPlayerPos(playerid,-2738.6049,779.9089,54.3768);
+      SetPlayerFacingAngle(playerid,89.9930);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_SantaFlora_13
+       SetPlayerPos(playerid,-2706.8984,722.5550,37.5390);
+      SetPlayerFacingAngle(playerid,180.4794);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_SantaFlora_14
+       SetPlayerPos(playerid,-2695.0424,722.5431,34.7688);
+      SetPlayerFacingAngle(playerid,176.3787);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_SantaFlora_15
+       SetPlayerPos(playerid,-2686.2346,722.5590,32.1916);
+      SetPlayerFacingAngle(playerid,181.0514);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_SantaFlora_16
+       SetPlayerPos(playerid,-2678.1442,721.9593,28.6351);
+      SetPlayerFacingAngle(playerid,176.6583);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_SantaFlora_17
+       SetPlayerPos(playerid,-2665.4746,721.9591,27.9592);
+      SetPlayerFacingAngle(playerid,176.6519);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_SantaFlora_18
+       SetPlayerPos(playerid,-2661.5209,721.9528,27.9591);
+      SetPlayerFacingAngle(playerid,178.4001);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_SantaFlora_19
+       SetPlayerPos(playerid,-2653.0327,721.9577,27.9592);
+      SetPlayerFacingAngle(playerid,178.6861);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_SantaFlora_20
+       SetPlayerPos(playerid,-2642.0854,727.7313,27.9609);
+      SetPlayerFacingAngle(playerid,185.4059);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_SantaFlora_21
+       SetPlayerPos(playerid,-2625.1823,733.1574,28.0497);
+      SetPlayerFacingAngle(playerid,270.5015);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_SantaFlora_20
+       SetPlayerPos(playerid,-2640.0490,730.6242,30.0757);
+      SetPlayerFacingAngle(playerid,268.1579);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_SantaFlora_21
+       SetPlayerPos(playerid,-2627.7326,735.6466,30.5859);
+      SetPlayerFacingAngle(playerid,354.1309);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_SantaFlora_22
+       SetPlayerPos(playerid,-2622.2282,749.7770,31.4218);
+      SetPlayerFacingAngle(playerid,266.3903);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_SantaFlora_23
+       SetPlayerPos(playerid,-2622.2314,757.8115,35.3281);
+      SetPlayerFacingAngle(playerid,266.0914);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_SantaFlora_24
+       SetPlayerPos(playerid,-2622.2238,766.2578,36.8359);
+      SetPlayerFacingAngle(playerid,268.7169);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_SantaFlora_25
+       SetPlayerPos(playerid,-2622.2055,772.0447,41.0683);
+      SetPlayerFacingAngle(playerid,176.5895);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_SantaFlora_26
+       SetPlayerPos(playerid,-2622.2309,782.6614,44.8593);
+      SetPlayerFacingAngle(playerid,268.4091);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_SantaFlora_27
+       SetPlayerPos(playerid,-2621.3608,790.8199,48.5328);
+      SetPlayerFacingAngle(playerid,268.4026);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_SantaFlora_28
+       SetPlayerPos(playerid,-2621.3713,802.9501,49.9843);
+      SetPlayerFacingAngle(playerid,267.5188);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_SantaFlora_29
+       SetPlayerPos(playerid,-2645.5798,803.3852,49.9765);
+      SetPlayerFacingAngle(playerid,358.1597);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_SantaFlora_30
+       SetPlayerPos(playerid,-2659.9953,803.3793,49.9765);
+      SetPlayerFacingAngle(playerid,357.2759);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_SantaFlora_31
+       SetPlayerPos(playerid,-2670.5080,803.3648,49.9765);
+      SetPlayerFacingAngle(playerid,356.3921);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_SantaFlora_32
+       SetPlayerPos(playerid,-2677.2763,803.3876,49.9765);
+      SetPlayerFacingAngle(playerid,3.1120);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_SantaFlora_33
+       SetPlayerPos(playerid,-2687.7670,803.3968,49.9765);
+      SetPlayerFacingAngle(playerid,357.5490);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_SantaFlora_34
+       SetPlayerPos(playerid,-2698.8068,803.3999,49.9702);
+      SetPlayerFacingAngle(playerid,352.5580);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_SantaFlora_35
+       SetPlayerPos(playerid,-2709.7546,803.4127,49.9765);
+      SetPlayerFacingAngle(playerid,357.5167);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_SantaFlora_36
+       SetPlayerPos(playerid,-2594.4150,785.2810,46.2335);
+      SetPlayerFacingAngle(playerid,83.4897);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_SantaFlora_37
+       SetPlayerPos(playerid,-2594.4492,768.0996,40.0208);
+      SetPlayerFacingAngle(playerid,85.8139);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_SantaFlora_38
+       SetPlayerPos(playerid,-2594.4677,750.9415,33.7103);
+      SetPlayerFacingAngle(playerid,84.3452);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_SantaFlora_39
+       SetPlayerPos(playerid,-2594.4699,733.1681,28.2718);
+      SetPlayerFacingAngle(playerid,88.1405);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_SantaFlora_40
+       SetPlayerPos(playerid,-2581.4560,718.6800,27.9453);
+      SetPlayerFacingAngle(playerid,174.9843);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_SantaFlora_41
+       SetPlayerPos(playerid,-2553.9746,718.7955,27.9453);
+      SetPlayerFacingAngle(playerid,178.1948);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_SantaFlora_42
+       SetPlayerPos(playerid,-2541.0595,733.1176,28.1174);
+      SetPlayerFacingAngle(playerid,265.0388);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_SantaFlora_43
+       SetPlayerPos(playerid,-2540.9526,750.8957,33.7059);
+      SetPlayerFacingAngle(playerid,270.5888);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_SantaFlora_44
+       SetPlayerPos(playerid,-2540.9455,768.0525,40.0115);
+      SetPlayerFacingAngle(playerid,267.0729);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_SantaFlora_45
+       SetPlayerPos(playerid,-2540.9548,785.2267,46.2195);
+      SetPlayerFacingAngle(playerid,272.9154);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_SantaFlora_46
+       SetPlayerPos(playerid,-2550.8242,794.4703,49.4634);
+      SetPlayerFacingAngle(playerid,357.7187);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_SantaFlora_47
+       SetPlayerPos(playerid,-2569.1318,794.4661,49.4628);
+      SetPlayerFacingAngle(playerid,355.9576);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_SantaFlora_48
+       SetPlayerPos(playerid,-2586.0629,794.4790,49.4645);
+      SetPlayerFacingAngle(playerid,355.3662);
+      SetPlayerInterior(playerid,0);
+
+ 
+      24/7.aka.Supasave_JuniperHill
+       SetPlayerPos(playerid,-2442.6933,755.0947,35.1718);
+      SetPlayerFacingAngle(playerid,177.8304);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Palisades_1
+       SetPlayerPos(playerid,-2864.6870,681.5654,23.4633);
+      SetPlayerFacingAngle(playerid,292.6725);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Palisades_2
+       SetPlayerPos(playerid,-2869.1765,691.1254,23.4654);
+      SetPlayerFacingAngle(playerid,291.4987);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Palisades_3
+       SetPlayerPos(playerid,-2872.2207,697.7193,23.4650);
+      SetPlayerFacingAngle(playerid,292.6620);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Palisades_4
+       SetPlayerPos(playerid,-2882.0104,726.7673,29.2085);
+      SetPlayerFacingAngle(playerid,278.2967);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Palisades_5
+       SetPlayerPos(playerid,-2883.2448,736.7784,29.2491);
+      SetPlayerFacingAngle(playerid,275.9507);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Palisades_6
+       SetPlayerPos(playerid,-2883.8564,743.5222,29.2519);
+      SetPlayerFacingAngle(playerid,276.2367);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Palisades_7
+       SetPlayerPos(playerid,-2884.5053,750.7548,29.2234);
+      SetPlayerFacingAngle(playerid,273.8907);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Palisades_8
+       SetPlayerPos(playerid,-2881.9484,779.9691,35.1356);
+      SetPlayerFacingAngle(playerid,261.8938);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Palisades_9
+       SetPlayerPos(playerid,-2881.0510,790.4641,35.2056);
+      SetPlayerFacingAngle(playerid,261.3025);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Palisades_10
+       SetPlayerPos(playerid,-2880.4277,797.6402,35.2462);
+      SetPlayerFacingAngle(playerid,261.0036);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Palisades_11
+       SetPlayerPos(playerid,-2868.3115,820.9332,39.4059);
+      SetPlayerFacingAngle(playerid,240.2334);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Palisades_12
+       SetPlayerPos(playerid,-2863.3596,829.6898,39.5632);
+      SetPlayerFacingAngle(playerid,238.4723);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Palisades_13
+       SetPlayerPos(playerid,-2859.9863,835.5798,39.6900);
+      SetPlayerFacingAngle(playerid,238.7583);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Palisades_14
+       SetPlayerPos(playerid,-2856.3862,841.7972,39.7725);
+      SetPlayerFacingAngle(playerid,239.6292);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Palisades_15
+       SetPlayerPos(playerid,-2839.9113,866.8681,44.0546);
+      SetPlayerFacingAngle(playerid,267.9901);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Palisades_16
+       SetPlayerPos(playerid,-2839.9055,877.3558,44.0546);
+      SetPlayerFacingAngle(playerid,267.6912);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Palisades_17
+       SetPlayerPos(playerid,-2839.9147,884.6109,44.0546);
+      SetPlayerFacingAngle(playerid,266.8074);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Palisades_18
+       SetPlayerPos(playerid,-2842.9296,904.5122,44.0546);
+      SetPlayerFacingAngle(playerid,272.0650);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Palisades_19
+       SetPlayerPos(playerid,-2843.7746,914.5397,44.0546);
+      SetPlayerFacingAngle(playerid,273.2284);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Palisades_20
+       SetPlayerPos(playerid,-2844.3991,921.3031,44.0546);
+      SetPlayerFacingAngle(playerid,272.9295);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Palisades_21
+       SetPlayerPos(playerid,-2845.0151,928.4947,44.0546);
+      SetPlayerFacingAngle(playerid,272.6306);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Palisades_22
+       SetPlayerPos(playerid,-2852.9821,947.6875,44.0546);
+      SetPlayerFacingAngle(playerid,294.2652);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Palisades_23
+       SetPlayerPos(playerid,-2857.4189,957.2039,44.0546);
+      SetPlayerFacingAngle(playerid,293.0825);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Palisades_24
+       SetPlayerPos(playerid,-2860.4482,963.7248,44.0546);
+      SetPlayerFacingAngle(playerid,294.2458);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Palisades_25
+       SetPlayerPos(playerid,-2875.7705,981.1390,40.7259);
+      SetPlayerFacingAngle(playerid,300.3807);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Palisades_26
+       SetPlayerPos(playerid,-2880.8244,989.9148,40.7187);
+      SetPlayerFacingAngle(playerid,300.9591);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Palisades_27
+       SetPlayerPos(playerid,-2884.2087,995.7523,40.7187);
+      SetPlayerFacingAngle(playerid,299.4905);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Palisades_28
+       SetPlayerPos(playerid,-2887.8222,1001.9905,40.7187);
+      SetPlayerFacingAngle(playerid,297.4369);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Palisades_29
+       SetPlayerPos(playerid,-2895.3293,1017.0917,36.8281);
+      SetPlayerFacingAngle(playerid,288.3646);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Palisades_30
+       SetPlayerPos(playerid,-2898.9523,1026.9184,36.8281);
+      SetPlayerFacingAngle(playerid,286.8959);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Palisades_31
+       SetPlayerPos(playerid,-2901.3715,1033.7319,36.8281);
+      SetPlayerFacingAngle(playerid,285.1347);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Palisades_32
+       SetPlayerPos(playerid,-2900.1437,1056.9932,32.1328);
+      SetPlayerFacingAngle(playerid,270.7984);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Palisades_33
+       SetPlayerPos(playerid,-2900.3894,1067.0124,32.1399);
+      SetPlayerFacingAngle(playerid,269.6221);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Palisades_34
+       SetPlayerPos(playerid,-2900.4111,1073.8059,32.1328);
+      SetPlayerFacingAngle(playerid,271.0779);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Palisades_35
+       SetPlayerPos(playerid,-2900.4086,1081.0007,32.1328);
+      SetPlayerFacingAngle(playerid,269.3167);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Palisades_36
+       SetPlayerPos(playerid,-2904.1408,1101.1871,27.0703);
+      SetPlayerFacingAngle(playerid,269.3103);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Palisades_37
+       SetPlayerPos(playerid,-2904.4953,1111.6595,27.0703);
+      SetPlayerFacingAngle(playerid,271.3509);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Palisades_38
+       SetPlayerPos(playerid,-2904.3684,1118.8724,27.0703);
+      SetPlayerFacingAngle(playerid,267.5426);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Palisades_39
+       SetPlayerPos(playerid,-2904.9069,1154.8098,13.6640);
+      SetPlayerFacingAngle(playerid,269.5833);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Palisades_40
+       SetPlayerPos(playerid,-2904.8664,1164.8562,13.6640);
+      SetPlayerFacingAngle(playerid,268.4071);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Palisades_41
+       SetPlayerPos(playerid,-2904.9812,1171.6658,13.6640);
+      SetPlayerFacingAngle(playerid,268.6931);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Palisades_42
+       SetPlayerPos(playerid,-2904.7990,1178.8284,13.6640);
+      SetPlayerFacingAngle(playerid,270.1489);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Donut_SantaFlora
+       SetPlayerPos(playerid,-2767.5764,788.8117,52.7812);
+      SetPlayerFacingAngle(playerid,263.5503);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_1
+       SetPlayerPos(playerid,-2642.0529,819.9492,49.9843);
+      SetPlayerFacingAngle(playerid,170.8843);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_2
+       SetPlayerPos(playerid,-2652.5837,820.0112,49.9843);
+      SetPlayerFacingAngle(playerid,176.4343);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_3
+       SetPlayerPos(playerid,-2659.4489,819.9673,49.9731);
+      SetPlayerFacingAngle(playerid,181.9755);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_4
+       SetPlayerPos(playerid,-2667.0488,820.0112,49.9843);
+      SetPlayerFacingAngle(playerid,179.0405);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_5
+       SetPlayerPos(playerid,-2685.1247,820.2160,49.9843);
+      SetPlayerFacingAngle(playerid,184.5817);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_6
+       SetPlayerPos(playerid,-2700.4130,820.5416,49.9843);
+      SetPlayerFacingAngle(playerid,173.4583);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_7
+       SetPlayerPos(playerid,-2718.3337,823.9208,51.3494);
+      SetPlayerFacingAngle(playerid,180.4656);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_8
+       SetPlayerPos(playerid,-2726.8288,822.7395,53.6680);
+      SetPlayerFacingAngle(playerid,177.5371);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_7
+       SetPlayerPos(playerid,-2737.3576,822.6865,53.6548);
+      SetPlayerFacingAngle(playerid,174.8922);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_8
+       SetPlayerPos(playerid,-2738.1398,836.7259,56.3034);
+      SetPlayerFacingAngle(playerid,90.0762);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_9
+       SetPlayerPos(playerid,-2737.1503,846.6198,59.2727);
+      SetPlayerFacingAngle(playerid,89.7774);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_10
+       SetPlayerPos(playerid,-2737.8581,853.3506,61.3343);
+      SetPlayerFacingAngle(playerid,85.6743);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_11
+       SetPlayerPos(playerid,-2737.8698,866.2829,64.6328);
+      SetPlayerFacingAngle(playerid,84.7906);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_12
+       SetPlayerPos(playerid,-2706.6718,864.7968,70.7031);
+      SetPlayerFacingAngle(playerid,359.6820);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_13
+       SetPlayerPos(playerid,-2662.0380,876.6325,79.7737);
+      SetPlayerFacingAngle(playerid,357.0435);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_14
+       SetPlayerPos(playerid,-2673.5944,910.6506,79.6873);
+      SetPlayerFacingAngle(playerid,185.0805);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_15
+       SetPlayerPos(playerid,-2641.1157,935.3931,71.9531);
+      SetPlayerFacingAngle(playerid,185.9450);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_16
+       SetPlayerPos(playerid,-2721.1638,923.9263,67.5937);
+      SetPlayerFacingAngle(playerid,93.2377);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_17
+       SetPlayerPos(playerid,-2710.8623,967.7680,54.4609);
+      SetPlayerFacingAngle(playerid,4.9098);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_18
+       SetPlayerPos(playerid,-2655.4672,986.0928,64.9912);
+      SetPlayerFacingAngle(playerid,355.8376);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_19
+       SetPlayerPos(playerid,-2619.9299,883.1351,63.2500);
+      SetPlayerFacingAngle(playerid,269.2667);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_20
+       SetPlayerPos(playerid,-2619.7050,874.8036,58.9218);
+      SetPlayerFacingAngle(playerid,266.3334);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_21
+       SetPlayerPos(playerid,-2619.7009,861.7460,55.6369);
+      SetPlayerFacingAngle(playerid,269.2514);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_22
+       SetPlayerPos(playerid,-2620.4001,855.1147,53.5686);
+      SetPlayerFacingAngle(playerid,271.8681);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_23
+       SetPlayerPos(playerid,-2619.4206,845.2568,50.6963);
+      SetPlayerFacingAngle(playerid,267.4749);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_24
+       SetPlayerPos(playerid,-2620.5839,833.1384,52.0937);
+      SetPlayerFacingAngle(playerid,0.7566);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_25
+       SetPlayerPos(playerid,-2565.9196,819.5033,49.9910);
+      SetPlayerFacingAngle(playerid,181.1853);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_26
+       SetPlayerPos(playerid,-2576.4423,819.4727,49.9843);
+      SetPlayerFacingAngle(playerid,183.2284);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_27
+       SetPlayerPos(playerid,-2583.2580,819.4688,49.9843);
+      SetPlayerFacingAngle(playerid,180.2950);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_28
+       SetPlayerPos(playerid,-2590.8652,819.4733,49.9910);
+      SetPlayerFacingAngle(playerid,184.0904);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_29
+       SetPlayerPos(playerid,-2592.8610,833.1391,52.0937);
+      SetPlayerFacingAngle(playerid,359.8446);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_30
+       SetPlayerPos(playerid,-2593.9997,845.1333,50.6860);
+      SetPlayerFacingAngle(playerid,87.8624);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_31
+       SetPlayerPos(playerid,-2593.0449,855.0485,53.6189);
+      SetPlayerFacingAngle(playerid,87.5635);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_32
+       SetPlayerPos(playerid,-2593.6823,861.6619,55.6379);
+      SetPlayerFacingAngle(playerid,87.2645);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_33
+       SetPlayerPos(playerid,-2593.7211,874.7122,58.9218);
+      SetPlayerFacingAngle(playerid,88.1289);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_34
+       SetPlayerPos(playerid,-2593.4975,883.0521,63.2500);
+      SetPlayerFacingAngle(playerid,87.8276);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_35
+       SetPlayerPos(playerid,-2590.6931,896.5678,64.9843);
+      SetPlayerFacingAngle(playerid,357.7452);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_36
+       SetPlayerPos(playerid,-2583.8547,896.5570,64.9843);
+      SetPlayerFacingAngle(playerid,359.1985);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_37
+       SetPlayerPos(playerid,-2573.2456,896.5610,64.9843);
+      SetPlayerFacingAngle(playerid,358.6048);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_38
+       SetPlayerPos(playerid,-2566.5693,896.9397,64.9843);
+      SetPlayerFacingAngle(playerid,358.5983);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_39
+       SetPlayerPos(playerid,-2556.0375,896.9573,64.9843);
+      SetPlayerFacingAngle(playerid,355.3685);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_40
+       SetPlayerPos(playerid,-2549.0874,896.9321,64.9843);
+      SetPlayerFacingAngle(playerid,355.9470);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_41
+       SetPlayerPos(playerid,-2541.5817,896.9070,64.9843);
+      SetPlayerFacingAngle(playerid,356.5254);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_42
+       SetPlayerPos(playerid,-2539.9057,883.1729,63.2500);
+      SetPlayerFacingAngle(playerid,271.1114);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_43
+       SetPlayerPos(playerid,-2539.6853,874.8146,58.9218);
+      SetPlayerFacingAngle(playerid,271.6875);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_44
+       SetPlayerPos(playerid,-2539.7116,861.7739,55.6327);
+      SetPlayerFacingAngle(playerid,267.5867);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_45
+       SetPlayerPos(playerid,-2540.3859,855.1686,53.1796);
+      SetPlayerFacingAngle(playerid,267.2877);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_46
+       SetPlayerPos(playerid,-2539.3994,845.2648,50.6961);
+      SetPlayerFacingAngle(playerid,268.7410);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_47
+       SetPlayerPos(playerid,-2540.6364,832.2451,52.0937);
+      SetPlayerFacingAngle(playerid,357.6361);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_48
+       SetPlayerPos(playerid,-2541.8881,819.5579,49.9843);
+      SetPlayerFacingAngle(playerid,174.5488);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_49
+       SetPlayerPos(playerid,-2548.6757,819.4873,49.9843);
+      SetPlayerFacingAngle(playerid,174.5423);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_50
+       SetPlayerPos(playerid,-2559.2521,819.4909,49.9843);
+      SetPlayerFacingAngle(playerid,175.9981);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_51
+       SetPlayerPos(playerid,-2569.9841,920.0895,64.9843);
+      SetPlayerFacingAngle(playerid,179.1617);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_52
+       SetPlayerPos(playerid,-2580.9091,920.0658,64.9843);
+      SetPlayerFacingAngle(playerid,179.4453);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_53
+       SetPlayerPos(playerid,-2591.4951,927.8563,65.0156);
+      SetPlayerFacingAngle(playerid,87.6079);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_54
+       SetPlayerPos(playerid,-2591.4562,935.9246,68.9296);
+      SetPlayerFacingAngle(playerid,77.0757);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_55
+       SetPlayerPos(playerid,-2591.4858,944.3545,70.4296);
+      SetPlayerFacingAngle(playerid,89.6421);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_56
+       SetPlayerPos(playerid,-2591.4790,948.5954,74.4232);
+      SetPlayerFacingAngle(playerid,90.8055);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_57
+       SetPlayerPos(playerid,-2591.4855,960.7013,78.4531);
+      SetPlayerFacingAngle(playerid,92.2613);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_58
+       SetPlayerPos(playerid,-2597.6171,968.8632,78.2843);
+      SetPlayerFacingAngle(playerid,90.2078);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_59
+       SetPlayerPos(playerid,-2597.5852,979.7728,78.2734);
+      SetPlayerFacingAngle(playerid,86.1047);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_60
+       SetPlayerPos(playerid,-2596.9401,986.3261,78.2734);
+      SetPlayerFacingAngle(playerid,91.6571);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_61
+       SetPlayerPos(playerid,-2584.1440,992.5722,78.2734);
+      SetPlayerFacingAngle(playerid,358.6500);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_62
+       SetPlayerPos(playerid,-2573.6035,992.5532,78.2734);
+      SetPlayerFacingAngle(playerid,357.4738);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_63
+       SetPlayerPos(playerid,-2564.2124,992.5687,78.2734);
+      SetPlayerFacingAngle(playerid,353.3731);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_64
+       SetPlayerPos(playerid,-2553.7062,992.5422,78.2734);
+      SetPlayerFacingAngle(playerid,357.4610);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_65
+       SetPlayerPos(playerid,-2541.3659,987.8502,78.2890);
+      SetPlayerFacingAngle(playerid,271.7699);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_66
+       SetPlayerPos(playerid,-2541.3447,975.6737,77.2011);
+      SetPlayerFacingAngle(playerid,270.3012);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_67
+       SetPlayerPos(playerid,-2542.1962,967.6651,73.5425);
+      SetPlayerFacingAngle(playerid,267.9551);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_68
+       SetPlayerPos(playerid,-2542.1926,955.5263,69.4856);
+      SetPlayerFacingAngle(playerid,267.9462);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_69
+       SetPlayerPos(playerid,-2542.1914,951.2575,65.5052);
+      SetPlayerFacingAngle(playerid,267.0551);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_70
+       SetPlayerPos(playerid,-2542.2141,942.8038,64.0000);
+      SetPlayerFacingAngle(playerid,268.2160);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_71
+       SetPlayerPos(playerid,-2536.8408,929.6054,65.0314);
+      SetPlayerFacingAngle(playerid,264.4077);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_72
+       SetPlayerPos(playerid,-2543.3129,922.2543,67.0937);
+      SetPlayerFacingAngle(playerid,267.3233);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_73
+       SetPlayerPos(playerid,-2545.2954,920.0317,64.9765);
+      SetPlayerFacingAngle(playerid,178.4128);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_74
+       SetPlayerPos(playerid,-2551.8078,920.0667,64.9843);
+      SetPlayerFacingAngle(playerid,178.1140);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Paradiso_75
+       SetPlayerPos(playerid,-2562.4079,920.0677,64.9843);
+      SetPlayerFacingAngle(playerid,180.1522);
+      SetPlayerInterior(playerid,0);
+
+ 
+      WestBridge_SF_toolbooth
+       SetPlayerPos(playerid,-2681.9113,1265.7955,56.4843);
+      SetPlayerFacingAngle(playerid,182.4942);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_1
+       SetPlayerPos(playerid,-2513.8249,830.8120,49.9985);
+      SetPlayerFacingAngle(playerid,88.5297);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_2
+       SetPlayerPos(playerid,-2513.7995,849.1473,52.6953);
+      SetPlayerFacingAngle(playerid,89.1057);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_3
+       SetPlayerPos(playerid,-2513.7954,867.4798,57.7421);
+      SetPlayerFacingAngle(playerid,89.9741);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_4
+       SetPlayerPos(playerid,-2513.8068,885.8028,62.7682);
+      SetPlayerFacingAngle(playerid,88.5030);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_5
+       SetPlayerPos(playerid,-2502.9819,895.5507,65.2263);
+      SetPlayerFacingAngle(playerid,357.8356);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_6
+       SetPlayerPos(playerid,-2471.8225,895.5452,63.1657);
+      SetPlayerFacingAngle(playerid,357.5343);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_7
+       SetPlayerPos(playerid,-2449.8232,895.5429,58.1248);
+      SetPlayerFacingAngle(playerid,356.9406);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_8
+       SetPlayerPos(playerid,-2431.3425,895.5261,50.5180);
+      SetPlayerFacingAngle(playerid,354.8870);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_9
+       SetPlayerPos(playerid,-2412.9956,895.5409,45.4816);
+      SetPlayerFacingAngle(playerid,357.2176);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_10
+       SetPlayerPos(playerid,-2402.1125,886.0655,45.4453);
+      SetPlayerFacingAngle(playerid,270.6468);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_11
+       SetPlayerPos(playerid,-2402.0954,869.1005,44.2031);
+      SetPlayerFacingAngle(playerid,272.9799);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_12
+       SetPlayerPos(playerid,-2402.1594,849.1546,40.5937);
+      SetPlayerFacingAngle(playerid,268.8769);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_13
+       SetPlayerPos(playerid,-2402.0876,829.2445,36.8690);
+      SetPlayerFacingAngle(playerid,274.1345);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_14
+       SetPlayerPos(playerid,-2409.0576,819.6671,35.1796);
+      SetPlayerFacingAngle(playerid,177.9130);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_15
+       SetPlayerPos(playerid,-2487.3742,820.9998,38.3828);
+      SetPlayerFacingAngle(playerid,171.1713);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_16
+       SetPlayerPos(playerid,-2504.5527,821.0150,45.9620);
+      SetPlayerFacingAngle(playerid,177.8888);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Flat_JuniperHill_1
+       SetPlayerPos(playerid,-2447.4804,821.3204,35.1796);
+      SetPlayerFacingAngle(playerid,178.1047);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_17
+       SetPlayerPos(playerid,-2301.7827,579.7369,34.4113);
+      SetPlayerFacingAngle(playerid,184.2491);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_18
+       SetPlayerPos(playerid,-2320.1357,579.6835,31.0997);
+      SetPlayerFacingAngle(playerid,181.9055);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_19
+       SetPlayerPos(playerid,-2338.4658,579.7182,27.7886);
+      SetPlayerFacingAngle(playerid,183.0665);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_20
+       SetPlayerPos(playerid,-2356.7741,579.7390,24.8906);
+      SetPlayerFacingAngle(playerid,183.6450);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_21
+       SetPlayerPos(playerid,-2372.8381,595.7328,27.6544);
+      SetPlayerFacingAngle(playerid,89.4730);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_22
+       SetPlayerPos(playerid,-2372.8437,614.0843,30.9631);
+      SetPlayerFacingAngle(playerid,88.8816);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_23
+       SetPlayerPos(playerid,-2372.8444,632.4187,34.2845);
+      SetPlayerFacingAngle(playerid,87.4153);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_24
+       SetPlayerPos(playerid,-2372.8298,643.8710,35.1718);
+      SetPlayerFacingAngle(playerid,90.3333);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_25
+       SetPlayerPos(playerid,-2358.5419,657.0418,35.1718);
+      SetPlayerFacingAngle(playerid,357.6212);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_26
+       SetPlayerPos(playerid,-2340.0563,657.0304,38.3950);
+      SetPlayerFacingAngle(playerid,357.9047);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_27
+       SetPlayerPos(playerid,-2321.7490,657.0322,41.9701);
+      SetPlayerFacingAngle(playerid,357.8983);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_28
+       SetPlayerPos(playerid,-2303.4338,657.0263,45.3218);
+      SetPlayerFacingAngle(playerid,357.8895);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_29
+       SetPlayerPos(playerid,-2303.3774,679.6716,45.3353);
+      SetPlayerFacingAngle(playerid,177.7356);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_30
+       SetPlayerPos(playerid,-2321.7570,679.6831,41.9692);
+      SetPlayerFacingAngle(playerid,177.4343);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_31
+       SetPlayerPos(playerid,-2340.0725,679.6602,38.3958);
+      SetPlayerFacingAngle(playerid,168.9469);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_32
+       SetPlayerPos(playerid,-2358.4475,679.6528,35.1640);
+      SetPlayerFacingAngle(playerid,183.8553);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_33
+       SetPlayerPos(playerid,-2372.8410,692.7189,35.1640);
+      SetPlayerFacingAngle(playerid,91.7279);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_34
+       SetPlayerPos(playerid,-2369.1276,711.8210,35.1727);
+      SetPlayerFacingAngle(playerid,86.7474);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_35
+       SetPlayerPos(playerid,-2369.1123,740.5316,35.1330);
+      SetPlayerFacingAngle(playerid,89.6654);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_36
+       SetPlayerPos(playerid,-2369.1306,763.5528,35.1319);
+      SetPlayerFacingAngle(playerid,91.1212);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_37
+       SetPlayerPos(playerid,-2372.8479,783.8973,35.0632);
+      SetPlayerFacingAngle(playerid,91.4047);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_38
+       SetPlayerPos(playerid,-2358.5722,797.0767,38.3395);
+      SetPlayerFacingAngle(playerid,358.1076);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_39
+       SetPlayerPos(playerid,-2340.0507,797.0540,41.9799);
+      SetPlayerFacingAngle(playerid,357.2238);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_40
+       SetPlayerPos(playerid,-2321.7565,797.0715,45.3253);
+      SetPlayerFacingAngle(playerid,357.7999);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_41
+       SetPlayerPos(playerid,-2303.4584,797.0656,48.6734);
+      SetPlayerFacingAngle(playerid,358.3783);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_42
+       SetPlayerPos(playerid,-2286.5366,797.0473,49.4453);
+      SetPlayerFacingAngle(playerid,359.5417);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_43
+       SetPlayerPos(playerid,-2278.5363,787.7926,49.4453);
+      SetPlayerFacingAngle(playerid,264.7823);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_44
+       SetPlayerPos(playerid,-2278.5422,767.7945,49.4453);
+      SetPlayerFacingAngle(playerid,265.6532);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_45
+       SetPlayerPos(playerid,-2278.5310,747.8081,49.4392);
+      SetPlayerFacingAngle(playerid,269.4461);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_46
+       SetPlayerPos(playerid,-2293.7031,730.6240,49.4429);
+      SetPlayerFacingAngle(playerid,173.2246);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_47
+       SetPlayerPos(playerid,-2303.2387,730.5556,49.4505);
+      SetPlayerFacingAngle(playerid,176.1362);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_48
+       SetPlayerPos(playerid,-2322.6218,730.6985,47.2645);
+      SetPlayerFacingAngle(playerid,177.2995);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_40
+       SetPlayerPos(playerid,-2322.6394,721.9336,47.2602);
+      SetPlayerFacingAngle(playerid,1.2399);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_50
+       SetPlayerPos(playerid,-2340.9179,730.6275,42.9570);
+      SetPlayerFacingAngle(playerid,178.1640);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_51
+       SetPlayerPos(playerid,-2340.9855,721.8898,42.9406);
+      SetPlayerFacingAngle(playerid,1.8119);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_52
+       SetPlayerPos(playerid,-2359.2451,730.6168,38.6547);
+      SetPlayerFacingAngle(playerid,178.7360);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_53
+       SetPlayerPos(playerid,-2359.2924,721.9523,38.6432);
+      SetPlayerFacingAngle(playerid,359.4530);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_54
+       SetPlayerPos(playerid,-2358.4460,819.7531,38.5046);
+      SetPlayerFacingAngle(playerid,180.7589);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_55
+       SetPlayerPos(playerid,-2340.0175,819.7277,41.9648);
+      SetPlayerFacingAngle(playerid,178.4023);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_56
+       SetPlayerPos(playerid,-2321.7290,819.7221,45.3237);
+      SetPlayerFacingAngle(playerid,177.5162);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_57
+       SetPlayerPos(playerid,-2303.4216,819.7310,48.6824);
+      SetPlayerFacingAngle(playerid,175.7526);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_58
+       SetPlayerPos(playerid,-2285.0107,829.1939,56.9296);
+      SetPlayerFacingAngle(playerid,266.4024);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_59
+       SetPlayerPos(playerid,-2284.7692,849.5766,65.4140);
+      SetPlayerFacingAngle(playerid,267.2732);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_60
+       SetPlayerPos(playerid,-2282.1057,873.1525,66.8915);
+      SetPlayerFacingAngle(playerid,270.4837);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Flat_JuniperHill_2
+       SetPlayerPos(playerid,-2282.2080,916.5976,66.6484);
+      SetPlayerFacingAngle(playerid,266.6755);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_61
+       SetPlayerPos(playerid,-2307.4467,944.5467,61.5738);
+      SetPlayerFacingAngle(playerid,6.0946);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_62
+       SetPlayerPos(playerid,-2325.9074,944.5606,55.2838);
+      SetPlayerFacingAngle(playerid,2.2863);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Binco_JuniperHill
+       SetPlayerPos(playerid,-2374.0668,910.1693,45.4361);
+      SetPlayerFacingAngle(playerid,87.6719);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_63
+       SetPlayerPos(playerid,-2372.8581,871.9129,44.4906);
+      SetPlayerFacingAngle(playerid,88.8352);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_64
+       SetPlayerPos(playerid,-2370.1796,847.1210,43.5807);
+      SetPlayerFacingAngle(playerid,82.6873);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_65
+       SetPlayerPos(playerid,-2372.8554,834.3728,37.9439);
+      SetPlayerFacingAngle(playerid,90.5769);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_66
+       SetPlayerPos(playerid,-2502.9235,921.0642,65.2082);
+      SetPlayerFacingAngle(playerid,179.0315);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_67
+       SetPlayerPos(playerid,-2471.8139,921.1369,63.1634);
+      SetPlayerFacingAngle(playerid,176.1006);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_68
+       SetPlayerPos(playerid,-2449.7724,921.1212,58.1235);
+      SetPlayerFacingAngle(playerid,180.1884);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_69
+       SetPlayerPos(playerid,-2431.3266,921.1030,50.5781);
+      SetPlayerFacingAngle(playerid,185.7385);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_70
+       SetPlayerPos(playerid,-2412.9863,921.1211,45.4837);
+      SetPlayerFacingAngle(playerid,177.8359);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHill_71
+       SetPlayerPos(playerid,-2402.1184,930.6069,45.4453);
+      SetPlayerFacingAngle(playerid,272.2899);
+      SetPlayerInterior(playerid,0);
+
+ 
+      GasStation_JuniperHollow_biz
+       SetPlayerPos(playerid,-2419.8034,969.8969,45.2968);
+      SetPlayerFacingAngle(playerid,262.3209);
+      SetPlayerInterior(playerid,0);
+
+ 
+      BurgerShot_JuniperHollow
+       SetPlayerPos(playerid,-2356.1428,1008.0615,50.8984);
+      SetPlayerFacingAngle(playerid,91.8153);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Pay&Spray_JuniperHollow_biz
+       SetPlayerPos(playerid,-2431.2197,1028.9965,50.3906);
+      SetPlayerFacingAngle(playerid,0.5678);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHollow_1
+       SetPlayerPos(playerid,-2358.9572,1117.7810,55.7265);
+      SetPlayerFacingAngle(playerid,160.2351);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHollow_2
+       SetPlayerPos(playerid,-2369.5515,1122.0488,55.7332);
+      SetPlayerFacingAngle(playerid,157.0093);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHollow_3
+       SetPlayerPos(playerid,-2376.3601,1124.9256,55.7265);
+      SetPlayerFacingAngle(playerid,157.5853);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHollow_4
+       SetPlayerPos(playerid,-2383.8098,1127.8226,55.7265);
+      SetPlayerFacingAngle(playerid,157.5764);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHollow_5
+       SetPlayerPos(playerid,-2396.7094,1132.4582,55.7332);
+      SetPlayerFacingAngle(playerid,164.8835);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHollow_6
+       SetPlayerPos(playerid,-2406.9853,1135.5516,55.7265);
+      SetPlayerFacingAngle(playerid,167.2142);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHollow_7
+       SetPlayerPos(playerid,-2413.6545,1137.1198,55.7265);
+      SetPlayerFacingAngle(playerid,166.0355);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHollow_8
+       SetPlayerPos(playerid,-2423.9687,1139.2025,55.7265);
+      SetPlayerFacingAngle(playerid,164.8569);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHollow_9
+       SetPlayerPos(playerid,-2430.8198,1139.9846,55.7265);
+      SetPlayerFacingAngle(playerid,177.1308);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHollow_10
+       SetPlayerPos(playerid,-2438.3256,1140.7177,55.7265);
+      SetPlayerFacingAngle(playerid,175.6597);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHollow_11
+       SetPlayerPos(playerid,-2444.4543,1141.1342,55.7265);
+      SetPlayerFacingAngle(playerid,170.9717);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHollow_12
+       SetPlayerPos(playerid,-2451.2360,1141.4843,55.7332);
+      SetPlayerFacingAngle(playerid,177.9816);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHollow_13
+       SetPlayerPos(playerid,-2461.6828,1141.5798,55.7265);
+      SetPlayerFacingAngle(playerid,179.1449);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHollow_14
+       SetPlayerPos(playerid,-2468.4121,1141.5975,55.7332);
+      SetPlayerFacingAngle(playerid,178.2587);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHollow_15
+       SetPlayerPos(playerid,-2478.9133,1141.6951,55.7265);
+      SetPlayerFacingAngle(playerid,174.4480);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHollow_16
+       SetPlayerPos(playerid,-2485.7211,1141.6567,55.7265);
+      SetPlayerFacingAngle(playerid,177.3636);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHollow_17
+       SetPlayerPos(playerid,-2493.3547,1141.6597,55.7265);
+      SetPlayerFacingAngle(playerid,178.5245);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHollow_18
+       SetPlayerPos(playerid,-2506.3957,1141.8190,55.7265);
+      SetPlayerFacingAngle(playerid,179.1005);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHollow_19
+       SetPlayerPos(playerid,-2517.0751,1142.0938,55.7265);
+      SetPlayerFacingAngle(playerid,174.9998);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHollow_20
+       SetPlayerPos(playerid,-2523.9091,1142.3997,55.7265);
+      SetPlayerFacingAngle(playerid,177.9113);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHollow_21
+       SetPlayerPos(playerid,-2534.4743,1143.4615,55.7265);
+      SetPlayerFacingAngle(playerid,173.8082);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHollow_22
+       SetPlayerPos(playerid,-2541.4086,1144.2810,55.7265);
+      SetPlayerFacingAngle(playerid,167.3655);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHollow_23
+       SetPlayerPos(playerid,-2549.1066,1145.3984,55.7265);
+      SetPlayerFacingAngle(playerid,165.8943);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHollow_24
+       SetPlayerPos(playerid,-2556.0986,1147.0227,55.7265);
+      SetPlayerFacingAngle(playerid,159.7465);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHollow_25
+       SetPlayerPos(playerid,-2563.1567,1148.8140,55.7265);
+      SetPlayerFacingAngle(playerid,161.4924);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHollow_26
+       SetPlayerPos(playerid,-2574.0278,1152.0698,55.7265);
+      SetPlayerFacingAngle(playerid,153.8823);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHollow_27
+       SetPlayerPos(playerid,-2511.2338,1053.8616,65.0900);
+      SetPlayerFacingAngle(playerid,81.0541);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHollow_28
+       SetPlayerPos(playerid,-2512.0305,1045.3334,65.5078);
+      SetPlayerFacingAngle(playerid,89.8210);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHollow_29
+       SetPlayerPos(playerid,-2511.2316,1041.0780,69.4272);
+      SetPlayerFacingAngle(playerid,98.2931);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHollow_30
+       SetPlayerPos(playerid,-2511.2570,1028.9438,73.6161);
+      SetPlayerFacingAngle(playerid,82.7869);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHollow_31
+       SetPlayerPos(playerid,-2512.0883,1020.8463,77.1235);
+      SetPlayerFacingAngle(playerid,82.4880);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHollow_32
+       SetPlayerPos(playerid,-2512.0778,1008.6713,78.3437);
+      SetPlayerFacingAngle(playerid,88.9154);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHollow_33
+       SetPlayerPos(playerid,-2512.0700,1000.5217,78.3437);
+      SetPlayerFacingAngle(playerid,88.0315);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHollow_34
+       SetPlayerPos(playerid,-2512.0744,992.3300,78.3316);
+      SetPlayerFacingAngle(playerid,87.1476);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHollow_36
+       SetPlayerPos(playerid,-2512.0673,987.8001,78.3437);
+      SetPlayerFacingAngle(playerid,87.7261);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHollow_35
+       SetPlayerPos(playerid,-2512.0515,975.6654,77.1519);
+      SetPlayerFacingAngle(playerid,88.3045);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHollow_37
+       SetPlayerPos(playerid,-2511.1889,967.6505,73.5367);
+      SetPlayerFacingAngle(playerid,88.0056);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHollow_38
+       SetPlayerPos(playerid,-2511.1359,955.4370,69.4988);
+      SetPlayerFacingAngle(playerid,94.4306);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHollow_39
+       SetPlayerPos(playerid,-2511.1950,951.1517,65.6893);
+      SetPlayerFacingAngle(playerid,87.9838);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHollow_40
+       SetPlayerPos(playerid,-2511.1889,942.6988,65.2890);
+      SetPlayerFacingAngle(playerid,84.4615);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHollow_41
+       SetPlayerPos(playerid,-2295.0322,969.6690,65.2721);
+      SetPlayerFacingAngle(playerid,180.7016);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHollow_42
+       SetPlayerPos(playerid,-2282.0971,979.2221,70.8253);
+      SetPlayerFacingAngle(playerid,265.5024);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHollow_43
+       SetPlayerPos(playerid,-2282.1340,999.4960,79.2508);
+      SetPlayerFacingAngle(playerid,266.9581);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHollow_44
+       SetPlayerPos(playerid,-2282.1066,1023.0856,84.0860);
+      SetPlayerFacingAngle(playerid,268.1215);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHollow_45
+       SetPlayerPos(playerid,-2282.1171,1046.7301,84.0948);
+      SetPlayerFacingAngle(playerid,272.7942);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHollow_46
+       SetPlayerPos(playerid,-2282.1042,1070.3176,81.6760);
+      SetPlayerFacingAngle(playerid,267.5237);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHollow_47
+       SetPlayerPos(playerid,-2282.1323,1088.9338,80.3696);
+      SetPlayerFacingAngle(playerid,267.2248);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHollow_48
+       SetPlayerPos(playerid,-2280.5141,1112.5898,76.9843);
+      SetPlayerFacingAngle(playerid,270.1428);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHollow_49
+       SetPlayerPos(playerid,-2280.5485,1130.8590,69.2265);
+      SetPlayerFacingAngle(playerid,267.2119);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_JuniperHollow_50
+       SetPlayerPos(playerid,-2280.5236,1149.2037,61.6093);
+      SetPlayerFacingAngle(playerid,268.9601);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_EsplanadeNorth_1
+       SetPlayerPos(playerid,-2351.4611,1226.3331,33.0478);
+      SetPlayerFacingAngle(playerid,87.5818);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_EsplanadeNorth_2
+       SetPlayerPos(playerid,-2351.4313,1244.7081,29.6887);
+      SetPlayerFacingAngle(playerid,82.6062);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_EsplanadeNorth_3
+       SetPlayerPos(playerid,-2351.4460,1263.0289,26.3215);
+      SetPlayerFacingAngle(playerid,87.5690);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_EsplanadeNorth_4
+       SetPlayerPos(playerid,-2351.4445,1281.3457,22.9424);
+      SetPlayerFacingAngle(playerid,89.0223);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_EsplanadeNorth_5
+       SetPlayerPos(playerid,-2351.3666,1299.6962,19.5784);
+      SetPlayerFacingAngle(playerid,87.8372);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_EsplanadeNorth_6
+       SetPlayerPos(playerid,-2351.4477,1318.0555,16.2115);
+      SetPlayerFacingAngle(playerid,87.8283);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_EsplanadeNorth_7
+       SetPlayerPos(playerid,-2351.4270,1336.3669,12.7722);
+      SetPlayerFacingAngle(playerid,92.7910);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_EsplanadeNorth_8
+       SetPlayerPos(playerid,-2382.8559,1336.3164,12.7924);
+      SetPlayerFacingAngle(playerid,261.8125);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_EsplanadeNorth_9
+       SetPlayerPos(playerid,-2382.8251,1318.0155,16.2257);
+      SetPlayerFacingAngle(playerid,267.0701);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_EsplanadeNorth_10
+       SetPlayerPos(playerid,-2382.8286,1299.6951,19.5917);
+      SetPlayerFacingAngle(playerid,267.3496);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_EsplanadeNorth_11
+       SetPlayerPos(playerid,-2382.8315,1281.3430,22.9612);
+      SetPlayerFacingAngle(playerid,267.6332);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_EsplanadeNorth_12
+       SetPlayerPos(playerid,-2382.8388,1263.0349,26.3336);
+      SetPlayerFacingAngle(playerid,267.0394);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_EsplanadeNorth_13
+       SetPlayerPos(playerid,-2382.8916,1244.7098,29.6927);
+      SetPlayerFacingAngle(playerid,267.6178);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_EsplanadeNorth_14
+       SetPlayerPos(playerid,-2382.8471,1226.3677,33.0565);
+      SetPlayerFacingAngle(playerid,268.4887);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_EsplanadeNorth_15
+       SetPlayerPos(playerid,-2434.0200,1244.4448,33.6171);
+      SetPlayerFacingAngle(playerid,87.4574);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_EsplanadeNorth_16
+       SetPlayerPos(playerid,-2434.0134,1257.5056,30.3423);
+      SetPlayerFacingAngle(playerid,87.1560);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_EsplanadeNorth_17
+       SetPlayerPos(playerid,-2433.3356,1264.1693,28.2578);
+      SetPlayerFacingAngle(playerid,88.0245);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_EsplanadeNorth_18
+       SetPlayerPos(playerid,-2434.3044,1274.0345,25.4286);
+      SetPlayerFacingAngle(playerid,87.7231);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_EsplanadeNorth_19
+       SetPlayerPos(playerid,-2434.0187,1281.5220,23.7421);
+      SetPlayerFacingAngle(playerid,90.0563);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_EsplanadeNorth_20
+       SetPlayerPos(playerid,-2434.0302,1294.5450,20.4378);
+      SetPlayerFacingAngle(playerid,88.2006);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_EsplanadeNorth_21
+       SetPlayerPos(playerid,-2433.3493,1301.1546,18.3828);
+      SetPlayerFacingAngle(playerid,89.3639);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_EsplanadeNorth_22
+       SetPlayerPos(playerid,-2434.3256,1310.9656,15.5135);
+      SetPlayerFacingAngle(playerid,88.1876);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_EsplanadeNorth_23
+       SetPlayerPos(playerid,-2434.0649,1318.4990,13.8671);
+      SetPlayerFacingAngle(playerid,97.5394);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_EsplanadeNorth_24
+       SetPlayerPos(playerid,-2434.0505,1331.5446,10.5217);
+      SetPlayerFacingAngle(playerid,87.5898);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_EsplanadeNorth_25
+       SetPlayerPos(playerid,-2433.3867,1338.1390,8.5078);
+      SetPlayerFacingAngle(playerid,90.2154);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_EsplanadeNorth_26
+       SetPlayerPos(playerid,-2477.5551,1338.2500,8.5038);
+      SetPlayerFacingAngle(playerid,267.4318);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_EsplanadeNorth_27
+       SetPlayerPos(playerid,-2476.9057,1331.5972,10.5106);
+      SetPlayerFacingAngle(playerid,268.0103);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_EsplanadeNorth_28
+       SetPlayerPos(playerid,-2476.8923,1318.5627,13.8515);
+      SetPlayerFacingAngle(playerid,262.1460);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_EsplanadeNorth_29
+       SetPlayerPos(playerid,-2476.6413,1311.1007,15.5038);
+      SetPlayerFacingAngle(playerid,267.9884);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_EsplanadeNorth_30
+       SetPlayerPos(playerid,-2477.5986,1301.1870,18.3750);
+      SetPlayerFacingAngle(playerid,267.3972);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_EsplanadeNorth_31
+       SetPlayerPos(playerid,-2476.9069,1294.5522,20.4288);
+      SetPlayerFacingAngle(playerid,268.2680);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_EsplanadeNorth_32
+       SetPlayerPos(playerid,-2476.9213,1281.5516,23.7265);
+      SetPlayerFacingAngle(playerid,268.5540);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_EsplanadeNorth_33
+       SetPlayerPos(playerid,-2476.6350,1274.1330,25.4292);
+      SetPlayerFacingAngle(playerid,268.5476);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_EsplanadeNorth_34
+       SetPlayerPos(playerid,-2477.6035,1264.1710,28.2500);
+      SetPlayerFacingAngle(playerid,267.0788);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_EsplanadeNorth_35
+       SetPlayerPos(playerid,-2476.9350,1257.5535,30.3355);
+      SetPlayerFacingAngle(playerid,265.3176);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_EsplanadeNorth_36
+       SetPlayerPos(playerid,-2476.9309,1244.5024,33.6093);
+      SetPlayerFacingAngle(playerid,268.5256);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Restaurant_JuniperHollow
+       SetPlayerPos(playerid,-2524.2033,1216.1470,37.5665);
+      SetPlayerFacingAngle(playerid,268.5719);
+      SetPlayerInterior(playerid,0);
+
+ 
+      StripClubJizzys_BattaryPoint_door
+       SetPlayerPos(playerid,-2624.5793,1412.4316,7.0937);
+      SetPlayerFacingAngle(playerid,195.0476);
+      SetPlayerInterior(playerid,0);
+
+ 
+      StripClubJizzys_BattaryPoint_roof
+       SetPlayerPos(playerid,-2660.7175,1421.6467,23.8984);
+      SetPlayerFacingAngle(playerid,13.1415);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_1
+       SetPlayerPos(playerid,-2223.6845,743.7077,49.4356);
+      SetPlayerFacingAngle(playerid,178.6133);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_2
+       SetPlayerPos(playerid,-2205.3566,743.7044,50.4520);
+      SetPlayerFacingAngle(playerid,178.0220);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_3
+       SetPlayerPos(playerid,-2187.1301,743.7171,57.5263);
+      SetPlayerFacingAngle(playerid,174.7985);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_4
+       SetPlayerPos(playerid,-2168.7045,743.6204,64.9376);
+      SetPlayerFacingAngle(playerid,173.6158);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_5
+       SetPlayerPos(playerid,-2158.9492,753.5379,69.5193);
+      SetPlayerFacingAngle(playerid,268.9472);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_6
+       SetPlayerPos(playerid,-2158.9079,770.1134,69.5200);
+      SetPlayerFacingAngle(playerid,265.1389);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_7
+       SetPlayerPos(playerid,-2158.9182,786.2028,69.5198);
+      SetPlayerFacingAngle(playerid,269.5192);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_8
+       SetPlayerPos(playerid,-2168.7619,796.0228,64.9450);
+      SetPlayerFacingAngle(playerid,1.3412);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_9
+       SetPlayerPos(playerid,-2187.1062,796.0033,57.5261);
+      SetPlayerFacingAngle(playerid,354.6084);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_10
+       SetPlayerPos(playerid,-2205.4108,796.0122,50.4521);
+      SetPlayerFacingAngle(playerid,359.5736);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_11
+       SetPlayerPos(playerid,-2223.7758,796.0310,49.4358);
+      SetPlayerFacingAngle(playerid,356.0578);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_12
+       SetPlayerPos(playerid,-2240.8159,786.1684,49.3816);
+      SetPlayerFacingAngle(playerid,91.3891);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_13
+       SetPlayerPos(playerid,-2240.8325,753.4610,49.3819);
+      SetPlayerFacingAngle(playerid,89.9204);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_14
+       SetPlayerPos(playerid,-2112.5039,746.1463,69.5625);
+      SetPlayerFacingAngle(playerid,178.6800);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_15
+       SetPlayerPos(playerid,-2094.1413,746.1408,69.5625);
+      SetPlayerFacingAngle(playerid,177.7962);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_16
+       SetPlayerPos(playerid,-2066.4990,745.8054,64.9229);
+      SetPlayerFacingAngle(playerid,180.7014);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_17
+       SetPlayerPos(playerid,-2048.1770,745.8003,56.9781);
+      SetPlayerFacingAngle(playerid,180.3960);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_18
+       SetPlayerPos(playerid,-2029.8084,745.7768,49.4248);
+      SetPlayerFacingAngle(playerid,186.2384);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_19
+       SetPlayerPos(playerid,-2018.2482,766.4797,45.4453);
+      SetPlayerFacingAngle(playerid,271.0416);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_20
+       SetPlayerPos(playerid,-2018.2215,784.8512,45.4453);
+      SetPlayerFacingAngle(playerid,277.4690);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_21
+       SetPlayerPos(playerid,-2029.8248,796.4080,49.4282);
+      SetPlayerFacingAngle(playerid,358.1803);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_22
+       SetPlayerPos(playerid,-2048.1733,796.4022,56.9710);
+      SetPlayerFacingAngle(playerid,2.5581);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_23
+       SetPlayerPos(playerid,-2066.5644,796.4105,65.0021);
+      SetPlayerFacingAngle(playerid,359.3348);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_24
+       SetPlayerPos(playerid,-2094.1892,796.0398,69.5625);
+      SetPlayerFacingAngle(playerid,1.3755);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_25
+       SetPlayerPos(playerid,-2112.6010,796.0092,69.5625);
+      SetPlayerFacingAngle(playerid,359.0294);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_26
+       SetPlayerPos(playerid,-2126.3227,773.9392,69.5625);
+      SetPlayerFacingAngle(playerid,95.5305);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_27
+       SetPlayerPos(playerid,-2126.3657,755.4934,69.5625);
+      SetPlayerFacingAngle(playerid,90.8448);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_28
+       SetPlayerPos(playerid,-2112.4799,823.2727,69.5625);
+      SetPlayerFacingAngle(playerid,178.0209);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_29
+       SetPlayerPos(playerid,-2094.1818,823.2723,69.5625);
+      SetPlayerFacingAngle(playerid,180.9390);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_30
+       SetPlayerPos(playerid,-2066.4875,820.3800,64.9959);
+      SetPlayerFacingAngle(playerid,177.4231);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_31
+       SetPlayerPos(playerid,-2048.2255,820.4000,56.9923);
+      SetPlayerFacingAngle(playerid,179.4638);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_32
+       SetPlayerPos(playerid,-2029.8559,820.3776,49.4414);
+      SetPlayerFacingAngle(playerid,177.4102);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_33
+       SetPlayerPos(playerid,-2018.2498,832.0747,45.4453);
+      SetPlayerFacingAngle(playerid,268.0624);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_34
+       SetPlayerPos(playerid,-2018.3171,849.3220,45.4484);
+      SetPlayerFacingAngle(playerid,267.1786);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_35
+       SetPlayerPos(playerid,-2018.2685,865.7465,45.4453);
+      SetPlayerFacingAngle(playerid,268.9268);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_36
+       SetPlayerPos(playerid,-2016.0640,897.4398,45.4453);
+      SetPlayerFacingAngle(playerid,266.2884);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_37
+       SetPlayerPos(playerid,-2034.2580,901.7851,50.4851);
+      SetPlayerFacingAngle(playerid,352.8462);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_38
+       SetPlayerPos(playerid,-2058.9619,889.6688,61.8553);
+      SetPlayerFacingAngle(playerid,357.5189);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_39
+       SetPlayerPos(playerid,-2075.1120,898.9368,64.1328);
+      SetPlayerFacingAngle(playerid,355.1705);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_40
+       SetPlayerPos(playerid,-2084.6088,899.0524,64.1328);
+      SetPlayerFacingAngle(playerid,346.6701);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_41
+       SetPlayerPos(playerid,-2099.6093,897.6591,76.7109);
+      SetPlayerFacingAngle(playerid,356.3144);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_42
+       SetPlayerPos(playerid,-2129.5302,894.8142,80.0000);
+      SetPlayerFacingAngle(playerid,87.8438);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_43
+       SetPlayerPos(playerid,-2126.2976,832.7153,69.5625);
+      SetPlayerFacingAngle(playerid,88.1274);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_44
+       SetPlayerPos(playerid,-2223.7014,820.8250,49.4401);
+      SetPlayerFacingAngle(playerid,178.7343);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_45
+       SetPlayerPos(playerid,-2205.3962,820.8349,50.4565);
+      SetPlayerFacingAngle(playerid,178.4354);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_46
+       SetPlayerPos(playerid,-2187.0590,820.8348,57.5230);
+      SetPlayerFacingAngle(playerid,178.7214);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_47
+       SetPlayerPos(playerid,-2168.6770,820.8324,64.9436);
+      SetPlayerFacingAngle(playerid,177.8376);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_48
+       SetPlayerPos(playerid,-2158.9689,830.6632,69.5270);
+      SetPlayerFacingAngle(playerid,271.4053);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_49
+       SetPlayerPos(playerid,-2158.8859,866.3240,75.2692);
+      SetPlayerFacingAngle(playerid,268.4744);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_50
+       SetPlayerPos(playerid,-2158.3056,889.1939,80.0078);
+      SetPlayerFacingAngle(playerid,270.5087);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_51
+       SetPlayerPos(playerid,-2174.3083,902.9755,80.0078);
+      SetPlayerFacingAngle(playerid,358.5264);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_52
+       SetPlayerPos(playerid,-2192.6520,902.9835,74.9845);
+      SetPlayerFacingAngle(playerid,357.6426);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_53
+       SetPlayerPos(playerid,-2210.9228,902.9648,68.9759);
+      SetPlayerFacingAngle(playerid,357.9286);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_54
+       SetPlayerPos(playerid,-2224.9362,902.9835,66.6484);
+      SetPlayerFacingAngle(playerid,359.3844);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_55
+       SetPlayerPos(playerid,-2234.1184,888.7550,66.6526);
+      SetPlayerFacingAngle(playerid,87.9894);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_56
+       SetPlayerPos(playerid,-2234.1486,870.4243,66.6413);
+      SetPlayerFacingAngle(playerid,89.1528);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_57
+       SetPlayerPos(playerid,-2233.5812,848.9732,61.8175);
+      SetPlayerFacingAngle(playerid,89.7313);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_58
+       SetPlayerPos(playerid,-2233.5695,830.5935,54.2166);
+      SetPlayerFacingAngle(playerid,89.1270);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_59
+       SetPlayerPos(playerid,-2065.7683,975.6754,62.9218);
+      SetPlayerFacingAngle(playerid,178.4489);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_60
+       SetPlayerPos(playerid,-2129.9294,942.4901,80.0000);
+      SetPlayerFacingAngle(playerid,89.3567);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_61
+       SetPlayerPos(playerid,-2126.7592,978.4613,80.0078);
+      SetPlayerFacingAngle(playerid,89.3740);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_62
+       SetPlayerPos(playerid,-2126.7387,996.2079,80.0078);
+      SetPlayerFacingAngle(playerid,88.9639);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_63
+       SetPlayerPos(playerid,-2126.7521,1014.2274,80.0078);
+      SetPlayerFacingAngle(playerid,88.0801);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_64
+       SetPlayerPos(playerid,-2126.7219,1032.4642,80.0078);
+      SetPlayerFacingAngle(playerid,89.5359);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_65
+       SetPlayerPos(playerid,-2126.7597,1050.8092,80.0078);
+      SetPlayerFacingAngle(playerid,90.9917);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_66
+       SetPlayerPos(playerid,-2126.7329,1069.1778,80.0078);
+      SetPlayerFacingAngle(playerid,91.5701);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_67
+       SetPlayerPos(playerid,-2126.7622,1087.5374,80.0078);
+      SetPlayerFacingAngle(playerid,87.7619);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_68
+       SetPlayerPos(playerid,-2102.4807,1160.1278,53.2656);
+      SetPlayerFacingAngle(playerid,359.4338);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_69
+       SetPlayerPos(playerid,-2084.2023,1160.1287,49.9531);
+      SetPlayerFacingAngle(playerid,358.5500);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_70
+       SetPlayerPos(playerid,-2065.9401,1160.1138,46.6484);
+      SetPlayerFacingAngle(playerid,359.4208);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Church_CaltonHeights
+       SetPlayerPos(playerid,-1989.6008,1117.8480,54.4687);
+      SetPlayerFacingAngle(playerid,267.5860);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_71
+       SetPlayerPos(playerid,-2018.0052,1016.9550,53.8999);
+      SetPlayerFacingAngle(playerid,262.3156);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_72
+       SetPlayerPos(playerid,-2018.0120,999.7587,50.8095);
+      SetPlayerFacingAngle(playerid,269.0354);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_73
+       SetPlayerPos(playerid,-2018.0052,982.6944,47.7185);
+      SetPlayerFacingAngle(playerid,265.5195);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_74
+       SetPlayerPos(playerid,-2017.9912,970.1049,45.4453);
+      SetPlayerFacingAngle(playerid,270.1922);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_75
+       SetPlayerPos(playerid,-2239.0795,998.8512,79.0054);
+      SetPlayerFacingAngle(playerid,88.7495);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_76
+       SetPlayerPos(playerid,-2239.1010,980.6215,71.4669);
+      SetPlayerFacingAngle(playerid,87.5709);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_77
+       SetPlayerPos(playerid,-2239.0681,962.2386,66.6521);
+      SetPlayerFacingAngle(playerid,86.3946);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_78
+       SetPlayerPos(playerid,-2239.0507,943.9185,66.6521);
+      SetPlayerFacingAngle(playerid,88.7277);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_79
+       SetPlayerPos(playerid,-2229.2634,934.0662,66.6484);
+      SetPlayerFacingAngle(playerid,171.1849);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_80
+       SetPlayerPos(playerid,-2210.9865,934.0841,68.9535);
+      SetPlayerFacingAngle(playerid,177.9048);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_81
+       SetPlayerPos(playerid,-2192.6403,934.0740,74.9853);
+      SetPlayerFacingAngle(playerid,178.1908);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_82
+       SetPlayerPos(playerid,-2174.2971,934.0891,80.0000);
+      SetPlayerFacingAngle(playerid,178.1844);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_83
+       SetPlayerPos(playerid,-2159.8464,947.0833,80.0000);
+      SetPlayerFacingAngle(playerid,268.5441);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_84
+       SetPlayerPos(playerid,-2159.8498,965.4354,80.0000);
+      SetPlayerFacingAngle(playerid,268.2452);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_85
+       SetPlayerPos(playerid,-2159.8657,983.7098,80.0000);
+      SetPlayerFacingAngle(playerid,265.6068);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_86
+       SetPlayerPos(playerid,-2159.9387,1002.0811,80.0000);
+      SetPlayerFacingAngle(playerid,265.3078);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_87
+       SetPlayerPos(playerid,-2169.6875,1027.7518,80.0078);
+      SetPlayerFacingAngle(playerid,177.8597);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_88
+       SetPlayerPos(playerid,-2159.9160,1048.5821,80.0078);
+      SetPlayerFacingAngle(playerid,268.7979);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_89
+       SetPlayerPos(playerid,-2159.8625,1066.9190,80.0078);
+      SetPlayerFacingAngle(playerid,262.6436);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_90
+       SetPlayerPos(playerid,-2172.9865,1080.2744,80.0078);
+      SetPlayerFacingAngle(playerid,356.2203);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_91
+       SetPlayerPos(playerid,-2191.2651,1080.2736,80.0078);
+      SetPlayerFacingAngle(playerid,1.4754);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_92
+       SetPlayerPos(playerid,-2209.6323,1080.1735,80.0078);
+      SetPlayerFacingAngle(playerid,1.7614);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_93
+       SetPlayerPos(playerid,-2227.9577,1080.2894,80.0078);
+      SetPlayerFacingAngle(playerid,358.2456);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_94
+       SetPlayerPos(playerid,-2240.0327,1070.6508,81.0385);
+      SetPlayerFacingAngle(playerid,88.8977);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_95
+       SetPlayerPos(playerid,-2240.0212,1054.1202,82.8628);
+      SetPlayerFacingAngle(playerid,91.2308);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_96
+       SetPlayerPos(playerid,-2240.0361,1037.5595,83.8499);
+      SetPlayerFacingAngle(playerid,90.9295);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_97
+       SetPlayerPos(playerid,-2230.5761,1027.7398,83.8437);
+      SetPlayerFacingAngle(playerid,177.7798);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_98
+       SetPlayerPos(playerid,-2228.0292,1107.7474,80.0078);
+      SetPlayerFacingAngle(playerid,178.4462);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_99
+       SetPlayerPos(playerid,-2208.0642,1107.7602,80.0078);
+      SetPlayerFacingAngle(playerid,176.6851);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_100
+       SetPlayerPos(playerid,-2188.1542,1107.7395,80.0078);
+      SetPlayerFacingAngle(playerid,179.0182);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_101
+       SetPlayerPos(playerid,-2168.2290,1107.7581,80.0078);
+      SetPlayerFacingAngle(playerid,177.8420);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_102
+       SetPlayerPos(playerid,-2158.0231,1117.5439,74.4666);
+      SetPlayerFacingAngle(playerid,270.5349);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_103
+       SetPlayerPos(playerid,-2158.0583,1148.6011,61.8018);
+      SetPlayerFacingAngle(playerid,271.9906);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_104
+       SetPlayerPos(playerid,-2172.6926,1164.0360,55.7265);
+      SetPlayerFacingAngle(playerid,356.7938);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_105
+       SetPlayerPos(playerid,-2189.2578,1164.0634,55.7265);
+      SetPlayerFacingAngle(playerid,355.0327);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_106
+       SetPlayerPos(playerid,-2205.7185,1164.0400,55.7265);
+      SetPlayerFacingAngle(playerid,355.6111);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_107
+       SetPlayerPos(playerid,-2222.2587,1164.0356,55.7265);
+      SetPlayerFacingAngle(playerid,353.5575);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_108
+       SetPlayerPos(playerid,-2238.6604,1154.3057,59.6622);
+      SetPlayerFacingAngle(playerid,86.8353);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_109
+       SetPlayerPos(playerid,-2238.6018,1135.9975,67.2359);
+      SetPlayerFacingAngle(playerid,86.5364);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_110
+       SetPlayerPos(playerid,-2238.5898,1117.6383,74.8013);
+      SetPlayerFacingAngle(playerid,87.1148);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Flat_CaltonHeights_1
+       SetPlayerPos(playerid,-2036.6691,1197.4025,46.2343);
+      SetPlayerFacingAngle(playerid,177.3323);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Flat_CaltonHeights_2
+       SetPlayerPos(playerid,-2140.0512,1190.0600,55.7265);
+      SetPlayerFacingAngle(playerid,178.3500);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Flat_CaltonHeights_3
+       SetPlayerPos(playerid,-2152.7001,1248.8153,25.7179);
+      SetPlayerFacingAngle(playerid,1.3008);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_111
+       SetPlayerPos(playerid,-2043.8709,1261.6767,9.1715);
+      SetPlayerFacingAngle(playerid,355.8938);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_112
+       SetPlayerPos(playerid,-2029.0583,1276.2171,7.1875);
+      SetPlayerFacingAngle(playerid,352.3780);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_113
+       SetPlayerPos(playerid,-2024.5245,1276.2191,7.1875);
+      SetPlayerFacingAngle(playerid,352.9500);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_114
+       SetPlayerPos(playerid,-2084.6687,1232.4666,25.8776);
+      SetPlayerFacingAngle(playerid,179.5087);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_114
+       SetPlayerPos(playerid,-2061.4255,1232.4639,31.4729);
+      SetPlayerFacingAngle(playerid,180.3796);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_116
+       SetPlayerPos(playerid,-2043.7915,1232.4643,31.6484);
+      SetPlayerFacingAngle(playerid,179.4958);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_CaltonHeights_117
+       SetPlayerPos(playerid,-2026.0059,1232.4880,31.6484);
+      SetPlayerFacingAngle(playerid,175.1027);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Fabrik_Kings_Trammission?
+       SetPlayerPos(playerid,-2277.1962,541.3515,35.1718);
+      SetPlayerFacingAngle(playerid,268.5644);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Chinatown_1
+       SetPlayerPos(playerid,-2240.5446,577.7973,35.1718);
+      SetPlayerFacingAngle(playerid,179.3480);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Chinatown_2
+       SetPlayerPos(playerid,-2217.1901,577.7380,35.1718);
+      SetPlayerFacingAngle(playerid,178.7590);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Flat_Kings_1
+       SetPlayerPos(playerid,-2191.3881,553.8923,35.1718);
+      SetPlayerFacingAngle(playerid,358.3549);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Chinatown_3
+       SetPlayerPos(playerid,-2156.1660,645.4118,52.3671);
+      SetPlayerFacingAngle(playerid,270.8266);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Chinatown_4
+       SetPlayerPos(playerid,-2213.6047,721.0704,49.4062);
+      SetPlayerFacingAngle(playerid,355.1965);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Mall_Kings_1
+       SetPlayerPos(playerid,-2048.8503,554.0905,35.1718);
+      SetPlayerFacingAngle(playerid,3.4832);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Flat_Kings_2
+       SetPlayerPos(playerid,-2054.1000,379.7323,35.1718);
+      SetPlayerFacingAngle(playerid,358.9517);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Carshop_Doherty_doot
+       SetPlayerPos(playerid,-1965.8576,293.9109,35.4687);
+      SetPlayerFacingAngle(playerid,87.7353);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Transfender_Doherty
+       SetPlayerPos(playerid,-1942.9689,238.1943,34.1190);
+      SetPlayerFacingAngle(playerid,181.8903);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Pay&Spray_Doherty
+       SetPlayerPos(playerid,-1908.8316,276.8731,41.0468);
+      SetPlayerFacingAngle(playerid,181.4567);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Zip_DowntownSF
+       SetPlayerPos(playerid,-1882.4807,866.2658,35.1718);
+      SetPlayerFacingAngle(playerid,139.4464);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Burgershot_DowntownSF
+       SetPlayerPos(playerid,-1912.2343,828.1671,35.2173);
+      SetPlayerFacingAngle(playerid,319.2950);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Taxi_Kings
+       SetPlayerPos(playerid,-2056.8955,454.8179,35.1718);
+      SetPlayerFacingAngle(playerid,308.9663);
+      SetPlayerInterior(playerid,0);
+
+ 
+      GasStation_EasternBasin
+       SetPlayerPos(playerid,-1675.9246,432.0013,7.1796);
+      SetPlayerFacingAngle(playerid,223.1213);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Police_DowntownSF_front
+       SetPlayerPos(playerid,-1605.5656,710.5811,13.8671);
+      SetPlayerFacingAngle(playerid,1.9615);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Police_DowntownSF_garageentrance
+       SetPlayerPos(playerid,-1593.8730,716.2289,-5.2421);
+      SetPlayerFacingAngle(playerid,267.6495);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Bank_DowntownSF
+       SetPlayerPos(playerid,-1581.2814,867.6160,7.6953);
+      SetPlayerFacingAngle(playerid,181.4946);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Hafen_DowntownSF
+       SetPlayerPos(playerid,-1492.4908,920.1033,7.1875);
+      SetPlayerFacingAngle(playerid,88.1275);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Hafen_DowntownSF_lager1
+       SetPlayerPos(playerid,-1550.0014,1061.8348,7.1875);
+      SetPlayerFacingAngle(playerid,86.5341);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Hafen_DowntownSF_lager2
+       SetPlayerPos(playerid,-1549.7753,1168.6997,7.1875);
+      SetPlayerFacingAngle(playerid,89.0825);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Carshop_DowntownSF
+       SetPlayerPos(playerid,-1641.9118,1203.9840,7.2511);
+      SetPlayerFacingAngle(playerid,259.1351);
+      SetPlayerInterior(playerid,0);
+
+ 
+      Hafen_DowntownSF_lager3
+       SetPlayerPos(playerid,-1954.2521,1344.9639,7.1875);
+      SetPlayerFacingAngle(playerid,176.9011);
+      SetPlayerInterior(playerid,0);
+
+ 
+      PizzaStack_Pier69
+       SetPlayerPos(playerid,-1721.2751,1359.7941,7.1853);
+      SetPlayerFacingAngle(playerid,87.7275);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Pier69_1
+       SetPlayerPos(playerid,-1706.4086,1352.7940,7.1796);
+      SetPlayerFacingAngle(playerid,216.6838);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Pier69_2
+       SetPlayerPos(playerid,-1691.6206,1367.5567,7.1796);
+      SetPlayerFacingAngle(playerid,223.9885);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Pier69_3
+       SetPlayerPos(playerid,-1692.5592,1373.0766,7.1796);
+      SetPlayerFacingAngle(playerid,128.6467);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Pier69_4
+       SetPlayerPos(playerid,-1699.9573,1380.4860,7.1875);
+      SetPlayerFacingAngle(playerid,133.0245);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Pier69_5
+       SetPlayerPos(playerid,-1681.4968,1350.1312,7.1721);
+      SetPlayerFacingAngle(playerid,43.2392);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Pier69_6
+       SetPlayerPos(playerid,-1694.4073,1330.7629,7.1821);
+      SetPlayerFacingAngle(playerid,137.4007);
+      SetPlayerInterior(playerid,0);
+
+ 
+      ToRoof_Pier69
+       SetPlayerPos(playerid,-1686.1446,1325.2532,7.1875);
+      SetPlayerFacingAngle(playerid,221.0365);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Pier69_7
+       SetPlayerPos(playerid,-1674.1043,1336.4099,7.1853);
+      SetPlayerFacingAngle(playerid,133.5884);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Pier69_8
+       SetPlayerPos(playerid,-1653.0323,1354.6890,7.1856);
+      SetPlayerFacingAngle(playerid,223.9481);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Pier69_9
+       SetPlayerPos(playerid,-1649.3049,1368.4593,7.1796);
+      SetPlayerFacingAngle(playerid,314.0130);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Pier69_10
+       SetPlayerPos(playerid,-1659.4110,1368.5488,7.1721);
+      SetPlayerFacingAngle(playerid,47.5896);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Pier69_11
+       SetPlayerPos(playerid,-1666.7595,1361.1920,7.1721);
+      SetPlayerFacingAngle(playerid,43.1964);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Pier69_12
+       SetPlayerPos(playerid,-1675.1114,1376.7078,7.1796);
+      SetPlayerFacingAngle(playerid,223.9223);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Pier69_13
+       SetPlayerPos(playerid,-1669.5528,1393.3066,7.1796);
+      SetPlayerFacingAngle(playerid,221.8687);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Pier69_14
+       SetPlayerPos(playerid,-1667.7521,1398.7822,7.1796);
+      SetPlayerFacingAngle(playerid,224.7867);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Pier69_15
+       SetPlayerPos(playerid,-1664.0969,1406.1247,7.1796);
+      SetPlayerFacingAngle(playerid,223.0256);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Pier69_16
+       SetPlayerPos(playerid,-1654.8775,1411.6469,7.1796);
+      SetPlayerFacingAngle(playerid,222.4342);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Pier69_17
+       SetPlayerPos(playerid,-1654.7210,1429.1253,7.1859);
+      SetPlayerFacingAngle(playerid,304.8849);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Pier69_18
+       SetPlayerPos(playerid,-1664.9256,1425.5463,7.1854);
+      SetPlayerFacingAngle(playerid,39.9173);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Pier69_19
+       SetPlayerPos(playerid,-1672.2899,1418.1733,7.1855);
+      SetPlayerFacingAngle(playerid,44.2975);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Pier69_20
+       SetPlayerPos(playerid,-1685.1667,1401.6401,7.1818);
+      SetPlayerFacingAngle(playerid,34.0554);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Pier69_21
+       SetPlayerPos(playerid,-1694.3796,1392.4289,7.1818);
+      SetPlayerFacingAngle(playerid,41.9451);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Pier69_22
+       SetPlayerPos(playerid,-1650.1837,1377.6461,7.1721);
+      SetPlayerFacingAngle(playerid,41.9387);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Pier69_23
+       SetPlayerPos(playerid,-1642.8713,1385.0588,7.1796);
+      SetPlayerFacingAngle(playerid,43.1021);
+      SetPlayerInterior(playerid,0);
+
+ 
+      House_Pier69_24
+       SetPlayerPos(playerid,-1635.5333,1392.3825,7.1721);
+      SetPlayerFacingAngle(playerid,43.0956);
+      SetPlayerInterior(playerid,0);
+

@@ -1,0 +1,7 @@
+<map edf:definitions="editor_main">
+    <object id="object (des_pueblo11) (1)" doublesided="false" model="11459" interior="0" dimension="0" posX="637.74780273438" posY="-517.33666992188" posZ="15.3359375" rotX="0" rotY="0" rotZ="89.555053710938" />
+    <object id="object (des_pueblo11) (2)" doublesided="false" model="11459" interior="0" dimension="0" posX="630.12463378906" posY="-517.26062011719" posZ="15.343538284302" rotX="0" rotY="0" rotZ="269.55505371094" />
+    <object id="object (shbbyhswall11_lvs) (1)" doublesided="false" model="8659" interior="0" dimension="0" posX="651.77087402344" posY="-452.5500793457" posZ="15.325888633728" rotX="0" rotY="0" rotZ="90" />
+    <object id="object (carlsbits) (2)" doublesided="false" model="14477" interior="0" dimension="0" posX="610.52545166016" posY="-563.32440185547" posZ="25.156450271606" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (ringwalls) (1)" doublesided="false" model="13607" interior="0" dimension="0" posX="662.63146972656" posY="-551.76098632813" posZ="15.525574684143" rotX="0" rotY="0" rotZ="180" />
+</map>

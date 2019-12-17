@@ -1,0 +1,35 @@
+//-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+//=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+//
+//                               CREDITS!
+//
+//-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+//=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+I Just want to thank this ppl for his help developing this filterscript:
+
+1) Wipe: For his support, help and tests 24/7.
+2) GTAIV: for english and German translation.
+3) Donny: for 5 extra gas station coordenates.
+4) Fran0: for 2 extra gas station coordenates.
+5) Gehaktbal (Mao): for hosting my scripts  and the NO CHECKPOINT VERSION & NO SPEEDO VERSION.
+6) gtamaster: for Dutch translation.
+7) Gladius: for Portuguese translation.
+8) R@f: for French translation.
+9) [SiN]Zamaroht: for his COOL TextDraw tool
+10) Duelos SA: for his bug reports
+
+
+asteroid, T-N-Z,Lordy (BigHitter), BigJayMalcolm, AXE, [FH]Dacads, JaTochNietDan, Molto, 
+Smokey2412, alexwijn, humble, almighty, Le_Master, [LRG]Lukas, herbis11, tn59150, tn59150,
+croherzegovina, Alejandro, Freestyler, Oops, webflashing, Chumillas, [M]Snipe, PatriX 
+and GMusicOn for their support on forum.
+
+Well thats all, I hope I'. not forgoting anyone ._. 
+
+SEE YOU LATER!
+ 
+                 zeruel_angel
+
+//-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+//=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-

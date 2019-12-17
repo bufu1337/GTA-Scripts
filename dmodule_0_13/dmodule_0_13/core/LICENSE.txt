@@ -1,0 +1,115 @@
+-------------------------------------------------------------------------------
+  All content, if not stated different
+-------------------------------------------------------------------------------
+Copyright (C) 2007 DracoBlue.net, Jan Schuetze.  All rights reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+-------------------------------------------------------------------------------
+  Folder content: /core/pawn and modules.c/pwn*
+-------------------------------------------------------------------------------
+Copyright © 2007, Thiadmer Riemersma, ITB CompuPhase
+
+This software is provided 'as-is', without any express or implied
+warranty. In no event will the authors be held liable for any damages
+arising from the use of this software.
+
+Permission is granted to anyone to use this software for any purpose,
+including commercial applications, and to alter it and redistribute it
+freely, subject to the following restrictions:
+
+    1. The origin of this software must not be misrepresented; you must not
+    claim that you wrote the original software. If you use this software
+    in a product, an acknowledgment in the product documentation would be
+    appreciated but is not required.
+
+    2. Altered source versions must be plainly marked as such, and must not be
+    misrepresented as being the original software.
+
+    3. This notice may not be removed or altered from any source
+    distribution.
+
+
+
+
+-------------------------------------------------------------------------------
+  Files: core/lua/lua.exe, core/lua/lua5.1.dll, core/lua/lfs.dll
+-------------------------------------------------------------------------------
+Copyright (C) 1994-2006 Lua.org, PUC-Rio.  All rights reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+
+
+-------------------------------------------------------------------------------
+  /core/samp, modules.c/* (except modules.c/pwn* and /modules.c/dcore) are
+  slightly modified (to fit the dmodule system and to fix bugs) files of
+  the samp release
+-------------------------------------------------------------------------------
+The SA:MP modification for Grand Theft Auto: San Andreas (r) is a software
+research project aimed at extending the functionality of the Grand Theft
+Auto: San Andreas (r) software for Microsoft Windows (r).
+
+The software contained herein is provided on an "as-is" basis without
+any form of warranty.
+
+This software may not be exploited for personal, financial or 
+commercial gain.
+
+The author(s) of this software accept no liability for use/misuse of the
+software.
+
+The SA:MP software package may not be distributed, sold, rented or
+leased without written permission of the software author(s).
+
+You may not create or distribute derivative works of the software or files
+contained within the package.
+
+You may not use this software for any illegal purposes.
+
+The author(s) of this software retain the right to modify this license
+at any time.
+
+(c) 2005-2007 SA:MP software research team.
+
+SA:MP software research team is not affiliated with Rockstar Games,
+Rockstar North or Take-Two Interactive Software Inc.
+
+Grand Theft Auto and Grand Theft Auto: San Andreas are registered
+trademarks of Take-Two Interactive Software Inc.
+

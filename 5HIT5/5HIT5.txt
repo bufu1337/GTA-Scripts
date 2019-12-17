@@ -1,0 +1,90 @@
+I'd highly suggest you print this out...
+
+CODE	DESCRIPTION		INFO
+247	24/7 Stores (6)		What it says
+AIR	Airplane related (4)		Francis Intn'l Airport and plane interiors
+AMU	Ammunations (7)		What is says but! some extras
+BUR	Burglary Houses (23)	(named X1 thru X23)
+BUS	Businesses (8)		Privately owned businesses
+CAR	Car Mod Shops (5)		CRASHES HAVE BEEN AVERTED (mostly)
+CAS	Casino oddities (5)		Some stuff you rarely saw (if at all)
+CLO	Clothing shops (6)		What it says
+CLU	Dance Clubs (4)		They're pretty much identical but! some extras
+EAT	Diners (5)			Mostly from cut scenes
+FST	Fast Food (4)		What it says (you want fries with that?)
+GOV	Government stuff (6)		Sherman Dam, Planning Dept. and Area69
+GRL	Girlfriends (6)		If you had the Hot Coffee mod you'll  recognise the rooms
+GYM	Gyms (5)			ALL of them
+HOM	Home Boys (17)		All of them (expose on Big Smoke)
+ILL	Places of Ill Repute (8)	You naughty person you
+LIB	Liberty City (6)		Why does everybody want to go here?
+MSC  	Miscellaneous stuff (10)	Things that didn't fit anywhere else
+PER	Personal Grooming (6)	Barber shops & Tattoo parlors (boring)	
+POL	Police HQs (4)		What it says
+SCH	Vehicle schools (4)		What it says
+STA	Stadiums (7)		Some you've never seen
+
+These are all called by using the command text function...
+Examples:
+Each submenu can be called by /247 or /GYM to get a full listing of that menu
+Each location can be called by /GYM2 or /GRL6 for a direct teleport there
+
+Now, be advised...This is called Spectre's "Hidden Interiors Tour" Script for a reason...
+It does NOT include Safe Houses (although I have the coordinates for them also),
+changing rooms (ditto), and pretty much anything you can enter from the "real" world...
+
+Most of the coordinates were taken directly from the main.scm file from the game itself...
+Using some of these however caused problems (crashing)...Most notable are the Car
+Mod shops and other interiors where there is very little solid matter to stand on...
+
+In these cases I have substituted my own coordinates that seem to be a little more user
+friendly (i.e. won't kill you or the server)...
+
+Don't like 'em?...Go find your own...That's why I included the /? command...Roam around,
+find the spot you like and type /?, then write down the coordinates for the spot you've
+selected...Use 'em for your own selection screen...Remember to get coordinates for the
+camera also!...Use it to find a home base for your Clan...Whatever...
+
+Everything I coded is modular and can easily be added at any time...If I find people really
+do want the safe houses included I'll consider it...Same with anything else I currently
+consider useless (I mean, who's gonna want a selection screen in a changing room?)...
+
+If you have any "special" spots you've encountered and think they're worth including,
+fill out the form at the bottom of this page and PM it to me...If I think it's worthwhile I'll
+include it and you'll get credit onscreen in the chatbox...Imagine...You'll be famous!...
+Show your friends!..Get bragging rights!...Be somebody for a change!
+
+Variations on already existing, available or included Interiors is NOT what I'm talking
+about...I'm looking for anything you think I've missed or is just too damn cool to be
+overlooked...Dancing on top of a crane or inside the cow at the BeefSteak store just
+ain't gonna make it...Idiotic suggestions will be mass e-mailed to your momma...
+
+CUT-N-PASTE the form below and PM it to Spectre
+===========================================
+Submission form: Yes!  I'd like to be immortalised!
+Date:
+Your nick:
+Interior #:
+x coord:
+y coord:
+z coord:
+Description and/or what you'd like it to be called:
+
+
+===========================================
+
+If your suggestion is accepted it will be included in the next update...
+Updates will be issued when enough entries have been received to warrant one...
+
+NOTE: Incomplete entries will be stolen, used (if possible) and no credit whatsoever
+will be given to you (so get it right, numbnuts!)...
+
+Cheers/Spectre
+
+P.S. I've provided one car and one heli outside each of the regular GYMs for cruising around in the 'real' world and finding other interesting selection screens (as if the interiors weren't enough)...Also, if you've bothered to read this far you get to know about the two undocumented commands:
+
+/up (levitates you ten feet above your current location)
+/dn (drops you down 3 feet from your current location)
+
+EDIT: 13 AUG 2006
+Thanx go out to -[HTB]-Kfgus3 who provided me with coords to view the entirely non-solid Secret Valley Diner (/EAT3)

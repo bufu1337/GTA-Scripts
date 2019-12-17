@@ -1,0 +1,87 @@
+/*
+    * ## LEASE ATENTAMENTE PARA NO CONVERTIRSE EN LAMMER!!.: :D ##
+    *
+    * Estè Simple FILTERSCRIPT esta hecho especialmente para www.forum.sa-mp.com
+    * NO Publicar estè FILTERSCRIPT en Otros foros de SA-MP y hacerse pasar por el creador del CODE.
+    *
+    * Codigo Creado Por OTACON
+    *
+    * CREDITOS:
+    *     OTACON: Realizacion y Idea de creacion del code.
+    *     TÙ: Modificacion libremente respetando lo mencionado ;).
+    *
+    *    NOTA: Menos Creditos para los que me los critican.. JO'PUTAS! :D xD ;)
+    *
+    *                Prohibido TOTALMENTE el Robo de Créditos o la
+    *                  Publicación de este FILTERSCRIPT sin Mi Permiso.
+*/
+/*
+    * ## READ CAREFULLY TO AVOID BECOMING LAMMER!.: :D ##
+    *
+    * This simple FILTERSCRIPT is made especially for www.forum.sa-mp.com
+    * DO NOT Post the FILTERSCRIPT in Other SAMP forums and impersonating the creator of the CODE.
+    *
+    * Code Created By OTACON
+    *
+    * CREDITS:
+    *     OTACON: Idea Making and code creation.
+    *     YOUR: Modification freely respecting the above ;).
+    *
+    *    NOTE: Less Credits for those who criticize me.. JO'PUTAS! :D xD ;)
+    *
+    *                        FULLY spaces Theft Credit or
+    *                 Publication of this FILTERSCRIPT without my permission.
+*/
+native IsValidVehicle(vehicleid);
+#include <a_samp>
+
+//INFO:
+   //--> https://dl.dropboxusercontent.com/s/upm3ixowkpaeo85/sa-mp-000.png
+   //--> www.youtube.com/watch?v=UrM9Yd8ppdE
+
+new NameVehicles[][]={
+"Landstalker","Bravura","Buffalo","Linerunner","Pereniel","Sentinel","Dumper","Firetruck","Trashmaster",
+"Stretch","Manana","Infernus","Voodoo","Pony","Mule","Cheetah","Ambulance","Leviathan","Moonbeam","Esperanto",
+"Taxi","Washington","Bobcat","Mr Whoopee","BF Injection","Hunter","Premier","Enforcer","Securicar","Banshee",
+"Predator","Bus","Rhino","Barracks","Hotknife","Trailer","Previon","Coach","Cabbie","Stallion","Rumpo",
+"RC Bandit","Romero","Packer","Monster","Admiral","Squalo","Seasparrow","Pizzaboy","Tram","Trailer",
+"Turismo","Speeder","Reefer","Tropic","Flatbed","Yankee","Caddy","Solair","Berkley's RC Van","Skimmer",
+"PCJ-600","Faggio","Freeway","RC Baron","RC Raider","Glendale","Oceanic","Sanchez","Sparrow","Patriot",
+"Quad","Coastguard","Dinghy","Hermes","Sabre","Rustler","ZR3 50","Walton","Regina","Comet","BMX",
+"Burrito","Camper","Marquis","Baggage","Dozer","Maverick","News Chopper","Rancher","FBI Rancher","Virgo",
+"Greenwood","Jetmax","Hotring","Sandking","Blista Compact","Police Maverick","Boxville","Benson","Mesa",
+"RC Goblin","Hotring Racer A","Hotring Racer B","Bloodring Banger","Rancher","Super GT","Elegant",
+"Journey","Bike","Mountain Bike","Beagle","Cropdust","Stunt","Tanker","RoadTrain","Nebula","Majestic",
+"Buccaneer","Shamal","Hydra","FCR-900","NRG-500","HPV1000","Cement Truck","Tow Truck","Fortune","Cadrona",
+"FBI Truck","Willard","Forklift","Tractor","Combine","Feltzer","Remington","Slamvan","Blade","Freight",
+"Streak","Vortex","Vincent","Bullet","Clover","Sadler","Firetruck","Hustler","Intruder","Primo","Cargobob",
+"Tampa","Sunrise","Merit","Utility","Nevada","Yosemite","Windsor","Monster A","Monster B","Uranus",
+"Jester","Sultan","Stratum","Elegy","Raindance","RC Tiger","Flash","Tahoma","Savanna","Bandito","Freight",
+"Trailer","Kart","Mower","Duneride","Sweeper","Broadway","Tornado","AT-400","DFT-30","Huntley","Stafford",
+"BF-400","Newsvan","Tug","Trailer A","Emperor","Wayfarer","Euros","Hotdog","Club","Trailer B","Trailer C",
+"Andromada","Dodo","RC Cam","Launch","Police Car (LSPD)","Police Car (SFPD)","Police Car (LVPD)","Police Ranger",
+"Picador","S.W.A.T. Van","Alpha","Phoenix","Glendale","Sadler","Luggage Trailer A","Luggage Trailer B",
+"Stair Trailer","Boxville","Farm Plow","Utility Trailer" },
+NameObject[MAX_VEHICLES][2];
+
+public OnFilterScriptInit(){
+    new data[24];
+    for(new vehicleid; vehicleid < MAX_VEHICLES; vehicleid++){
+	    if(IsValidVehicle(vehicleid)){
+			switch(GetVehicleModel(vehicleid)){//Sport Vehicles
+			    case 602,429,496,402,541,415,589,587,565,494,502,503,411,559,603,475,506,451,558,477:{
+					DestroyObject(NameObject[vehicleid][0]);
+					DestroyObject(NameObject[vehicleid][1]);
+					NameObject[vehicleid][0]=CreateObject(2667,0,0,0,0,0,0);
+					NameObject[vehicleid][1]=CreateObject(2667,0,0,0,0,0,0);
+					format(data,sizeof(data),"%s",NameVehicles[GetVehicleModel(vehicleid)-400]);
+					SetObjectMaterialText(NameObject[vehicleid][0], data, 0, 60, "Arial", 24, 1, 0xFFFFFFFF, 0, 1);
+					AttachObjectToVehicle(NameObject[vehicleid][0], vehicleid, 1.1, 0.0, 0.0, 0.0, 0.0, 90.0);
+					SetObjectMaterialText(NameObject[vehicleid][1], data, 0, 60, "Arial", 24, 1, 0xFFFFFFFF, 0, 1);
+					AttachObjectToVehicle(NameObject[vehicleid][1], vehicleid, -1.1, 0.0, 0.0, 0.0, 0.0, -90.0);
+				}
+			}
+	    }
+	}
+	return true;
+}
